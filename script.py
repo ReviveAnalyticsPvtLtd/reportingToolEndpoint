@@ -4,12 +4,14 @@ from langchain_experimental.utilities import PythonREPL
 from langchain_core.runnables import RunnableLambda
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
+from flask_cors import CORS
 from waitress import serve
 import pandas as pd
 import json
 import os
 
 app = Flask(__name__)
+CORS(app)
 
 pythonRepl = PythonREPL()
 

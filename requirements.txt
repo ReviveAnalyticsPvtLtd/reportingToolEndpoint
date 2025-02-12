@@ -7,3 +7,4 @@ flask
 waitress
 pandas
 numpy
+Flask-Cors
