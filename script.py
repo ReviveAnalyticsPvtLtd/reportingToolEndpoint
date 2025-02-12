@@ -121,15 +121,17 @@ chart_json = {{
 print(json.dumps(chart_json, indent=4))
 ```
 
-### **Guidelines for Response Generation**
-- Always perform operations only on copies of dataframes to prevent altering the original data.
-- Select the most suitable Chart.js chart type from the following: `line`, `scatter`, `bar`, `radar`, `bubble`, `polar`, `pie`, or `doughnut`.
-- NEVER include any color details in the output JSON. Chart.js will handle the colors dynamically in the frontend.
-- Extract relevant labels and datasets from the metadata and provide only the necessary data for the chart.
-- Ensure the generated JSON response is **fully serializable** and **error-free**.
-- Generate a **standalone Python script** only in a single code block that runs smoothly with proper imports and no additional dependencies.
-- You must not generate anything extra apart from the Python script code block.
-- The code block MUST print the response json at the end.
+### **Guidelines for Response Generation**  
+- Always perform operations only on **copies** of dataframes to prevent modifying original data.  
+- Strictly adhere to the **JSON format** required for the chosen Chart.js chart type. **No deviations or errors are allowed.**  
+- Select the most suitable chart type from: `line`, `scatter`, `bar`, `radar`, `bubble`, `polar`, `pie`, or `doughnut`, based on **metadata and user query.**  
+- **Never** include any color details in the output JSON—Chart.js will handle colors dynamically in the frontend.  
+- Extract only the **relevant labels and datasets** from metadata to construct the chart data accurately.  
+- Ensure the generated **JSON response is 100 percent serializable, correctly formatted, and error-free.**  
+- The output must be a **standalone Python script** in a single code block, running smoothly with proper imports and no extra dependencies.  
+- **Only generate the Python script—nothing else.**  
+- The **Python script must print the JSON response** to the console in the correct format.  
+- **Precision is critical**—each chart type has a specific JSON structure that must be followed **exactly** for correct visualization.
 
 ### **Handling Unclear, Absurd, or Impossible Queries**
 If the query cannot be answered due to:
