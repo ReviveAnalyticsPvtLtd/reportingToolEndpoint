@@ -1,0 +1,1001 @@
+ProductID,ProductName,Category,UnitPrice,UnitCost,ReorderLevel,SafetyStockLevel
+P0001,Product 1,Electronics,567.58,308.07,189,142
+P0002,Product 2,Mechanical Parts,622.67,793.45,372,227
+P0003,Product 3,Electronics,762.12,616.93,456,248
+P0004,Product 4,Electronics,149.37,167.36,360,71
+P0005,Product 5,Electronics,494.35,477.84,423,217
+P0006,Product 6,Mechanical Parts,42.96,294.36,208,147
+P0007,Product 7,Mechanical Parts,806.69,358.79,384,125
+P0008,Product 8,Electronics,68.23,639.62,247,226
+P0009,Product 9,Plastic Goods,43.04,538.92,272,244
+P0010,Product 10,Electronics,524.79,473.83,136,107
+P0011,Product 11,Electronics,342.88,194.75,296,199
+P0012,Product 12,Plastic Goods,462.5,274.17,442,220
+P0013,Product 13,Mechanical Parts,750.96,644.01,364,109
+P0014,Product 14,Plastic Goods,622.97,17.74,356,157
+P0015,Product 15,Electronics,888.23,513.22,476,176
+P0016,Product 16,Electronics,18.8,560.38,169,217
+P0017,Product 17,Mechanical Parts,120.77,490.38,94,196
+P0018,Product 18,Electronics,437.53,766.77,289,104
+P0019,Product 19,Plastic Goods,581.9,393.13,213,67
+P0020,Product 20,Plastic Goods,178.53,463.44,340,169
+P0021,Product 21,Plastic Goods,174.93,239.29,338,77
+P0022,Product 22,Mechanical Parts,433.1,752.82,112,92
+P0023,Product 23,Plastic Goods,628.37,664.2,94,54
+P0024,Product 24,Plastic Goods,514.55,511.54,155,54
+P0025,Product 25,Mechanical Parts,786.9,575.84,137,50
+P0026,Product 26,Plastic Goods,106.2,305.6,124,101
+P0027,Product 27,Mechanical Parts,74.92,345.44,277,93
+P0028,Product 28,Mechanical Parts,523.91,371.53,71,173
+P0029,Product 29,Mechanical Parts,586.67,561.62,428,134
+P0030,Product 30,Plastic Goods,711.13,104.44,467,194
+P0031,Product 31,Electronics,252.18,98.06,89,34
+P0032,Product 32,Plastic Goods,448.4,502.65,134,132
+P0033,Product 33,Mechanical Parts,258.58,716.1,352,197
+P0034,Product 34,Plastic Goods,893.13,43.41,85,165
+P0035,Product 35,Plastic Goods,975.74,222.9,60,85
+P0036,Product 36,Plastic Goods,816.66,770.48,166,92
+P0037,Product 37,Mechanical Parts,260.07,457.96,262,155
+P0038,Product 38,Plastic Goods,222.44,676.58,137,114
+P0039,Product 39,Plastic Goods,851.76,610.72,460,151
+P0040,Product 40,Plastic Goods,56.17,613.62,489,61
+P0041,Product 41,Mechanical Parts,924.69,35.38,230,182
+P0042,Product 42,Mechanical Parts,744.41,315.49,392,153
+P0043,Product 43,Electronics,914.32,334.08,120,233
+P0044,Product 44,Electronics,692.17,20.88,59,173
+P0045,Product 45,Plastic Goods,184.43,760.81,438,25
+P0046,Product 46,Plastic Goods,319.23,240.44,387,209
+P0047,Product 47,Electronics,56.74,263.76,137,182
+P0048,Product 48,Plastic Goods,49.44,681.91,274,207
+P0049,Product 49,Electronics,296.69,760.65,288,200
+P0050,Product 50,Mechanical Parts,232.14,163.54,413,149
+P0051,Product 51,Electronics,932.18,304.78,480,46
+P0052,Product 52,Mechanical Parts,243.93,354.74,232,47
+P0053,Product 53,Plastic Goods,462.57,220.83,470,35
+P0054,Product 54,Plastic Goods,251.7,462.51,239,180
+P0055,Product 55,Plastic Goods,691.62,40.26,78,106
+P0056,Product 56,Plastic Goods,273.52,771.73,207,141
+P0057,Product 57,Plastic Goods,609.53,283.88,479,94
+P0058,Product 58,Electronics,704.84,632.51,495,164
+P0059,Product 59,Electronics,612.13,613.37,145,181
+P0060,Product 60,Mechanical Parts,664.96,478.11,138,191
+P0061,Product 61,Mechanical Parts,195.63,626.97,481,138
+P0062,Product 62,Electronics,796.51,402.51,422,159
+P0063,Product 63,Plastic Goods,173.52,784.34,241,124
+P0064,Product 64,Electronics,908.42,522.88,145,73
+P0065,Product 65,Electronics,492.47,437.83,86,224
+P0066,Product 66,Mechanical Parts,519.37,416.34,55,60
+P0067,Product 67,Mechanical Parts,950.06,236.6,273,247
+P0068,Product 68,Mechanical Parts,822.33,255.27,346,32
+P0069,Product 69,Plastic Goods,816.49,166.61,348,59
+P0070,Product 70,Plastic Goods,869.59,320.94,341,146
+P0071,Product 71,Plastic Goods,799.05,640.32,119,42
+P0072,Product 72,Mechanical Parts,552.23,348.1,242,185
+P0073,Product 73,Electronics,162.96,338.17,127,104
+P0074,Product 74,Mechanical Parts,441.29,481.38,493,65
+P0075,Product 75,Electronics,243.34,702.84,248,237
+P0076,Product 76,Plastic Goods,268.57,621.58,272,122
+P0077,Product 77,Mechanical Parts,366.07,728.19,111,79
+P0078,Product 78,Mechanical Parts,928.73,400.5,75,53
+P0079,Product 79,Plastic Goods,946.29,11.21,468,170
+P0080,Product 80,Electronics,25.99,352.36,342,185
+P0081,Product 81,Plastic Goods,980.68,374.67,471,58
+P0082,Product 82,Plastic Goods,520.69,204.94,252,48
+P0083,Product 83,Electronics,861.88,541.66,64,73
+P0084,Product 84,Electronics,38.27,513.29,269,54
+P0085,Product 85,Electronics,588.69,311.28,404,77
+P0086,Product 86,Mechanical Parts,489.93,254.28,211,150
+P0087,Product 87,Plastic Goods,368.19,147.53,126,90
+P0088,Product 88,Mechanical Parts,568.05,46.91,88,201
+P0089,Product 89,Plastic Goods,784.47,602.99,145,242
+P0090,Product 90,Electronics,804.06,642.77,52,245
+P0091,Product 91,Plastic Goods,901.74,350.16,108,210
+P0092,Product 92,Mechanical Parts,112.86,604.94,456,177
+P0093,Product 93,Electronics,112.0,500.29,302,87
+P0094,Product 94,Electronics,423.9,338.63,412,56
+P0095,Product 95,Electronics,54.85,630.72,338,106
+P0096,Product 96,Mechanical Parts,263.8,280.88,493,207
+P0097,Product 97,Mechanical Parts,694.59,190.48,363,97
+P0098,Product 98,Mechanical Parts,415.16,743.9,246,172
+P0099,Product 99,Mechanical Parts,993.99,488.55,333,148
+P0100,Product 100,Plastic Goods,966.46,485.43,498,231
+P0101,Product 101,Electronics,621.99,721.17,234,84
+P0102,Product 102,Plastic Goods,927.99,531.5,410,113
+P0103,Product 103,Plastic Goods,808.73,523.56,405,128
+P0104,Product 104,Electronics,791.56,740.91,228,158
+P0105,Product 105,Plastic Goods,219.08,439.19,121,136
+P0106,Product 106,Plastic Goods,97.26,714.87,339,98
+P0107,Product 107,Mechanical Parts,905.54,671.83,456,175
+P0108,Product 108,Plastic Goods,388.44,632.57,227,186
+P0109,Product 109,Plastic Goods,807.65,723.61,328,124
+P0110,Product 110,Plastic Goods,102.19,478.64,336,224
+P0111,Product 111,Mechanical Parts,51.44,159.64,415,89
+P0112,Product 112,Mechanical Parts,460.87,7.73,82,27
+P0113,Product 113,Mechanical Parts,57.07,574.89,62,28
+P0114,Product 114,Plastic Goods,833.91,427.31,175,158
+P0115,Product 115,Plastic Goods,91.48,389.89,84,74
+P0116,Product 116,Electronics,886.21,591.32,462,125
+P0117,Product 117,Electronics,224.6,585.79,160,134
+P0118,Product 118,Electronics,23.22,192.2,494,102
+P0119,Product 119,Mechanical Parts,477.9,781.92,345,37
+P0120,Product 120,Electronics,501.54,517.55,150,241
+P0121,Product 121,Plastic Goods,356.95,348.38,438,79
+P0122,Product 122,Mechanical Parts,674.42,556.58,341,125
+P0123,Product 123,Plastic Goods,630.22,269.04,264,105
+P0124,Product 124,Plastic Goods,763.3,576.31,403,150
+P0125,Product 125,Electronics,709.19,289.49,300,217
+P0126,Product 126,Electronics,178.15,257.73,93,128
+P0127,Product 127,Mechanical Parts,576.93,511.84,419,146
+P0128,Product 128,Mechanical Parts,240.78,749.68,162,164
+P0129,Product 129,Electronics,738.78,517.02,205,168
+P0130,Product 130,Electronics,826.89,46.06,273,25
+P0131,Product 131,Mechanical Parts,931.63,377.68,320,44
+P0132,Product 132,Mechanical Parts,162.13,387.55,287,181
+P0133,Product 133,Plastic Goods,198.03,551.38,241,128
+P0134,Product 134,Plastic Goods,524.59,264.32,461,54
+P0135,Product 135,Plastic Goods,162.51,317.05,57,137
+P0136,Product 136,Electronics,932.45,427.8,243,148
+P0137,Product 137,Electronics,32.77,335.1,423,130
+P0138,Product 138,Electronics,973.92,742.48,207,60
+P0139,Product 139,Mechanical Parts,720.85,742.19,161,84
+P0140,Product 140,Plastic Goods,283.75,614.9,85,80
+P0141,Product 141,Plastic Goods,743.57,166.31,408,216
+P0142,Product 142,Electronics,101.73,455.94,331,205
+P0143,Product 143,Electronics,17.91,70.86,443,58
+P0144,Product 144,Mechanical Parts,992.68,80.45,68,200
+P0145,Product 145,Mechanical Parts,655.89,337.54,242,93
+P0146,Product 146,Plastic Goods,967.42,402.68,144,85
+P0147,Product 147,Plastic Goods,541.37,690.9,66,79
+P0148,Product 148,Mechanical Parts,245.49,314.17,275,73
+P0149,Product 149,Mechanical Parts,846.97,303.93,499,74
+P0150,Product 150,Plastic Goods,344.91,704.25,417,56
+P0151,Product 151,Electronics,280.11,629.84,293,130
+P0152,Product 152,Electronics,65.12,556.98,498,189
+P0153,Product 153,Electronics,446.95,721.42,60,46
+P0154,Product 154,Plastic Goods,186.22,259.89,381,246
+P0155,Product 155,Electronics,291.27,715.19,198,165
+P0156,Product 156,Plastic Goods,219.54,681.86,329,208
+P0157,Product 157,Electronics,834.43,344.18,317,92
+P0158,Product 158,Mechanical Parts,12.6,330.71,462,94
+P0159,Product 159,Mechanical Parts,566.83,71.27,186,153
+P0160,Product 160,Plastic Goods,155.94,458.31,356,44
+P0161,Product 161,Plastic Goods,538.93,697.46,258,191
+P0162,Product 162,Plastic Goods,179.42,351.24,145,169
+P0163,Product 163,Plastic Goods,202.05,286.72,488,28
+P0164,Product 164,Mechanical Parts,521.73,726.8,213,115
+P0165,Product 165,Plastic Goods,961.26,315.59,207,50
+P0166,Product 166,Plastic Goods,829.39,180.88,334,28
+P0167,Product 167,Electronics,591.18,600.4,279,168
+P0168,Product 168,Plastic Goods,448.76,26.54,138,170
+P0169,Product 169,Plastic Goods,299.21,333.38,494,65
+P0170,Product 170,Plastic Goods,681.56,631.77,290,70
+P0171,Product 171,Electronics,296.86,190.93,483,194
+P0172,Product 172,Mechanical Parts,606.67,146.59,411,75
+P0173,Product 173,Plastic Goods,433.35,744.69,485,77
+P0174,Product 174,Mechanical Parts,350.52,710.25,360,26
+P0175,Product 175,Electronics,825.52,741.22,225,110
+P0176,Product 176,Electronics,920.05,391.85,99,214
+P0177,Product 177,Plastic Goods,458.06,391.95,308,182
+P0178,Product 178,Plastic Goods,834.91,629.07,267,177
+P0179,Product 179,Mechanical Parts,227.05,659.36,269,69
+P0180,Product 180,Mechanical Parts,429.94,314.56,209,96
+P0181,Product 181,Electronics,469.98,357.27,63,247
+P0182,Product 182,Electronics,100.45,504.43,113,204
+P0183,Product 183,Electronics,558.34,589.87,109,47
+P0184,Product 184,Mechanical Parts,563.95,230.0,101,134
+P0185,Product 185,Plastic Goods,215.96,232.66,337,46
+P0186,Product 186,Electronics,748.71,471.31,96,66
+P0187,Product 187,Mechanical Parts,171.42,626.93,499,28
+P0188,Product 188,Plastic Goods,31.83,74.12,217,249
+P0189,Product 189,Mechanical Parts,714.75,124.84,457,124
+P0190,Product 190,Mechanical Parts,353.71,113.76,350,45
+P0191,Product 191,Electronics,244.17,708.44,84,226
+P0192,Product 192,Mechanical Parts,98.43,701.08,202,83
+P0193,Product 193,Plastic Goods,307.53,275.28,291,95
+P0194,Product 194,Plastic Goods,258.94,334.97,140,189
+P0195,Product 195,Mechanical Parts,687.89,672.32,96,188
+P0196,Product 196,Mechanical Parts,983.79,544.75,385,29
+P0197,Product 197,Mechanical Parts,848.23,741.79,167,100
+P0198,Product 198,Plastic Goods,123.96,565.81,136,176
+P0199,Product 199,Plastic Goods,921.36,657.96,370,120
+P0200,Product 200,Mechanical Parts,495.1,143.92,66,130
+P0201,Product 201,Mechanical Parts,71.1,483.13,274,232
+P0202,Product 202,Plastic Goods,18.88,296.11,388,213
+P0203,Product 203,Electronics,978.26,142.49,51,46
+P0204,Product 204,Plastic Goods,127.32,630.6,371,177
+P0205,Product 205,Mechanical Parts,655.82,209.28,452,118
+P0206,Product 206,Electronics,32.84,528.56,467,222
+P0207,Product 207,Plastic Goods,212.67,494.17,235,141
+P0208,Product 208,Electronics,384.54,8.12,73,208
+P0209,Product 209,Electronics,325.38,52.82,403,26
+P0210,Product 210,Plastic Goods,408.28,424.78,96,91
+P0211,Product 211,Electronics,99.19,33.23,329,25
+P0212,Product 212,Electronics,473.53,218.85,71,118
+P0213,Product 213,Electronics,621.21,439.66,59,225
+P0214,Product 214,Plastic Goods,494.69,584.72,218,176
+P0215,Product 215,Electronics,996.15,703.38,256,111
+P0216,Product 216,Plastic Goods,285.1,351.97,232,175
+P0217,Product 217,Plastic Goods,694.99,487.97,398,31
+P0218,Product 218,Mechanical Parts,536.49,352.53,275,103
+P0219,Product 219,Electronics,552.76,319.87,168,207
+P0220,Product 220,Mechanical Parts,178.99,545.52,194,164
+P0221,Product 221,Mechanical Parts,442.13,233.5,129,177
+P0222,Product 222,Plastic Goods,742.23,766.66,320,132
+P0223,Product 223,Mechanical Parts,734.55,259.75,244,39
+P0224,Product 224,Plastic Goods,282.98,663.86,92,101
+P0225,Product 225,Plastic Goods,835.15,17.08,458,154
+P0226,Product 226,Electronics,505.63,376.84,497,134
+P0227,Product 227,Plastic Goods,483.21,496.26,247,92
+P0228,Product 228,Plastic Goods,320.54,403.88,186,225
+P0229,Product 229,Mechanical Parts,194.96,21.25,391,226
+P0230,Product 230,Mechanical Parts,565.31,557.43,215,181
+P0231,Product 231,Plastic Goods,572.96,22.81,77,179
+P0232,Product 232,Plastic Goods,241.57,549.23,253,112
+P0233,Product 233,Plastic Goods,766.32,155.68,124,174
+P0234,Product 234,Electronics,595.46,767.52,216,28
+P0235,Product 235,Plastic Goods,799.66,155.95,171,69
+P0236,Product 236,Plastic Goods,936.04,428.48,392,96
+P0237,Product 237,Plastic Goods,212.4,778.48,270,30
+P0238,Product 238,Mechanical Parts,224.3,332.11,135,186
+P0239,Product 239,Plastic Goods,191.74,530.41,286,170
+P0240,Product 240,Mechanical Parts,240.39,75.55,309,194
+P0241,Product 241,Mechanical Parts,530.11,398.21,79,202
+P0242,Product 242,Electronics,796.34,472.86,254,208
+P0243,Product 243,Mechanical Parts,164.83,438.81,404,84
+P0244,Product 244,Mechanical Parts,165.5,352.77,402,232
+P0245,Product 245,Plastic Goods,864.46,190.16,439,127
+P0246,Product 246,Mechanical Parts,994.88,589.84,146,67
+P0247,Product 247,Mechanical Parts,120.09,310.09,319,123
+P0248,Product 248,Mechanical Parts,554.07,255.56,391,222
+P0249,Product 249,Electronics,859.19,222.72,144,51
+P0250,Product 250,Plastic Goods,433.53,337.49,250,159
+P0251,Product 251,Plastic Goods,416.01,664.32,465,62
+P0252,Product 252,Mechanical Parts,620.06,138.96,327,174
+P0253,Product 253,Electronics,389.34,110.9,456,91
+P0254,Product 254,Plastic Goods,827.47,351.14,234,191
+P0255,Product 255,Electronics,751.19,605.46,64,203
+P0256,Product 256,Electronics,621.04,473.55,153,64
+P0257,Product 257,Electronics,65.73,481.3,334,245
+P0258,Product 258,Electronics,404.59,337.1,101,80
+P0259,Product 259,Mechanical Parts,481.65,775.49,373,68
+P0260,Product 260,Plastic Goods,934.55,501.18,243,212
+P0261,Product 261,Plastic Goods,856.79,125.97,291,151
+P0262,Product 262,Mechanical Parts,567.56,747.12,365,98
+P0263,Product 263,Plastic Goods,90.24,136.83,77,77
+P0264,Product 264,Mechanical Parts,510.09,98.05,359,104
+P0265,Product 265,Mechanical Parts,929.52,482.57,218,92
+P0266,Product 266,Mechanical Parts,454.09,578.12,384,96
+P0267,Product 267,Plastic Goods,578.81,503.65,154,211
+P0268,Product 268,Plastic Goods,135.57,484.21,379,210
+P0269,Product 269,Plastic Goods,312.59,458.04,382,134
+P0270,Product 270,Mechanical Parts,32.51,90.27,482,47
+P0271,Product 271,Electronics,992.58,320.54,187,187
+P0272,Product 272,Mechanical Parts,134.97,486.4,69,107
+P0273,Product 273,Plastic Goods,997.69,384.71,234,130
+P0274,Product 274,Electronics,216.97,401.88,99,148
+P0275,Product 275,Plastic Goods,114.0,331.93,142,54
+P0276,Product 276,Electronics,767.35,158.74,155,63
+P0277,Product 277,Plastic Goods,558.28,578.37,100,94
+P0278,Product 278,Mechanical Parts,199.82,457.93,481,166
+P0279,Product 279,Mechanical Parts,340.51,756.8,58,47
+P0280,Product 280,Plastic Goods,627.71,228.07,496,214
+P0281,Product 281,Mechanical Parts,332.94,505.29,419,184
+P0282,Product 282,Plastic Goods,927.97,147.46,268,138
+P0283,Product 283,Mechanical Parts,460.83,529.36,62,151
+P0284,Product 284,Mechanical Parts,679.35,210.29,233,228
+P0285,Product 285,Electronics,939.08,473.52,352,74
+P0286,Product 286,Mechanical Parts,391.86,374.74,182,166
+P0287,Product 287,Mechanical Parts,419.85,494.93,326,96
+P0288,Product 288,Plastic Goods,804.81,334.19,238,38
+P0289,Product 289,Electronics,471.39,362.13,494,69
+P0290,Product 290,Plastic Goods,383.93,341.92,55,168
+P0291,Product 291,Mechanical Parts,924.82,646.89,317,40
+P0292,Product 292,Plastic Goods,332.45,214.95,489,217
+P0293,Product 293,Mechanical Parts,579.8,569.86,352,247
+P0294,Product 294,Mechanical Parts,641.74,671.08,330,203
+P0295,Product 295,Electronics,754.68,475.29,88,158
+P0296,Product 296,Electronics,560.11,400.39,106,33
+P0297,Product 297,Electronics,590.97,630.5,143,149
+P0298,Product 298,Mechanical Parts,554.82,247.39,446,180
+P0299,Product 299,Electronics,863.92,583.56,491,104
+P0300,Product 300,Mechanical Parts,47.3,453.15,282,30
+P0301,Product 301,Plastic Goods,769.87,139.77,435,162
+P0302,Product 302,Mechanical Parts,632.81,124.34,138,31
+P0303,Product 303,Mechanical Parts,411.34,429.83,256,79
+P0304,Product 304,Plastic Goods,308.48,80.44,186,155
+P0305,Product 305,Mechanical Parts,518.24,348.74,302,169
+P0306,Product 306,Plastic Goods,901.84,726.9,438,61
+P0307,Product 307,Plastic Goods,120.6,745.16,144,84
+P0308,Product 308,Electronics,733.04,695.02,70,107
+P0309,Product 309,Electronics,481.05,171.37,396,54
+P0310,Product 310,Mechanical Parts,652.64,243.57,367,199
+P0311,Product 311,Mechanical Parts,641.4,587.22,82,154
+P0312,Product 312,Plastic Goods,357.81,502.1,340,127
+P0313,Product 313,Plastic Goods,61.04,473.2,268,162
+P0314,Product 314,Mechanical Parts,787.9,313.77,168,247
+P0315,Product 315,Mechanical Parts,191.08,475.88,416,66
+P0316,Product 316,Plastic Goods,655.98,514.05,65,160
+P0317,Product 317,Plastic Goods,921.99,463.46,212,43
+P0318,Product 318,Plastic Goods,552.65,8.99,280,110
+P0319,Product 319,Mechanical Parts,92.13,582.0,461,114
+P0320,Product 320,Electronics,325.42,623.61,447,43
+P0321,Product 321,Mechanical Parts,191.65,9.49,183,236
+P0322,Product 322,Electronics,565.31,703.11,319,188
+P0323,Product 323,Plastic Goods,332.41,141.69,136,131
+P0324,Product 324,Electronics,423.12,505.33,91,82
+P0325,Product 325,Plastic Goods,906.72,619.13,154,151
+P0326,Product 326,Electronics,479.86,218.47,337,220
+P0327,Product 327,Mechanical Parts,795.46,497.11,281,67
+P0328,Product 328,Plastic Goods,927.58,34.38,196,80
+P0329,Product 329,Mechanical Parts,758.57,605.71,405,115
+P0330,Product 330,Plastic Goods,257.42,286.95,335,88
+P0331,Product 331,Mechanical Parts,769.43,430.97,79,103
+P0332,Product 332,Mechanical Parts,206.17,646.06,141,202
+P0333,Product 333,Mechanical Parts,763.64,469.56,103,111
+P0334,Product 334,Plastic Goods,145.82,226.82,186,69
+P0335,Product 335,Mechanical Parts,535.23,161.25,283,63
+P0336,Product 336,Mechanical Parts,678.31,321.16,87,224
+P0337,Product 337,Electronics,49.39,587.86,108,25
+P0338,Product 338,Plastic Goods,900.96,26.05,385,63
+P0339,Product 339,Plastic Goods,172.09,475.5,161,249
+P0340,Product 340,Mechanical Parts,417.43,196.98,214,103
+P0341,Product 341,Electronics,101.31,312.62,434,92
+P0342,Product 342,Electronics,953.81,160.57,254,225
+P0343,Product 343,Mechanical Parts,359.7,528.24,141,198
+P0344,Product 344,Mechanical Parts,267.96,132.16,242,154
+P0345,Product 345,Electronics,732.68,503.0,438,83
+P0346,Product 346,Mechanical Parts,311.19,440.96,347,221
+P0347,Product 347,Electronics,928.14,691.47,328,126
+P0348,Product 348,Mechanical Parts,992.38,679.97,407,162
+P0349,Product 349,Electronics,20.98,259.34,275,142
+P0350,Product 350,Electronics,956.24,654.4,131,165
+P0351,Product 351,Electronics,873.67,176.01,216,48
+P0352,Product 352,Mechanical Parts,189.96,87.61,331,212
+P0353,Product 353,Plastic Goods,803.71,81.35,373,145
+P0354,Product 354,Mechanical Parts,36.63,185.54,413,171
+P0355,Product 355,Electronics,135.8,154.8,471,132
+P0356,Product 356,Electronics,968.27,661.04,427,197
+P0357,Product 357,Electronics,963.95,758.39,75,211
+P0358,Product 358,Electronics,518.98,298.23,451,154
+P0359,Product 359,Mechanical Parts,537.56,461.44,212,101
+P0360,Product 360,Electronics,397.33,626.43,293,248
+P0361,Product 361,Electronics,489.39,330.72,232,97
+P0362,Product 362,Mechanical Parts,55.26,110.68,404,149
+P0363,Product 363,Electronics,144.55,715.77,456,26
+P0364,Product 364,Plastic Goods,885.39,686.56,213,41
+P0365,Product 365,Electronics,653.68,646.44,389,248
+P0366,Product 366,Mechanical Parts,77.74,413.87,94,230
+P0367,Product 367,Mechanical Parts,977.32,314.6,442,183
+P0368,Product 368,Mechanical Parts,699.76,110.92,405,72
+P0369,Product 369,Electronics,174.41,61.04,456,204
+P0370,Product 370,Mechanical Parts,201.85,722.83,60,154
+P0371,Product 371,Mechanical Parts,132.2,710.1,206,157
+P0372,Product 372,Plastic Goods,566.55,76.94,123,119
+P0373,Product 373,Electronics,126.35,518.02,247,113
+P0374,Product 374,Plastic Goods,319.01,109.69,276,153
+P0375,Product 375,Plastic Goods,619.02,472.84,228,59
+P0376,Product 376,Plastic Goods,821.16,632.14,168,114
+P0377,Product 377,Plastic Goods,155.37,247.5,464,128
+P0378,Product 378,Mechanical Parts,727.01,344.94,346,186
+P0379,Product 379,Plastic Goods,343.07,588.53,279,66
+P0380,Product 380,Electronics,771.74,775.6,294,158
+P0381,Product 381,Electronics,69.21,557.0,452,120
+P0382,Product 382,Electronics,802.2,676.63,372,177
+P0383,Product 383,Plastic Goods,705.44,641.45,380,72
+P0384,Product 384,Electronics,495.86,383.2,336,162
+P0385,Product 385,Mechanical Parts,512.03,455.94,341,128
+P0386,Product 386,Electronics,948.49,411.64,61,106
+P0387,Product 387,Mechanical Parts,328.26,550.09,144,54
+P0388,Product 388,Electronics,149.53,82.99,162,181
+P0389,Product 389,Electronics,474.8,783.39,423,236
+P0390,Product 390,Mechanical Parts,801.55,416.23,169,166
+P0391,Product 391,Plastic Goods,94.94,55.61,223,113
+P0392,Product 392,Electronics,574.11,195.35,273,219
+P0393,Product 393,Plastic Goods,997.53,529.92,466,118
+P0394,Product 394,Mechanical Parts,296.64,787.31,121,63
+P0395,Product 395,Plastic Goods,333.42,147.69,139,213
+P0396,Product 396,Mechanical Parts,684.76,281.58,146,128
+P0397,Product 397,Plastic Goods,802.71,459.71,147,34
+P0398,Product 398,Plastic Goods,836.74,366.92,235,116
+P0399,Product 399,Electronics,983.57,444.95,257,243
+P0400,Product 400,Mechanical Parts,990.64,563.64,314,182
+P0401,Product 401,Plastic Goods,401.03,145.32,249,225
+P0402,Product 402,Mechanical Parts,909.54,749.82,120,92
+P0403,Product 403,Electronics,523.74,291.71,218,44
+P0404,Product 404,Plastic Goods,236.27,252.76,369,112
+P0405,Product 405,Electronics,941.05,185.2,285,94
+P0406,Product 406,Plastic Goods,414.74,285.36,94,160
+P0407,Product 407,Plastic Goods,51.34,277.88,338,134
+P0408,Product 408,Electronics,220.14,385.76,427,90
+P0409,Product 409,Mechanical Parts,602.66,54.59,234,86
+P0410,Product 410,Mechanical Parts,641.94,488.98,147,125
+P0411,Product 411,Plastic Goods,177.66,350.96,177,136
+P0412,Product 412,Mechanical Parts,543.16,630.71,92,78
+P0413,Product 413,Mechanical Parts,252.29,356.37,432,79
+P0414,Product 414,Plastic Goods,513.88,521.93,490,57
+P0415,Product 415,Electronics,526.29,588.56,475,28
+P0416,Product 416,Electronics,631.62,255.43,305,153
+P0417,Product 417,Electronics,433.31,791.01,264,244
+P0418,Product 418,Electronics,546.08,616.93,157,56
+P0419,Product 419,Mechanical Parts,875.81,413.77,300,216
+P0420,Product 420,Mechanical Parts,501.37,520.4,62,54
+P0421,Product 421,Plastic Goods,556.34,144.71,412,115
+P0422,Product 422,Plastic Goods,830.86,317.18,463,37
+P0423,Product 423,Electronics,575.52,384.62,166,208
+P0424,Product 424,Plastic Goods,811.78,237.28,316,80
+P0425,Product 425,Plastic Goods,973.0,544.93,326,148
+P0426,Product 426,Plastic Goods,471.78,359.72,406,40
+P0427,Product 427,Electronics,706.95,467.43,392,79
+P0428,Product 428,Plastic Goods,87.04,737.22,158,193
+P0429,Product 429,Plastic Goods,263.52,51.49,125,221
+P0430,Product 430,Mechanical Parts,545.25,754.97,277,112
+P0431,Product 431,Electronics,678.99,128.18,311,134
+P0432,Product 432,Plastic Goods,14.4,265.54,248,119
+P0433,Product 433,Plastic Goods,796.07,570.53,130,233
+P0434,Product 434,Mechanical Parts,893.57,109.87,306,243
+P0435,Product 435,Mechanical Parts,807.68,494.2,115,30
+P0436,Product 436,Electronics,835.39,232.72,377,120
+P0437,Product 437,Mechanical Parts,406.27,607.05,487,167
+P0438,Product 438,Electronics,838.0,419.49,231,71
+P0439,Product 439,Electronics,690.37,139.91,332,120
+P0440,Product 440,Mechanical Parts,327.64,674.86,351,115
+P0441,Product 441,Mechanical Parts,978.51,335.99,485,101
+P0442,Product 442,Mechanical Parts,423.49,222.97,144,233
+P0443,Product 443,Mechanical Parts,863.14,602.59,379,26
+P0444,Product 444,Electronics,611.53,732.18,127,247
+P0445,Product 445,Electronics,803.3,416.17,178,165
+P0446,Product 446,Mechanical Parts,779.6,170.35,368,160
+P0447,Product 447,Plastic Goods,207.61,743.39,394,195
+P0448,Product 448,Mechanical Parts,61.2,281.89,116,99
+P0449,Product 449,Mechanical Parts,812.7,101.69,64,59
+P0450,Product 450,Electronics,27.61,531.78,257,94
+P0451,Product 451,Electronics,436.88,305.32,135,48
+P0452,Product 452,Plastic Goods,845.47,160.31,319,166
+P0453,Product 453,Electronics,593.87,696.16,310,88
+P0454,Product 454,Mechanical Parts,781.79,235.69,185,71
+P0455,Product 455,Mechanical Parts,34.09,111.26,52,52
+P0456,Product 456,Electronics,335.89,281.97,370,53
+P0457,Product 457,Plastic Goods,647.12,395.0,421,136
+P0458,Product 458,Electronics,903.93,10.54,53,135
+P0459,Product 459,Plastic Goods,908.33,15.76,144,198
+P0460,Product 460,Electronics,685.66,326.17,488,134
+P0461,Product 461,Plastic Goods,893.02,505.24,223,237
+P0462,Product 462,Plastic Goods,634.89,337.31,136,109
+P0463,Product 463,Electronics,938.55,662.86,230,86
+P0464,Product 464,Electronics,991.42,513.64,457,231
+P0465,Product 465,Plastic Goods,641.78,503.17,310,175
+P0466,Product 466,Electronics,719.28,258.11,395,196
+P0467,Product 467,Electronics,969.36,164.5,167,186
+P0468,Product 468,Electronics,458.74,793.6,467,122
+P0469,Product 469,Electronics,280.5,384.14,367,161
+P0470,Product 470,Mechanical Parts,649.65,76.18,251,244
+P0471,Product 471,Mechanical Parts,903.86,737.99,80,153
+P0472,Product 472,Mechanical Parts,891.14,191.95,483,84
+P0473,Product 473,Plastic Goods,729.71,251.62,448,41
+P0474,Product 474,Mechanical Parts,555.18,631.94,286,33
+P0475,Product 475,Electronics,324.91,555.85,386,153
+P0476,Product 476,Mechanical Parts,198.78,8.39,425,51
+P0477,Product 477,Plastic Goods,806.31,568.81,177,78
+P0478,Product 478,Mechanical Parts,216.85,731.29,342,47
+P0479,Product 479,Mechanical Parts,76.37,547.98,88,97
+P0480,Product 480,Plastic Goods,620.28,241.39,344,192
+P0481,Product 481,Electronics,254.87,680.29,362,247
+P0482,Product 482,Electronics,947.38,151.64,147,227
+P0483,Product 483,Mechanical Parts,338.93,272.34,251,162
+P0484,Product 484,Mechanical Parts,10.19,656.15,317,131
+P0485,Product 485,Plastic Goods,975.31,634.31,155,42
+P0486,Product 486,Mechanical Parts,351.83,494.23,490,248
+P0487,Product 487,Plastic Goods,602.01,414.5,135,118
+P0488,Product 488,Plastic Goods,840.05,220.72,57,246
+P0489,Product 489,Electronics,450.36,754.92,208,117
+P0490,Product 490,Plastic Goods,334.96,567.87,233,59
+P0491,Product 491,Mechanical Parts,869.4,84.75,318,198
+P0492,Product 492,Electronics,916.11,341.75,394,184
+P0493,Product 493,Mechanical Parts,905.34,484.39,353,146
+P0494,Product 494,Mechanical Parts,702.5,435.84,456,167
+P0495,Product 495,Mechanical Parts,56.21,281.12,389,230
+P0496,Product 496,Mechanical Parts,922.52,39.69,471,74
+P0497,Product 497,Plastic Goods,610.81,135.11,54,182
+P0498,Product 498,Electronics,803.16,788.93,319,212
+P0499,Product 499,Mechanical Parts,981.79,484.57,395,153
+P0500,Product 500,Electronics,56.21,199.84,307,184
+P0501,Product 501,Plastic Goods,129.66,782.12,239,195
+P0502,Product 502,Electronics,979.16,280.97,126,53
+P0503,Product 503,Electronics,903.41,468.19,431,168
+P0504,Product 504,Electronics,329.59,147.27,202,35
+P0505,Product 505,Mechanical Parts,306.96,93.38,170,94
+P0506,Product 506,Plastic Goods,222.58,532.04,98,185
+P0507,Product 507,Mechanical Parts,212.17,347.58,110,121
+P0508,Product 508,Electronics,622.6,142.67,208,165
+P0509,Product 509,Mechanical Parts,69.31,615.57,414,143
+P0510,Product 510,Electronics,358.41,690.34,443,243
+P0511,Product 511,Mechanical Parts,764.76,419.17,334,87
+P0512,Product 512,Mechanical Parts,507.58,429.95,351,220
+P0513,Product 513,Plastic Goods,983.52,779.13,411,211
+P0514,Product 514,Electronics,900.77,656.59,241,161
+P0515,Product 515,Plastic Goods,992.83,58.67,371,225
+P0516,Product 516,Electronics,125.44,752.91,181,249
+P0517,Product 517,Electronics,159.79,685.21,496,49
+P0518,Product 518,Plastic Goods,695.71,236.78,203,65
+P0519,Product 519,Mechanical Parts,689.17,558.09,255,228
+P0520,Product 520,Mechanical Parts,615.17,279.1,156,43
+P0521,Product 521,Plastic Goods,847.75,431.01,475,138
+P0522,Product 522,Plastic Goods,971.58,74.81,69,148
+P0523,Product 523,Mechanical Parts,977.85,243.72,499,95
+P0524,Product 524,Electronics,347.42,746.98,378,74
+P0525,Product 525,Electronics,60.7,678.61,132,203
+P0526,Product 526,Plastic Goods,514.86,705.57,118,223
+P0527,Product 527,Mechanical Parts,808.14,575.8,294,25
+P0528,Product 528,Mechanical Parts,233.54,794.7,304,234
+P0529,Product 529,Electronics,163.98,476.48,406,119
+P0530,Product 530,Mechanical Parts,692.55,548.23,215,147
+P0531,Product 531,Electronics,909.06,114.28,419,164
+P0532,Product 532,Mechanical Parts,586.85,306.58,464,119
+P0533,Product 533,Plastic Goods,545.42,38.57,65,65
+P0534,Product 534,Mechanical Parts,891.87,526.04,137,122
+P0535,Product 535,Electronics,807.94,181.15,379,106
+P0536,Product 536,Mechanical Parts,462.0,505.97,452,25
+P0537,Product 537,Mechanical Parts,112.7,449.15,135,239
+P0538,Product 538,Plastic Goods,563.96,446.05,105,52
+P0539,Product 539,Plastic Goods,817.44,443.32,340,40
+P0540,Product 540,Electronics,692.18,633.39,74,140
+P0541,Product 541,Electronics,982.72,788.23,499,92
+P0542,Product 542,Mechanical Parts,691.83,208.89,219,140
+P0543,Product 543,Mechanical Parts,777.84,788.34,465,170
+P0544,Product 544,Electronics,307.82,276.59,417,234
+P0545,Product 545,Plastic Goods,76.49,599.22,357,129
+P0546,Product 546,Electronics,798.39,621.93,322,119
+P0547,Product 547,Mechanical Parts,701.33,452.09,237,80
+P0548,Product 548,Mechanical Parts,76.5,568.46,291,210
+P0549,Product 549,Plastic Goods,798.16,290.12,321,66
+P0550,Product 550,Mechanical Parts,182.76,214.88,341,164
+P0551,Product 551,Mechanical Parts,431.09,397.66,351,235
+P0552,Product 552,Mechanical Parts,927.02,39.19,135,39
+P0553,Product 553,Plastic Goods,266.07,520.92,386,119
+P0554,Product 554,Mechanical Parts,693.68,780.26,266,184
+P0555,Product 555,Electronics,212.29,761.41,494,170
+P0556,Product 556,Electronics,786.16,717.11,54,123
+P0557,Product 557,Plastic Goods,334.2,437.54,64,163
+P0558,Product 558,Electronics,513.74,103.4,83,63
+P0559,Product 559,Mechanical Parts,441.93,587.9,414,151
+P0560,Product 560,Mechanical Parts,507.88,579.37,159,122
+P0561,Product 561,Mechanical Parts,122.21,185.38,402,92
+P0562,Product 562,Plastic Goods,369.97,695.67,419,154
+P0563,Product 563,Electronics,816.18,140.2,61,86
+P0564,Product 564,Electronics,874.89,378.13,222,229
+P0565,Product 565,Mechanical Parts,391.31,686.93,402,129
+P0566,Product 566,Plastic Goods,765.74,225.66,323,192
+P0567,Product 567,Mechanical Parts,882.68,782.9,151,143
+P0568,Product 568,Mechanical Parts,24.83,78.94,202,73
+P0569,Product 569,Plastic Goods,917.26,690.32,457,134
+P0570,Product 570,Mechanical Parts,733.12,410.24,271,86
+P0571,Product 571,Electronics,555.12,491.44,399,64
+P0572,Product 572,Plastic Goods,345.37,240.33,75,150
+P0573,Product 573,Plastic Goods,167.18,542.28,256,61
+P0574,Product 574,Mechanical Parts,436.01,137.67,227,155
+P0575,Product 575,Mechanical Parts,204.6,16.88,437,104
+P0576,Product 576,Mechanical Parts,48.78,528.12,492,75
+P0577,Product 577,Electronics,269.18,483.37,119,240
+P0578,Product 578,Mechanical Parts,580.99,180.63,255,247
+P0579,Product 579,Plastic Goods,169.47,412.31,357,159
+P0580,Product 580,Electronics,988.06,427.33,431,205
+P0581,Product 581,Mechanical Parts,920.3,15.09,495,245
+P0582,Product 582,Electronics,99.9,188.79,95,42
+P0583,Product 583,Plastic Goods,25.06,117.25,173,119
+P0584,Product 584,Plastic Goods,89.05,37.48,333,167
+P0585,Product 585,Plastic Goods,792.09,698.53,227,247
+P0586,Product 586,Plastic Goods,448.51,425.64,87,233
+P0587,Product 587,Plastic Goods,158.98,647.27,360,189
+P0588,Product 588,Plastic Goods,811.67,194.41,145,70
+P0589,Product 589,Plastic Goods,794.63,205.27,368,82
+P0590,Product 590,Mechanical Parts,527.62,508.94,243,95
+P0591,Product 591,Electronics,133.46,320.72,89,42
+P0592,Product 592,Mechanical Parts,857.91,583.83,172,165
+P0593,Product 593,Electronics,952.56,169.85,68,149
+P0594,Product 594,Plastic Goods,19.98,74.2,399,35
+P0595,Product 595,Electronics,807.79,557.93,435,183
+P0596,Product 596,Electronics,424.55,507.44,146,189
+P0597,Product 597,Electronics,508.58,312.06,65,45
+P0598,Product 598,Electronics,734.77,644.41,168,97
+P0599,Product 599,Plastic Goods,345.97,14.29,194,170
+P0600,Product 600,Electronics,678.04,48.62,312,191
+P0601,Product 601,Plastic Goods,19.04,446.99,188,28
+P0602,Product 602,Mechanical Parts,779.73,162.21,219,206
+P0603,Product 603,Electronics,611.52,100.4,444,181
+P0604,Product 604,Electronics,692.54,440.06,237,34
+P0605,Product 605,Plastic Goods,851.99,737.54,185,37
+P0606,Product 606,Mechanical Parts,612.64,727.88,50,79
+P0607,Product 607,Electronics,350.2,576.37,396,31
+P0608,Product 608,Plastic Goods,421.64,480.19,122,161
+P0609,Product 609,Mechanical Parts,882.08,102.46,85,121
+P0610,Product 610,Electronics,436.82,556.97,363,176
+P0611,Product 611,Mechanical Parts,57.56,739.3,415,229
+P0612,Product 612,Electronics,684.49,148.3,350,111
+P0613,Product 613,Plastic Goods,206.55,474.06,463,248
+P0614,Product 614,Mechanical Parts,393.63,239.52,231,247
+P0615,Product 615,Mechanical Parts,317.8,74.56,451,209
+P0616,Product 616,Plastic Goods,718.99,394.41,310,249
+P0617,Product 617,Mechanical Parts,781.27,60.22,242,186
+P0618,Product 618,Plastic Goods,483.44,95.76,79,124
+P0619,Product 619,Electronics,323.83,643.24,263,139
+P0620,Product 620,Plastic Goods,406.14,389.5,328,167
+P0621,Product 621,Mechanical Parts,223.08,119.25,328,160
+P0622,Product 622,Electronics,87.85,585.17,176,75
+P0623,Product 623,Mechanical Parts,327.21,691.03,331,74
+P0624,Product 624,Electronics,67.01,352.04,264,89
+P0625,Product 625,Plastic Goods,515.25,745.81,110,179
+P0626,Product 626,Plastic Goods,408.2,315.07,460,36
+P0627,Product 627,Electronics,580.76,296.56,486,36
+P0628,Product 628,Electronics,943.05,675.89,317,59
+P0629,Product 629,Mechanical Parts,768.53,208.09,236,133
+P0630,Product 630,Mechanical Parts,477.2,764.17,154,236
+P0631,Product 631,Plastic Goods,905.69,582.76,495,212
+P0632,Product 632,Mechanical Parts,746.62,346.44,319,239
+P0633,Product 633,Electronics,237.72,789.22,80,65
+P0634,Product 634,Plastic Goods,639.13,349.19,299,109
+P0635,Product 635,Mechanical Parts,102.48,464.64,200,38
+P0636,Product 636,Electronics,316.87,339.98,391,204
+P0637,Product 637,Electronics,39.19,482.78,175,181
+P0638,Product 638,Electronics,231.4,733.07,326,221
+P0639,Product 639,Mechanical Parts,618.6,184.86,432,237
+P0640,Product 640,Electronics,883.41,706.88,303,75
+P0641,Product 641,Plastic Goods,459.87,279.82,127,44
+P0642,Product 642,Electronics,561.56,389.11,452,86
+P0643,Product 643,Electronics,455.22,794.81,146,246
+P0644,Product 644,Plastic Goods,290.0,212.84,315,43
+P0645,Product 645,Plastic Goods,781.34,542.27,54,104
+P0646,Product 646,Plastic Goods,729.42,91.92,245,199
+P0647,Product 647,Plastic Goods,289.59,11.28,436,157
+P0648,Product 648,Plastic Goods,341.47,763.04,224,166
+P0649,Product 649,Mechanical Parts,737.28,707.57,58,187
+P0650,Product 650,Mechanical Parts,469.01,195.31,446,213
+P0651,Product 651,Electronics,283.2,507.89,335,71
+P0652,Product 652,Electronics,976.99,86.17,369,117
+P0653,Product 653,Plastic Goods,160.31,59.46,57,118
+P0654,Product 654,Plastic Goods,909.41,266.0,308,109
+P0655,Product 655,Mechanical Parts,244.63,365.34,257,159
+P0656,Product 656,Plastic Goods,93.72,547.35,53,183
+P0657,Product 657,Electronics,260.52,221.09,112,132
+P0658,Product 658,Plastic Goods,622.01,144.18,323,30
+P0659,Product 659,Mechanical Parts,490.94,141.38,451,112
+P0660,Product 660,Electronics,518.41,773.52,267,124
+P0661,Product 661,Mechanical Parts,22.27,227.49,62,176
+P0662,Product 662,Electronics,223.58,617.03,152,140
+P0663,Product 663,Plastic Goods,124.95,182.75,412,201
+P0664,Product 664,Mechanical Parts,166.5,487.26,151,57
+P0665,Product 665,Mechanical Parts,263.43,128.62,66,216
+P0666,Product 666,Plastic Goods,67.32,65.39,380,170
+P0667,Product 667,Plastic Goods,870.02,167.12,175,93
+P0668,Product 668,Plastic Goods,260.32,173.74,95,193
+P0669,Product 669,Mechanical Parts,82.84,129.33,114,78
+P0670,Product 670,Mechanical Parts,470.79,175.52,271,112
+P0671,Product 671,Plastic Goods,733.18,771.9,82,200
+P0672,Product 672,Plastic Goods,554.35,114.85,199,199
+P0673,Product 673,Plastic Goods,315.2,693.63,235,247
+P0674,Product 674,Mechanical Parts,14.09,515.57,277,157
+P0675,Product 675,Electronics,675.69,230.79,192,138
+P0676,Product 676,Electronics,440.76,143.59,300,231
+P0677,Product 677,Mechanical Parts,139.9,716.86,63,132
+P0678,Product 678,Mechanical Parts,11.53,662.89,370,199
+P0679,Product 679,Plastic Goods,410.7,117.89,74,116
+P0680,Product 680,Plastic Goods,633.57,387.75,233,215
+P0681,Product 681,Electronics,777.65,611.2,319,56
+P0682,Product 682,Mechanical Parts,295.23,46.24,453,149
+P0683,Product 683,Electronics,209.43,237.92,403,166
+P0684,Product 684,Mechanical Parts,337.07,49.51,232,194
+P0685,Product 685,Mechanical Parts,765.2,436.16,474,160
+P0686,Product 686,Electronics,902.59,64.92,52,202
+P0687,Product 687,Mechanical Parts,247.96,561.24,146,174
+P0688,Product 688,Plastic Goods,752.99,745.29,395,200
+P0689,Product 689,Plastic Goods,485.84,99.03,387,155
+P0690,Product 690,Electronics,36.14,67.45,238,120
+P0691,Product 691,Mechanical Parts,949.02,413.53,306,55
+P0692,Product 692,Mechanical Parts,517.34,688.73,432,105
+P0693,Product 693,Mechanical Parts,554.09,423.45,59,30
+P0694,Product 694,Plastic Goods,519.16,777.62,80,156
+P0695,Product 695,Plastic Goods,229.77,434.01,225,38
+P0696,Product 696,Electronics,77.92,766.86,334,217
+P0697,Product 697,Plastic Goods,134.96,690.09,197,32
+P0698,Product 698,Electronics,271.83,388.14,253,157
+P0699,Product 699,Mechanical Parts,590.86,666.09,470,76
+P0700,Product 700,Plastic Goods,738.42,9.07,186,112
+P0701,Product 701,Mechanical Parts,212.31,792.85,495,246
+P0702,Product 702,Mechanical Parts,641.21,765.47,498,62
+P0703,Product 703,Electronics,934.82,129.6,160,117
+P0704,Product 704,Electronics,822.79,369.4,121,236
+P0705,Product 705,Electronics,881.33,120.2,387,115
+P0706,Product 706,Plastic Goods,401.28,756.0,327,50
+P0707,Product 707,Mechanical Parts,543.76,642.88,428,221
+P0708,Product 708,Mechanical Parts,882.73,758.85,234,61
+P0709,Product 709,Electronics,960.82,105.94,120,91
+P0710,Product 710,Plastic Goods,326.26,391.6,170,39
+P0711,Product 711,Mechanical Parts,438.27,604.52,52,239
+P0712,Product 712,Mechanical Parts,423.16,586.28,116,79
+P0713,Product 713,Plastic Goods,21.96,352.55,158,120
+P0714,Product 714,Electronics,89.08,104.85,430,43
+P0715,Product 715,Mechanical Parts,854.49,763.37,426,102
+P0716,Product 716,Electronics,276.74,684.08,146,79
+P0717,Product 717,Electronics,313.21,744.53,404,154
+P0718,Product 718,Mechanical Parts,226.12,92.51,407,197
+P0719,Product 719,Electronics,739.08,598.49,171,61
+P0720,Product 720,Electronics,671.35,745.85,65,231
+P0721,Product 721,Electronics,965.68,302.42,409,109
+P0722,Product 722,Plastic Goods,85.33,208.68,385,193
+P0723,Product 723,Plastic Goods,129.93,644.86,331,227
+P0724,Product 724,Mechanical Parts,632.3,504.73,99,58
+P0725,Product 725,Plastic Goods,625.44,436.24,200,61
+P0726,Product 726,Plastic Goods,886.33,670.41,363,227
+P0727,Product 727,Electronics,720.69,775.62,363,137
+P0728,Product 728,Plastic Goods,551.11,733.17,499,239
+P0729,Product 729,Mechanical Parts,108.95,52.43,227,161
+P0730,Product 730,Plastic Goods,24.82,242.46,369,134
+P0731,Product 731,Electronics,538.39,207.32,117,189
+P0732,Product 732,Plastic Goods,38.84,734.43,292,142
+P0733,Product 733,Electronics,789.27,33.66,351,60
+P0734,Product 734,Plastic Goods,216.6,68.27,145,240
+P0735,Product 735,Electronics,859.12,269.81,408,171
+P0736,Product 736,Plastic Goods,870.75,222.13,462,34
+P0737,Product 737,Plastic Goods,302.81,73.13,163,105
+P0738,Product 738,Electronics,965.8,707.29,384,72
+P0739,Product 739,Plastic Goods,930.97,228.78,439,206
+P0740,Product 740,Electronics,994.75,790.55,386,77
+P0741,Product 741,Plastic Goods,168.73,555.86,51,122
+P0742,Product 742,Electronics,719.35,66.28,215,35
+P0743,Product 743,Plastic Goods,721.08,113.44,195,142
+P0744,Product 744,Plastic Goods,956.44,168.16,110,34
+P0745,Product 745,Mechanical Parts,518.2,290.66,152,73
+P0746,Product 746,Plastic Goods,385.08,160.53,456,134
+P0747,Product 747,Mechanical Parts,698.5,716.54,422,45
+P0748,Product 748,Electronics,255.89,675.74,214,28
+P0749,Product 749,Plastic Goods,280.43,731.09,376,173
+P0750,Product 750,Plastic Goods,472.11,783.86,120,173
+P0751,Product 751,Electronics,956.01,787.17,237,48
+P0752,Product 752,Electronics,315.19,781.22,337,170
+P0753,Product 753,Mechanical Parts,19.69,72.8,370,145
+P0754,Product 754,Electronics,45.75,600.48,284,234
+P0755,Product 755,Plastic Goods,875.76,320.6,235,249
+P0756,Product 756,Mechanical Parts,824.66,462.33,169,233
+P0757,Product 757,Mechanical Parts,819.14,424.62,253,40
+P0758,Product 758,Plastic Goods,426.38,474.36,240,42
+P0759,Product 759,Plastic Goods,870.54,556.15,109,102
+P0760,Product 760,Plastic Goods,768.95,363.47,271,192
+P0761,Product 761,Electronics,650.74,358.18,241,110
+P0762,Product 762,Electronics,580.7,159.32,122,36
+P0763,Product 763,Electronics,37.21,81.15,138,81
+P0764,Product 764,Plastic Goods,95.77,339.91,390,58
+P0765,Product 765,Electronics,109.05,164.1,423,207
+P0766,Product 766,Electronics,992.24,757.54,429,174
+P0767,Product 767,Mechanical Parts,586.09,547.11,204,145
+P0768,Product 768,Plastic Goods,189.69,579.26,191,162
+P0769,Product 769,Electronics,750.2,257.88,410,73
+P0770,Product 770,Electronics,22.67,239.4,123,182
+P0771,Product 771,Plastic Goods,209.75,371.11,365,64
+P0772,Product 772,Mechanical Parts,172.12,630.5,295,101
+P0773,Product 773,Electronics,904.82,768.48,474,170
+P0774,Product 774,Electronics,618.54,224.81,114,238
+P0775,Product 775,Plastic Goods,808.72,602.07,473,164
+P0776,Product 776,Plastic Goods,979.05,67.11,113,209
+P0777,Product 777,Mechanical Parts,529.21,226.17,169,172
+P0778,Product 778,Plastic Goods,70.03,456.28,204,245
+P0779,Product 779,Mechanical Parts,837.66,335.39,382,84
+P0780,Product 780,Electronics,304.99,572.4,332,75
+P0781,Product 781,Plastic Goods,655.0,561.79,235,40
+P0782,Product 782,Plastic Goods,733.61,528.69,246,40
+P0783,Product 783,Electronics,31.23,377.02,300,195
+P0784,Product 784,Mechanical Parts,198.97,427.21,385,60
+P0785,Product 785,Electronics,588.5,699.05,450,121
+P0786,Product 786,Plastic Goods,174.58,151.68,484,164
+P0787,Product 787,Plastic Goods,102.15,84.75,198,249
+P0788,Product 788,Electronics,654.45,273.06,426,53
+P0789,Product 789,Mechanical Parts,937.11,92.25,326,62
+P0790,Product 790,Mechanical Parts,839.02,604.84,311,170
+P0791,Product 791,Plastic Goods,296.14,288.18,185,179
+P0792,Product 792,Mechanical Parts,629.11,265.45,297,170
+P0793,Product 793,Plastic Goods,468.04,347.74,457,26
+P0794,Product 794,Mechanical Parts,755.96,714.56,401,101
+P0795,Product 795,Plastic Goods,263.65,350.16,430,197
+P0796,Product 796,Electronics,815.14,158.88,299,39
+P0797,Product 797,Plastic Goods,158.0,695.44,461,97
+P0798,Product 798,Electronics,699.9,564.09,207,210
+P0799,Product 799,Plastic Goods,25.52,186.88,175,98
+P0800,Product 800,Mechanical Parts,448.01,297.12,492,179
+P0801,Product 801,Plastic Goods,348.67,384.85,100,180
+P0802,Product 802,Electronics,420.28,518.94,407,195
+P0803,Product 803,Plastic Goods,716.94,150.29,333,60
+P0804,Product 804,Electronics,341.57,121.21,495,74
+P0805,Product 805,Plastic Goods,706.74,648.97,179,212
+P0806,Product 806,Electronics,111.38,677.87,213,45
+P0807,Product 807,Plastic Goods,518.02,353.52,458,73
+P0808,Product 808,Mechanical Parts,369.0,596.97,220,186
+P0809,Product 809,Mechanical Parts,621.0,762.54,471,240
+P0810,Product 810,Mechanical Parts,951.65,309.86,317,74
+P0811,Product 811,Mechanical Parts,701.69,761.2,205,249
+P0812,Product 812,Electronics,915.64,228.18,486,155
+P0813,Product 813,Electronics,178.07,174.27,322,217
+P0814,Product 814,Electronics,984.19,500.39,79,177
+P0815,Product 815,Mechanical Parts,428.22,302.81,250,240
+P0816,Product 816,Electronics,638.73,165.28,56,34
+P0817,Product 817,Mechanical Parts,136.54,295.14,133,89
+P0818,Product 818,Electronics,702.71,302.35,471,65
+P0819,Product 819,Plastic Goods,186.81,526.37,269,241
+P0820,Product 820,Electronics,817.23,671.59,178,121
+P0821,Product 821,Plastic Goods,278.19,85.89,139,149
+P0822,Product 822,Mechanical Parts,737.97,594.56,247,109
+P0823,Product 823,Plastic Goods,876.62,237.57,75,48
+P0824,Product 824,Plastic Goods,856.38,420.08,440,93
+P0825,Product 825,Mechanical Parts,959.33,36.55,374,139
+P0826,Product 826,Plastic Goods,187.93,198.55,252,171
+P0827,Product 827,Plastic Goods,909.89,789.64,312,116
+P0828,Product 828,Electronics,674.65,192.1,166,79
+P0829,Product 829,Plastic Goods,366.6,134.97,135,44
+P0830,Product 830,Plastic Goods,123.92,399.32,353,214
+P0831,Product 831,Plastic Goods,880.23,172.06,351,236
+P0832,Product 832,Plastic Goods,308.61,75.62,335,97
+P0833,Product 833,Mechanical Parts,362.44,573.64,424,80
+P0834,Product 834,Plastic Goods,267.93,713.41,366,249
+P0835,Product 835,Electronics,638.77,113.65,252,237
+P0836,Product 836,Plastic Goods,428.95,90.53,147,189
+P0837,Product 837,Mechanical Parts,37.07,547.98,332,173
+P0838,Product 838,Electronics,157.17,203.95,206,85
+P0839,Product 839,Plastic Goods,603.19,391.59,203,88
+P0840,Product 840,Electronics,397.37,104.25,422,30
+P0841,Product 841,Mechanical Parts,833.56,587.51,468,116
+P0842,Product 842,Plastic Goods,544.06,250.78,193,172
+P0843,Product 843,Electronics,495.2,372.31,383,197
+P0844,Product 844,Electronics,519.05,226.05,245,225
+P0845,Product 845,Electronics,277.95,99.39,191,29
+P0846,Product 846,Plastic Goods,522.75,459.49,62,110
+P0847,Product 847,Electronics,567.93,714.73,432,132
+P0848,Product 848,Electronics,699.21,78.16,274,205
+P0849,Product 849,Electronics,307.26,690.23,468,247
+P0850,Product 850,Plastic Goods,677.09,653.51,97,199
+P0851,Product 851,Plastic Goods,506.6,514.62,171,171
+P0852,Product 852,Electronics,361.07,623.62,194,152
+P0853,Product 853,Electronics,765.96,29.13,353,151
+P0854,Product 854,Plastic Goods,312.72,737.93,131,231
+P0855,Product 855,Mechanical Parts,482.02,566.85,65,149
+P0856,Product 856,Plastic Goods,491.71,738.4,445,229
+P0857,Product 857,Mechanical Parts,734.36,752.3,70,130
+P0858,Product 858,Plastic Goods,117.01,646.61,133,226
+P0859,Product 859,Plastic Goods,255.31,310.91,492,172
+P0860,Product 860,Plastic Goods,751.35,460.05,220,163
+P0861,Product 861,Mechanical Parts,962.75,743.39,111,110
+P0862,Product 862,Electronics,430.62,671.83,351,100
+P0863,Product 863,Electronics,724.48,521.76,95,42
+P0864,Product 864,Electronics,584.03,115.08,146,97
+P0865,Product 865,Plastic Goods,604.77,360.65,488,69
+P0866,Product 866,Plastic Goods,931.38,489.5,475,61
+P0867,Product 867,Plastic Goods,508.87,210.6,494,81
+P0868,Product 868,Plastic Goods,918.95,410.1,255,215
+P0869,Product 869,Mechanical Parts,462.22,269.26,247,163
+P0870,Product 870,Plastic Goods,689.48,471.92,429,108
+P0871,Product 871,Plastic Goods,710.43,709.62,85,33
+P0872,Product 872,Electronics,352.92,322.44,322,227
+P0873,Product 873,Plastic Goods,428.59,700.35,231,176
+P0874,Product 874,Electronics,720.7,303.52,220,236
+P0875,Product 875,Plastic Goods,823.4,73.78,81,228
+P0876,Product 876,Electronics,72.73,324.26,144,64
+P0877,Product 877,Mechanical Parts,460.89,564.91,207,146
+P0878,Product 878,Plastic Goods,955.78,354.85,497,68
+P0879,Product 879,Plastic Goods,969.01,348.63,253,240
+P0880,Product 880,Electronics,328.89,31.33,407,67
+P0881,Product 881,Plastic Goods,239.74,724.65,417,50
+P0882,Product 882,Mechanical Parts,465.56,615.06,294,47
+P0883,Product 883,Plastic Goods,425.91,669.91,495,102
+P0884,Product 884,Plastic Goods,889.4,497.21,143,181
+P0885,Product 885,Electronics,638.34,301.61,60,135
+P0886,Product 886,Electronics,570.88,574.1,403,230
+P0887,Product 887,Electronics,724.04,241.14,396,236
+P0888,Product 888,Electronics,518.41,118.44,61,216
+P0889,Product 889,Electronics,161.33,582.96,326,171
+P0890,Product 890,Mechanical Parts,503.49,430.46,123,77
+P0891,Product 891,Electronics,514.15,227.3,85,70
+P0892,Product 892,Plastic Goods,898.05,73.74,65,32
+P0893,Product 893,Electronics,408.86,732.94,496,160
+P0894,Product 894,Electronics,386.71,774.57,498,169
+P0895,Product 895,Plastic Goods,733.97,759.85,361,175
+P0896,Product 896,Electronics,581.61,260.96,288,34
+P0897,Product 897,Electronics,633.55,674.56,146,192
+P0898,Product 898,Mechanical Parts,776.15,251.7,434,248
+P0899,Product 899,Plastic Goods,527.15,246.4,439,231
+P0900,Product 900,Mechanical Parts,332.41,409.47,175,74
+P0901,Product 901,Plastic Goods,605.57,598.86,298,223
+P0902,Product 902,Mechanical Parts,330.81,37.71,367,198
+P0903,Product 903,Electronics,856.46,71.74,156,49
+P0904,Product 904,Mechanical Parts,119.26,73.05,277,203
+P0905,Product 905,Plastic Goods,21.48,758.58,476,48
+P0906,Product 906,Plastic Goods,683.77,425.05,221,114
+P0907,Product 907,Electronics,268.76,39.7,310,168
+P0908,Product 908,Electronics,595.71,421.42,368,62
+P0909,Product 909,Mechanical Parts,648.68,528.53,306,112
+P0910,Product 910,Plastic Goods,135.23,538.46,332,213
+P0911,Product 911,Mechanical Parts,758.24,237.22,442,79
+P0912,Product 912,Plastic Goods,50.71,709.38,462,156
+P0913,Product 913,Plastic Goods,808.65,287.36,443,159
+P0914,Product 914,Electronics,452.49,254.95,254,52
+P0915,Product 915,Plastic Goods,727.19,432.87,231,161
+P0916,Product 916,Mechanical Parts,826.38,624.58,116,64
+P0917,Product 917,Electronics,334.34,116.78,164,153
+P0918,Product 918,Plastic Goods,806.2,484.77,346,134
+P0919,Product 919,Electronics,129.49,500.94,254,89
+P0920,Product 920,Mechanical Parts,344.2,106.61,300,159
+P0921,Product 921,Plastic Goods,637.55,677.84,133,59
+P0922,Product 922,Electronics,284.31,629.97,447,154
+P0923,Product 923,Electronics,699.08,84.23,366,70
+P0924,Product 924,Electronics,745.86,253.14,482,46
+P0925,Product 925,Plastic Goods,586.83,143.7,76,77
+P0926,Product 926,Electronics,716.47,713.08,166,74
+P0927,Product 927,Plastic Goods,869.84,131.11,478,147
+P0928,Product 928,Mechanical Parts,143.39,765.05,223,206
+P0929,Product 929,Plastic Goods,494.82,778.69,481,147
+P0930,Product 930,Mechanical Parts,406.67,663.57,251,233
+P0931,Product 931,Mechanical Parts,667.17,202.26,490,82
+P0932,Product 932,Plastic Goods,176.67,35.86,147,66
+P0933,Product 933,Mechanical Parts,566.05,706.71,68,107
+P0934,Product 934,Mechanical Parts,298.1,483.23,375,167
+P0935,Product 935,Plastic Goods,341.71,494.31,351,166
+P0936,Product 936,Electronics,645.47,54.16,249,232
+P0937,Product 937,Plastic Goods,424.25,174.45,417,184
+P0938,Product 938,Mechanical Parts,376.5,176.32,399,96
+P0939,Product 939,Electronics,846.39,513.56,110,244
+P0940,Product 940,Electronics,656.05,481.76,237,229
+P0941,Product 941,Electronics,786.57,797.59,291,198
+P0942,Product 942,Plastic Goods,87.05,175.88,273,90
+P0943,Product 943,Electronics,99.38,222.28,417,49
+P0944,Product 944,Plastic Goods,875.7,194.95,147,161
+P0945,Product 945,Mechanical Parts,281.67,27.65,148,155
+P0946,Product 946,Electronics,261.24,155.99,454,61
+P0947,Product 947,Electronics,716.29,58.36,265,190
+P0948,Product 948,Plastic Goods,670.42,125.33,218,232
+P0949,Product 949,Electronics,528.71,450.73,198,80
+P0950,Product 950,Mechanical Parts,54.07,599.36,497,237
+P0951,Product 951,Electronics,968.52,257.36,217,73
+P0952,Product 952,Electronics,975.46,271.83,311,111
+P0953,Product 953,Plastic Goods,107.97,763.93,193,159
+P0954,Product 954,Mechanical Parts,783.75,506.52,289,37
+P0955,Product 955,Mechanical Parts,373.91,240.94,230,201
+P0956,Product 956,Mechanical Parts,820.71,518.07,491,215
+P0957,Product 957,Plastic Goods,684.65,642.67,147,44
+P0958,Product 958,Plastic Goods,193.27,504.56,393,26
+P0959,Product 959,Mechanical Parts,839.17,42.92,146,63
+P0960,Product 960,Electronics,570.04,87.48,480,155
+P0961,Product 961,Plastic Goods,670.52,109.69,328,53
+P0962,Product 962,Mechanical Parts,742.39,442.38,176,151
+P0963,Product 963,Electronics,783.54,218.71,96,26
+P0964,Product 964,Plastic Goods,52.94,583.6,470,89
+P0965,Product 965,Electronics,713.15,760.0,237,225
+P0966,Product 966,Mechanical Parts,720.84,470.12,258,233
+P0967,Product 967,Plastic Goods,58.87,13.02,289,81
+P0968,Product 968,Plastic Goods,290.65,459.8,70,196
+P0969,Product 969,Electronics,258.95,486.51,335,81
+P0970,Product 970,Mechanical Parts,697.01,776.98,444,180
+P0971,Product 971,Electronics,971.77,188.1,386,155
+P0972,Product 972,Electronics,666.26,639.97,338,35
+P0973,Product 973,Plastic Goods,843.93,761.89,120,107
+P0974,Product 974,Mechanical Parts,371.83,360.46,311,48
+P0975,Product 975,Plastic Goods,386.83,293.03,171,199
+P0976,Product 976,Mechanical Parts,171.81,557.25,53,80
+P0977,Product 977,Electronics,132.96,130.97,290,125
+P0978,Product 978,Electronics,924.99,123.75,399,47
+P0979,Product 979,Plastic Goods,224.68,471.29,258,73
+P0980,Product 980,Electronics,836.97,57.83,419,117
+P0981,Product 981,Plastic Goods,336.53,35.47,282,167
+P0982,Product 982,Electronics,149.78,337.63,189,85
+P0983,Product 983,Electronics,276.68,611.92,319,205
+P0984,Product 984,Electronics,73.89,596.47,499,127
+P0985,Product 985,Mechanical Parts,390.29,216.41,395,201
+P0986,Product 986,Mechanical Parts,874.25,616.52,206,142
+P0987,Product 987,Electronics,249.87,445.59,221,160
+P0988,Product 988,Plastic Goods,413.08,229.53,376,88
+P0989,Product 989,Mechanical Parts,806.72,270.35,155,146
+P0990,Product 990,Plastic Goods,708.75,672.35,238,144
+P0991,Product 991,Plastic Goods,130.39,430.64,340,120
+P0992,Product 992,Mechanical Parts,557.79,415.54,206,50
+P0993,Product 993,Electronics,597.28,625.03,159,130
+P0994,Product 994,Mechanical Parts,22.04,464.06,447,205
+P0995,Product 995,Plastic Goods,15.94,649.4,319,72
+P0996,Product 996,Electronics,14.63,37.28,191,145
+P0997,Product 997,Electronics,233.3,552.98,357,174
+P0998,Product 998,Plastic Goods,751.31,272.94,326,144
+P0999,Product 999,Mechanical Parts,850.8,615.89,359,41
+P1000,Product 1000,Plastic Goods,89.73,108.46,264,53
