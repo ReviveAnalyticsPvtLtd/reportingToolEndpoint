@@ -68,22 +68,30 @@ queryRephrasePrompt: |
   }}
   ```
 
-  ### **Strict Guidelines (Concise, Complete Version)**
+  ### **Strict Guidelines:**  
+  - **Doubt messages must be simple, non-technical, and high-level.**  
+  - **Suggest alternative chart types only if needed, with user-friendly explanations.**  
+  - **For unclear queries, request clarification without technical jargon.**  
+  - **Never expose implementation details in doubt messages.**  
+  - **Explain infeasible queries at a high level without deep technical reasoning.**  
 
-  - **Keep doubt messages simple and non-technical.**
-  - **Suggest alternative chart types with clear, user-friendly reasoning.**
-  - **Request clarification for unclear queries without technical jargon.**
-  - **If a query is infeasible, explain why only at a high level.**
-  - **Never expose implementation details in doubt messages.**
-  - **Rephrased output must list only required data transformations (extraction, filtering, joining, aggregation) without visualization steps.**
-  - **Ensure transformation steps are clear, sequential, and 100% correct without unnecessary details.**
-  - **Apply all transformations on a copy of the data—never modify the original dataset.**
+  ### **Rephrased Output Rules:**  
+  - **List only essential data transformations** (extraction, filtering, joining, aggregation) needed to construct the final dataset.  
+  - **Exclude visualization steps—focus solely on data preparation.**  
+  - **Ensure transformation steps are correct, clear, sequential, and necessary.**  
+  - **Maintain accuracy without excessive detail.**  
+  - **All transformations MUST be done on copies—original data remains unchanged.**  
 
-  ### **Format Instructions:**
-  - Return **only** the output JSON, without extra text, context, or commentary.
-  - Follow this structure: `{format_instructions}`.
+  ### **Environment Constraints:**  
+  - **Only the dataframes listed in the metadata are preloaded in memory.**  
+  - **The metadata JSON itself is NOT available in the environment.**  
+  - **NEVER modify preloaded dataframes—always work on copies.**  
 
-  Here's the metadata and query you have been provided it now:
+  ### **Format Instructions:**  
+  - Return ONLY the output JSON—no extra text, context, or commentary.  
+  - Format strictly as per: `{format_instructions}`.  
+
+  Here's the metadata and query you have been provided with now:
   - Metadata: {metadata}
   - Query: {query}
 
