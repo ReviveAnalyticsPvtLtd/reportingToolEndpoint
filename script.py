@@ -61,7 +61,7 @@ def formatJsonResponse(state: State):
     if "codeOutput" in state.keys():
         response = json.loads(state["codeOutput"])
     else:
-        response = json.loads(state["rephrasedQuery"])
+        response = json.dumps(state["rephrasedQuery"])
     return {
         "finalOutput": response
     }
