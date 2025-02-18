@@ -88,7 +88,7 @@ def generate_chart_data(query: str):
     inputData = {"metadata": metadata, "inputQuery": query}
     try:
         responseJson = workflow.invoke(inputData)
-        return responseJson
+        return responseJson["finalOutput"]
     except Exception as e:
         return {"error": f"Endpoint says: {e}"}
         
