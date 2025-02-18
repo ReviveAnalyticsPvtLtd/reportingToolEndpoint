@@ -3,8 +3,11 @@ langchain-groq
 langchain-community 
 langchain-core 
 langchain-experimental
+langgraph
 flask
 waitress
 pandas
 numpy
 Flask-Cors
+pydantic
+pyyaml

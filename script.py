@@ -1,12 +1,11 @@
-from flask import Flask, request, jsonify
-from langchain_core.output_parsers import StrOutputParser
+from .queryRephraser import queryRephraseChain
+from .codeGenerator import codeGeneratorChain
+from langgraph.graph import StateGraph, START, END
 from langchain_experimental.utilities import PythonREPL
-from langchain_core.runnables import RunnableLambda
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_groq import ChatGroq
+from flask import Flask, request, jsonify
+from typing_extensions import TypedDict
 from flask_cors import CORS
 from waitress import serve
-import pandas as pd
 import json
 import os
 
@@ -24,166 +23,88 @@ pythonRepl.run(string)
 with open("metadata.json", "rb") as f:
     metadata = json.load(f)
 
-llm = ChatGroq(model = "deepseek-r1-distill-llama-70b", temperature = 1)
-outputParser = StrOutputParser()
+class State(TypedDict):
+    inputQuery: str
+    metadata: str
+    rephrasedQuery: str
+    generatedCode: str
+    codeOutput: str
+    finalOutput: dict
 
-prompt = """
-You are **ChartDataCreator**, an expert AI in generating precise chart data in **JSON format** tailored for Chart.js. Your task is to:
+def rephraseQuery(state: State):
+    response = queryRephraseChain.invoke({
+        "query": state["inputQuery"],
+        "metadata": state["metadata"]
+    })
 
-1. **Analyze the given metadata** (provided in YAML format) to understand the available data.
+    return {
+        "rephrasedQuery": response
+    }
 
-2. **Interpret the user query** and determine the best chart type from the following options: `line`, `scatter`, `bar`, `radar`, `bubble`, `polar`, `pie`, or `doughnut`. Ensure that you always select one of these types, as they are required for consistency.
+def generateCode(state: State):
+    response = codeGeneratorChain.invoke({
+        "query": state["rephrasedQuery"],
+        "metadata": state["metadata"]
+    })
+    return {
+        "generatedCode": response
+    }
 
-3. **Copy the original dataframe** before performing any operations:
-   - Create a copy of each dataframe, such as `iris_dataset_copy = iris_dataset.copy()`, and perform all further operations only on these copies to maintain data integrity.
+def runInPythonSandbox(state: State):
+    code = pythonRepl.sanitize_input(state["generatedCode"])
+    response = pythonRepl.run(code)
+    return {
+        "codeOutput": response
+    }
 
-4. **Generate a valid, JSON-serializable dataset** based on the query using the preloaded dataframes (or their copies). The generated JSON must adhere to the following strict structure for compatibility with Chart.js:
+def formatJsonResponse(state: State):
+    response = json.loads(state["codeOutput"])
+    return {
+        "finalOutput": response
+    }
 
-```json
-{{
-    "chartType": "<One of 'line', 'scatter', 'bar', 'radar', 'bubble', 'polar', 'pie', 'doughnut'>",
-    "data": {{
-        "labels": <list of labels for the chart (e.g., x-axis values)>,
-        "datasets": [
-            {{
-                "label": "<name of dataset1>",
-                "data": <array of data points corresponding to each label>
-            }},
-            {{
-                "label": "<name of dataset2 (if applicable)>",
-                "data": <array of values>
-            }}
-        ]
-    }}
-}}
-```
+def router(state: State):
+    if state["rephrasedQuery"]["doubt"] == None:
+        return "continue"
+    else:
+        return "interrupt"
+    
+workflow = StateGraph(State)
 
-5. **Return a standalone Python code block ONLY** to **print** the JSON response and nothing else. This code must:
-   - Use only the preloaded dataframes (as referenced in the metadata) or their copies.
-   - Be error-free, runnable, and ready to execute with necessary imports.
-   - Serialize the output into JSON correctly.
+workflow.add_node("rephraseQuery", rephraseQuery)
+workflow.add_node("generateCode", generateCode)
+workflow.add_node("runInPythonSandbox", runInPythonSandbox)
+workflow.add_node("formatJsonResponse", formatJsonResponse)
 
-### **Dataset Structure Based on Chart Type**
-The `data` object must follow the structure specific to the chart type:
-- **bar** - `"data": {{"labels": <list of labels>, "datasets": <list of dictionaries, each with keys "label" and "data">}}`
-- **bubble** - `"data": {{"datasets": <list of dictionaries with keys: "label": <label>, "data": <list of dictionaries each with keys "x", "y", and "r">>}}`
-- **pie/doughnut** - `"data": {{"labels": <list of labels>, "datasets": <list of dictionaries, each with keys "label" and "data">}}`
-- **line** - `"data": {{"labels": <list of labels>, "datasets": <list of dictionaries, each with keys "label" and "data">}}`
-- **polar** - `"data": {{"labels": <list of labels>, "datasets": <list of dictionaries, each with keys "label" and "data">}}`
-- **radar** - `"data": {{"labels": <list of labels>, "datasets": <list of dictionaries, each with keys "label" and "data">}}`
-- **scatter** - `"data": {{"datasets": <list of dictionaries with keys: "label": <label>, "data": <list of dictionaries each with keys "x" and "y">>}}`
+workflow.add_edge(START, "rephraseQuery")
+workflow.add_conditional_edges("rephraseQuery", router, {"continue": "generateCode", "interrupt": "formatJsonResponse"})
+workflow.add_edge("generateCode", "runInPythonSandbox")
+workflow.add_edge("runInPythonSandbox", "formatJsonResponse")
+workflow.add_edge("formatJsonResponse", END)
 
-
-### **Example of Python Code Output:**
-
-#### **Metadata (YAML)**
-```yaml
-{{
-  "<dataframe1>": {{
-    "description": "<Description of the dataframe>",
-    "columns": [
-      {{"name": "<column1>", "type": "<column1 datatype>", "description": "<column1 description>"}},
-      {{"name": "<column2>", "type": "<column2 datatype>", "description": "<column2 description>"}}
-    ],
-    "sample_row": {{
-      "<column1>": "<value1>",
-      "<column2>": "<value2>"
-    }}
-  }},
-  "<dataframe2>": {{
-    ...
-  }}
-}}
-
-#### **Query**
-*"Generate a bar chart showing monthly revenue trends."*
-
-**Expected Python Output for the given metadata and query**
-
-```python
-import json
-# Assuming sales_data_copy is the copy of the original preloaded dataframe, given in the metadata
-sales_data_copy = sales_data.copy()
-labels = sales_data_copy["month"].tolist()
-revenue_data = sales_data_copy["revenue"].tolist()
-chart_json = {{
-    "chartType": "bar",
-    "data": {{
-        "labels": labels,
-        "datasets": [
-            {{
-                "label": "Monthly Revenue",
-                "data": revenue_data
-            }}
-        ]
-    }}
-}}
-print(json.dumps(chart_json, indent=4))
-```
-
-### **Guidelines for Response Generation**  
-- Always perform operations only on **copies** of dataframes to prevent modifying original data.  
-- Strictly adhere to the **JSON format** required for the chosen Chart.js chart type. **No deviations or errors are allowed.**  
-- Select the most suitable chart type from: `line`, `scatter`, `bar`, `radar`, `bubble`, `polar`, `pie`, or `doughnut`, based on **metadata and user query.**  
-- **Never** include any color details in the output JSON—Chart.js will handle colors dynamically in the frontend.  
-- Extract only the **relevant labels and datasets** from metadata to construct the chart data accurately.  
-- Ensure the generated **JSON response is 100 percent serializable, correctly formatted, and error-free.**  
-- The output must be a **standalone Python script** in a single code block, running smoothly with proper imports and no extra dependencies.  
-- **Only generate the Python script—nothing else.**  
-- The **Python script must print the JSON response** to the console in the correct format.  
-- **Precision is critical**—each chart type has a specific JSON structure that must be followed **exactly** for correct visualization.
-
-### **Handling Unclear, Absurd, or Impossible Queries**
-If the query cannot be answered due to:
-- Missing or unrelated data in metadata.
-- Unclear instructions (e.g., vague column names or ambiguous intent).
-- Absurdity (e.g., "Show a scatter plot of a single category").
-Respond with a JSON object in a Python code block under the key "response" that explains why the request is invalid and how the user can clarify it.
-### Example of response in case of Unclear/Absurd/Impossible queries**
-```python
-import json
-
-response = {{
-    "response": "The requested chart cannot be generated because the metadata does not contain relevant data. Please provide a more specific query, ensuring it aligns with the available dataset."
-}}
-print(json.dumps(response, indent=4))
-```
-**Be highly meticulous—this JSON response is crucial for an API workflow!**
-
-HERE'RE THE INPUTS GIVEN TO YOU:
-metadata: {metadata}
-query: {query}
-"""
-prompt = ChatPromptTemplate.from_template(prompt)
-
-chain = {
-    "metadata": RunnableLambda(lambda x: x["metadata"]),
-    "query": RunnableLambda(lambda x: x["query"])
-} | prompt | llm | outputParser
+workflow = workflow.compile()
 
 def generate_chart_data(query: str):
     inputData = {"metadata": metadata, "query": query}
-    responseJson = {}
-    for _ in range(5):
-        try:
-            response = chain.invoke(inputData)
-            response = pythonRepl.run("\n".join(response.split("```")[-2].split("\n")[1:]))
-            responseJson = json.loads(response)
-            if responseJson:
-                break
-        except Exception:
-            continue
-    return responseJson
+    try:
+        responseJson = workflow.invoke(inputData)
+        return responseJson
+    except Exception as e:
+        return {"error": f"Endpoint says: {e}"}
+        
 
 @app.route("/generate_chart", methods=["POST"])
 def generate_chart():
-    data = request.get_json()
-    query = data.get("query", "")
-    if not query:
-        return jsonify({"error": "Query is required"}), 400
-    
-    chart_data = generate_chart_data(query)
-    return jsonify(chart_data)
+    try:
+        data = request.get_json()
+        query = data.get("query", "")
+        if not query:
+            return jsonify({"error": "Query is required"}), 400
+        
+        chart_data = generate_chart_data(query)
+        return jsonify(chart_data)
+    except Exception as e:
+        return jsonify({"error": "An error occurred while processing the request."}), 500
 
 if __name__ == "__main__":
     serve(app, host="0.0.0.0", port=8080)
