@@ -85,7 +85,7 @@ workflow.add_edge("formatJsonResponse", END)
 workflow = workflow.compile()
 
 def generate_chart_data(query: str):
-    inputData = {"metadata": metadata, "query": query}
+    inputData = {"metadata": metadata, "inputQuery": query}
     try:
         responseJson = workflow.invoke(inputData)
         return responseJson
