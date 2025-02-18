@@ -60,11 +60,14 @@ def runInPythonSandbox(state: State):
 def formatJsonResponse(state: State):
     if "codeOutput" in state.keys():
         response = json.loads(state["codeOutput"])
+        return {
+            "finalOutput": response
+        }
     else:
         response = json.dumps(state["rephrasedQuery"])
-    return {
-        "finalOutput": response
-    }
+        return {
+            "finalOutput": {"error": response["doubt"]}
+        }
 
 def router(state: State):
     if state["rephrasedQuery"]["doubt"] == None:
