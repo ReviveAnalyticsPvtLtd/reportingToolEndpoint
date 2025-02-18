@@ -1,5 +1,5 @@
-from .queryRephraser import queryRephraseChain
-from .codeGenerator import codeGeneratorChain
+from queryRephraser import queryRephraseChain
+from codeGenerator import codeGeneratorChain
 from langgraph.graph import StateGraph, START, END
 from langchain_experimental.utilities import PythonREPL
 from flask import Flask, request, jsonify
