@@ -157,10 +157,8 @@ codeGeneratorPrompt: |
     ```json
     {{
         "chartType": "card",
-        "data": {{
-            "label": "<Descriptive label for the metric to be displayed on the card>",
-            "data": "<Numeric value or metric (with unit or symbol if needed, e.g., '123 USD', '45%')>"
-        }}
+        "label": "<Descriptive label for the metric to be displayed on the card>",
+        "data": "<Numeric value or metric (with unit or symbol if needed, e.g., '123 USD', '45%')>"
     }}
     ```
 
