@@ -58,7 +58,10 @@ def runInPythonSandbox(state: State):
     }
 
 def formatJsonResponse(state: State):
-    response = json.loads(state["codeOutput"])
+    if "codeOutput" in state.keys():
+        response = json.loads(state["codeOutput"])
+    else:
+        response = json.loads(state["rephrasedQuery"])
     return {
         "finalOutput": response
     }
