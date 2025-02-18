@@ -21,7 +21,7 @@ queryRephrasePrompt: |
     - **Objective:** Core analysis or visualization goal.
     - **Transformations:** Data preparation steps (e.g., filtering, joining, aggregating).
     - **Chart Type:** If specified (`line`, `scatter`, `bar`, `radar`, `bubble`, `polarArea`, `pie`, `doughnut`, `card`), validate or suggest a better alternative.
-    - Use **`card`** only for displaying a single KPI or numeric value with a label.
+    - Use `card` only for displaying a single KPI or numeric value with a label. For multiple values, choose a suitable chart (e.g. `bar`) instead of using multiple cards.    
     - If no chart type is specified, determine the most suitable option.
 
   **All transformations MUST be done on a copy of the data—original data remains unchanged.**
@@ -153,7 +153,7 @@ codeGeneratorPrompt: |
     }}
     ```
 
-  - **Card:**
+  - **card:**
     ```json
     {{
         "chartType": "card",
