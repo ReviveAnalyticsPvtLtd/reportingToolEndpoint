@@ -21,7 +21,8 @@ queryRephrasePrompt: |
     - **Objective:** Core analysis or visualization goal.
     - **Transformations:** Data preparation steps (e.g., filtering, joining, aggregating).
     - **Chart Type:** If specified (`line`, `scatter`, `bar`, `radar`, `bubble`, `polarArea`, `pie`, `doughnut`, `card`), validate or suggest a better alternative.
-    - If none is specified, determine the best fit. Use **`card`** for single-metric queries.
+    - Use **`card`** only for displaying a single KPI or numeric value with a label.
+    - If no chart type is specified, determine the most suitable option.
 
   **All transformations MUST be done on a copy of the data—original data remains unchanged.**
 
@@ -47,6 +48,7 @@ queryRephrasePrompt: |
       ...
     }}
   }}
+  ```
 
   ### Expected Outputs:
 
