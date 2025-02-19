@@ -54,7 +54,7 @@ queryRephrasePrompt: |
 
 
   ### Example Expected Outputs:
-  - **Valid Query Example (Always include the correct steps just shows below):**
+  - **Valid Query Example (Always include the correct steps to get the relevant data as shown below):**
   **User Query:** "Show average order value by customer segment and region"
   ```json
   {{
@@ -82,7 +82,7 @@ queryRephrasePrompt: |
   ### **Rephrased Output Rules:**  
   - **Include the essential data transformations or methods to get required data** (extraction, filtering, joining, aggregation, metadata checks).  
   - **Focus on data preparation—exclude visualization steps.**  
-  - Ensure implementation steps are **correct, clear, sequential, and necessary**.  
+  - Ensure implementation steps are **correct, clear, sequential, and are necessarily included in the rephrased query**.  
   - **Be precise without excessive detail.**  
   - **Always work on copies—original data remains unchanged.**  
 
