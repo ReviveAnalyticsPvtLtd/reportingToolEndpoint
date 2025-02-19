@@ -19,7 +19,7 @@ queryRephrasePrompt: |
   ### **3. Rephrase the Query**
   - Convert it into a **standalone, precise version** including:
     - **Objective:** Core analysis or visualization goal.
-    - **Transformations:** Data preparation steps (e.g., filtering, joining, aggregating).
+    - **Transformations:** **Always list the exact data preparation steps (e.g., filtering, joining, aggregating, metadata checks) steps to extract and prepare the data to solve the query.**
     - **Chart Type:**  
       - Use `card` **ONLY when displaying a single KPI (one numeric value with one label).**  
       - **NEVER use `card` for multiple values or multiple cards.** If the query requires displaying multiple values, **choose an appropriate chart (e.g., `bar`, `line`).**  
@@ -54,7 +54,7 @@ queryRephrasePrompt: |
 
 
   ### Example Expected Outputs:
-  - **Valid Query Example:**
+  - **Valid Query Example (Always include the correct steps just shows below):**
   **User Query:** "Show average order value by customer segment and region"
   ```json
   {{
@@ -80,15 +80,15 @@ queryRephrasePrompt: |
   - If a query is infeasible, **explain why concisely** without deep technical reasoning.  
 
   ### **Rephrased Output Rules:**  
-  - **Include only essential data transformations** (extraction, filtering, joining, aggregation).  
+  - **Include the essential data transformations or methods to get required data** (extraction, filtering, joining, aggregation, metadata checks).  
   - **Focus on data preparation—exclude visualization steps.**  
-  - Ensure transformation steps are **correct, clear, sequential, and necessary**.  
+  - Ensure implementation steps are **correct, clear, sequential, and necessary**.  
   - **Be precise without excessive detail.**  
   - **Always work on copies—original data remains unchanged.**  
 
   ### **Environment Constraints:**  
   - **Only the dataframes listed in the metadata are preloaded in memory.**  
-  - **The input metadata is available as a dictionary in the `metadata` variable.** Mention `metadata` explicitly if used in transformations.  
+  - **The input metadata is available as a dictionary in the `metadata` variable.** Mention use of the `metadata` variable explicitly if used in transformations.  
   - **NEVER modify preloaded dataframes—always operate on copies.**  
 
   ### **Format Instructions:**  
