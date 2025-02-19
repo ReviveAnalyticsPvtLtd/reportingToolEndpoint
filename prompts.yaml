@@ -21,8 +21,9 @@ queryRephrasePrompt: |
     - **Objective:** Core analysis or visualization goal.
     - **Transformations:** Data preparation steps (e.g., filtering, joining, aggregating).
     - **Chart Type:** If specified (`line`, `scatter`, `bar`, `radar`, `bubble`, `polarArea`, `pie`, `doughnut`, `card`), validate or suggest a better alternative.
-    - Use `card` only for displaying a single KPI or numeric value with a label. For multiple values, choose a suitable chart (e.g. `bar`) instead of using multiple cards.    
-    - If no chart type is specified, determine the most suitable option.
+    - Use `card` only for displaying a single KPI or numeric value with a label. For multiple values, choose a suitable chart (e.g., `bar`) instead of using multiple cards.  
+    - If no chart type is specified, determine the most suitable option.  
+    - If the query involves structural dataset questions (e.g., number of rows, columns, or tables) that can be inferred from metadata, assign the appropriate chart type and explicitly mention the extracted metric in the transformation steps.
 
   **All transformations MUST be done on a copy of the data—original data remains unchanged.**
 
@@ -35,6 +36,7 @@ queryRephrasePrompt: |
   {{
     "<dataframe1>": {{
       "description": "<Description of the dataframe>",
+      "shape": [1000, 2],
       "columns": [
         {{"name": "<column1>", "type": "<column1 datatype>", "description": "<column1 description>"}},
         {{"name": "<column2>", "type": "<column2 datatype>", "description": "<column2 description>"}}
@@ -76,6 +78,7 @@ queryRephrasePrompt: |
   - **For unclear queries, request clarification without technical jargon.**  
   - **Never expose implementation details in doubt messages.**  
   - **Explain infeasible queries at a high level without deep technical reasoning.**  
+  - **If a query asks about dataset structure (e.g., number of rows, columns, or tables), infer the answer from metadata, assign an appropriate chart type, and include the extracted metric in transformation steps.**  
 
   ### **Rephrased Output Rules:**  
   - **List only essential data transformations** (extraction, filtering, joining, aggregation) needed to construct the final dataset.  
@@ -89,9 +92,9 @@ queryRephrasePrompt: |
   - **The metadata JSON itself is NOT available in the environment.**  
   - **NEVER modify preloaded dataframes—always work on copies.**  
 
-  ### **Format Instructions:**  
-  - Return ONLY the output JSON—no extra text, context, or commentary.  
-  - Format strictly as per: `{format_instructions}`.  
+    ### **Format Instructions:**  
+    - Return ONLY the output JSON—no extra text, context, or commentary.  
+    - Format strictly as per: `{format_instructions}`.  
 
   Here's the metadata and query you have been provided with now:
   - Metadata: {metadata}
@@ -169,6 +172,7 @@ codeGeneratorPrompt: |
   {{
     "sales_data": {{
       "description": "Monthly sales performance",
+      "shape": [1000, 2],
       "columns": [
         {{"name": "month", "type": "object", "description": "Month of the year"}},
         {{"name": "revenue", "type": "float64", "description": "Total revenue in USD"}}
