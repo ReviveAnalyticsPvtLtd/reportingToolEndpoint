@@ -20,14 +20,15 @@ queryRephrasePrompt: |
   - Convert it into a **standalone, precise version** including:
     - **Objective:** Core analysis or visualization goal.
     - **Transformations:** Data preparation steps (e.g., filtering, joining, aggregating).
-    - **Chart Type:** If specified (`line`, `scatter`, `bar`, `radar`, `bubble`, `polarArea`, `pie`, `doughnut`, `card`), validate or suggest a better alternative.
-    - Use `card` only for displaying a single KPI or numeric value with a label. For multiple values, choose a suitable chart (e.g., `bar`) instead of using multiple cards.  
-    - If no chart type is specified, determine the most suitable option.  
-    - If the query involves structural dataset questions (e.g., number of rows, columns, or tables) that can be inferred from metadata, assign the appropriate chart type and explicitly mention the extracted metric in the transformation steps.
+    - **Chart Type:**  
+      - Use `card` **ONLY when displaying a single KPI (one numeric value with one label).**  
+      - **NEVER use `card` for multiple values or multiple cards.** If the query requires displaying multiple values, **choose an appropriate chart (e.g., `bar`, `line`).**  
+      - If no chart type is specified, determine the most suitable option.  
+    - If the query involves dataset structure (e.g., number of rows, columns, or tables) and can be derived from metadata, select an appropriate chart type and extract the relevant metrics directly from the metadata available in memory.
 
   **All transformations MUST be done on a copy of the data—original data remains unchanged.**
 
-  ### Input Format:
+  ### Example Input Format:
   #### User Query:
   A string describing what the user wants to do with the dataset.
 
@@ -50,10 +51,9 @@ queryRephrasePrompt: |
       ...
     }}
   }}
-  ```
 
-  ### Expected Outputs:
 
+  ### Example Expected Outputs:
   - **Valid Query Example:**
   **User Query:** "Show average order value by customer segment and region"
   ```json
@@ -73,32 +73,31 @@ queryRephrasePrompt: |
   ```
 
   ### **Strict Guidelines:**  
-  - **Doubt messages must be simple, non-technical, and high-level.**  
-  - **Suggest alternative chart types only if needed, with user-friendly explanations.**  
-  - **For unclear queries, request clarification without technical jargon.**  
-  - **Never expose implementation details in doubt messages.**  
-  - **Explain infeasible queries at a high level without deep technical reasoning.**  
-  - **If a query asks about dataset structure (e.g., number of rows, columns, or tables), infer the answer from metadata, assign an appropriate chart type, and include the extracted metric in transformation steps.**  
+  - Keep **doubt messages simple, high-level, and non-technical**.  
+  - Suggest alternative chart types **only if necessary**, with clear reasoning.  
+  - For unclear queries, **request clarification without technical jargon**.  
+  - Never expose **implementation details** in doubt messages.  
+  - If a query is infeasible, **explain why concisely** without deep technical reasoning.  
 
   ### **Rephrased Output Rules:**  
-  - **List only essential data transformations** (extraction, filtering, joining, aggregation) needed to construct the final dataset.  
-  - **Exclude visualization steps—focus solely on data preparation.**  
-  - **Ensure transformation steps are correct, clear, sequential, and necessary.**  
-  - **Maintain accuracy without excessive detail.**  
-  - **All transformations MUST be done on copies—original data remains unchanged.**  
+  - **Include only essential data transformations** (extraction, filtering, joining, aggregation).  
+  - **Focus on data preparation—exclude visualization steps.**  
+  - Ensure transformation steps are **correct, clear, sequential, and necessary**.  
+  - **Be precise without excessive detail.**  
+  - **Always work on copies—original data remains unchanged.**  
 
   ### **Environment Constraints:**  
   - **Only the dataframes listed in the metadata are preloaded in memory.**  
-  - **The metadata JSON itself is NOT available in the environment.**  
-  - **NEVER modify preloaded dataframes—always work on copies.**  
+  - **The input metadata is available as a dictionary in the `metadata` variable.** Mention `metadata` explicitly if used in transformations.  
+  - **NEVER modify preloaded dataframes—always operate on copies.**  
 
-    ### **Format Instructions:**  
-    - Return ONLY the output JSON—no extra text, context, or commentary.  
-    - Format strictly as per: `{format_instructions}`.  
+  ### **Format Instructions:**  
+  - Return **ONLY the output JSON**—no extra text or commentary.  
+  - Strictly follow format: `{format_instructions}`.  
 
-  Here's the metadata and query you have been provided with now:
-  - Metadata: {metadata}
-  - Query: {query}
+  #### **Provided Inputs:**  
+  - **Metadata:** {metadata}  
+  - **Query:** {query}
 
 codeGeneratorPrompt: |
   You are **ChartDataGenerator**, an AI expert in creating **JSON-formatted chart data** for Chart.js. Your task is to analyze the dataset metadata, interpret the user query, and generate a **Python script** that produces the required JSON output.

@@ -14,10 +14,11 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 
 pythonRepl = PythonREPL()
 
-string = "import pandas as pd\n\n"
+string = "import pandas as pd\nimport json\n\n"
 for i in os.listdir("."):
     if (os.path.isfile(i)) & (i.split(".")[-1].lower() == "csv"):
       string += i.split(".")[0] + f" = pd.read_csv('{i}')\n"
+string += "metadata = json.load(open('metadata.json', 'rb'))"
 pythonRepl.run(string)
 
 with open("metadata.json", "rb") as f:
