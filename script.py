@@ -66,7 +66,7 @@ def formatJsonResponse(state: State):
         }
     else:
         return {
-            "finalOutput": {"response": response["doubt"]}
+            "finalOutput": {"response": state["rephrasedQuery"]["doubt"]}
         }
 
 def router(state: State):
