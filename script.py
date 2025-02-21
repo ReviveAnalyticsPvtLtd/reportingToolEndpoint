@@ -65,7 +65,6 @@ def formatJsonResponse(state: State):
             "finalOutput": response
         }
     else:
-        response = json.loads(state["rephrasedQuery"])
         return {
             "finalOutput": {"response": response["doubt"]}
         }
