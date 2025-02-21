@@ -52,7 +52,7 @@ def generateCode(state: State):
     }
 
 def runInPythonSandbox(state: State):
-    code = pythonRepl.sanitize_input(state["generatedCode"])
+    code = "\n".join(state["generatedCode"].split("```")[-2].split("\n")[1:])
     response = pythonRepl.run(code)
     return {
         "codeOutput": response
@@ -67,7 +67,7 @@ def formatJsonResponse(state: State):
     else:
         response = json.dumps(state["rephrasedQuery"])
         return {
-            "finalOutput": {"error": response["doubt"]}
+            "finalOutput": {"response": response["doubt"]}
         }
 
 def router(state: State):
