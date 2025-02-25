@@ -10,7 +10,7 @@ with open("prompts.yaml", "r") as file:
 codeGeneratorPrompt = PromptTemplate.from_template(prompts["codeGeneratorPrompt"])
 
 codeGeneratorModel = ChatGroq(
-    model = "qwen-2.5-coder-32b",
+    model = "llama-3.3-70b-versatile",
     temperature = 1
 )
 
