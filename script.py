@@ -76,7 +76,10 @@ def failsafe(state: State):
 
 def formatJsonResponse(state: State):
     if "codeOutput" in state.keys():
-        response = json.loads(state["codeOutput"])
+        try:
+            response = json.loads(state["codeOutput"])
+        except Exception as e:
+            response = {"error": f"Endpoint says: {e}"}
         return {
             "finalOutput": response
         }
