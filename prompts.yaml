@@ -40,13 +40,7 @@ queryRephrasePrompt: |
 
   ### **Format Instructions**
   - Return **ONLY a valid JSON** with exactly two keys: `rephrasedOutput` and `doubt`.
-  - The JSON must follow this exact structure:
-    ```json
-    {{
-        "rephrasedOutput": "<precise rephrased query including objective, transformation steps, and chart type>",
-        "doubt": "<clarification message or null if query is valid>"
-    }}
-    ```
+  - Strictly follow format: `{format_instructions}`.
 
   ### **Example Inputs**
   - **User Query:**
