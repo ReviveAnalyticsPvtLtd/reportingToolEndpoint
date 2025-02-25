@@ -38,6 +38,9 @@ queryRephrasePrompt: |
     - **sample_row:** An object representing a sample record from the dataframe with keys as column names and example values.
   - This metadata is accessible via the `metadata` variable.
 
+  ### **STRICT FORMAT INSTRUCTIONS**
+  - **Strictly follow the output format:** {format_instructions}.
+
   ### **Examples**
   - **Example User Input Query:**
     "Show average order value by customer segment and region"
@@ -77,9 +80,6 @@ queryRephrasePrompt: |
   ### **Additional Environment Constraints**
   - Only the dataframes listed in the metadata (accessible via the `metadata` variable) are preloaded in memory.
   - **Do not modify the preloaded dataframes. Always operate on a copy.**
-
-  ### **STRICT FORMAT INSTRUCTIONS**
-  - **Strictly follow the output format:** {format_instructions}.
 
   ### **Provided Inputs**
   - **Metadata:** {metadata}
