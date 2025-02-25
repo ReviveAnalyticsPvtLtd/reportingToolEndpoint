@@ -59,9 +59,10 @@ def runInPythonSandbox(state: State):
     }
 
 def outputEvaluationRouter(state: State):
-    if type(state["codeOutput"]) == dict:
+    try:
+        _ = json.loads(state["codeOutput"])
         return "pass"
-    else:
+    except json.JSONDecodeError:
         return "fail"
 
 def failsafe(state: State):
