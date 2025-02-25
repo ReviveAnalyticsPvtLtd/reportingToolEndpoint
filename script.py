@@ -1,5 +1,6 @@
 from queryRephraser import queryRephraseChain
 from codeGenerator import codeGeneratorChain
+from failsafeAgent import failsafeModelChain
 from langgraph.graph import StateGraph, START, END
 from langchain_experimental.utilities import PythonREPL
 from flask import Flask, request, jsonify
@@ -57,6 +58,21 @@ def runInPythonSandbox(state: State):
         "codeOutput": response
     }
 
+def outputEvaluationRouter(state: State):
+    if type(state["codeOutput"]) == dict:
+        return "pass"
+    else:
+        return "fail"
+
+def failsafe(state: State):
+    response = failsafeModelChain.invoke({
+        "query": state["rephrasedQuery"],
+        "metadata": state["metadata"]
+    })
+    return {
+        "generatedCode": response
+    }
+
 def formatJsonResponse(state: State):
     if "codeOutput" in state.keys():
         response = json.loads(state["codeOutput"])
@@ -78,13 +94,15 @@ workflow = StateGraph(State)
 
 workflow.add_node("rephraseQuery", rephraseQuery)
 workflow.add_node("generateCode", generateCode)
+workflow.add_node("failsafe", failsafe)
 workflow.add_node("runInPythonSandbox", runInPythonSandbox)
 workflow.add_node("formatJsonResponse", formatJsonResponse)
 
 workflow.add_edge(START, "rephraseQuery")
 workflow.add_conditional_edges("rephraseQuery", router, {"continue": "generateCode", "interrupt": "formatJsonResponse"})
 workflow.add_edge("generateCode", "runInPythonSandbox")
-workflow.add_edge("runInPythonSandbox", "formatJsonResponse")
+workflow.add_conditional_edges("runInPythonSandbox", outputEvaluationRouter, {"pass": "formatJsonResponse", "fail": "failsafe"})
+workflow.add_edge("failsafe", "formatJsonResponse")
 workflow.add_edge("formatJsonResponse", END)
 
 workflow = workflow.compile()
