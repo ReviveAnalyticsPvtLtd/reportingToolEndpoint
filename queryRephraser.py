@@ -3,6 +3,8 @@ from langchain_groq import ChatGroq
 from pydantic import Field, BaseModel
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
+from langchain_core.runnables import RunnablePassthrough
+
 
 class QueryRephraseOutput(BaseModel):
     rephrasedOutput: str | None = Field(
@@ -26,7 +28,7 @@ queryRephrasePrompt = PromptTemplate(
 queryRephraseModel = ChatGroq(
     model = "llama-3.3-70b-versatile",
     temperature = 1,
-    max_tokens = 300
+    max_tokens = 512
 )
 
-queryRephraseChain = queryRephrasePrompt | queryRephraseModel | queryRephraseParser
+queryRephraseChain = RunnablePassthrough() | queryRephrasePrompt | queryRephraseModel | queryRephraseParser
