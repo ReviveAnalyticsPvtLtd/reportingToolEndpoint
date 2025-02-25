@@ -40,29 +40,12 @@ queryRephrasePrompt: |
 
   ### **Format Instructions**
   - Return **ONLY a valid JSON** with exactly two keys: `rephrasedOutput` and `doubt`.
-  - Strictly follow format: `{format_instructions}`.
+  - **Strictly follow the format:** {format_instructions}.
 
-  ### **Example Inputs**
-  - **User Query:**
+  ### **Examples**
+  - **Example User Input Query:**
     "Show average order value by customer segment and region"
 
-  - **Dataset Metadata:**
-    ```yaml
-    {{
-      "orders_data": {{
-        "description": "Contains customer orders",
-        "shape": [1000, 3],
-        "columns": [
-          {{"name": "order_id", "type": "int64", "description": "Unique order identifier"}},
-          {{"name": "customer_segment", "type": "object", "description": "Customer segment classification"}},
-          {{"name": "order_value", "type": "float64", "description": "Order total value"}}
-        ],
-        "sample_row": {{"order_id": 1, "customer_segment": "Retail", "order_value": 250.75}}
-      }}
-    }}
-    ```
-
-  ### **Example Expected Outputs**
   - **Valid Query Example:**
     ```json
     {{
