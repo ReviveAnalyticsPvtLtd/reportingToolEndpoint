@@ -37,7 +37,6 @@ def rephraseQuery(state: State):
         "query": state["inputQuery"],
         "metadata": state["metadata"]
     })
-
     return {
         "rephrasedQuery": response
     }
