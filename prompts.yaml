@@ -38,14 +38,6 @@ queryRephrasePrompt: |
     - **sample_row:** An object representing a sample record from the dataframe with keys as column names and example values.
   - This metadata is accessible via the `metadata` variable.
 
-  ### **Format Instructions**
-  - Return **ONLY a valid JSON object** with exactly two keys: `rephrasedOutput` and `doubt`.
-  - The `rephrasedOutput` key should contain a clear, detailed string with the rewritten query when valid, or `None` when invalid.
-  - The `doubt` key should contain a clear explanation string when the query is invalid or unclear, or `None` when valid.
-  - Ensure proper JSON formatting with double quotes around keys and string values.
-  - Do not include any explanation outside the JSON object.
-  - The entire response must be parseable as JSON.
-
   ### **Examples**
   - **Example User Input Query:**
     "Show average order value by customer segment and region"
