@@ -39,24 +39,45 @@ queryRephrasePrompt: |
   - This metadata is accessible via the `metadata` variable.
 
   ### **Format Instructions**
-  - Return **ONLY a valid JSON** with exactly two keys: `rephrasedOutput` and `doubt`.
-  - **Strictly follow the format:** {format_instructions}.
+  - Return **ONLY a valid JSON object** with exactly two keys: `rephrasedOutput` and `doubt`.
+  - The `rephrasedOutput` key should contain a clear, detailed string with the rewritten query when valid, or `None` when invalid.
+  - The `doubt` key should contain a clear explanation string when the query is invalid or unclear, or `None` when valid.
+  - Ensure proper JSON formatting with double quotes around keys and string values.
+  - Do not include any explanation outside the JSON object.
+  - The entire response must be parseable as JSON.
 
   ### **Examples**
   - **Example User Input Query:**
     "Show average order value by customer segment and region"
 
+  - **Example User Input Metadata:**
+    - **Dataset Metadata:**
+  ```yaml
+    {{
+      "orders_data": {{
+        "description": "Contains customer orders",
+        "shape": [1000, 3],
+        "columns": [
+          {{"name": "order_id", "type": "int64", "description": "Unique order identifier"}},
+          {{"name": "customer_segment", "type": "object", "description": "Customer segment classification"}},
+          {{"name": "order_value", "type": "float64", "description": "Order total value"}}
+        ],
+        "sample_row": {{"order_id": 1, "customer_segment": "Retail", "order_value": 250.75}}
+      }}
+    }}
+  ```
+
   - **Valid Query Example:**
     ```json
     {{
         "rephrasedOutput": "Show average order value by customer segment and region using a bar chart. Steps: 1) Create a copy of orders_data using .copy(), 2) Group by customer_segment and region, 3) Calculate the mean of order_value for each group.",
-        "doubt": null
+        "doubt": None
     }}
     ```
   - **Invalid/Unclear Query Example:**
     ```json
     {{
-        "rephrasedOutput": null,
+        "rephrasedOutput": None,
         "doubt": "Scatter plots require numerical values on both axes, but one axis involves text data. Please specify a numerical column or choose a different chart type."
     }}
     ```
@@ -64,6 +85,9 @@ queryRephrasePrompt: |
   ### **Additional Environment Constraints**
   - Only the dataframes listed in the metadata (accessible via the `metadata` variable) are preloaded in memory.
   - **Do not modify the preloaded dataframes. Always operate on a copy.**
+
+  ### **STRICT FORMAT INSTRUCTIONS**
+  - **Strictly follow the output format:** {format_instructions}.
 
   ### **Provided Inputs**
   - **Metadata:** {metadata}
