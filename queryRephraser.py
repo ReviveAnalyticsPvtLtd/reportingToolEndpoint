@@ -27,7 +27,7 @@ queryRephrasePrompt = PromptTemplate(
 
 queryRephraseModel = ChatGroq(
     model = "qwen-2.5-32b",
-    temperature = 1,
+    temperature = 0.5,
     max_tokens = 512
 )
 
