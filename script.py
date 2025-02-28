@@ -5,6 +5,7 @@ from langgraph.graph import StateGraph, START, END
 from langchain_experimental.utilities import PythonREPL
 from flask import Flask, request, jsonify
 from typing_extensions import TypedDict
+from flask_caching import Cache
 from flask_cors import CORS
 from waitress import serve
 import json
@@ -12,6 +13,11 @@ import os
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
+
+app.config["CACHE_TYPE"] = "simple"
+app.config["CACHE_DEFAULT_TIMEOUT"] = 180
+
+cache = Cache(app)
 
 pythonRepl = PythonREPL()
 
@@ -123,6 +129,7 @@ def generate_chart_data(query: str):
         
 
 @app.route("/generate_chart", methods=["POST"])
+@cache.cached(timeout = 180)
 def generate_chart():
     try:
         data = request.get_json()
