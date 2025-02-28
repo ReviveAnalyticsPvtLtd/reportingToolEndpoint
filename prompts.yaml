@@ -24,6 +24,8 @@ queryRephrasePrompt: |
       - Use `card` **ONLY when displaying a single KPI (one numeric value with one label).**
       - **NEVER use `card` for multiple values or multiple cards.** If the query requires displaying multiple values, **choose an appropriate chart (e.g., `bar`, `line`).**
       - If no chart type is specified, determine the most suitable option.
+      - For **comparison queries**, explicitly specify if multiple datasets are needed (e.g., `multi-dataset bar`, `grouped bar`, `multi-series line`).
+      - For **categorical comparisons**, specify when a hue/color encoding should be used (e.g., `bar chart with hue by category`).
     - If the query involves dataset structure (e.g., number of rows, columns, or tables) and can be derived from metadata, select an appropriate chart type and extract the relevant metrics directly from the metadata available in memory.
 
   **All transformations MUST be done on a copy of the data—original data remains unchanged.**
@@ -58,7 +60,16 @@ queryRephrasePrompt: |
   **User Query:** "Show average order value by customer segment and region"
   ```json
   {{
-      "rephrasedOutput": "Show average order value by customer segment and region using a bar chart. Steps: 1) Create a copy of relevant data, 2) Join orders and customers on customer_id, 3) Group by segment and region, 4) Calculate mean order value per group.",
+      "rephrasedOutput": "Show average order value by customer segment and region using a bar chart with hue by segment. Steps: 1) Create a copy of relevant data, 2) Join orders and customers on customer_id, 3) Group by segment and region, 4) Calculate mean order value per group.",
+      "doubt": None
+  }}
+  ```
+
+  - **Multi-Dataset Example:**
+  **User Query:** "Compare sales performance this year vs last year by quarter"
+  ```json
+  {{
+      "rephrasedOutput": "Compare sales performance between current year and previous year by quarter using a multi-dataset bar chart. Steps: 1) Create a copy of sales data, 2) Extract and separate current year and previous year data, 3) Group both datasets by quarter, 4) Calculate total sales for each quarter in each year.",
       "doubt": None
   }}
   ```
@@ -78,6 +89,7 @@ queryRephrasePrompt: |
   - For unclear queries, **request clarification without technical jargon**.
   - Never expose **implementation details** in doubt messages.
   - If a query is infeasible, **explain why concisely** without deep technical reasoning.
+  - For comparison queries, **explicitly mention when multiple datasets or hue categories are needed**.
 
   ### **Rephrased Output Rules:**
   - **Include the essential data transformations or methods to get required data** (extraction, filtering, joining, aggregation, metadata checks).
@@ -85,6 +97,7 @@ queryRephrasePrompt: |
   - Ensure implementation steps are **correct, clear, sequential, and are necessarily included in the rephrased query**.
   - **Be precise without excessive detail.**
   - **Always work on copies—original data remains unchanged.**
+  - **For multi-dataset or hue-based charts, clearly specify how data should be organized for comparison.**
 
   ### **Environment Constraints:**
   - **Only the dataframes listed in the metadata are preloaded in memory.**
@@ -116,12 +129,14 @@ codeGeneratorPrompt: |
 
   ### **Query Validation**
   - Validate that the requested chart type is one of the following: `line`, `scatter`, `bar`, `radar`, `bubble`, `polarArea`, `pie`, `doughnut`, `card`.
+  - Support extended chart types: `multi-dataset bar`, `grouped bar`, `stacked bar`, `multi-series line`, `bar with hue`, etc.
   - Confirm that the necessary columns exist in the preloaded metadata.
 
   ### **Data Transformation**
   - Perform all operations on a copy of the dataframe using `.copy()`.
   - Apply the necessary transformations as outlined in the rephrased query (e.g., filtering, joining, grouping, aggregation, metadata checks).
   - Ensure that the final dataframe is named `final_df`.
+  - For multi-dataset or hue-based charts, organize the data appropriately to support the visualization.
 
   ### **Default Filtering Statement**
   - After constructing `final_df`, include the following default filtering placeholder:
@@ -146,6 +161,26 @@ codeGeneratorPrompt: |
         }}
     }}
     ```
+  - **Multiple Dataset Charts:**
+    ```json
+    {{
+        "chartType": "<chart_type>",
+        "data": {{
+            "labels": <labels>,
+            "datasets": [
+                {{
+                    "label": "<dataset1_name>",
+                    "data": <values1>
+                }},
+                {{
+                    "label": "<dataset2_name>",
+                    "data": <values2>
+                }},
+                // Additional datasets as needed
+            ]
+        }}
+    }}
+    ```
   - **Scatter & Bubble Charts:**
     ```json
     {{
@@ -156,6 +191,25 @@ codeGeneratorPrompt: |
                     "label": "<dataset_name>",
                     "data": [ {{"x": value, "y": value}} ]  # Include 'r' for bubble chart if required
                 }}
+            ]
+        }}
+    }}
+    ```
+  - **Scatter & Bubble Charts with Multiple Categories/Hues:**
+    ```json
+    {{
+        "chartType": "<chart_type>",
+        "data": {{
+            "datasets": [
+                {{
+                    "label": "<category1_name>",
+                    "data": [ {{"x": value, "y": value}} ]
+                }},
+                {{
+                    "label": "<category2_name>",
+                    "data": [ {{"x": value, "y": value}} ]
+                }},
+                // Additional categories as needed
             ]
         }}
     }}
@@ -185,6 +239,10 @@ codeGeneratorPrompt: |
   - **Imports:** Include necessary imports (e.g., `json`, `pandas`).
   - **Data Access:** Read data directly from the preloaded dataframes, ensuring you create copies using `.copy()`.
   - **Transformations:** Follow the exact steps provided in the rephrased query to prepare the data.
+  - **Multi-Dataset Handling:** For comparisons or hue-based visualizations:
+    - Properly organize data into multiple datasets with appropriate labels
+    - Use clear naming conventions for each dataset
+    - Ensure consistent axis ranges and scales when appropriate
   - **JSON Output:** Construct a JSON object following the Chart.js specifications and print it using `json.dumps(..., indent=4)`.
   - **Error Handling:** If the query is invalid or unexecutable, generate a Python script that prints a JSON response indicating the issue:
     ```python
@@ -196,6 +254,22 @@ codeGeneratorPrompt: |
 
     print(json.dumps(response, indent=4))
     ```
+
+  ### **Implementation Guidance for Multi-Dataset Charts**
+  - **Bar Charts with Hue/Categories:**
+    - Create separate datasets for each category
+    - Include appropriate labels for each dataset
+    - Consider using different colors to distinguish categories (Chart.js will handle this)
+  
+  - **Comparison Charts (This Year vs. Last Year):**
+    - Create separate datasets for each time period
+    - Ensure consistent labels across datasets
+    - Label datasets clearly (e.g., "2023 Sales", "2024 Sales")
+  
+  - **Multi-Series Line Charts:**
+    - Each series should be a separate dataset with its own label
+    - Ensure x-axis labels are consistent across all series
+    - Consider setting fill:false for better visibility of multiple lines
 
   ## **Final Guidelines**
   - **USE ONLY the preloaded dataframe names** as provided in the metadata.
