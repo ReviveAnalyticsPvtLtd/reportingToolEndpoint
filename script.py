@@ -8,6 +8,7 @@ from typing_extensions import TypedDict
 from flask_caching import Cache
 from flask_cors import CORS
 from waitress import serve
+import hashlib
 import json
 import os
 
@@ -18,6 +19,16 @@ app.config["CACHE_TYPE"] = "simple"
 app.config["CACHE_DEFAULT_TIMEOUT"] = 180
 
 cache = Cache(app)
+
+def generate_cache_key():
+    """Generate a unique cache key based on the request body."""
+    data = request.get_json()
+    query = data.get("query", "")
+    
+    if not query:
+        return None  # Avoid caching if there's no query
+    
+    return hashlib.md5(query.encode()).hexdigest()  # Generate a hash for uniqueness
 
 pythonRepl = PythonREPL()
 
@@ -129,7 +140,7 @@ def generate_chart_data(query: str):
         
 
 @app.route("/generate_chart", methods=["POST"])
-@cache.cached(timeout = 180)
+@cache.cached(timeout=180, key_prefix=generate_cache_key)
 def generate_chart():
     try:
         data = request.get_json()
