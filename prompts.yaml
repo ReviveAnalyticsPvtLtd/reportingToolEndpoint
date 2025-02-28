@@ -129,7 +129,6 @@ codeGeneratorPrompt: |
 
   ### **Query Validation**
   - Validate that the requested chart type is one of the following: `line`, `scatter`, `bar`, `radar`, `bubble`, `polarArea`, `pie`, `doughnut`, `card`.
-  - Support extended chart types: `multi-dataset bar`, `grouped bar`, `stacked bar`, `multi-series line`, `bar with hue`, etc.
   - Confirm that the necessary columns exist in the preloaded metadata.
 
   ### **Data Transformation**
@@ -259,7 +258,6 @@ codeGeneratorPrompt: |
   - **Bar Charts with Hue/Categories:**
     - Create separate datasets for each category
     - Include appropriate labels for each dataset
-    - Consider using different colors to distinguish categories (Chart.js will handle this)
   
   - **Comparison Charts (This Year vs. Last Year):**
     - Create separate datasets for each time period
@@ -269,7 +267,6 @@ codeGeneratorPrompt: |
   - **Multi-Series Line Charts:**
     - Each series should be a separate dataset with its own label
     - Ensure x-axis labels are consistent across all series
-    - Consider setting fill:false for better visibility of multiple lines
 
   ## **Final Guidelines**
   - **USE ONLY the preloaded dataframe names** as provided in the metadata.
