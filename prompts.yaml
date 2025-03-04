@@ -8,6 +8,7 @@ queryRephrasePrompt: |
     - Validate joins/merges via common columns.
     - Check data type compatibility.
     - Confirm transformations are practical.
+  - Verify the final transformed data can be stored in a DataFrame named `final_df`
 
   ### **2. Validate the Query**
   - Return a **simple, non-technical doubt message** if the query is:
@@ -19,7 +20,15 @@ queryRephrasePrompt: |
   ### **3. Rephrase the Query**
   - Convert it into a **standalone, precise version** including:
     - **Objective:** Core analysis or visualization goal.
-    - **Transformations:** **Always list the exact data preparation steps (e.g., filtering, joining, aggregating, metadata checks) steps to extract and prepare the data to solve the query.**
+    - **Transformations:** 
+      - **MUST END with creating `final_df` containing the prepared data**
+      - **EXPLICITLY INCLUDE STEP:** "Prepare final_df for filtering" as last transformation
+      - Always specify:
+        1) Create copies of original data
+        2) Join/merge operations if needed
+        3) Grouping/aggregation logic
+        4) Column selection/renaming
+        5) Final dataframe naming as `final_df`
     - **Chart Type:**
       - Use `card` **ONLY when displaying a single KPI (one numeric value with one label).**
       - **NEVER use `card` for multiple values or multiple cards.** If the query requires displaying multiple values, **choose an appropriate chart (e.g., `bar`, `line`).**
@@ -27,7 +36,7 @@ queryRephrasePrompt: |
       - For **comparison queries**, explicitly specify if multiple datasets are needed (e.g., `multi-dataset bar`, `grouped bar`, `multi-series line`).
       - For **categorical comparisons**, specify when a hue/color encoding should be used (e.g., `bar chart with hue by category`).
     - If the query involves dataset structure (e.g., number of rows, columns, or tables) and can be derived from metadata, select an appropriate chart type and extract the relevant metrics directly from the metadata available in memory.
-
+ 
   **All transformations MUST be done on a copy of the data—original data remains unchanged.**
 
   ### Example Input Format:
@@ -39,7 +48,7 @@ queryRephrasePrompt: |
   {{
     "<dataframe1>": {{
       "description": "<Description of the dataframe>",
-      "shape": [1000, 2],
+      "shape": [number of rows, number of columns],
       "columns": [
         {{"name": "<column1>", "type": "<column1 datatype>", "description": "<column1 description>"}},
         {{"name": "<column2>", "type": "<column2 datatype>", "description": "<column2 description>"}}
@@ -54,14 +63,13 @@ queryRephrasePrompt: |
     }}
   }}
   ```
-  
+
   ### Example Expected Outputs:
-  - **Valid Query Example (Always include the correct steps to get the relevant data as shown below):**
-  **User Query:** "Show average order value by customer segment and region"
+  - **Valid Query Example:**
   ```json
   {{
-      "rephrasedOutput": "Show average order value by customer segment and region using a bar chart with hue by segment. Steps: 1) Create a copy of relevant data, 2) Join orders and customers on customer_id, 3) Group by segment and region, 4) Calculate mean order value per group.",
-      "doubt": None
+    "rephrasedOutput": "Show average order value by customer segment using a bar chart. Steps: 1) Copy orders data, 2) Join with customers on customer_id, 3) Group by segment, 4) Calculate mean order value, 5) Name result as final_df, 6) Add the required `FILTER ANCHOR` placeholder after defining the `final_df`",
+    "doubt": null
   }}
   ```
 
@@ -69,7 +77,7 @@ queryRephrasePrompt: |
   **User Query:** "Compare sales performance this year vs last year by quarter"
   ```json
   {{
-      "rephrasedOutput": "Compare sales performance between current year and previous year by quarter using a multi-dataset bar chart. Steps: 1) Create a copy of sales data, 2) Extract and separate current year and previous year data, 3) Group both datasets by quarter, 4) Calculate total sales for each quarter in each year.",
+      "rephrasedOutput": "Compare sales performance between current year and previous year by quarter using a multi-dataset bar chart. Steps: 1) Create a copy of sales data, 2) Extract and separate current year and previous year data, 3) Group both datasets by quarter, 4) Calculate total sales for each quarter in each year. 5) Name result as final_df, 6) Add the required `FILTER ANCHOR` placeholder after defining the `final_df`",
       "doubt": None
   }}
   ```
@@ -98,6 +106,11 @@ queryRephrasePrompt: |
   - **Be precise without excessive detail.**
   - **Always work on copies—original data remains unchanged.**
   - **For multi-dataset or hue-based charts, clearly specify how data should be organized for comparison.**
+  - **EXPLICITLY REQUIRE the final step to be "Add the required `FILTER ANCHOR` placeholder after defining the `final_df`"**
+  - ENSURE the transformation steps can be directly translated to code ending with: 
+    ```python 
+    final_df = final_df.loc[:] # FILTER_ANCHOR (REQUIRED) 
+    ```
 
   ### **Environment Constraints:**
   - **Only the dataframes listed in the metadata are preloaded in memory.**
@@ -123,7 +136,10 @@ codeGeneratorPrompt: |
   4. **ALL transformations must be performed on copies of the original dataframes (using .copy()).**
   5. **THE ORIGINAL DATAFRAMES MUST REMAIN UNCHANGED.**
   6. **THE FINAL TRANSFORMED DATAFRAME MUST BE NAMED `final_df`.**
-  7. **Include a default filtering statement after defining `final_df` (e.g., `final_df = final_df.loc[:]`).**
+  7. **The code MUST contain this exact line before JSON generation: `final_df = final_df.loc[:]  # FILTER_ANCHOR (REQUIRED)`**
+  8. This line will be automatically modified later - DO NOT CHANGE IT
+  9. **TRANSFORMATION STEPS MUST BE TRANSLATED TO CODE IN THE ORDER PROVIDED.**
+  10. **NEVER OMIT THE FILTER ANCHOR LINE UNDER ANY CIRCUMSTANCES.**
 
   ## **Responsibilities**
 
@@ -140,7 +156,7 @@ codeGeneratorPrompt: |
   ### **Default Filtering Statement**
   - After constructing `final_df`, include the following default filtering placeholder:
     ```python
-    final_df = final_df.loc[:]
+    final_df = final_df.loc[:]  # FILTER_ANCHOR (REQUIRED)
     ```
   - This line must appear exactly as shown so that users can later modify it with specific conditions.
 
