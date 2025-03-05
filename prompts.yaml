@@ -38,8 +38,8 @@ queryRephrasePrompt: |
       - If no chart type is specified, determine the most suitable option.
       - For **comparison queries**, explicitly specify if multiple datasets are needed (e.g., `multi-dataset bar`, `grouped bar`, `multi-series line`).
       - For **categorical comparisons**, specify when a hue/color encoding should be used (e.g., `bar chart with hue by category`).
-    - If the query involves dataset structure (e.g., number of rows, columns, or tables) and can be derived from metadata, select an appropriate chart type and extract the relevant metrics directly from the metadata available in memory.
-      - **Always determine and explicitly mention the most suitable chart type** after analyzing all details of the query.
+      - If the query involves dataset structure (e.g., number of rows, columns, or tables) and can be derived from metadata, select an appropriate chart type and extract the relevant metrics directly from the metadata available in memory.
+      - **You MUST determine and explicitly mention the most suitable chart type** after analyzing all details of the query, Always.
  
   **All transformations MUST be done on a copy of the data—original data remains unchanged.**
 
