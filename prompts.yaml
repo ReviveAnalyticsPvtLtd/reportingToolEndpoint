@@ -30,6 +30,7 @@ queryRephrasePrompt: |
         4) Column selection/renaming
         5) Final dataframe naming as `final_df`
     - **Chart Type:**
+      - **MUST:** **Always analyze query intent and explicitly specify the optimal chart type** from: `line`, `scatter`, `bar`, `radar`, `bubble`, `polarArea`, `pie`, `doughnut`, `card`
       - If no chart type is specified, **carefully infer the most suitable one based on the data and visualization needs out of: `line`, `scatter`, `bar`, `radar`, `bubble`, `polarArea`, `pie`, `doughnut`, `card`**.
       - **Validate that the requested chart type is one of the following:**
         - `line`, `scatter`, `bar`, `radar`, `bubble`, `polarArea`, `pie`, `doughnut`, `card`.
@@ -102,6 +103,8 @@ queryRephrasePrompt: |
   - Never expose **implementation details** in doubt messages.
   - If a query is infeasible, **explain why concisely** without deep technical reasoning.
   - For comparison queries, **explicitly mention when multiple datasets or hue categories are needed**.
+  - **Chart type determination is MANDATORY - never omit this analysis.**
+  - **If query doesn't specify chart type, You MUST determine and declare the optimal type in the rephrased query.**
 
   ### **Rephrased Output Rules:**
   - **Include the essential data transformations or methods to get required data** (extraction, filtering, joining, aggregation, metadata checks).
