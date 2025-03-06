@@ -1,0 +1,1201 @@
+OrderID,SupplierID,SupplierName,CustomerID,CustomerName,QuantityOrdered,OrderDate,ShipDate,OrderStatus,UnitPrice,TotalCost,InventoryLevel,WarehouseLocation
+ORD0001,S399,"Alexander, Chandler and Cole",C844,John Martin,7,2025-01-01,2025-02-18,Pending,395,2765,194,LA Warehouse
+ORD0002,S402,"Evans, Morris and Davis",C066,Michael Brown,7,2025-01-23,2025-02-18,Shipped,208,1456,8,SF Warehouse
+ORD0003,S608,Macias-Garcia,C805,Jesus Ortiz,2,2025-02-17,2025-01-23,Shipped,901,1802,123,SF Warehouse
+ORD0004,S131,Young LLC,C675,Elizabeth Arnold,9,2025-01-28,2025-02-09,Pending,852,7668,129,LA Warehouse
+ORD0005,S232,Powers Inc,C068,Martin Pacheco,5,2025-01-25,2025-01-28,Shipped,935,4675,10,NY Warehouse
+ORD0006,S720,Greene-Reyes,C929,Barbara Greene,9,2025-01-25,2025-02-20,Shipped,937,8433,168,LA Warehouse
+ORD0007,S1024,Sweeney-Monroe,C592,Jonathan Gilbert,8,2025-01-10,2025-01-04,Shipped,147,1176,131,LA Warehouse
+ORD0008,S976,Garcia Inc,C344,Lisa Perez,7,2025-01-27,2025-03-01,Shipped,903,6321,158,SF Warehouse
+ORD0009,S044,"Lewis, Little and Coleman",C947,Carrie Jones,10,2025-02-20,2025-01-20,Pending,571,5710,174,SF Warehouse
+ORD0010,S252,Williams Inc,C385,Ryan Mooney,4,2025-01-04,2025-01-19,Shipped,806,3224,20,NY Warehouse
+ORD0011,S768,Harrington Group,C1042,Melissa Clarke,2,2025-01-21,2025-01-09,Delivered,203,406,84,NY Warehouse
+ORD0012,S426,Taylor-Kelley,C1123,Michael Galvan Jr.,8,2025-01-13,2025-01-05,Pending,366,2928,76,SF Warehouse
+ORD0013,S324,Barnes Ltd,C732,Andrew Rivera,7,2025-01-25,2025-03-04,Delivered,299,2093,139,SF Warehouse
+ORD0014,S209,"Davenport, Vaughn and Hicks",C527,Daniel Frye,10,2025-02-22,2025-02-23,Shipped,301,3010,108,SF Warehouse
+ORD0015,S110,Lewis-Diaz,C424,Connor Avery,8,2025-01-04,2025-01-02,Pending,74,592,150,LA Warehouse
+ORD0016,S446,Smith-Hoffman,C152,Lisa Pacheco,1,2025-01-19,2025-01-18,Pending,584,584,153,NY Warehouse
+ORD0017,S1080,Livingston Ltd,C1129,Robert Mcdowell,6,2025-01-23,2025-01-21,Delivered,399,2394,64,LA Warehouse
+ORD0018,S830,Park-Rice,C582,Eric Williams,3,2025-02-15,2025-02-06,Pending,627,1881,33,NY Warehouse
+ORD0019,S661,Gonzalez Group,C983,David Thomas,1,2025-02-25,2025-01-28,Shipped,504,504,113,SF Warehouse
+ORD0020,S610,Kramer Ltd,C1187,Tonya Lopez,3,2025-03-04,2025-01-02,Delivered,915,2745,74,LA Warehouse
+ORD0021,S425,Barnes PLC,C148,Crystal Sanders,2,2025-01-30,2025-02-18,Pending,549,1098,135,SF Warehouse
+ORD0022,S571,Chan-Roberts,C1186,Christy Griffith,5,2025-02-06,2025-01-27,Pending,905,4525,81,SF Warehouse
+ORD0023,S460,"Ritter, Lewis and Graham",C839,Jessica Davenport,4,2025-02-22,2025-01-21,Delivered,870,3480,136,SF Warehouse
+ORD0024,S247,"Swanson, Chavez and Craig",C410,Kara Gregory,8,2025-02-19,2025-01-31,Shipped,394,3152,25,LA Warehouse
+ORD0025,S512,Reynolds LLC,C297,Ernest Walker,3,2025-02-25,2025-01-26,Pending,679,2037,122,SF Warehouse
+ORD0026,S813,"Brown, Smith and Jensen",C415,Crystal Moody,7,2025-01-28,2025-02-17,Delivered,504,3528,64,NY Warehouse
+ORD0027,S970,Carter-Rogers,C810,Alex May,9,2025-02-26,2025-03-05,Delivered,889,8001,61,LA Warehouse
+ORD0028,S342,Wells-Pollard,C1067,Loretta Whitehead,10,2025-02-19,2025-01-11,Delivered,208,2080,70,SF Warehouse
+ORD0029,S839,"Miller, Park and Diaz",C795,Lauren Taylor,6,2025-02-04,2025-02-25,Pending,522,3132,112,NY Warehouse
+ORD0030,S1068,Romero-Davis,C762,Carlos Bean,8,2025-03-05,2025-02-26,Pending,934,7472,14,NY Warehouse
+ORD0031,S475,Blanchard and Sons,C551,Alexis Mclaughlin,3,2025-02-06,2025-01-13,Delivered,406,1218,39,LA Warehouse
+ORD0032,S110,Lewis-Diaz,C595,Kimberly Mcgee,9,2025-01-09,2025-02-07,Delivered,937,8433,12,NY Warehouse
+ORD0033,S403,"Willis, Valdez and Perkins",C889,Tracy Boyle,9,2025-02-14,2025-01-08,Pending,861,7749,181,NY Warehouse
+ORD0034,S903,"Hansen, Cohen and Watkins",C1032,Robert Navarro,3,2025-01-27,2025-01-17,Delivered,129,387,183,SF Warehouse
+ORD0035,S191,"Scott, Simon and Berger",C028,Michelle Rose,10,2025-02-04,2025-01-15,Shipped,131,1310,16,SF Warehouse
+ORD0036,S1103,West and Sons,C043,Dustin Thomas,9,2025-01-15,2025-01-02,Delivered,995,8955,39,SF Warehouse
+ORD0037,S861,Young Ltd,C671,Michael Goodwin,9,2025-02-19,2025-01-15,Pending,114,1026,71,NY Warehouse
+ORD0038,S726,Shea and Sons,C912,Jesse Stephens,5,2025-01-05,2025-02-23,Pending,521,2605,175,LA Warehouse
+ORD0039,S426,Taylor-Kelley,C035,Hannah Matthews,3,2025-02-19,2025-01-28,Delivered,112,336,153,SF Warehouse
+ORD0040,S162,Harris LLC,C825,Craig Garcia,7,2025-02-18,2025-01-12,Shipped,188,1316,171,SF Warehouse
+ORD0041,S454,"Martin, Herrera and Cardenas",C703,Jeffery Carter,7,2025-01-20,2025-01-13,Shipped,125,875,110,LA Warehouse
+ORD0042,S252,Williams Inc,C896,Oscar Cook,3,2025-02-16,2025-03-03,Delivered,298,894,55,SF Warehouse
+ORD0043,S990,Martinez-Hamilton,C101,Ashley Wheeler,2,2025-01-08,2025-02-03,Shipped,720,1440,18,SF Warehouse
+ORD0044,S1098,Rodriguez LLC,C358,Diane Kim,2,2025-02-13,2025-02-27,Shipped,533,1066,124,NY Warehouse
+ORD0045,S926,"Rodriguez, Tyler and Barber",C678,Nicholas Blake,7,2025-02-18,2025-02-20,Pending,68,476,64,SF Warehouse
+ORD0046,S1058,Todd LLC,C702,Louis Stephens,6,2025-02-24,2025-02-02,Shipped,727,4362,76,NY Warehouse
+ORD0047,S609,Cantu-Goodman,C896,Oscar Cook,3,2025-02-17,2025-02-07,Delivered,685,2055,58,NY Warehouse
+ORD0048,S612,"Howard, Powell and Steele",C1020,Jamie Brown,9,2025-01-09,2025-02-19,Delivered,858,7722,180,NY Warehouse
+ORD0049,S040,Martin-Lewis,C603,Pamela Flores,9,2025-02-20,2025-01-18,Delivered,679,6111,182,NY Warehouse
+ORD0050,S1131,"Rice, Ryan and Clark",C775,Lauren Brown,4,2025-02-19,2025-02-09,Pending,585,2340,77,SF Warehouse
+ORD0051,S315,Saunders-Lewis,C127,Natasha Lewis,1,2025-01-18,2025-02-05,Delivered,614,614,141,LA Warehouse
+ORD0052,S673,Chavez PLC,C290,William Hunt,1,2025-01-09,2025-02-09,Shipped,526,526,21,SF Warehouse
+ORD0053,S293,Wright Group,C781,Randall Gibson,7,2025-02-18,2025-02-23,Pending,269,1883,146,SF Warehouse
+ORD0054,S041,Rich-Bush,C1196,Heather Lee,4,2025-02-13,2025-01-17,Delivered,905,3620,50,NY Warehouse
+ORD0055,S108,Williams Group,C1080,Mrs. Ashley Floyd,2,2025-01-11,2025-02-05,Delivered,477,954,72,LA Warehouse
+ORD0056,S877,Smith Group,C841,Patricia Parker,1,2025-02-21,2025-01-09,Shipped,155,155,67,LA Warehouse
+ORD0057,S606,Larson Inc,C1081,Julia Mcguire,9,2025-01-26,2025-01-31,Delivered,669,6021,150,NY Warehouse
+ORD0058,S149,Murphy LLC,C544,John Patterson,1,2025-02-22,2025-01-09,Pending,654,654,8,LA Warehouse
+ORD0059,S800,Fisher PLC,C719,Sheryl Harmon,8,2025-02-28,2025-02-08,Shipped,994,7952,42,NY Warehouse
+ORD0060,S774,Hall Ltd,C914,Kimberly Anderson,7,2025-03-03,2025-01-17,Delivered,601,4207,74,LA Warehouse
+ORD0061,S638,Taylor and Sons,C267,Lindsay Jones,5,2025-02-17,2025-01-05,Delivered,210,1050,42,LA Warehouse
+ORD0062,S088,"Lopez, Robertson and Hall",C1066,Alicia Hart,3,2025-01-12,2025-02-10,Shipped,398,1194,184,LA Warehouse
+ORD0063,S057,"Jennings, Fowler and Nelson",C704,Leslie Williams,6,2025-01-14,2025-02-21,Delivered,43,258,9,LA Warehouse
+ORD0064,S771,Green Group,C1144,John Rangel,1,2025-01-15,2025-01-20,Pending,197,197,192,SF Warehouse
+ORD0065,S367,Thomas-Alvarez,C999,Mary Wyatt,7,2025-01-03,2025-01-13,Pending,749,5243,108,NY Warehouse
+ORD0066,S208,Mercado Group,C442,Tyler Strickland,4,2025-01-22,2025-01-06,Shipped,754,3016,155,NY Warehouse
+ORD0067,S585,Lee Ltd,C808,Susan Swanson,9,2025-01-20,2025-02-10,Delivered,588,5292,179,LA Warehouse
+ORD0068,S1150,Pierce-Carter,C822,Philip Mason,9,2025-01-22,2025-01-28,Pending,55,495,8,LA Warehouse
+ORD0069,S353,"Vasquez, Lara and Roberts",C441,Susan Clark,7,2025-01-26,2025-02-08,Shipped,800,5600,72,LA Warehouse
+ORD0070,S231,"Johnson, Romero and Robinson",C547,Ralph Johnson,10,2025-02-04,2025-01-18,Pending,338,3380,144,NY Warehouse
+ORD0071,S381,"Graham, Smith and Powell",C130,Mark Kline,7,2025-01-24,2025-02-23,Delivered,851,5957,28,NY Warehouse
+ORD0072,S549,"Beard, Garrison and Randall",C546,Andrew Tucker,6,2025-01-15,2025-01-16,Delivered,798,4788,14,NY Warehouse
+ORD0073,S563,"White, Schwartz and Fletcher",C882,Julie Wolfe,4,2025-02-07,2025-01-12,Delivered,265,1060,147,LA Warehouse
+ORD0074,S986,Oconnell LLC,C820,Melinda Brock,7,2025-01-26,2025-01-22,Delivered,59,413,64,SF Warehouse
+ORD0075,S899,Owens Group,C696,Joshua Roberts,1,2025-03-01,2025-02-02,Shipped,806,806,72,NY Warehouse
+ORD0076,S770,Lopez-Griffin,C930,Brandon Hughes,2,2025-02-01,2025-02-18,Pending,342,684,143,NY Warehouse
+ORD0077,S401,Myers Ltd,C337,Jonathan Anderson,9,2025-01-05,2025-03-05,Shipped,686,6174,73,SF Warehouse
+ORD0078,S573,"Collins, Little and Gardner",C799,Bryan Schultz,5,2025-03-04,2025-02-05,Shipped,395,1975,186,SF Warehouse
+ORD0079,S198,Rodriguez-Cole,C1045,Monica Hansen,3,2025-01-15,2025-01-07,Delivered,97,291,158,NY Warehouse
+ORD0080,S041,Rich-Bush,C395,Andre Walker,1,2025-01-01,2025-01-19,Delivered,423,423,193,NY Warehouse
+ORD0081,S1176,"Thompson, Williams and Wood",C909,Robert King,6,2025-01-23,2025-02-06,Shipped,381,2286,86,LA Warehouse
+ORD0082,S386,Williams-Reid,C262,Laura Bryant,1,2025-02-16,2025-02-19,Shipped,693,693,123,NY Warehouse
+ORD0083,S858,Murphy-Cortez,C201,David Dyer,2,2025-02-08,2025-01-12,Shipped,212,424,83,LA Warehouse
+ORD0084,S694,Miller and Sons,C327,Edwin Wise,8,2025-02-21,2025-01-10,Shipped,514,4112,164,LA Warehouse
+ORD0085,S1151,Adams LLC,C1068,Marcus Jackson,4,2025-01-07,2025-01-22,Delivered,652,2608,149,NY Warehouse
+ORD0086,S322,Phelps Ltd,C605,Jackson Stevens,6,2025-01-24,2025-03-01,Pending,607,3642,142,NY Warehouse
+ORD0087,S1102,Fox-Baker,C1000,Linda Williams,10,2025-01-24,2025-02-03,Delivered,172,1720,135,LA Warehouse
+ORD0088,S1187,Mullins Inc,C013,Jessica Holder,8,2025-02-01,2025-01-31,Shipped,905,7240,41,NY Warehouse
+ORD0089,S368,"Liu, Hobbs and Contreras",C792,Wendy Barron,7,2025-02-06,2025-01-04,Delivered,994,6958,197,SF Warehouse
+ORD0090,S944,Gordon-Allen,C397,Wendy Garza,2,2025-02-20,2025-02-12,Shipped,65,130,181,SF Warehouse
+ORD0091,S109,Miller-Villegas,C1192,Kyle Jensen,10,2025-02-22,2025-01-16,Shipped,286,2860,164,LA Warehouse
+ORD0092,S179,Henry Ltd,C692,Jeffrey Anderson,1,2025-02-26,2025-01-08,Shipped,684,684,146,SF Warehouse
+ORD0093,S1185,"Wise, Spencer and Lynch",C769,Willie Brown,5,2025-02-04,2025-01-03,Shipped,901,4505,52,SF Warehouse
+ORD0094,S868,"Santos, Hernandez and Miller",C947,Carrie Jones,9,2025-01-03,2025-02-24,Delivered,672,6048,136,LA Warehouse
+ORD0095,S1090,Martinez and Sons,C467,Anthony Wade,6,2025-03-01,2025-02-15,Shipped,434,2604,17,NY Warehouse
+ORD0096,S705,Gonzales Inc,C086,Carlos Howard,6,2025-01-09,2025-01-19,Delivered,64,384,132,SF Warehouse
+ORD0097,S242,"Taylor, Greene and Barber",C941,Jennifer Burton,1,2025-02-04,2025-01-01,Pending,339,339,158,SF Warehouse
+ORD0098,S619,Gonzalez Inc,C431,Matthew Guerra,1,2025-01-10,2025-01-22,Delivered,895,895,25,NY Warehouse
+ORD0099,S482,Bailey Ltd,C457,Michelle Dillon,9,2025-03-01,2025-01-13,Shipped,284,2556,75,SF Warehouse
+ORD0100,S537,Hernandez and Sons,C566,Rachel Underwood,4,2025-01-25,2025-01-12,Pending,457,1828,123,SF Warehouse
+ORD0101,S708,Bruce-Harvey,C1163,Cheyenne Crawford,5,2025-01-14,2025-01-25,Shipped,540,2700,183,LA Warehouse
+ORD0102,S242,"Taylor, Greene and Barber",C937,Ryan Turner,10,2025-02-20,2025-01-19,Shipped,378,3780,200,LA Warehouse
+ORD0103,S490,Pratt and Sons,C1174,Zachary Mcclain,8,2025-01-11,2025-01-15,Delivered,368,2944,174,SF Warehouse
+ORD0104,S260,Martin Inc,C1014,Robert Castillo,6,2025-01-05,2025-01-09,Delivered,549,3294,106,NY Warehouse
+ORD0105,S004,Roman LLC,C1132,Anthony Horton,1,2025-01-10,2025-01-11,Pending,838,838,181,SF Warehouse
+ORD0106,S736,Roman-Olson,C932,Louis Fowler,5,2025-01-21,2025-03-01,Shipped,103,515,89,SF Warehouse
+ORD0107,S961,"Smith, Brown and Mills",C701,James Clements,3,2025-01-21,2025-02-03,Delivered,897,2691,83,SF Warehouse
+ORD0108,S358,Hunter-Holland,C435,Olivia West,4,2025-01-14,2025-01-03,Delivered,176,704,74,NY Warehouse
+ORD0109,S752,"Dalton, Farley and Owen",C081,Tara Perez,4,2025-02-12,2025-01-26,Pending,553,2212,155,LA Warehouse
+ORD0110,S203,"Smith, Thomas and Campbell",C835,Bruce Brown,6,2025-01-29,2025-01-12,Shipped,669,4014,104,SF Warehouse
+ORD0111,S031,"Keith, Flowers and Alexander",C969,David Dunn,1,2025-01-19,2025-02-16,Pending,952,952,120,SF Warehouse
+ORD0112,S623,"Silva, Chang and Moore",C926,Stacy Holmes,4,2025-02-09,2025-02-09,Shipped,776,3104,113,LA Warehouse
+ORD0113,S505,Harmon Inc,C169,Joseph Ingram,4,2025-02-18,2025-01-24,Pending,150,600,149,SF Warehouse
+ORD0114,S104,"Spencer, Phillips and Hayes",C396,Deborah Watkins,5,2025-01-09,2025-01-16,Delivered,185,925,127,SF Warehouse
+ORD0115,S941,Davis-Fisher,C178,Michael Ramirez,7,2025-01-27,2025-01-26,Pending,950,6650,12,SF Warehouse
+ORD0116,S593,Bradshaw Inc,C1103,Patricia Jackson,5,2025-03-05,2025-01-30,Shipped,491,2455,179,LA Warehouse
+ORD0117,S488,"Allen, Valdez and Wilson",C675,Elizabeth Arnold,10,2025-01-22,2025-01-30,Delivered,404,4040,133,LA Warehouse
+ORD0118,S1136,Schmidt-Shah,C111,Taylor Noble,4,2025-02-03,2025-02-27,Shipped,784,3136,183,NY Warehouse
+ORD0119,S1135,"Gardner, Smith and Buck",C518,Larry Walker,1,2025-01-23,2025-01-03,Delivered,661,661,132,LA Warehouse
+ORD0120,S107,Leblanc-Parker,C1062,Jose King,10,2025-01-20,2025-02-04,Delivered,475,4750,87,LA Warehouse
+ORD0121,S205,"Weber, Lopez and Stewart",C968,Douglas Ferguson,9,2025-03-04,2025-02-16,Shipped,869,7821,64,NY Warehouse
+ORD0122,S926,"Rodriguez, Tyler and Barber",C981,Christian Wolf Jr.,7,2025-02-01,2025-01-19,Pending,932,6524,197,LA Warehouse
+ORD0123,S1017,Short Inc,C002,Victoria Butler,4,2025-01-25,2025-01-17,Delivered,187,748,72,NY Warehouse
+ORD0124,S499,Navarro Ltd,C300,Sherri Warner,9,2025-02-23,2025-02-08,Shipped,963,8667,14,LA Warehouse
+ORD0125,S787,Taylor and Sons,C702,Louis Stephens,3,2025-02-03,2025-02-17,Delivered,711,2133,107,NY Warehouse
+ORD0126,S1148,Rivera Ltd,C967,Catherine Skinner,10,2025-02-06,2025-01-14,Delivered,505,5050,46,NY Warehouse
+ORD0127,S026,Thomas Group,C1103,Patricia Jackson,3,2025-01-24,2025-03-05,Shipped,209,627,163,NY Warehouse
+ORD0128,S918,Reyes and Sons,C168,Michelle Saunders,6,2025-01-31,2025-02-20,Pending,396,2376,103,LA Warehouse
+ORD0129,S1145,"Tran, Martin and Thomas",C705,Nicholas Phillips,9,2025-02-26,2025-01-19,Delivered,577,5193,87,SF Warehouse
+ORD0130,S787,Taylor and Sons,C734,Ashley Wallace MD,9,2025-03-04,2025-03-05,Delivered,650,5850,15,LA Warehouse
+ORD0131,S219,"Miranda, Morgan and Alvarez",C649,Marvin Lee,9,2025-01-23,2025-02-25,Pending,631,5679,109,SF Warehouse
+ORD0132,S147,Cunningham-Martin,C1192,Kyle Jensen,3,2025-02-11,2025-02-02,Delivered,281,843,101,SF Warehouse
+ORD0133,S327,"Hammond, Ward and Smith",C368,Allen Watkins,5,2025-01-07,2025-02-18,Shipped,81,405,52,LA Warehouse
+ORD0134,S536,Bailey-Jimenez,C243,Stephanie Morris,2,2025-01-31,2025-03-04,Shipped,187,374,60,NY Warehouse
+ORD0135,S706,Bennett-Simmons,C904,Ethan Gallegos,8,2025-01-17,2025-01-19,Pending,924,7392,72,LA Warehouse
+ORD0136,S440,"Kelley, Harrison and Reid",C068,Martin Pacheco,5,2025-02-21,2025-02-22,Delivered,942,4710,188,LA Warehouse
+ORD0137,S164,"Cantu, Medina and Paul",C1055,Valerie Carpenter,6,2025-01-30,2025-01-30,Delivered,483,2898,154,LA Warehouse
+ORD0138,S980,Davis LLC,C052,Paul Campbell,7,2025-01-14,2025-02-23,Pending,998,6986,57,SF Warehouse
+ORD0139,S490,Pratt and Sons,C109,James Thomas,3,2025-01-15,2025-02-10,Pending,575,1725,10,NY Warehouse
+ORD0140,S220,Martinez Inc,C391,Sean Duncan,2,2025-03-02,2025-03-03,Pending,339,678,37,LA Warehouse
+ORD0141,S050,"Morales, Ball and Hernandez",C159,Samantha Aguilar,9,2025-01-13,2025-01-29,Shipped,42,378,162,NY Warehouse
+ORD0142,S680,Taylor-Smith,C268,Tiffany Davis,3,2025-02-08,2025-02-20,Pending,663,1989,137,LA Warehouse
+ORD0143,S931,Kelly Ltd,C1033,Mrs. Laura Hammond,7,2025-01-03,2025-02-01,Shipped,238,1666,6,LA Warehouse
+ORD0144,S787,Taylor and Sons,C1065,David Rodriguez,2,2025-01-05,2025-01-25,Delivered,780,1560,2,SF Warehouse
+ORD0145,S012,Eaton PLC,C101,Ashley Wheeler,2,2025-02-18,2025-02-25,Shipped,615,1230,98,LA Warehouse
+ORD0146,S164,"Cantu, Medina and Paul",C1164,Ruben Turner,7,2025-02-09,2025-02-26,Shipped,520,3640,94,LA Warehouse
+ORD0147,S494,"Martinez, Santos and Cooper",C534,Brendan Torres,6,2025-02-11,2025-01-04,Shipped,682,4092,192,NY Warehouse
+ORD0148,S1146,Peterson and Sons,C205,Amy Smith,8,2025-02-21,2025-01-16,Delivered,110,880,97,NY Warehouse
+ORD0149,S1136,Schmidt-Shah,C679,Sandra Carter,8,2025-02-27,2025-02-11,Shipped,654,5232,104,LA Warehouse
+ORD0150,S226,Lambert-Farrell,C525,Kevin Johnson,10,2025-02-02,2025-02-22,Pending,263,2630,69,LA Warehouse
+ORD0151,S585,Lee Ltd,C541,Amanda Mejia,8,2025-01-11,2025-02-11,Delivered,671,5368,148,LA Warehouse
+ORD0152,S794,"Sanchez, Moore and Ray",C1056,Ashley Berry,1,2025-02-27,2025-01-05,Shipped,398,398,13,NY Warehouse
+ORD0153,S408,Williamson Group,C124,Justin Avila,1,2025-01-17,2025-01-05,Delivered,351,351,8,SF Warehouse
+ORD0154,S823,Wood-Mendez,C926,Stacy Holmes,6,2025-01-17,2025-01-31,Pending,762,4572,175,NY Warehouse
+ORD0155,S678,Thompson-Sanford,C033,Bethany Brennan,7,2025-01-24,2025-01-09,Shipped,921,6447,34,SF Warehouse
+ORD0156,S829,"Stevens, Rodgers and Cohen",C581,Lee Leonard,10,2025-01-01,2025-01-09,Shipped,332,3320,51,NY Warehouse
+ORD0157,S777,Weaver-Walker,C1133,Dalton Burke,8,2025-03-04,2025-03-03,Delivered,949,7592,120,LA Warehouse
+ORD0158,S681,"Mccarthy, Williams and Howard",C1049,Nicholas Herrera,8,2025-03-04,2025-01-05,Delivered,209,1672,62,NY Warehouse
+ORD0159,S842,"Munoz, Reed and Lozano",C1200,Tanya Thomas,2,2025-01-04,2025-01-26,Delivered,80,160,147,SF Warehouse
+ORD0160,S253,Taylor-Lee,C056,Linda Thomas,1,2025-01-09,2025-01-03,Pending,688,688,108,LA Warehouse
+ORD0161,S1150,Pierce-Carter,C781,Randall Gibson,10,2025-02-07,2025-02-11,Delivered,22,220,59,NY Warehouse
+ORD0162,S1158,Sosa-Maynard,C912,Jesse Stephens,6,2025-02-25,2025-02-15,Shipped,340,2040,132,SF Warehouse
+ORD0163,S552,Carpenter-Woods,C1056,Ashley Berry,7,2025-03-03,2025-01-09,Shipped,209,1463,134,SF Warehouse
+ORD0164,S515,"Reed, Moore and Adams",C951,Darius Kelly,2,2025-01-17,2025-02-08,Shipped,179,358,51,SF Warehouse
+ORD0165,S261,"Gibson, Hughes and Hansen",C458,George Stevenson,1,2025-02-11,2025-02-23,Pending,698,698,184,NY Warehouse
+ORD0166,S737,Buck-Ball,C207,Mary Atkins,2,2025-01-25,2025-01-17,Shipped,60,120,161,LA Warehouse
+ORD0167,S084,"Davidson, Joseph and Carroll",C777,Betty Willis,3,2025-01-15,2025-03-05,Delivered,985,2955,166,SF Warehouse
+ORD0168,S732,Arnold-Andrews,C565,Christine Rosales MD,6,2025-01-31,2025-01-15,Pending,59,354,194,SF Warehouse
+ORD0169,S761,Tucker and Sons,C1169,Wesley Williams,3,2025-01-16,2025-02-07,Pending,798,2394,159,SF Warehouse
+ORD0170,S224,Mendoza Inc,C247,Jennifer Burns,9,2025-01-04,2025-02-20,Shipped,30,270,75,LA Warehouse
+ORD0171,S442,Gonzalez Inc,C733,Rebecca Jenkins,4,2025-01-05,2025-01-29,Shipped,101,404,112,LA Warehouse
+ORD0172,S393,Austin-Randall,C1041,Eugene Mendoza,1,2025-02-11,2025-01-20,Pending,647,647,191,SF Warehouse
+ORD0173,S594,"Garcia, Morton and Price",C417,Douglas Patel,6,2025-01-01,2025-01-19,Delivered,757,4542,54,LA Warehouse
+ORD0174,S201,Harvey-Rodriguez,C266,Monica Gregory,7,2025-02-17,2025-02-07,Pending,622,4354,118,NY Warehouse
+ORD0175,S296,"Odom, White and Price",C590,Jessica Baker,9,2025-03-02,2025-01-10,Delivered,753,6777,174,NY Warehouse
+ORD0176,S178,"Arnold, Jackson and Hawkins",C144,Joel Rush,7,2025-01-27,2025-02-10,Shipped,277,1939,35,NY Warehouse
+ORD0177,S176,"Myers, Donaldson and Estrada",C072,Larry Nichols,7,2025-01-17,2025-01-19,Pending,77,539,95,SF Warehouse
+ORD0178,S731,Williams Inc,C773,Robert Morris,2,2025-01-15,2025-02-06,Pending,975,1950,196,NY Warehouse
+ORD0179,S738,"Richard, Yu and Patel",C873,Jonathan Green,8,2025-02-01,2025-02-28,Delivered,721,5768,101,NY Warehouse
+ORD0180,S327,"Hammond, Ward and Smith",C477,Lauren Hamilton,4,2025-02-07,2025-02-06,Pending,473,1892,189,NY Warehouse
+ORD0181,S008,Parks Group,C1086,Susan Paul,4,2025-02-26,2025-01-26,Delivered,110,440,10,SF Warehouse
+ORD0182,S380,Evans PLC,C236,Maria Ruiz,7,2025-01-06,2025-02-27,Pending,48,336,108,SF Warehouse
+ORD0183,S789,Gonzales LLC,C740,Grace Day,4,2025-02-05,2025-01-12,Shipped,336,1344,110,LA Warehouse
+ORD0184,S1082,"Thomas, Cooper and Lopez",C769,Willie Brown,3,2025-02-21,2025-01-01,Delivered,337,1011,10,NY Warehouse
+ORD0185,S192,Waters Group,C1083,Michael Ellis,9,2025-02-09,2025-02-13,Shipped,973,8757,135,NY Warehouse
+ORD0186,S992,Williamson PLC,C684,Alexander Tate,3,2025-01-18,2025-01-24,Pending,339,1017,98,SF Warehouse
+ORD0187,S159,Bates PLC,C282,Peggy Ward,4,2025-02-14,2025-02-26,Shipped,767,3068,181,SF Warehouse
+ORD0188,S028,"Lane, Williams and Jones",C733,Rebecca Jenkins,7,2025-01-05,2025-02-01,Shipped,854,5978,27,LA Warehouse
+ORD0189,S340,"Spencer, Vasquez and Long",C1040,Javier Miller,1,2025-01-03,2025-02-16,Delivered,150,150,69,NY Warehouse
+ORD0190,S919,"Johnson, Walker and Rogers",C333,Scott Washington,10,2025-02-19,2025-02-01,Shipped,444,4440,143,LA Warehouse
+ORD0191,S1074,"Williams, Simmons and Hernandez",C1151,Penny Kirby,8,2025-02-18,2025-01-06,Pending,986,7888,45,SF Warehouse
+ORD0192,S1063,Sandoval-Cantrell,C129,Jesse Camacho,4,2025-02-14,2025-01-06,Pending,422,1688,99,LA Warehouse
+ORD0193,S936,Coleman and Sons,C227,George Martin,4,2025-01-30,2025-01-08,Delivered,675,2700,103,LA Warehouse
+ORD0194,S257,Kent-Lee,C672,Donna Arias,7,2025-01-11,2025-01-12,Delivered,453,3171,93,NY Warehouse
+ORD0195,S1152,Singleton and Sons,C597,Brett Howell,5,2025-01-07,2025-02-26,Delivered,845,4225,141,SF Warehouse
+ORD0196,S504,"Duncan, Gibson and Robles",C510,Jordan Walton DDS,3,2025-01-25,2025-02-03,Shipped,837,2511,150,NY Warehouse
+ORD0197,S718,"Reynolds, Johnson and Morrow",C1107,Ann Barker,1,2025-01-05,2025-02-15,Delivered,499,499,92,NY Warehouse
+ORD0198,S193,Taylor-Morgan,C821,Crystal Williams,2,2025-03-04,2025-01-19,Pending,955,1910,86,NY Warehouse
+ORD0199,S280,Wright-Powell,C769,Willie Brown,4,2025-01-13,2025-02-28,Shipped,287,1148,160,SF Warehouse
+ORD0200,S813,"Brown, Smith and Jensen",C628,Brandon Garcia,4,2025-01-29,2025-03-05,Shipped,733,2932,90,LA Warehouse
+ORD0201,S581,Martin Ltd,C217,Robert Russell,8,2025-02-09,2025-01-04,Pending,782,6256,99,NY Warehouse
+ORD0202,S121,Hall-Shields,C964,Todd Brown,3,2025-01-08,2025-03-01,Shipped,713,2139,13,LA Warehouse
+ORD0203,S1108,Mccann-Bates,C884,Mason Gonzalez,10,2025-01-25,2025-01-05,Delivered,337,3370,121,LA Warehouse
+ORD0204,S1100,Ramos-Miranda,C040,Edward Reeves,10,2025-01-18,2025-01-08,Pending,344,3440,153,NY Warehouse
+ORD0205,S394,Flores-Mercado,C316,James Smith,10,2025-01-09,2025-01-20,Shipped,97,970,135,LA Warehouse
+ORD0206,S210,Williams and Sons,C1102,Christine Spencer,6,2025-02-07,2025-02-24,Shipped,590,3540,152,NY Warehouse
+ORD0207,S198,Rodriguez-Cole,C258,Thomas Lopez,8,2025-02-27,2025-01-06,Shipped,124,992,111,NY Warehouse
+ORD0208,S110,Lewis-Diaz,C636,Cole Brown,10,2025-02-08,2025-03-01,Shipped,210,2100,132,SF Warehouse
+ORD0209,S482,Bailey Ltd,C118,Alexandra Johnson,7,2025-02-08,2025-01-28,Shipped,269,1883,172,SF Warehouse
+ORD0210,S560,Brewer Inc,C956,Scott Monroe,1,2025-03-05,2025-01-08,Delivered,911,911,95,NY Warehouse
+ORD0211,S373,"Rollins, Hogan and Hahn",C786,Jeffrey Thomas,8,2025-01-25,2025-01-18,Pending,185,1480,21,LA Warehouse
+ORD0212,S865,Smith Group,C256,Daniel Kennedy,9,2025-01-16,2025-02-20,Shipped,340,3060,149,SF Warehouse
+ORD0213,S988,Ellison Inc,C291,Crystal Keller,10,2025-02-26,2025-02-13,Delivered,699,6990,186,SF Warehouse
+ORD0214,S134,Murphy PLC,C291,Crystal Keller,1,2025-01-24,2025-02-22,Pending,122,122,180,NY Warehouse
+ORD0215,S538,Phillips PLC,C864,Rachel Eaton,10,2025-01-26,2025-01-21,Delivered,599,5990,14,NY Warehouse
+ORD0216,S1117,Holden-Conner,C312,Mrs. Ashley Dean,9,2025-01-07,2025-01-02,Delivered,392,3528,180,LA Warehouse
+ORD0217,S1034,"Frank, Gardner and Hammond",C302,Christine Nguyen,7,2025-01-20,2025-02-05,Shipped,401,2807,142,SF Warehouse
+ORD0218,S1015,"Hicks, Bernard and Miller",C889,Tracy Boyle,6,2025-01-18,2025-01-19,Delivered,789,4734,109,LA Warehouse
+ORD0219,S591,"Jackson, King and Wilkinson",C676,Shelby Craig,1,2025-01-10,2025-01-12,Delivered,211,211,114,SF Warehouse
+ORD0220,S735,Gill-Tran,C876,Jessica Andrews,2,2025-02-24,2025-03-03,Pending,110,220,47,NY Warehouse
+ORD0221,S312,"Schaefer, Sullivan and Rodgers",C286,Emma Ellis,9,2025-01-20,2025-01-15,Pending,978,8802,127,NY Warehouse
+ORD0222,S156,"Moore, Johnson and Edwards",C511,Derrick Nelson,10,2025-01-27,2025-01-14,Delivered,973,9730,50,SF Warehouse
+ORD0223,S496,"Avila, White and Stevenson",C1031,April Clark,2,2025-01-10,2025-01-13,Delivered,931,1862,64,NY Warehouse
+ORD0224,S1129,Craig-Rush,C171,Stephanie Brown,1,2025-01-19,2025-01-26,Shipped,162,162,31,SF Warehouse
+ORD0225,S246,"Jackson, Mejia and Chavez",C603,Pamela Flores,10,2025-01-12,2025-01-23,Delivered,781,7810,60,NY Warehouse
+ORD0226,S388,Cook-Snow,C956,Scott Monroe,10,2025-02-15,2025-02-02,Shipped,919,9190,151,NY Warehouse
+ORD0227,S714,Chang-Rogers,C659,Miss Jessica Bennett DDS,9,2025-02-12,2025-03-05,Delivered,139,1251,185,SF Warehouse
+ORD0228,S089,Hale Ltd,C1136,Chase Deleon,4,2025-02-15,2025-02-06,Shipped,415,1660,49,NY Warehouse
+ORD0229,S1174,Alvarez PLC,C254,Kent Anderson,1,2025-01-15,2025-02-28,Pending,699,699,76,LA Warehouse
+ORD0230,S547,Howard-White,C901,Morgan Ayers,8,2025-01-29,2025-01-05,Pending,69,552,76,LA Warehouse
+ORD0231,S620,Baker-Watson,C072,Larry Nichols,10,2025-01-19,2025-01-09,Shipped,825,8250,75,LA Warehouse
+ORD0232,S696,"Calderon, Jackson and Taylor",C126,Brian Lowery,4,2025-02-26,2025-02-02,Pending,100,400,8,NY Warehouse
+ORD0233,S755,Henderson Inc,C367,Daniel Frey,9,2025-03-01,2025-02-19,Shipped,608,5472,130,LA Warehouse
+ORD0234,S1153,Harris PLC,C1024,Glen York,8,2025-01-07,2025-03-04,Delivered,916,7328,102,LA Warehouse
+ORD0235,S707,Hernandez Ltd,C1170,Ricky Reynolds,2,2025-01-07,2025-02-03,Shipped,109,218,188,LA Warehouse
+ORD0236,S595,Harris Group,C588,Gregory Williams,10,2025-02-26,2025-01-10,Pending,252,2520,23,LA Warehouse
+ORD0237,S537,Hernandez and Sons,C600,Xavier Bailey,2,2025-01-10,2025-01-15,Shipped,650,1300,108,SF Warehouse
+ORD0238,S518,Nixon and Sons,C599,Amanda Nelson,3,2025-02-17,2025-02-28,Delivered,336,1008,170,SF Warehouse
+ORD0239,S285,"Gutierrez, Adkins and Terrell",C462,Christopher Watkins,5,2025-01-11,2025-01-15,Shipped,594,2970,33,NY Warehouse
+ORD0240,S071,Washington Inc,C1058,Jennifer Holt,9,2025-02-11,2025-01-20,Shipped,90,810,196,SF Warehouse
+ORD0241,S1024,Sweeney-Monroe,C904,Ethan Gallegos,9,2025-01-16,2025-03-03,Shipped,264,2376,39,LA Warehouse
+ORD0242,S810,Thompson-Campbell,C188,David Reynolds,1,2025-01-20,2025-02-28,Shipped,771,771,95,SF Warehouse
+ORD0243,S199,"Schwartz, Wilson and Holland",C881,Jessica Smith,9,2025-02-19,2025-01-12,Pending,268,2412,31,SF Warehouse
+ORD0244,S392,Jones-Pollard,C454,Jonathon Cooper,1,2025-01-03,2025-02-21,Delivered,221,221,99,NY Warehouse
+ORD0245,S962,Hughes-White,C422,John Aguilar,9,2025-02-16,2025-02-24,Shipped,656,5904,149,LA Warehouse
+ORD0246,S1167,"Ford, Hunter and Cordova",C334,Rebecca Powers,7,2025-03-04,2025-02-19,Shipped,820,5740,158,NY Warehouse
+ORD0247,S812,"Turner, Brown and Miller",C977,Mr. Dan Elliott,8,2025-01-27,2025-02-06,Pending,625,5000,5,SF Warehouse
+ORD0248,S018,"Lester, Wright and Williams",C527,Daniel Frye,10,2025-01-16,2025-01-17,Delivered,734,7340,3,SF Warehouse
+ORD0249,S1006,"Cochran, Schmidt and Schultz",C1010,Elizabeth Guzman DDS,1,2025-01-20,2025-01-29,Delivered,325,325,20,SF Warehouse
+ORD0250,S408,Williamson Group,C752,Amanda Hester MD,1,2025-01-16,2025-02-10,Pending,739,739,37,SF Warehouse
+ORD0251,S765,Morrison-Marks,C1123,Michael Galvan Jr.,8,2025-03-02,2025-02-17,Delivered,139,1112,14,NY Warehouse
+ORD0252,S093,Armstrong PLC,C465,Haley Robinson,1,2025-01-05,2025-01-25,Shipped,528,528,155,NY Warehouse
+ORD0253,S431,Walker Group,C573,Joshua Holt,4,2025-02-13,2025-02-15,Shipped,878,3512,117,LA Warehouse
+ORD0254,S1034,"Frank, Gardner and Hammond",C1180,Paul Jones,6,2025-01-17,2025-01-15,Pending,543,3258,14,NY Warehouse
+ORD0255,S190,"Schneider, Moore and Calhoun",C1001,Abigail Powell,3,2025-02-02,2025-01-02,Pending,288,864,20,SF Warehouse
+ORD0256,S988,Ellison Inc,C547,Ralph Johnson,6,2025-01-27,2025-03-05,Shipped,771,4626,129,NY Warehouse
+ORD0257,S708,Bruce-Harvey,C220,Sandra Nguyen,8,2025-02-11,2025-01-05,Delivered,100,800,169,LA Warehouse
+ORD0258,S082,"Kline, Mendez and Todd",C411,Scott Mendoza,4,2025-01-03,2025-01-06,Pending,44,176,24,SF Warehouse
+ORD0259,S297,Garcia-Mccarthy,C071,Mary Jackson,9,2025-02-12,2025-01-12,Delivered,459,4131,152,NY Warehouse
+ORD0260,S1150,Pierce-Carter,C449,John Cruz,2,2025-02-05,2025-01-29,Delivered,192,384,99,LA Warehouse
+ORD0261,S884,Fletcher and Sons,C449,John Cruz,8,2025-01-31,2025-02-22,Pending,691,5528,71,LA Warehouse
+ORD0262,S1063,Sandoval-Cantrell,C1122,Michael Edwards,7,2025-02-14,2025-01-19,Delivered,769,5383,120,SF Warehouse
+ORD0263,S678,Thompson-Sanford,C610,Stephanie Rios,5,2025-01-13,2025-02-11,Pending,296,1480,86,SF Warehouse
+ORD0264,S897,Hill-Smith,C336,Kenneth Gordon,3,2025-01-02,2025-03-01,Delivered,954,2862,109,NY Warehouse
+ORD0265,S1147,Rich-Smith,C437,John Martinez DVM,2,2025-02-09,2025-03-05,Shipped,190,380,169,LA Warehouse
+ORD0266,S539,Jackson LLC,C522,Adam Bates,1,2025-01-02,2025-01-17,Pending,574,574,129,NY Warehouse
+ORD0267,S330,"Hill, Berry and Leblanc",C877,Robert Collins,10,2025-01-04,2025-03-02,Pending,499,4990,176,LA Warehouse
+ORD0268,S1024,Sweeney-Monroe,C1072,Lauren Bennett,5,2025-01-20,2025-01-31,Shipped,28,140,168,NY Warehouse
+ORD0269,S736,Roman-Olson,C900,Samuel Brown,10,2025-01-28,2025-01-07,Delivered,221,2210,59,NY Warehouse
+ORD0270,S442,Gonzalez Inc,C507,Stephen Taylor,6,2025-02-19,2025-01-28,Pending,553,3318,91,NY Warehouse
+ORD0271,S871,Boyd-Myers,C248,Peter Cook,1,2025-01-08,2025-01-08,Shipped,373,373,57,NY Warehouse
+ORD0272,S019,Hernandez-Leonard,C336,Kenneth Gordon,5,2025-02-10,2025-02-07,Delivered,671,3355,124,SF Warehouse
+ORD0273,S1000,"Sanchez, Davila and Marshall",C092,Nicole Payne,1,2025-01-06,2025-01-28,Delivered,37,37,183,SF Warehouse
+ORD0274,S080,Armstrong and Sons,C1140,Kyle Knight,7,2025-01-07,2025-01-14,Delivered,289,2023,113,NY Warehouse
+ORD0275,S139,"Donovan, York and Hobbs",C111,Taylor Noble,6,2025-02-13,2025-01-05,Pending,493,2958,16,SF Warehouse
+ORD0276,S1108,Mccann-Bates,C288,Crystal Gibson,9,2025-03-05,2025-01-09,Delivered,983,8847,162,LA Warehouse
+ORD0277,S391,"Brown, Roberson and Thomas",C932,Louis Fowler,3,2025-01-05,2025-02-03,Shipped,522,1566,9,SF Warehouse
+ORD0278,S538,Phillips PLC,C912,Jesse Stephens,8,2025-03-01,2025-03-02,Delivered,457,3656,68,LA Warehouse
+ORD0279,S753,"Swanson, Ramos and Anthony",C811,Anthony Rodriguez,9,2025-02-12,2025-01-10,Delivered,377,3393,169,SF Warehouse
+ORD0280,S520,Ellis-Henson,C1125,Katrina Shannon,1,2025-01-03,2025-01-18,Pending,197,197,174,NY Warehouse
+ORD0281,S573,"Collins, Little and Gardner",C339,Amanda Smith,3,2025-02-15,2025-01-06,Pending,616,1848,117,LA Warehouse
+ORD0282,S1183,Flores and Sons,C614,Melissa Golden,2,2025-01-11,2025-02-21,Shipped,140,280,13,NY Warehouse
+ORD0283,S419,Neal-Gonzalez,C400,Vicki Williams,1,2025-01-01,2025-01-05,Delivered,309,309,95,LA Warehouse
+ORD0284,S353,"Vasquez, Lara and Roberts",C674,Mr. Jonathan Fuller II,6,2025-01-30,2025-01-06,Delivered,571,3426,148,SF Warehouse
+ORD0285,S353,"Vasquez, Lara and Roberts",C012,Richard Fox,4,2025-02-16,2025-02-27,Delivered,997,3988,178,NY Warehouse
+ORD0286,S1164,Montgomery LLC,C125,Bethany Palmer,10,2025-02-11,2025-01-07,Pending,852,8520,22,LA Warehouse
+ORD0287,S103,Thomas-Rodriguez,C657,Leslie Berger,6,2025-01-11,2025-03-04,Delivered,843,5058,196,SF Warehouse
+ORD0288,S453,Craig-Gross,C167,Marcus Nelson,10,2025-02-04,2025-03-03,Pending,164,1640,108,NY Warehouse
+ORD0289,S828,"Rivera, Brewer and Nunez",C361,Erin Norris,5,2025-02-15,2025-02-25,Pending,274,1370,187,SF Warehouse
+ORD0290,S234,Barnett and Sons,C068,Martin Pacheco,2,2025-02-12,2025-02-09,Shipped,300,600,12,LA Warehouse
+ORD0291,S951,"Ramirez, Raymond and Fitzpatrick",C994,Laura Cox,4,2025-01-24,2025-01-24,Delivered,911,3644,100,NY Warehouse
+ORD0292,S540,Reid-Johnson,C910,Andrea Willis,5,2025-01-17,2025-03-04,Shipped,707,3535,105,LA Warehouse
+ORD0293,S756,Johnston and Sons,C097,Justin Turner,1,2025-02-20,2025-01-11,Pending,228,228,49,NY Warehouse
+ORD0294,S756,Johnston and Sons,C1116,Brad Martinez,1,2025-03-01,2025-01-23,Delivered,697,697,137,NY Warehouse
+ORD0295,S693,"Hart, Clark and Sexton",C462,Christopher Watkins,6,2025-02-13,2025-02-24,Delivered,890,5340,6,SF Warehouse
+ORD0296,S629,Blanchard PLC,C311,Shaun Jones,1,2025-01-09,2025-03-05,Shipped,660,660,196,SF Warehouse
+ORD0297,S1002,Jackson-Dunn,C1024,Glen York,1,2025-01-01,2025-02-12,Delivered,563,563,49,NY Warehouse
+ORD0298,S842,"Munoz, Reed and Lozano",C248,Peter Cook,8,2025-02-23,2025-01-26,Delivered,866,6928,51,LA Warehouse
+ORD0299,S215,Vasquez-Tyler,C081,Tara Perez,2,2025-01-15,2025-02-24,Shipped,471,942,54,NY Warehouse
+ORD0300,S572,Malone-Hernandez,C468,Richard Phillips,5,2025-01-31,2025-01-03,Pending,857,4285,68,LA Warehouse
+ORD0301,S1158,Sosa-Maynard,C889,Tracy Boyle,1,2025-01-03,2025-01-06,Pending,725,725,200,NY Warehouse
+ORD0302,S258,"Rhodes, Vaughn and Bishop",C1084,Kristina Ryan,7,2025-02-12,2025-01-29,Pending,738,5166,77,LA Warehouse
+ORD0303,S1005,Johnson-Yates,C1179,Gavin Holland,9,2025-01-16,2025-03-03,Pending,933,8397,121,SF Warehouse
+ORD0304,S886,Andrews LLC,C300,Sherri Warner,2,2025-02-04,2025-02-07,Delivered,759,1518,1,LA Warehouse
+ORD0305,S068,"Stephens, Jenkins and Sherman",C570,David Page,6,2025-02-14,2025-02-11,Shipped,587,3522,81,NY Warehouse
+ORD0306,S404,Johnson-Hill,C878,George Carlson PhD,4,2025-01-27,2025-02-28,Delivered,904,3616,49,SF Warehouse
+ORD0307,S856,Jacobs and Sons,C667,Jason Cobb,9,2025-02-21,2025-02-25,Pending,836,7524,46,SF Warehouse
+ORD0308,S1125,Green LLC,C1126,Mr. Brandon Torres DDS,3,2025-02-07,2025-01-07,Pending,911,2733,148,LA Warehouse
+ORD0309,S1086,"Espinoza, Gonzalez and Coleman",C849,Patricia Hill,8,2025-01-19,2025-02-20,Shipped,342,2736,72,SF Warehouse
+ORD0310,S212,Cooper Inc,C138,Jeffrey Davis,2,2025-01-31,2025-02-26,Pending,256,512,169,LA Warehouse
+ORD0311,S497,"Smith, Perez and Taylor",C1143,Latoya Davidson,4,2025-01-28,2025-02-24,Shipped,870,3480,82,LA Warehouse
+ORD0312,S299,"Nichols, Bullock and Schultz",C521,James Avila,8,2025-02-23,2025-01-07,Delivered,766,6128,177,LA Warehouse
+ORD0313,S456,Russell LLC,C274,Julia Frazier,8,2025-03-01,2025-01-06,Delivered,748,5984,189,LA Warehouse
+ORD0314,S089,Hale Ltd,C350,Andrew Hanson,8,2025-03-04,2025-01-22,Shipped,779,6232,41,NY Warehouse
+ORD0315,S542,"Hall, Mosley and Avery",C1035,Shannon Bryan,10,2025-02-05,2025-02-26,Shipped,184,1840,198,NY Warehouse
+ORD0316,S948,Wells Ltd,C946,Ashley Davies,3,2025-02-10,2025-02-24,Pending,661,1983,152,NY Warehouse
+ORD0317,S1031,"Hubbard, Gonzales and Swanson",C916,Diamond Lane,4,2025-02-20,2025-01-12,Pending,417,1668,119,LA Warehouse
+ORD0318,S277,"Chavez, Spencer and Arroyo",C045,Michael Stuart,6,2025-02-24,2025-02-25,Pending,564,3384,127,SF Warehouse
+ORD0319,S564,Anderson and Sons,C581,Lee Leonard,7,2025-01-11,2025-03-04,Shipped,73,511,123,NY Warehouse
+ORD0320,S644,Orr-Waller,C222,Melissa Glover,1,2025-01-07,2025-01-31,Pending,818,818,53,NY Warehouse
+ORD0321,S405,Mcpherson and Sons,C351,Chad Chapman PhD,10,2025-02-03,2025-01-09,Delivered,754,7540,33,SF Warehouse
+ORD0322,S208,Mercado Group,C159,Samantha Aguilar,10,2025-01-01,2025-02-04,Shipped,74,740,6,NY Warehouse
+ORD0323,S1172,Garner Ltd,C579,Jerry Martinez,4,2025-01-20,2025-01-31,Delivered,840,3360,148,SF Warehouse
+ORD0324,S1067,Wu-Arnold,C574,Jeffrey Pittman,7,2025-01-26,2025-01-10,Shipped,512,3584,179,SF Warehouse
+ORD0325,S378,Palmer-Rodriguez,C203,Diamond Manning,3,2025-02-21,2025-01-23,Shipped,547,1641,120,SF Warehouse
+ORD0326,S365,"Carlson, Murphy and Romero",C807,Laura Martin,10,2025-01-02,2025-03-04,Pending,902,9020,56,LA Warehouse
+ORD0327,S359,"Turner, Parks and Evans",C172,Jordan Estrada,6,2025-02-25,2025-01-10,Shipped,86,516,94,SF Warehouse
+ORD0328,S371,"Williamson, Barber and Jones",C1160,Alexis Skinner,4,2025-02-04,2025-01-14,Pending,617,2468,190,NY Warehouse
+ORD0329,S126,Klein-Archer,C869,Stephanie Jones,1,2025-01-26,2025-02-08,Shipped,662,662,46,LA Warehouse
+ORD0330,S919,"Johnson, Walker and Rogers",C753,Todd Rodriguez,3,2025-01-25,2025-01-31,Delivered,64,192,39,SF Warehouse
+ORD0331,S642,Tran-Vaughan,C982,Rhonda Atkinson,6,2025-01-16,2025-01-23,Delivered,129,774,153,SF Warehouse
+ORD0332,S850,"Waters, Vargas and Riley",C635,Karen Dougherty,7,2025-02-17,2025-02-05,Shipped,436,3052,75,LA Warehouse
+ORD0333,S404,Johnson-Hill,C1030,Anthony Hansen,9,2025-01-09,2025-01-16,Delivered,802,7218,181,NY Warehouse
+ORD0334,S1190,Smith Group,C325,Lauren Mckee,8,2025-02-20,2025-01-09,Delivered,555,4440,143,SF Warehouse
+ORD0335,S444,Anderson Group,C871,Lisa Bauer,2,2025-01-06,2025-01-09,Pending,567,1134,183,NY Warehouse
+ORD0336,S986,Oconnell LLC,C671,Michael Goodwin,10,2025-02-02,2025-01-26,Pending,394,3940,163,SF Warehouse
+ORD0337,S306,Estrada-Roberts,C1020,Jamie Brown,6,2025-03-02,2025-01-18,Shipped,642,3852,20,NY Warehouse
+ORD0338,S234,Barnett and Sons,C170,Lisa Shepard,10,2025-02-24,2025-01-29,Pending,915,9150,160,LA Warehouse
+ORD0339,S247,"Swanson, Chavez and Craig",C407,Marie Kirk,2,2025-02-24,2025-01-09,Shipped,819,1638,112,NY Warehouse
+ORD0340,S094,"Howard, Romero and Brown",C1048,Crystal Hernandez,5,2025-01-16,2025-02-10,Delivered,256,1280,57,LA Warehouse
+ORD0341,S153,Swanson Ltd,C475,Brandon Perez,4,2025-02-18,2025-02-23,Delivered,575,2300,189,NY Warehouse
+ORD0342,S643,Johnson-Russell,C1148,Megan Cox,5,2025-01-20,2025-01-23,Pending,369,1845,69,LA Warehouse
+ORD0343,S240,"Walter, Callahan and Brown",C1018,Kathleen Doyle,3,2025-01-19,2025-02-24,Shipped,91,273,51,SF Warehouse
+ORD0344,S453,Craig-Gross,C953,Stephen Velazquez,3,2025-01-04,2025-02-18,Delivered,717,2151,150,LA Warehouse
+ORD0345,S585,Lee Ltd,C525,Kevin Johnson,4,2025-02-22,2025-01-03,Pending,765,3060,125,SF Warehouse
+ORD0346,S450,Blankenship-James,C910,Andrea Willis,4,2025-02-23,2025-02-01,Delivered,530,2120,5,LA Warehouse
+ORD0347,S661,Gonzalez Group,C502,Megan Williams,9,2025-02-15,2025-01-19,Shipped,835,7515,181,LA Warehouse
+ORD0348,S288,Sellers-Ferguson,C831,Dean Roach,4,2025-02-22,2025-01-01,Shipped,239,956,24,NY Warehouse
+ORD0349,S971,"Price, Wiley and Jacobson",C1106,Ian Dickerson,7,2025-01-25,2025-02-23,Delivered,284,1988,12,LA Warehouse
+ORD0350,S049,Rodriguez-Mcneil,C287,Monica Turner,7,2025-02-21,2025-01-30,Pending,944,6608,63,LA Warehouse
+ORD0351,S316,"Velasquez, Hammond and Evans",C997,Jessica Todd,3,2025-03-03,2025-01-18,Pending,550,1650,96,SF Warehouse
+ORD0352,S370,Melendez-Reeves,C1148,Megan Cox,6,2025-01-31,2025-01-01,Shipped,202,1212,88,SF Warehouse
+ORD0353,S180,Bell-White,C1075,Emily Olson,1,2025-01-15,2025-01-18,Delivered,22,22,15,NY Warehouse
+ORD0354,S503,"Yang, Hunt and Morgan",C557,Jeffrey Crawford,1,2025-01-26,2025-01-11,Pending,87,87,155,SF Warehouse
+ORD0355,S1085,"Watts, Gordon and Johnson",C593,Michael Chan Jr.,3,2025-01-24,2025-01-16,Pending,832,2496,174,SF Warehouse
+ORD0356,S388,Cook-Snow,C466,Rachel Lee,3,2025-01-21,2025-03-01,Pending,53,159,152,LA Warehouse
+ORD0357,S963,Vang Ltd,C629,Corey Carter,2,2025-01-05,2025-03-02,Shipped,518,1036,137,SF Warehouse
+ORD0358,S516,Juarez-Hill,C449,John Cruz,1,2025-02-11,2025-03-05,Pending,804,804,56,NY Warehouse
+ORD0359,S068,"Stephens, Jenkins and Sherman",C1169,Wesley Williams,10,2025-01-21,2025-01-22,Shipped,686,6860,157,NY Warehouse
+ORD0360,S815,Miller Group,C320,Eric Huff,4,2025-01-28,2025-02-08,Pending,112,448,108,LA Warehouse
+ORD0361,S1131,"Rice, Ryan and Clark",C416,Lauren Scott,3,2025-02-03,2025-02-06,Shipped,230,690,105,LA Warehouse
+ORD0362,S601,Jones Ltd,C085,Brenda Conner,7,2025-02-02,2025-01-27,Delivered,392,2744,64,LA Warehouse
+ORD0363,S054,"Franco, Maldonado and Brock",C121,Christina Atkinson,7,2025-02-22,2025-01-20,Delivered,387,2709,100,LA Warehouse
+ORD0364,S764,Reese-Dominguez,C249,Nicholas Cooper,3,2025-01-03,2025-03-01,Shipped,670,2010,51,NY Warehouse
+ORD0365,S682,Gonzalez-Clayton,C572,Sally Pope DDS,10,2025-01-16,2025-03-02,Shipped,345,3450,74,NY Warehouse
+ORD0366,S902,"Rodriguez, Wells and Ford",C743,Michael Burke,4,2025-01-19,2025-02-19,Delivered,144,576,167,NY Warehouse
+ORD0367,S352,Jones Inc,C764,Kaitlyn Clarke,7,2025-01-06,2025-01-06,Delivered,885,6195,150,SF Warehouse
+ORD0368,S448,Adams LLC,C463,Mary Henderson,2,2025-01-21,2025-01-22,Delivered,993,1986,139,SF Warehouse
+ORD0369,S070,Wise Inc,C749,Jeffrey Cross,10,2025-02-20,2025-02-02,Pending,730,7300,64,NY Warehouse
+ORD0370,S504,"Duncan, Gibson and Robles",C880,Jeffrey Combs,1,2025-03-03,2025-01-21,Shipped,114,114,13,NY Warehouse
+ORD0371,S540,Reid-Johnson,C485,David Foster,6,2025-02-20,2025-03-03,Shipped,213,1278,19,LA Warehouse
+ORD0372,S141,"Summers, Collier and Williamson",C767,Amanda Gilbert,9,2025-01-29,2025-01-08,Delivered,599,5391,198,SF Warehouse
+ORD0373,S791,Walker-Crawford,C823,Jennifer Hall,4,2025-02-16,2025-02-27,Shipped,301,1204,103,LA Warehouse
+ORD0374,S713,Johnson Ltd,C074,Laura Young,5,2025-01-14,2025-01-19,Shipped,271,1355,63,LA Warehouse
+ORD0375,S029,"Chandler, Khan and Krause",C995,Mr. Christopher Hall,2,2025-02-27,2025-01-06,Shipped,737,1474,36,NY Warehouse
+ORD0376,S1033,"Mccoy, Lee and Pittman",C179,Daniel Wiggins,7,2025-02-24,2025-01-09,Pending,216,1512,86,NY Warehouse
+ORD0377,S1171,"Santos, White and Rivera",C713,Cynthia Mack,1,2025-01-28,2025-01-05,Shipped,738,738,11,LA Warehouse
+ORD0378,S693,"Hart, Clark and Sexton",C635,Karen Dougherty,7,2025-02-05,2025-02-25,Pending,557,3899,76,SF Warehouse
+ORD0379,S1007,Macdonald-Roberts,C187,Joseph Day,7,2025-02-11,2025-01-30,Delivered,548,3836,20,SF Warehouse
+ORD0380,S359,"Turner, Parks and Evans",C349,Megan Richardson,3,2025-02-14,2025-01-13,Pending,271,813,122,NY Warehouse
+ORD0381,S019,Hernandez-Leonard,C663,Kelly Preston,9,2025-01-21,2025-01-29,Delivered,795,7155,76,NY Warehouse
+ORD0382,S164,"Cantu, Medina and Paul",C599,Amanda Nelson,1,2025-02-28,2025-02-07,Delivered,777,777,146,LA Warehouse
+ORD0383,S889,Bush-Jones,C989,Aaron Williams,7,2025-03-01,2025-01-01,Delivered,54,378,198,SF Warehouse
+ORD0384,S811,"Nguyen, Jensen and Gallagher",C451,Brandy Dudley,2,2025-03-04,2025-01-14,Delivered,403,806,145,SF Warehouse
+ORD0385,S1125,Green LLC,C215,Catherine Johnson,9,2025-02-21,2025-01-08,Delivered,493,4437,57,SF Warehouse
+ORD0386,S509,Combs Ltd,C982,Rhonda Atkinson,5,2025-02-24,2025-03-01,Shipped,853,4265,97,NY Warehouse
+ORD0387,S697,Evans-Harper,C1199,Cesar Gardner,5,2025-02-09,2025-02-07,Pending,937,4685,179,SF Warehouse
+ORD0388,S803,Wallace PLC,C808,Susan Swanson,10,2025-01-28,2025-02-20,Pending,991,9910,147,LA Warehouse
+ORD0389,S215,Vasquez-Tyler,C765,Michael Lee,2,2025-03-02,2025-02-24,Shipped,889,1778,175,LA Warehouse
+ORD0390,S573,"Collins, Little and Gardner",C1134,John Carter,2,2025-03-04,2025-03-05,Shipped,726,1452,107,SF Warehouse
+ORD0391,S469,Ortiz and Sons,C1096,Amber Combs,6,2025-01-29,2025-01-26,Delivered,351,2106,3,LA Warehouse
+ORD0392,S888,Ruiz-Carter,C682,Leah Thomas,2,2025-03-05,2025-01-12,Pending,217,434,77,SF Warehouse
+ORD0393,S677,Foster and Sons,C884,Mason Gonzalez,7,2025-03-01,2025-02-24,Shipped,359,2513,91,SF Warehouse
+ORD0394,S700,Frederick-Watson,C599,Amanda Nelson,8,2025-02-04,2025-01-28,Delivered,808,6464,49,LA Warehouse
+ORD0395,S857,"Myers, Bolton and Adams",C232,Kevin Nunez,1,2025-01-20,2025-03-04,Delivered,756,756,36,LA Warehouse
+ORD0396,S916,Leon-Richardson,C772,Ralph Reilly,6,2025-01-15,2025-01-18,Pending,150,900,5,LA Warehouse
+ORD0397,S638,Taylor and Sons,C359,Elizabeth Johnston,2,2025-02-20,2025-01-20,Delivered,992,1984,132,LA Warehouse
+ORD0398,S251,Perez-Craig,C312,Mrs. Ashley Dean,1,2025-01-20,2025-01-15,Shipped,163,163,109,LA Warehouse
+ORD0399,S652,Strong LLC,C084,Leslie Hendrix,7,2025-01-31,2025-02-12,Delivered,275,1925,71,LA Warehouse
+ORD0400,S174,Byrd-Nelson,C661,Brittany Stevens DDS,3,2025-02-01,2025-01-23,Pending,245,735,82,LA Warehouse
+ORD0401,S768,Harrington Group,C310,Edgar Mcdonald,8,2025-02-02,2025-02-26,Delivered,718,5744,140,NY Warehouse
+ORD0402,S830,Park-Rice,C267,Lindsay Jones,6,2025-01-06,2025-01-07,Pending,641,3846,173,LA Warehouse
+ORD0403,S566,Cunningham-Moore,C1106,Ian Dickerson,8,2025-02-12,2025-02-20,Shipped,336,2688,152,NY Warehouse
+ORD0404,S754,"Hernandez, Miller and Davis",C557,Jeffrey Crawford,7,2025-02-24,2025-01-28,Delivered,662,4634,119,LA Warehouse
+ORD0405,S236,Hampton Group,C1003,Andrew Adams,1,2025-02-11,2025-02-04,Pending,134,134,120,SF Warehouse
+ORD0406,S307,"Ryan, Martin and Sloan",C962,Allen Hayes,2,2025-02-17,2025-02-23,Shipped,685,1370,21,LA Warehouse
+ORD0407,S928,Phillips-Newman,C137,Tiffany Golden,8,2025-01-03,2025-02-27,Shipped,183,1464,151,NY Warehouse
+ORD0408,S730,Velasquez-Johnson,C123,Timothy Bailey,3,2025-02-03,2025-02-05,Delivered,797,2391,11,NY Warehouse
+ORD0409,S1139,Ward Group,C1085,Joseph Jones,2,2025-01-01,2025-03-05,Shipped,848,1696,93,NY Warehouse
+ORD0410,S876,Fisher Group,C866,Kara Stephens,5,2025-02-21,2025-03-03,Pending,170,850,163,NY Warehouse
+ORD0411,S536,Bailey-Jimenez,C828,John Terry,3,2025-01-02,2025-02-26,Delivered,816,2448,123,NY Warehouse
+ORD0412,S1080,Livingston Ltd,C220,Sandra Nguyen,4,2025-03-01,2025-02-28,Delivered,608,2432,168,LA Warehouse
+ORD0413,S113,Lam-Kelly,C295,Jake Gonzales,9,2025-01-19,2025-01-21,Shipped,953,8577,73,NY Warehouse
+ORD0414,S896,Cook-Sanders,C832,Nicole Lopez,9,2025-02-26,2025-01-06,Shipped,267,2403,170,LA Warehouse
+ORD0415,S055,"Gallegos, Ward and Edwards",C872,Tyler Rosales,5,2025-01-14,2025-01-18,Pending,332,1660,139,LA Warehouse
+ORD0416,S679,Rogers-Young,C169,Joseph Ingram,4,2025-01-15,2025-01-05,Delivered,778,3112,148,NY Warehouse
+ORD0417,S568,"Williams, Prince and Nichols",C1162,Kathryn Olson,1,2025-01-30,2025-02-18,Shipped,789,789,97,NY Warehouse
+ORD0418,S283,Mckinney-Anderson,C140,Amy West,1,2025-02-21,2025-02-23,Pending,162,162,199,SF Warehouse
+ORD0419,S444,Anderson Group,C004,Mackenzie Newman,2,2025-02-09,2025-02-27,Shipped,759,1518,4,SF Warehouse
+ORD0420,S333,"Wilson, Bailey and Vasquez",C278,Thomas Estrada,7,2025-01-25,2025-03-03,Delivered,403,2821,19,NY Warehouse
+ORD0421,S130,Fernandez LLC,C721,Cory Pena,3,2025-01-24,2025-01-13,Shipped,275,825,167,NY Warehouse
+ORD0422,S1136,Schmidt-Shah,C698,Brian Acevedo,9,2025-02-24,2025-01-07,Pending,459,4131,56,LA Warehouse
+ORD0423,S119,Daniels Ltd,C259,Adam Huber,6,2025-02-23,2025-02-17,Pending,69,414,162,NY Warehouse
+ORD0424,S389,Gonzalez-Evans,C1151,Penny Kirby,5,2025-01-18,2025-02-26,Pending,259,1295,175,NY Warehouse
+ORD0425,S1148,Rivera Ltd,C432,Roy Wright,7,2025-01-20,2025-01-30,Shipped,786,5502,22,SF Warehouse
+ORD0426,S830,Park-Rice,C890,Kathryn Melton,6,2025-02-18,2025-02-28,Pending,286,1716,195,SF Warehouse
+ORD0427,S773,"Rivera, Crosby and Berry",C040,Edward Reeves,6,2025-02-08,2025-01-09,Delivered,739,4434,7,SF Warehouse
+ORD0428,S1033,"Mccoy, Lee and Pittman",C220,Sandra Nguyen,1,2025-01-04,2025-01-06,Shipped,869,869,1,LA Warehouse
+ORD0429,S796,"Williams, Massey and Dillon",C1003,Andrew Adams,3,2025-01-23,2025-01-18,Shipped,323,969,40,LA Warehouse
+ORD0430,S411,"Jordan, Flores and Mcdowell",C240,Lisa Rosario,8,2025-01-18,2025-02-01,Pending,508,4064,172,NY Warehouse
+ORD0431,S1198,"Gonzalez, Scott and Collier",C1064,Autumn Holmes,5,2025-02-20,2025-02-09,Shipped,858,4290,133,NY Warehouse
+ORD0432,S268,"Price, Ramirez and Anderson",C1047,Brian Curtis,9,2025-01-06,2025-02-28,Delivered,350,3150,137,NY Warehouse
+ORD0433,S1079,Johnson Ltd,C017,Sherry Powell,2,2025-02-07,2025-02-20,Shipped,509,1018,58,LA Warehouse
+ORD0434,S288,Sellers-Ferguson,C551,Alexis Mclaughlin,8,2025-02-27,2025-02-25,Delivered,583,4664,74,LA Warehouse
+ORD0435,S422,Park and Sons,C468,Richard Phillips,10,2025-01-26,2025-01-27,Delivered,324,3240,151,LA Warehouse
+ORD0436,S002,Faulkner Group,C074,Laura Young,4,2025-01-02,2025-02-28,Pending,322,1288,93,SF Warehouse
+ORD0437,S1184,Long-Miller,C148,Crystal Sanders,8,2025-01-10,2025-01-12,Delivered,736,5888,4,SF Warehouse
+ORD0438,S244,Jones Inc,C849,Patricia Hill,9,2025-01-11,2025-02-09,Shipped,164,1476,7,LA Warehouse
+ORD0439,S1032,"Morrison, Lloyd and Taylor",C262,Laura Bryant,5,2025-02-12,2025-02-05,Shipped,477,2385,46,LA Warehouse
+ORD0440,S064,Joseph-Watson,C310,Edgar Mcdonald,9,2025-02-03,2025-01-25,Pending,909,8181,173,NY Warehouse
+ORD0441,S1022,"Jordan, Duran and Bennett",C567,Mrs. Susan Little MD,9,2025-02-17,2025-01-11,Delivered,53,477,153,LA Warehouse
+ORD0442,S402,"Evans, Morris and Davis",C910,Andrea Willis,1,2025-02-20,2025-01-06,Shipped,137,137,37,NY Warehouse
+ORD0443,S789,Gonzales LLC,C1024,Glen York,7,2025-02-17,2025-02-28,Shipped,723,5061,108,NY Warehouse
+ORD0444,S091,"Austin, Wood and Martin",C405,Margaret Terry,6,2025-02-21,2025-02-14,Delivered,870,5220,69,NY Warehouse
+ORD0445,S213,Reed-Gibbs,C275,Sarah English,8,2025-01-18,2025-01-13,Delivered,525,4200,200,NY Warehouse
+ORD0446,S379,Schultz PLC,C810,Alex May,9,2025-03-05,2025-02-05,Pending,144,1296,10,NY Warehouse
+ORD0447,S179,Henry Ltd,C875,Brent Aguirre,8,2025-01-07,2025-01-07,Pending,270,2160,191,NY Warehouse
+ORD0448,S290,Smith Ltd,C530,Cindy Davenport,2,2025-02-18,2025-02-07,Delivered,887,1774,95,NY Warehouse
+ORD0449,S342,Wells-Pollard,C1191,Madison Hall,10,2025-01-27,2025-02-24,Delivered,712,7120,97,LA Warehouse
+ORD0450,S719,Gray-Fowler,C699,Samuel Johnson,5,2025-02-18,2025-01-01,Shipped,257,1285,143,LA Warehouse
+ORD0451,S371,"Williamson, Barber and Jones",C807,Laura Martin,4,2025-01-10,2025-03-05,Delivered,676,2704,45,NY Warehouse
+ORD0452,S518,Nixon and Sons,C803,Lauren Ford,7,2025-01-15,2025-01-28,Shipped,386,2702,163,SF Warehouse
+ORD0453,S1092,Foster-Cherry,C256,Daniel Kennedy,7,2025-02-07,2025-01-25,Delivered,493,3451,46,SF Warehouse
+ORD0454,S349,Allen-Wood,C051,Mary Rodgers,8,2025-02-14,2025-02-06,Pending,93,744,8,SF Warehouse
+ORD0455,S034,"Pittman, Stone and Fry",C282,Peggy Ward,6,2025-01-28,2025-02-02,Pending,750,4500,174,SF Warehouse
+ORD0456,S1194,Scott-Manning,C993,Samuel Lutz,1,2025-02-21,2025-01-12,Delivered,600,600,183,SF Warehouse
+ORD0457,S069,"Gomez, Yang and Matthews",C355,Nicole Harris,9,2025-01-02,2025-02-21,Pending,276,2484,124,SF Warehouse
+ORD0458,S958,May-Atkinson,C898,Christine Richardson,6,2025-03-01,2025-01-19,Pending,212,1272,51,NY Warehouse
+ORD0459,S598,Chapman and Sons,C213,John Robbins,4,2025-03-04,2025-01-19,Pending,301,1204,187,SF Warehouse
+ORD0460,S039,Martinez-Rocha,C602,James Daniels,9,2025-01-11,2025-02-14,Pending,971,8739,35,SF Warehouse
+ORD0461,S831,"Doyle, Carlson and Sharp",C384,Sheila Rowe,10,2025-01-18,2025-01-25,Delivered,303,3030,190,LA Warehouse
+ORD0462,S1104,"Carroll, Collins and Byrd",C609,Christopher Miller,2,2025-01-13,2025-01-09,Shipped,217,434,41,LA Warehouse
+ORD0463,S1015,"Hicks, Bernard and Miller",C073,Crystal Lopez,6,2025-02-01,2025-01-27,Pending,29,174,110,SF Warehouse
+ORD0464,S221,"Burns, Dunn and Chandler",C888,Lisa Yates,9,2025-02-20,2025-02-28,Shipped,87,783,78,LA Warehouse
+ORD0465,S1154,Ortiz and Sons,C872,Tyler Rosales,3,2025-01-31,2025-02-28,Delivered,189,567,117,SF Warehouse
+ORD0466,S139,"Donovan, York and Hobbs",C540,Mary Greene,7,2025-01-03,2025-01-26,Shipped,219,1533,13,SF Warehouse
+ORD0467,S066,"Lee, Martinez and Mccoy",C959,Dr. Robert Cruz,1,2025-03-03,2025-02-27,Delivered,528,528,18,NY Warehouse
+ORD0468,S907,Graham-Watts,C894,Jeffrey Stevenson,3,2025-01-10,2025-01-07,Pending,559,1677,72,SF Warehouse
+ORD0469,S749,"Wilcox, Perkins and Barnett",C032,Kristina Dorsey DVM,8,2025-01-30,2025-02-24,Shipped,245,1960,122,NY Warehouse
+ORD0470,S1101,"Adams, Wilson and Perkins",C255,Jacqueline Ramirez,1,2025-01-12,2025-02-26,Delivered,921,921,162,SF Warehouse
+ORD0471,S554,Romero-Reyes,C165,Kevin Perry,5,2025-02-12,2025-02-08,Shipped,451,2255,120,SF Warehouse
+ORD0472,S183,"Wallace, Rodriguez and Jackson",C615,Rachael Blankenship,9,2025-02-07,2025-01-31,Delivered,421,3789,156,LA Warehouse
+ORD0473,S574,"Powell, Perez and Webb",C588,Gregory Williams,8,2025-02-25,2025-01-21,Pending,638,5104,40,SF Warehouse
+ORD0474,S246,"Jackson, Mejia and Chavez",C746,Rachel Espinoza,3,2025-02-28,2025-03-02,Pending,449,1347,72,NY Warehouse
+ORD0475,S580,"Wells, Allen and Shaffer",C1150,Matthew Guzman,8,2025-02-19,2025-01-15,Pending,435,3480,19,SF Warehouse
+ORD0476,S274,Campbell-Blair,C131,Richard Howell,1,2025-01-05,2025-02-02,Pending,304,304,71,NY Warehouse
+ORD0477,S1097,Steele and Sons,C983,David Thomas,1,2025-01-01,2025-02-04,Delivered,103,103,129,SF Warehouse
+ORD0478,S1089,Hill Inc,C910,Andrea Willis,3,2025-02-20,2025-01-26,Shipped,284,852,189,NY Warehouse
+ORD0479,S077,Robertson-Ingram,C252,Margaret Jacobs,2,2025-01-12,2025-01-13,Pending,908,1816,44,SF Warehouse
+ORD0480,S684,"Gibson, Carpenter and Burke",C115,Scott Pham,3,2025-02-28,2025-01-01,Delivered,461,1383,197,NY Warehouse
+ORD0481,S1096,"Ray, Odom and Potts",C522,Adam Bates,9,2025-03-01,2025-01-29,Delivered,582,5238,165,SF Warehouse
+ORD0482,S741,Harris-Roy,C708,Katherine Smith,4,2025-01-10,2025-02-10,Shipped,655,2620,77,LA Warehouse
+ORD0483,S224,Mendoza Inc,C345,Amber Jensen,9,2025-02-14,2025-02-22,Shipped,558,5022,47,NY Warehouse
+ORD0484,S950,Hernandez-Lee,C284,Kevin Rodriguez,2,2025-01-07,2025-02-22,Pending,652,1304,158,LA Warehouse
+ORD0485,S897,Hill-Smith,C651,Zachary Harris,2,2025-01-24,2025-01-02,Delivered,108,216,92,LA Warehouse
+ORD0486,S1006,"Cochran, Schmidt and Schultz",C971,Jay Rodriguez,6,2025-02-26,2025-02-03,Pending,186,1116,37,NY Warehouse
+ORD0487,S1030,Jensen and Sons,C319,Amy Barr,10,2025-03-02,2025-03-04,Pending,224,2240,150,LA Warehouse
+ORD0488,S1140,"Andrews, Lee and Cole",C1144,John Rangel,4,2025-01-01,2025-02-10,Shipped,47,188,58,NY Warehouse
+ORD0489,S869,Cruz-Wallace,C491,Michael Edwards,2,2025-02-09,2025-03-01,Pending,628,1256,3,LA Warehouse
+ORD0490,S646,Davis-Pugh,C336,Kenneth Gordon,9,2025-02-10,2025-02-19,Pending,928,8352,198,SF Warehouse
+ORD0491,S675,Coleman-Clark,C182,Deborah Williams,10,2025-01-11,2025-02-10,Delivered,88,880,36,SF Warehouse
+ORD0492,S008,Parks Group,C098,Michelle Young,6,2025-01-24,2025-02-23,Delivered,681,4086,46,NY Warehouse
+ORD0493,S1098,Rodriguez LLC,C031,Jim Powell,9,2025-02-11,2025-02-21,Delivered,692,6228,159,SF Warehouse
+ORD0494,S812,"Turner, Brown and Miller",C1175,Angela Graham,4,2025-02-22,2025-01-11,Pending,129,516,165,SF Warehouse
+ORD0495,S547,Howard-White,C572,Sally Pope DDS,4,2025-01-18,2025-01-05,Delivered,217,868,92,SF Warehouse
+ORD0496,S172,Williams-Hill,C772,Ralph Reilly,1,2025-01-31,2025-01-24,Delivered,48,48,101,LA Warehouse
+ORD0497,S1113,Martin Group,C737,Kenneth Hall Jr.,4,2025-01-02,2025-02-23,Pending,174,696,137,LA Warehouse
+ORD0498,S952,Warren Ltd,C944,Emily Nguyen,3,2025-02-11,2025-01-01,Delivered,235,705,30,SF Warehouse
+ORD0499,S167,Scott-Rose,C051,Mary Rodgers,9,2025-02-09,2025-03-01,Delivered,657,5913,123,NY Warehouse
+ORD0500,S958,May-Atkinson,C1050,Steven Washington,6,2025-01-01,2025-01-06,Shipped,578,3468,71,NY Warehouse
+ORD0501,S240,"Walter, Callahan and Brown",C573,Joshua Holt,7,2025-02-27,2025-02-15,Delivered,658,4606,187,SF Warehouse
+ORD0502,S074,Arnold PLC,C871,Lisa Bauer,3,2025-01-14,2025-02-23,Delivered,53,159,22,LA Warehouse
+ORD0503,S181,Mccann-Snow,C968,Douglas Ferguson,7,2025-01-19,2025-01-25,Delivered,759,5313,20,LA Warehouse
+ORD0504,S222,Gonzalez-Harvey,C1167,Anthony Diaz,10,2025-02-10,2025-02-25,Delivered,402,4020,178,SF Warehouse
+ORD0505,S870,"Bates, Bender and Levine",C964,Todd Brown,1,2025-02-22,2025-03-05,Pending,88,88,5,NY Warehouse
+ORD0506,S333,"Wilson, Bailey and Vasquez",C058,Tina Bailey,8,2025-01-03,2025-01-07,Delivered,527,4216,57,LA Warehouse
+ORD0507,S371,"Williamson, Barber and Jones",C423,Melinda Olson,3,2025-02-26,2025-02-19,Pending,721,2163,107,SF Warehouse
+ORD0508,S1003,Ruiz-Jones,C658,Noah Myers,7,2025-01-08,2025-03-05,Shipped,865,6055,142,SF Warehouse
+ORD0509,S975,Faulkner PLC,C598,Dr. Roger Harris,9,2025-02-13,2025-03-02,Pending,146,1314,106,LA Warehouse
+ORD0510,S877,Smith Group,C535,Amanda Taylor,8,2025-02-10,2025-02-02,Shipped,618,4944,29,LA Warehouse
+ORD0511,S596,Lang Inc,C080,Ronald Rodriguez,7,2025-03-02,2025-01-23,Pending,538,3766,192,NY Warehouse
+ORD0512,S235,Daniels Group,C400,Vicki Williams,1,2025-02-19,2025-01-23,Pending,30,30,155,SF Warehouse
+ORD0513,S120,Brown-Johnson,C374,Jessica Nelson,4,2025-01-12,2025-02-02,Pending,635,2540,56,SF Warehouse
+ORD0514,S474,"Wilkerson, Reynolds and Manning",C1088,Kerri Matthews,7,2025-03-04,2025-02-23,Delivered,356,2492,195,NY Warehouse
+ORD0515,S756,Johnston and Sons,C517,Jesse Brooks,7,2025-01-13,2025-01-24,Delivered,460,3220,98,SF Warehouse
+ORD0516,S089,Hale Ltd,C281,Jessica Allen,4,2025-01-31,2025-01-10,Pending,58,232,106,LA Warehouse
+ORD0517,S293,Wright Group,C1147,Logan White,2,2025-02-20,2025-01-30,Pending,378,756,191,LA Warehouse
+ORD0518,S149,Murphy LLC,C358,Diane Kim,10,2025-02-26,2025-02-07,Shipped,531,5310,118,LA Warehouse
+ORD0519,S514,"Lynch, West and Mays",C180,Pamela Gray,5,2025-03-03,2025-02-14,Pending,208,1040,103,SF Warehouse
+ORD0520,S960,Brewer Group,C1199,Cesar Gardner,7,2025-02-03,2025-01-30,Shipped,451,3157,74,LA Warehouse
+ORD0521,S228,"Trevino, Walsh and Chavez",C435,Olivia West,4,2025-02-13,2025-01-20,Shipped,646,2584,27,NY Warehouse
+ORD0522,S369,Glenn-Faulkner,C145,Robin Collins,4,2025-01-17,2025-01-27,Pending,746,2984,32,SF Warehouse
+ORD0523,S002,Faulkner Group,C759,Eric Marshall,5,2025-02-22,2025-01-25,Pending,492,2460,200,LA Warehouse
+ORD0524,S235,Daniels Group,C233,Mark Greer,8,2025-02-07,2025-01-22,Pending,883,7064,123,NY Warehouse
+ORD0525,S484,Smith-Montgomery,C107,Gina Parrish,2,2025-02-15,2025-02-27,Delivered,392,784,108,NY Warehouse
+ORD0526,S202,Brown-Calderon,C241,Antonio Greene,3,2025-01-23,2025-01-05,Delivered,964,2892,172,SF Warehouse
+ORD0527,S785,"Fitzgerald, Sloan and Stewart",C373,Tara Snyder,6,2025-01-06,2025-02-18,Pending,656,3936,5,SF Warehouse
+ORD0528,S638,Taylor and Sons,C375,Joseph James,2,2025-01-06,2025-01-17,Shipped,162,324,70,NY Warehouse
+ORD0529,S147,Cunningham-Martin,C349,Megan Richardson,4,2025-02-04,2025-01-10,Delivered,191,764,184,NY Warehouse
+ORD0530,S193,Taylor-Morgan,C873,Jonathan Green,4,2025-03-04,2025-02-12,Shipped,990,3960,64,LA Warehouse
+ORD0531,S708,Bruce-Harvey,C932,Louis Fowler,2,2025-01-03,2025-01-01,Delivered,670,1340,11,LA Warehouse
+ORD0532,S311,Roy LLC,C527,Daniel Frye,3,2025-01-09,2025-01-18,Delivered,468,1404,146,NY Warehouse
+ORD0533,S283,Mckinney-Anderson,C598,Dr. Roger Harris,9,2025-01-14,2025-02-28,Shipped,424,3816,144,SF Warehouse
+ORD0534,S290,Smith Ltd,C912,Jesse Stephens,9,2025-03-04,2025-01-28,Shipped,612,5508,174,LA Warehouse
+ORD0535,S877,Smith Group,C749,Jeffrey Cross,10,2025-02-27,2025-03-02,Pending,725,7250,87,NY Warehouse
+ORD0536,S826,"Blackwell, Gonzalez and George",C895,Shelby Lang,8,2025-02-06,2025-01-16,Pending,127,1016,148,NY Warehouse
+ORD0537,S611,"Ross, Reyes and Barrett",C1020,Jamie Brown,3,2025-02-01,2025-02-06,Delivered,352,1056,75,NY Warehouse
+ORD0538,S502,Newman and Sons,C459,Caroline Mueller,4,2025-02-23,2025-02-10,Delivered,332,1328,143,LA Warehouse
+ORD0539,S506,Torres LLC,C171,Stephanie Brown,2,2025-01-19,2025-02-24,Delivered,998,1996,55,LA Warehouse
+ORD0540,S1063,Sandoval-Cantrell,C947,Carrie Jones,6,2025-01-04,2025-01-26,Pending,912,5472,15,LA Warehouse
+ORD0541,S213,Reed-Gibbs,C1183,Joshua Mcguire,7,2025-01-04,2025-03-01,Shipped,123,861,149,NY Warehouse
+ORD0542,S859,"Kerr, Tran and Payne",C743,Michael Burke,1,2025-01-18,2025-01-30,Pending,961,961,169,SF Warehouse
+ORD0543,S888,Ruiz-Carter,C631,Cassie Wilson,4,2025-01-18,2025-03-02,Pending,554,2216,84,SF Warehouse
+ORD0544,S735,Gill-Tran,C093,Benjamin Evans,10,2025-01-06,2025-01-08,Delivered,457,4570,140,NY Warehouse
+ORD0545,S1157,Barr Ltd,C802,Melody Brown,6,2025-01-23,2025-01-31,Pending,224,1344,67,NY Warehouse
+ORD0546,S234,Barnett and Sons,C1023,Tina Parks,5,2025-01-08,2025-01-28,Shipped,911,4555,180,SF Warehouse
+ORD0547,S341,Jones Group,C558,Randy Nichols,10,2025-02-12,2025-02-13,Pending,667,6670,158,SF Warehouse
+ORD0548,S181,Mccann-Snow,C790,David Gross,4,2025-01-15,2025-02-17,Shipped,423,1692,92,SF Warehouse
+ORD0549,S1163,Robertson-Griffin,C316,James Smith,10,2025-01-12,2025-01-23,Delivered,381,3810,99,NY Warehouse
+ORD0550,S1160,"Carter, Alvarez and Lewis",C125,Bethany Palmer,10,2025-01-03,2025-02-03,Delivered,320,3200,88,SF Warehouse
+ORD0551,S1027,Chapman and Sons,C520,Greg Lee,2,2025-02-08,2025-03-05,Delivered,879,1758,197,NY Warehouse
+ORD0552,S510,"Peters, Williamson and Boyle",C1148,Megan Cox,9,2025-02-13,2025-02-25,Delivered,151,1359,172,NY Warehouse
+ORD0553,S320,Smith Ltd,C1060,Monica Butler,3,2025-02-11,2025-02-23,Delivered,849,2547,157,SF Warehouse
+ORD0554,S736,Roman-Olson,C1154,Wendy Wilson,2,2025-02-16,2025-02-13,Delivered,122,244,63,SF Warehouse
+ORD0555,S782,Sherman Group,C628,Brandon Garcia,5,2025-02-07,2025-03-03,Delivered,914,4570,23,NY Warehouse
+ORD0556,S062,Garcia-Arnold,C213,John Robbins,4,2025-01-31,2025-02-12,Shipped,125,500,12,NY Warehouse
+ORD0557,S524,Bradshaw and Sons,C685,Ashley Wilson,3,2025-01-13,2025-01-01,Shipped,273,819,92,NY Warehouse
+ORD0558,S594,"Garcia, Morton and Price",C695,Andrea Murray,8,2025-01-06,2025-02-18,Pending,310,2480,136,LA Warehouse
+ORD0559,S1116,Thomas and Sons,C011,Ernest Dickson,2,2025-01-14,2025-03-04,Shipped,694,1388,71,LA Warehouse
+ORD0560,S767,Moore Ltd,C761,Tammy English,10,2025-02-03,2025-01-14,Pending,884,8840,98,SF Warehouse
+ORD0561,S1024,Sweeney-Monroe,C122,Katelyn Knight,4,2025-01-19,2025-02-08,Shipped,303,1212,34,LA Warehouse
+ORD0562,S347,Miller-Salazar,C457,Michelle Dillon,4,2025-02-23,2025-01-16,Shipped,497,1988,95,LA Warehouse
+ORD0563,S018,"Lester, Wright and Williams",C623,Stephanie Black,1,2025-01-16,2025-01-28,Delivered,587,587,122,NY Warehouse
+ORD0564,S682,Gonzalez-Clayton,C427,Rodney Tate,8,2025-02-14,2025-02-25,Delivered,465,3720,112,SF Warehouse
+ORD0565,S1139,Ward Group,C794,Tiffany Bolton,8,2025-01-04,2025-02-03,Pending,992,7936,61,LA Warehouse
+ORD0566,S740,"Kelly, Meyers and Mayo",C1021,Kelli Brown,3,2025-02-24,2025-02-12,Pending,836,2508,72,LA Warehouse
+ORD0567,S613,"Hunter, Walker and Welch",C631,Cassie Wilson,5,2025-02-17,2025-01-17,Delivered,641,3205,40,SF Warehouse
+ORD0568,S108,Williams Group,C177,Cynthia Ward,3,2025-01-17,2025-01-19,Shipped,778,2334,7,SF Warehouse
+ORD0569,S927,"Wilson, Espinoza and Richmond",C662,Brent Martin,10,2025-02-03,2025-01-26,Shipped,987,9870,56,LA Warehouse
+ORD0570,S1180,Wilson-Bentley,C426,David Ryan,6,2025-02-03,2025-02-25,Delivered,479,2874,189,SF Warehouse
+ORD0571,S055,"Gallegos, Ward and Edwards",C073,Crystal Lopez,5,2025-02-12,2025-01-16,Delivered,259,1295,67,SF Warehouse
+ORD0572,S214,"Black, Murphy and Mccoy",C807,Laura Martin,8,2025-01-11,2025-01-01,Shipped,31,248,55,SF Warehouse
+ORD0573,S1005,Johnson-Yates,C093,Benjamin Evans,1,2025-02-27,2025-01-28,Pending,26,26,130,SF Warehouse
+ORD0574,S369,Glenn-Faulkner,C1021,Kelli Brown,8,2025-02-03,2025-01-30,Pending,75,600,137,NY Warehouse
+ORD0575,S290,Smith Ltd,C698,Brian Acevedo,4,2025-01-26,2025-02-06,Shipped,285,1140,97,NY Warehouse
+ORD0576,S152,Diaz Group,C948,Christopher Thompson,10,2025-02-24,2025-02-23,Delivered,823,8230,69,SF Warehouse
+ORD0577,S463,"Ayala, Simpson and Baker",C565,Christine Rosales MD,2,2025-01-10,2025-01-15,Delivered,478,956,69,SF Warehouse
+ORD0578,S066,"Lee, Martinez and Mccoy",C165,Kevin Perry,5,2025-01-28,2025-01-22,Pending,856,4280,117,NY Warehouse
+ORD0579,S619,Gonzalez Inc,C028,Michelle Rose,2,2025-02-12,2025-02-18,Pending,121,242,105,LA Warehouse
+ORD0580,S275,Martinez and Sons,C1079,Margaret Paul,9,2025-01-15,2025-02-22,Shipped,244,2196,28,NY Warehouse
+ORD0581,S678,Thompson-Sanford,C798,Taylor Anderson,3,2025-01-24,2025-01-19,Delivered,548,1644,137,LA Warehouse
+ORD0582,S1140,"Andrews, Lee and Cole",C851,Jacob Lee,7,2025-02-03,2025-02-05,Pending,801,5607,64,SF Warehouse
+ORD0583,S087,Jones-Williams,C475,Brandon Perez,5,2025-01-14,2025-01-21,Delivered,704,3520,127,NY Warehouse
+ORD0584,S082,"Kline, Mendez and Todd",C024,Tricia Dillon,6,2025-01-07,2025-01-19,Shipped,241,1446,139,SF Warehouse
+ORD0585,S556,Holt PLC,C673,Charles Maldonado,8,2025-01-18,2025-02-07,Pending,121,968,36,LA Warehouse
+ORD0586,S291,Reed-Gardner,C064,Kayla Medina,10,2025-01-08,2025-02-22,Pending,546,5460,31,SF Warehouse
+ORD0587,S102,Raymond-Blake,C029,Alicia Coleman,2,2025-01-22,2025-02-14,Shipped,784,1568,179,SF Warehouse
+ORD0588,S798,Smith-Griffin,C1111,Melissa Torres,3,2025-01-30,2025-01-01,Pending,945,2835,179,LA Warehouse
+ORD0589,S439,Cross Inc,C349,Megan Richardson,3,2025-03-03,2025-02-16,Shipped,334,1002,85,LA Warehouse
+ORD0590,S733,Johnson-Stewart,C1132,Anthony Horton,2,2025-02-12,2025-03-01,Shipped,102,204,59,NY Warehouse
+ORD0591,S298,"Hoffman, Cook and White",C226,Stacey Bender,2,2025-01-02,2025-01-10,Pending,753,1506,197,NY Warehouse
+ORD0592,S1197,Campbell Inc,C096,Erica Mays,10,2025-03-05,2025-02-19,Pending,540,5400,189,NY Warehouse
+ORD0593,S450,Blankenship-James,C850,Gwendolyn Vance,8,2025-03-04,2025-02-12,Pending,123,984,199,SF Warehouse
+ORD0594,S653,"Preston, Gray and Smith",C512,David Lee,2,2025-03-03,2025-01-08,Delivered,989,1978,30,SF Warehouse
+ORD0595,S918,Reyes and Sons,C1101,Amanda Harrell,5,2025-01-30,2025-01-02,Shipped,708,3540,172,LA Warehouse
+ORD0596,S679,Rogers-Young,C599,Amanda Nelson,3,2025-01-16,2025-01-28,Shipped,517,1551,191,NY Warehouse
+ORD0597,S925,Hill-King,C893,Andrea Thompson,2,2025-01-26,2025-02-06,Pending,424,848,15,NY Warehouse
+ORD0598,S644,Orr-Waller,C950,Christina Palmer,7,2025-01-14,2025-01-18,Delivered,812,5684,153,SF Warehouse
+ORD0599,S939,"Torres, Orozco and Rogers",C112,Kathleen Johnson,1,2025-02-16,2025-01-15,Delivered,695,695,188,SF Warehouse
+ORD0600,S500,Hansen-Lewis,C354,John Peterson,9,2025-01-29,2025-01-30,Pending,689,6201,59,LA Warehouse
+ORD0601,S1012,"Khan, Gilbert and Knight",C856,Marie Ross,8,2025-02-07,2025-02-24,Pending,20,160,106,SF Warehouse
+ORD0602,S146,"Moyer, Smith and Lewis",C316,James Smith,7,2025-02-19,2025-02-10,Shipped,450,3150,180,SF Warehouse
+ORD0603,S477,Martin-Bailey,C671,Michael Goodwin,6,2025-02-12,2025-01-14,Delivered,320,1920,5,SF Warehouse
+ORD0604,S879,"Rodgers, Kennedy and Rose",C511,Derrick Nelson,10,2025-01-30,2025-01-30,Delivered,821,8210,90,NY Warehouse
+ORD0605,S1087,Hess PLC,C025,Amy Elliott,8,2025-02-12,2025-01-08,Shipped,343,2744,58,NY Warehouse
+ORD0606,S377,Leon-Freeman,C792,Wendy Barron,4,2025-02-03,2025-03-02,Pending,696,2784,125,NY Warehouse
+ORD0607,S708,Bruce-Harvey,C257,Lauren Lewis,2,2025-01-14,2025-02-04,Delivered,537,1074,182,LA Warehouse
+ORD0608,S513,Simpson-Stokes,C057,Donald Robinson,9,2025-02-22,2025-01-07,Shipped,959,8631,181,LA Warehouse
+ORD0609,S543,Camacho-Lewis,C873,Jonathan Green,10,2025-01-12,2025-02-24,Shipped,639,6390,81,LA Warehouse
+ORD0610,S576,Barton Group,C083,Kimberly Ball,5,2025-03-01,2025-01-14,Pending,703,3515,25,LA Warehouse
+ORD0611,S239,Fisher-Swanson,C1185,Mark Lee,5,2025-01-31,2025-01-29,Pending,413,2065,191,SF Warehouse
+ORD0612,S1139,Ward Group,C130,Mark Kline,6,2025-02-09,2025-02-09,Delivered,169,1014,8,LA Warehouse
+ORD0613,S374,Gates LLC,C1082,Jacqueline Simmons,5,2025-01-06,2025-01-12,Pending,597,2985,138,LA Warehouse
+ORD0614,S452,Krueger-Jones,C047,Lawrence Stephens,7,2025-02-13,2025-01-04,Pending,466,3262,21,NY Warehouse
+ORD0615,S818,Wright PLC,C582,Eric Williams,7,2025-01-02,2025-03-01,Delivered,74,518,153,SF Warehouse
+ORD0616,S454,"Martin, Herrera and Cardenas",C182,Deborah Williams,6,2025-02-25,2025-01-30,Pending,277,1662,176,LA Warehouse
+ORD0617,S420,Crawford Ltd,C631,Cassie Wilson,1,2025-02-07,2025-01-09,Delivered,405,405,77,LA Warehouse
+ORD0618,S225,King-Leonard,C342,Karen Mcdaniel,4,2025-01-17,2025-02-06,Pending,401,1604,20,SF Warehouse
+ORD0619,S504,"Duncan, Gibson and Robles",C906,Joel Williams,2,2025-02-18,2025-02-17,Pending,215,430,176,LA Warehouse
+ORD0620,S863,Shepard-Turner,C338,Erin Roberts,8,2025-01-11,2025-02-07,Delivered,875,7000,98,LA Warehouse
+ORD0621,S633,Parker-Dennis,C021,Jesse Butler,1,2025-02-22,2025-01-06,Shipped,976,976,115,SF Warehouse
+ORD0622,S784,Norris-Pitts,C956,Scott Monroe,3,2025-02-19,2025-01-03,Delivered,667,2001,96,SF Warehouse
+ORD0623,S006,"Hill, Stevenson and Thompson",C371,Amber Jennings,6,2025-02-06,2025-02-22,Shipped,707,4242,181,NY Warehouse
+ORD0624,S685,Sparks Group,C1189,Mark Taylor,9,2025-01-12,2025-03-05,Delivered,919,8271,141,SF Warehouse
+ORD0625,S223,Hart Inc,C833,Steven Young,10,2025-01-19,2025-01-22,Shipped,34,340,14,LA Warehouse
+ORD0626,S056,Rosales-Ruiz,C1115,Travis Harding,8,2025-01-08,2025-01-23,Delivered,963,7704,8,SF Warehouse
+ORD0627,S408,Williamson Group,C286,Emma Ellis,2,2025-02-08,2025-01-23,Shipped,932,1864,174,SF Warehouse
+ORD0628,S876,Fisher Group,C105,Brittany Jackson,4,2025-02-08,2025-01-02,Shipped,866,3464,150,NY Warehouse
+ORD0629,S750,Montgomery LLC,C198,Amy Adams,8,2025-01-30,2025-01-22,Delivered,49,392,68,SF Warehouse
+ORD0630,S1124,Mills-Stewart,C059,Robert Good,2,2025-01-12,2025-02-04,Pending,197,394,120,SF Warehouse
+ORD0631,S524,Bradshaw and Sons,C1088,Kerri Matthews,4,2025-01-28,2025-03-02,Pending,518,2072,40,SF Warehouse
+ORD0632,S184,"Lewis, Peters and Owens",C108,Patrick Pratt,10,2025-02-28,2025-01-13,Pending,297,2970,146,SF Warehouse
+ORD0633,S862,Stark-Bryan,C155,Sydney Ortiz,7,2025-02-26,2025-01-31,Delivered,622,4354,187,LA Warehouse
+ORD0634,S339,Espinoza Ltd,C858,Allison Madden,2,2025-02-02,2025-02-07,Delivered,707,1414,174,NY Warehouse
+ORD0635,S011,"Aguirre, Alvarez and Campbell",C630,Samantha Montes,7,2025-01-23,2025-01-27,Delivered,777,5439,50,LA Warehouse
+ORD0636,S1043,Hernandez and Sons,C438,Jasmine Campbell,1,2025-01-12,2025-02-05,Delivered,815,815,172,LA Warehouse
+ORD0637,S937,Bond-Rodriguez,C1001,Abigail Powell,1,2025-01-22,2025-02-05,Delivered,265,265,61,NY Warehouse
+ORD0638,S384,Vasquez-Beasley,C1058,Jennifer Holt,8,2025-02-10,2025-01-22,Delivered,951,7608,65,NY Warehouse
+ORD0639,S080,Armstrong and Sons,C080,Ronald Rodriguez,8,2025-01-06,2025-02-26,Shipped,674,5392,35,LA Warehouse
+ORD0640,S744,"Hodge, Cox and Williams",C266,Monica Gregory,4,2025-02-22,2025-01-08,Pending,177,708,42,LA Warehouse
+ORD0641,S962,Hughes-White,C194,Chloe Wilson,6,2025-01-19,2025-02-04,Delivered,115,690,128,NY Warehouse
+ORD0642,S1053,Adams and Sons,C413,Shelly Rhodes,2,2025-02-05,2025-01-06,Shipped,727,1454,51,SF Warehouse
+ORD0643,S223,Hart Inc,C776,James Bates,7,2025-01-02,2025-01-31,Pending,143,1001,137,NY Warehouse
+ORD0644,S1134,Carter-Pearson,C733,Rebecca Jenkins,10,2025-01-12,2025-01-07,Delivered,817,8170,166,SF Warehouse
+ORD0645,S1095,"White, Williams and Mcgrath",C697,Cory Dunn,5,2025-01-27,2025-02-05,Delivered,577,2885,186,SF Warehouse
+ORD0646,S643,Johnson-Russell,C1050,Steven Washington,1,2025-01-05,2025-02-17,Delivered,393,393,115,NY Warehouse
+ORD0647,S120,Brown-Johnson,C949,Tony Neal,2,2025-02-13,2025-02-13,Delivered,871,1742,190,LA Warehouse
+ORD0648,S1085,"Watts, Gordon and Johnson",C1155,Mrs. Kathleen Floyd DDS,4,2025-01-27,2025-01-23,Pending,209,836,174,SF Warehouse
+ORD0649,S162,Harris LLC,C1099,David Henderson,9,2025-02-24,2025-01-31,Delivered,247,2223,25,SF Warehouse
+ORD0650,S1163,Robertson-Griffin,C1060,Monica Butler,10,2025-01-30,2025-01-03,Delivered,450,4500,86,NY Warehouse
+ORD0651,S694,Miller and Sons,C947,Carrie Jones,1,2025-02-05,2025-01-21,Delivered,318,318,154,LA Warehouse
+ORD0652,S257,Kent-Lee,C758,Amanda Holder,1,2025-01-21,2025-01-14,Pending,592,592,147,LA Warehouse
+ORD0653,S332,Diaz Group,C258,Thomas Lopez,10,2025-01-04,2025-02-21,Pending,516,5160,97,NY Warehouse
+ORD0654,S371,"Williamson, Barber and Jones",C530,Cindy Davenport,7,2025-01-18,2025-01-18,Shipped,410,2870,27,NY Warehouse
+ORD0655,S895,Hill LLC,C225,Tyler Meyer,3,2025-02-10,2025-02-19,Shipped,106,318,13,NY Warehouse
+ORD0656,S1122,Johnson Group,C1162,Kathryn Olson,6,2025-02-04,2025-01-02,Shipped,353,2118,78,SF Warehouse
+ORD0657,S1168,Benson-Short,C219,Suzanne Zhang,4,2025-01-24,2025-02-03,Shipped,455,1820,25,NY Warehouse
+ORD0658,S791,Walker-Crawford,C994,Laura Cox,6,2025-02-12,2025-02-03,Pending,710,4260,176,SF Warehouse
+ORD0659,S622,Stein PLC,C512,David Lee,8,2025-02-24,2025-01-14,Shipped,761,6088,3,LA Warehouse
+ORD0660,S795,"Phillips, Bowen and Cohen",C445,Alan Bruce,3,2025-01-24,2025-01-29,Shipped,969,2907,146,NY Warehouse
+ORD0661,S368,"Liu, Hobbs and Contreras",C200,Kevin Smith,10,2025-01-08,2025-02-16,Pending,730,7300,12,NY Warehouse
+ORD0662,S1077,Tate PLC,C793,David Page,5,2025-01-27,2025-01-27,Shipped,823,4115,98,LA Warehouse
+ORD0663,S887,Stephenson and Sons,C333,Scott Washington,10,2025-01-22,2025-02-27,Pending,365,3650,189,NY Warehouse
+ORD0664,S999,Farrell-Jordan,C367,Daniel Frey,7,2025-02-19,2025-03-02,Shipped,634,4438,63,LA Warehouse
+ORD0665,S137,Riddle-Vincent,C685,Ashley Wilson,10,2025-03-03,2025-01-02,Delivered,991,9910,68,SF Warehouse
+ORD0666,S174,Byrd-Nelson,C1094,Robert Hernandez,10,2025-01-01,2025-01-05,Shipped,462,4620,99,NY Warehouse
+ORD0667,S294,Garcia-Mullen,C225,Tyler Meyer,5,2025-02-27,2025-01-29,Delivered,157,785,85,SF Warehouse
+ORD0668,S1067,Wu-Arnold,C917,Kelly Jensen,2,2025-02-02,2025-03-01,Pending,806,1612,93,NY Warehouse
+ORD0669,S478,Schmidt-Rodriguez,C207,Mary Atkins,8,2025-02-04,2025-02-04,Shipped,274,2192,38,SF Warehouse
+ORD0670,S697,Evans-Harper,C983,David Thomas,1,2025-01-20,2025-02-13,Shipped,671,671,69,SF Warehouse
+ORD0671,S886,Andrews LLC,C247,Jennifer Burns,6,2025-03-03,2025-01-15,Delivered,938,5628,153,LA Warehouse
+ORD0672,S991,Johnson Inc,C193,Debbie Conway,9,2025-02-09,2025-01-26,Delivered,632,5688,145,SF Warehouse
+ORD0673,S008,Parks Group,C097,Justin Turner,4,2025-02-03,2025-01-18,Shipped,85,340,8,SF Warehouse
+ORD0674,S440,"Kelley, Harrison and Reid",C638,Alex Johnson,4,2025-03-03,2025-02-19,Shipped,765,3060,91,NY Warehouse
+ORD0675,S188,Dunlap-Moore,C784,John Orr,3,2025-02-11,2025-01-21,Shipped,664,1992,158,LA Warehouse
+ORD0676,S254,Bush-Johnson,C771,David Moore,9,2025-02-21,2025-01-22,Pending,105,945,111,SF Warehouse
+ORD0677,S497,"Smith, Perez and Taylor",C1007,Brandon Johnson,3,2025-01-04,2025-02-24,Delivered,796,2388,123,SF Warehouse
+ORD0678,S263,Williams-Neal,C145,Robin Collins,4,2025-02-24,2025-01-09,Shipped,523,2092,90,NY Warehouse
+ORD0679,S837,Casey-Gonzales,C1125,Katrina Shannon,5,2025-02-16,2025-02-05,Pending,515,2575,49,SF Warehouse
+ORD0680,S878,Lopez-Hamilton,C795,Lauren Taylor,7,2025-03-03,2025-01-09,Pending,848,5936,192,SF Warehouse
+ORD0681,S934,"Glover, Bentley and Phillips",C1037,Kimberly Gonzalez,7,2025-01-18,2025-03-05,Pending,804,5628,157,SF Warehouse
+ORD0682,S1018,"Webb, Solis and Mendoza",C652,Dalton Maynard,10,2025-01-29,2025-02-07,Delivered,790,7900,62,SF Warehouse
+ORD0683,S848,Hill-Johnson,C083,Kimberly Ball,7,2025-01-28,2025-02-01,Delivered,879,6153,44,NY Warehouse
+ORD0684,S359,"Turner, Parks and Evans",C997,Jessica Todd,10,2025-01-02,2025-01-11,Delivered,508,5080,180,LA Warehouse
+ORD0685,S908,Obrien and Sons,C954,Mark Koch,9,2025-02-08,2025-01-18,Shipped,731,6579,82,SF Warehouse
+ORD0686,S1088,Moore-Santana,C572,Sally Pope DDS,3,2025-02-09,2025-02-16,Shipped,794,2382,79,NY Warehouse
+ORD0687,S627,Maxwell-Carrillo,C1090,Zachary Ward,6,2025-01-22,2025-02-23,Shipped,250,1500,63,LA Warehouse
+ORD0688,S1152,Singleton and Sons,C356,Brian Payne,2,2025-02-26,2025-01-11,Shipped,896,1792,69,SF Warehouse
+ORD0689,S241,Cox-Wilson,C230,Mrs. Jessica Barker,3,2025-03-04,2025-01-02,Shipped,29,87,8,LA Warehouse
+ORD0690,S767,Moore Ltd,C261,Julie Mckee,10,2025-02-16,2025-01-22,Shipped,384,3840,162,LA Warehouse
+ORD0691,S334,Gomez and Sons,C119,Ronald Vega,4,2025-02-07,2025-02-17,Pending,468,1872,106,NY Warehouse
+ORD0692,S634,"Lynch, Berry and Rodriguez",C485,David Foster,2,2025-02-22,2025-01-29,Shipped,685,1370,81,LA Warehouse
+ORD0693,S468,"Mitchell, Hopkins and Barber",C618,Karen Crawford,2,2025-02-09,2025-01-02,Shipped,508,1016,186,NY Warehouse
+ORD0694,S137,Riddle-Vincent,C257,Lauren Lewis,6,2025-02-10,2025-01-12,Pending,652,3912,81,NY Warehouse
+ORD0695,S858,Murphy-Cortez,C375,Joseph James,5,2025-01-25,2025-02-14,Shipped,399,1995,101,SF Warehouse
+ORD0696,S658,Montgomery-Mendez,C494,Katrina York,5,2025-01-31,2025-01-22,Pending,574,2870,67,NY Warehouse
+ORD0697,S079,"Smith, Kennedy and Whitaker",C729,Stephanie Baker,6,2025-01-25,2025-01-24,Shipped,108,648,90,LA Warehouse
+ORD0698,S1008,Jones Group,C1124,Christopher Smith,8,2025-01-28,2025-03-01,Shipped,651,5208,98,NY Warehouse
+ORD0699,S664,Brown Group,C441,Susan Clark,10,2025-02-05,2025-01-20,Shipped,920,9200,165,SF Warehouse
+ORD0700,S248,Keller-Hansen,C1069,Jacqueline Powers,9,2025-02-25,2025-02-12,Pending,898,8082,9,NY Warehouse
+ORD0701,S700,Frederick-Watson,C1107,Ann Barker,2,2025-02-17,2025-01-04,Shipped,547,1094,11,SF Warehouse
+ORD0702,S1076,"Horton, Cooper and Lopez",C520,Greg Lee,4,2025-03-01,2025-01-03,Delivered,786,3144,12,LA Warehouse
+ORD0703,S762,"Taylor, Robertson and Salazar",C273,Kimberly Fernandez,9,2025-02-23,2025-01-06,Delivered,628,5652,55,SF Warehouse
+ORD0704,S1174,Alvarez PLC,C644,James Barry,8,2025-02-26,2025-03-04,Delivered,132,1056,49,NY Warehouse
+ORD0705,S1043,Hernandez and Sons,C626,Austin Jennings,8,2025-02-15,2025-01-12,Shipped,192,1536,92,SF Warehouse
+ORD0706,S851,Mitchell-Williams,C618,Karen Crawford,6,2025-02-18,2025-01-04,Shipped,135,810,12,NY Warehouse
+ORD0707,S418,Allen and Sons,C813,Jennifer Johnson,9,2025-01-21,2025-01-04,Delivered,791,7119,63,NY Warehouse
+ORD0708,S325,"Chapman, Bowen and Lucas",C755,Yvonne Sims,6,2025-02-04,2025-01-06,Delivered,454,2724,52,LA Warehouse
+ORD0709,S974,"Grant, Cooper and Conner",C1165,Sergio Morrison MD,10,2025-02-08,2025-02-24,Delivered,483,4830,92,SF Warehouse
+ORD0710,S316,"Velasquez, Hammond and Evans",C092,Nicole Payne,2,2025-01-29,2025-02-26,Shipped,271,542,84,SF Warehouse
+ORD0711,S954,"Randall, Smith and Clark",C266,Monica Gregory,2,2025-01-07,2025-02-06,Delivered,319,638,154,SF Warehouse
+ORD0712,S356,Phillips-Parker,C412,Megan Johnson,7,2025-02-10,2025-01-13,Shipped,639,4473,160,LA Warehouse
+ORD0713,S783,Brown-Patel,C1109,Jessica Shepherd,5,2025-02-20,2025-02-20,Pending,369,1845,192,SF Warehouse
+ORD0714,S607,"Holland, Nelson and Powell",C942,Jennifer Walker,7,2025-02-20,2025-01-18,Delivered,100,700,12,LA Warehouse
+ORD0715,S780,Marshall LLC,C096,Erica Mays,1,2025-02-13,2025-02-17,Pending,460,460,13,LA Warehouse
+ORD0716,S683,Butler LLC,C578,John Turner,8,2025-01-29,2025-02-26,Pending,91,728,64,SF Warehouse
+ORD0717,S739,Brown Group,C036,Sharon Jackson,6,2025-03-02,2025-02-25,Delivered,503,3018,32,NY Warehouse
+ORD0718,S1031,"Hubbard, Gonzales and Swanson",C539,Angel Hickman,10,2025-01-18,2025-01-08,Shipped,694,6940,109,SF Warehouse
+ORD0719,S1181,Miller Group,C069,Cheryl Kent,2,2025-02-11,2025-03-03,Delivered,832,1664,183,LA Warehouse
+ORD0720,S011,"Aguirre, Alvarez and Campbell",C854,Joshua Hoover,7,2025-02-26,2025-01-24,Delivered,108,756,6,SF Warehouse
+ORD0721,S553,"Booth, Bauer and Johnson",C991,Michael Lopez,7,2025-01-29,2025-01-02,Shipped,782,5474,179,NY Warehouse
+ORD0722,S985,Archer-Garcia,C570,David Page,9,2025-02-26,2025-01-28,Shipped,288,2592,189,SF Warehouse
+ORD0723,S040,Martin-Lewis,C436,Ann Jenkins,10,2025-01-11,2025-03-01,Delivered,971,9710,82,LA Warehouse
+ORD0724,S032,Obrien and Sons,C142,Tammy Carrillo,4,2025-03-02,2025-01-10,Pending,979,3916,83,LA Warehouse
+ORD0725,S020,"Rosario, Watts and Maldonado",C276,David Jenkins,5,2025-02-18,2025-02-13,Shipped,406,2030,54,NY Warehouse
+ORD0726,S1061,Acosta-Ritter,C758,Amanda Holder,10,2025-02-01,2025-02-24,Pending,291,2910,87,LA Warehouse
+ORD0727,S099,Jimenez-Thompson,C977,Mr. Dan Elliott,4,2025-02-17,2025-01-13,Pending,937,3748,67,NY Warehouse
+ORD0728,S438,Roy LLC,C075,Juan Larson,6,2025-02-24,2025-02-26,Shipped,740,4440,48,LA Warehouse
+ORD0729,S223,Hart Inc,C1164,Ruben Turner,10,2025-02-07,2025-02-22,Shipped,366,3660,27,SF Warehouse
+ORD0730,S491,Sanford Ltd,C540,Mary Greene,5,2025-01-17,2025-02-21,Delivered,880,4400,75,LA Warehouse
+ORD0731,S948,Wells Ltd,C417,Douglas Patel,7,2025-01-10,2025-03-04,Shipped,762,5334,143,SF Warehouse
+ORD0732,S717,Moody LLC,C123,Timothy Bailey,2,2025-02-07,2025-02-18,Shipped,669,1338,128,LA Warehouse
+ORD0733,S1116,Thomas and Sons,C294,Kathryn Nash,2,2025-01-01,2025-01-01,Pending,687,1374,95,SF Warehouse
+ORD0734,S1176,"Thompson, Williams and Wood",C623,Stephanie Black,10,2025-02-28,2025-01-25,Delivered,76,760,151,SF Warehouse
+ORD0735,S454,"Martin, Herrera and Cardenas",C1100,Kelly Kerr,6,2025-01-17,2025-01-19,Delivered,612,3672,61,LA Warehouse
+ORD0736,S822,Curry Ltd,C754,Eric Dickerson Jr.,5,2025-02-07,2025-02-08,Shipped,574,2870,81,LA Warehouse
+ORD0737,S062,Garcia-Arnold,C739,Cameron Hernandez,5,2025-03-01,2025-02-01,Pending,305,1525,88,LA Warehouse
+ORD0738,S1101,"Adams, Wilson and Perkins",C439,Angela Daniels,4,2025-03-05,2025-02-17,Pending,338,1352,155,NY Warehouse
+ORD0739,S502,Newman and Sons,C272,Jason Chavez,7,2025-01-23,2025-01-14,Delivered,917,6419,51,NY Warehouse
+ORD0740,S136,"Johnson, Sanchez and Lindsey",C1003,Andrew Adams,1,2025-02-07,2025-01-11,Pending,964,964,183,SF Warehouse
+ORD0741,S705,Gonzales Inc,C983,David Thomas,9,2025-01-13,2025-01-30,Delivered,867,7803,181,LA Warehouse
+ORD0742,S743,"Matthews, Baker and Guerrero",C139,Johnny Best,10,2025-01-16,2025-03-01,Shipped,595,5950,91,SF Warehouse
+ORD0743,S040,Martin-Lewis,C437,John Martinez DVM,6,2025-01-14,2025-03-02,Pending,597,3582,189,SF Warehouse
+ORD0744,S526,"Moore, Carter and Everett",C018,Keith Reynolds,4,2025-01-25,2025-02-02,Delivered,47,188,147,NY Warehouse
+ORD0745,S990,Martinez-Hamilton,C754,Eric Dickerson Jr.,3,2025-01-05,2025-01-12,Shipped,481,1443,4,NY Warehouse
+ORD0746,S1015,"Hicks, Bernard and Miller",C363,Benjamin Campbell,1,2025-02-04,2025-01-09,Delivered,118,118,29,NY Warehouse
+ORD0747,S018,"Lester, Wright and Williams",C264,Jessica Russell,2,2025-03-01,2025-02-11,Pending,963,1926,98,SF Warehouse
+ORD0748,S976,Garcia Inc,C680,Dawn Jensen,1,2025-02-23,2025-01-10,Shipped,333,333,17,LA Warehouse
+ORD0749,S386,Williams-Reid,C632,Andrew Johnson,1,2025-01-16,2025-02-28,Shipped,184,184,118,LA Warehouse
+ORD0750,S646,Davis-Pugh,C430,Bruce Hogan,7,2025-02-18,2025-02-27,Pending,599,4193,74,SF Warehouse
+ORD0751,S743,"Matthews, Baker and Guerrero",C423,Melinda Olson,1,2025-01-28,2025-01-24,Delivered,221,221,27,LA Warehouse
+ORD0752,S966,"Ruiz, Blevins and Collins",C042,Angelica Hood,4,2025-02-12,2025-01-20,Shipped,870,3480,1,NY Warehouse
+ORD0753,S437,"Andrade, Chavez and Brown",C272,Jason Chavez,8,2025-01-01,2025-01-07,Shipped,494,3952,101,LA Warehouse
+ORD0754,S300,Zavala LLC,C1046,Kayla Carter,9,2025-02-25,2025-01-31,Pending,544,4896,154,NY Warehouse
+ORD0755,S366,"White, Edwards and Moreno",C631,Cassie Wilson,6,2025-01-12,2025-02-06,Delivered,430,2580,188,SF Warehouse
+ORD0756,S002,Faulkner Group,C1174,Zachary Mcclain,3,2025-03-03,2025-01-20,Shipped,678,2034,97,NY Warehouse
+ORD0757,S1188,Mills Ltd,C821,Crystal Williams,1,2025-02-05,2025-02-18,Delivered,352,352,70,LA Warehouse
+ORD0758,S941,Davis-Fisher,C620,Loretta Schultz,7,2025-02-17,2025-03-04,Shipped,876,6132,98,NY Warehouse
+ORD0759,S243,Harper-Mclaughlin,C810,Alex May,1,2025-02-08,2025-02-17,Shipped,862,862,93,NY Warehouse
+ORD0760,S327,"Hammond, Ward and Smith",C302,Christine Nguyen,5,2025-02-23,2025-01-20,Shipped,798,3990,67,LA Warehouse
+ORD0761,S282,Wilson Group,C724,Michelle Schwartz,9,2025-02-28,2025-01-21,Delivered,111,999,113,NY Warehouse
+ORD0762,S664,Brown Group,C528,Daniel Murphy,3,2025-01-17,2025-01-18,Delivered,154,462,182,LA Warehouse
+ORD0763,S911,Pugh-Peterson,C623,Stephanie Black,9,2025-01-02,2025-02-05,Delivered,240,2160,83,SF Warehouse
+ORD0764,S007,Johnson LLC,C445,Alan Bruce,7,2025-02-08,2025-01-17,Shipped,232,1624,53,LA Warehouse
+ORD0765,S1051,"Smith, Gamble and Powell",C734,Ashley Wallace MD,6,2025-02-26,2025-02-27,Pending,800,4800,68,NY Warehouse
+ORD0766,S237,Boone-Mcdonald,C163,Adam Mccarthy,6,2025-01-10,2025-03-05,Shipped,664,3984,162,LA Warehouse
+ORD0767,S654,"Ross, Heath and Gardner",C686,Chelsey Thomas,10,2025-02-19,2025-02-12,Pending,66,660,129,SF Warehouse
+ORD0768,S450,Blankenship-James,C727,Mark Jenkins,4,2025-01-06,2025-01-09,Pending,396,1584,44,SF Warehouse
+ORD0769,S157,Jones and Sons,C1166,Allen Wade,3,2025-01-18,2025-01-10,Shipped,394,1182,176,LA Warehouse
+ORD0770,S667,"Stephenson, Smith and Daniels",C1089,Vanessa Ward,9,2025-02-14,2025-02-07,Delivered,245,2205,148,NY Warehouse
+ORD0771,S159,Bates PLC,C605,Jackson Stevens,6,2025-02-18,2025-01-12,Delivered,332,1992,6,LA Warehouse
+ORD0772,S175,"Fischer, Wagner and Jimenez",C586,Ryan Jones,8,2025-01-24,2025-03-03,Delivered,474,3792,151,SF Warehouse
+ORD0773,S750,Montgomery LLC,C964,Todd Brown,7,2025-02-28,2025-02-20,Shipped,592,4144,149,LA Warehouse
+ORD0774,S105,Sanchez-Rollins,C771,David Moore,4,2025-01-07,2025-01-05,Shipped,577,2308,177,SF Warehouse
+ORD0775,S809,"Boyd, Walsh and Buck",C751,Melissa Lane,1,2025-01-28,2025-01-22,Shipped,837,837,196,SF Warehouse
+ORD0776,S583,"Wilson, Booth and Castro",C594,Sarah Nixon,5,2025-02-28,2025-01-27,Delivered,594,2970,39,SF Warehouse
+ORD0777,S610,Kramer Ltd,C979,Melanie Smith,5,2025-01-15,2025-01-30,Pending,33,165,57,LA Warehouse
+ORD0778,S255,"Paul, Anderson and Rodgers",C090,Ashley Hall,10,2025-01-27,2025-02-14,Delivered,76,760,26,NY Warehouse
+ORD0779,S554,Romero-Reyes,C948,Christopher Thompson,4,2025-01-14,2025-02-03,Shipped,331,1324,98,SF Warehouse
+ORD0780,S359,"Turner, Parks and Evans",C468,Richard Phillips,9,2025-02-22,2025-02-02,Shipped,297,2673,118,SF Warehouse
+ORD0781,S586,Jordan PLC,C884,Mason Gonzalez,4,2025-02-22,2025-02-22,Shipped,991,3964,96,LA Warehouse
+ORD0782,S307,"Ryan, Martin and Sloan",C600,Xavier Bailey,1,2025-01-27,2025-03-03,Pending,230,230,87,NY Warehouse
+ORD0783,S1195,Williams Ltd,C741,Rebecca Ellis,9,2025-02-20,2025-02-09,Delivered,811,7299,87,SF Warehouse
+ORD0784,S345,Lee-Vance,C003,Sandra Johnson,1,2025-02-25,2025-02-13,Delivered,491,491,93,SF Warehouse
+ORD0785,S586,Jordan PLC,C030,James Silva,8,2025-01-30,2025-02-08,Shipped,130,1040,58,LA Warehouse
+ORD0786,S881,Crawford-Shields,C378,Amy Gordon,9,2025-02-11,2025-02-03,Pending,562,5058,85,LA Warehouse
+ORD0787,S115,"Hunter, King and Quinn",C995,Mr. Christopher Hall,10,2025-01-30,2025-02-24,Delivered,499,4990,160,LA Warehouse
+ORD0788,S549,"Beard, Garrison and Randall",C213,John Robbins,7,2025-02-01,2025-01-24,Delivered,863,6041,92,SF Warehouse
+ORD0789,S895,Hill LLC,C283,Richard Riddle,10,2025-01-16,2025-02-04,Shipped,535,5350,45,LA Warehouse
+ORD0790,S1063,Sandoval-Cantrell,C406,Elijah Mcclure,7,2025-01-22,2025-02-18,Shipped,492,3444,146,LA Warehouse
+ORD0791,S623,"Silva, Chang and Moore",C493,Nicolas Rivera,8,2025-01-02,2025-01-31,Delivered,985,7880,185,LA Warehouse
+ORD0792,S076,Williams and Sons,C788,Nathaniel Smith,10,2025-01-23,2025-03-05,Shipped,923,9230,126,NY Warehouse
+ORD0793,S790,"Lowe, Page and Newton",C134,Dustin Cochran,8,2025-01-21,2025-01-01,Pending,919,7352,111,LA Warehouse
+ORD0794,S366,"White, Edwards and Moreno",C047,Lawrence Stephens,5,2025-02-28,2025-02-24,Shipped,496,2480,159,LA Warehouse
+ORD0795,S486,White Inc,C072,Larry Nichols,5,2025-01-02,2025-02-11,Delivered,495,2475,158,NY Warehouse
+ORD0796,S095,Travis Group,C1012,Kimberly Scott,7,2025-02-14,2025-02-20,Pending,430,3010,81,SF Warehouse
+ORD0797,S162,Harris LLC,C649,Marvin Lee,2,2025-01-18,2025-02-23,Pending,413,826,46,SF Warehouse
+ORD0798,S105,Sanchez-Rollins,C1106,Ian Dickerson,7,2025-02-02,2025-02-03,Shipped,331,2317,144,NY Warehouse
+ORD0799,S1092,Foster-Cherry,C301,Shane Roberts,2,2025-01-10,2025-01-23,Delivered,618,1236,169,LA Warehouse
+ORD0800,S162,Harris LLC,C611,Kaitlyn Robinson,1,2025-02-01,2025-02-27,Shipped,573,573,194,NY Warehouse
+ORD0801,S503,"Yang, Hunt and Morgan",C841,Patricia Parker,4,2025-01-18,2025-01-10,Pending,64,256,82,NY Warehouse
+ORD0802,S866,"Suarez, Spencer and Morris",C105,Brittany Jackson,2,2025-01-10,2025-01-20,Delivered,652,1304,86,SF Warehouse
+ORD0803,S1070,Wood Inc,C493,Nicolas Rivera,8,2025-02-27,2025-03-02,Pending,590,4720,135,NY Warehouse
+ORD0804,S045,Caldwell-Foster,C336,Kenneth Gordon,7,2025-01-08,2025-01-18,Shipped,759,5313,96,SF Warehouse
+ORD0805,S610,Kramer Ltd,C420,Sharon Diaz,6,2025-02-21,2025-01-08,Shipped,639,3834,154,NY Warehouse
+ORD0806,S618,Arellano and Sons,C887,Ms. Laura Richardson,5,2025-02-22,2025-01-21,Delivered,117,585,108,NY Warehouse
+ORD0807,S247,"Swanson, Chavez and Craig",C919,Tammy Weiss,9,2025-02-05,2025-02-25,Delivered,341,3069,53,LA Warehouse
+ORD0808,S226,Lambert-Farrell,C361,Erin Norris,5,2025-01-07,2025-01-23,Pending,205,1025,197,NY Warehouse
+ORD0809,S912,"Valenzuela, Martinez and Jackson",C580,Shawn Daugherty,9,2025-02-19,2025-01-29,Shipped,49,441,200,LA Warehouse
+ORD0810,S196,"Lane, Harvey and Jones",C340,Deborah Payne,10,2025-01-11,2025-02-03,Pending,884,8840,77,SF Warehouse
+ORD0811,S851,Mitchell-Williams,C756,Dawn Ballard,9,2025-01-16,2025-01-25,Pending,936,8424,176,SF Warehouse
+ORD0812,S649,Gamble Group,C171,Stephanie Brown,8,2025-03-02,2025-02-07,Delivered,660,5280,51,LA Warehouse
+ORD0813,S525,"Munoz, Parsons and Harper",C748,Joseph Richardson,10,2025-02-05,2025-02-21,Shipped,646,6460,183,SF Warehouse
+ORD0814,S133,Hamilton-Herrera,C293,Brent Smith,10,2025-02-14,2025-02-28,Shipped,129,1290,28,SF Warehouse
+ORD0815,S386,Williams-Reid,C961,Jill Padilla,6,2025-02-18,2025-01-16,Delivered,342,2052,183,LA Warehouse
+ORD0816,S1007,Macdonald-Roberts,C344,Lisa Perez,8,2025-01-11,2025-01-04,Delivered,57,456,149,NY Warehouse
+ORD0817,S307,"Ryan, Martin and Sloan",C1116,Brad Martinez,2,2025-01-25,2025-01-22,Pending,618,1236,167,LA Warehouse
+ORD0818,S267,Smith-Rivas,C1027,Brooke Sanchez,10,2025-01-12,2025-01-03,Pending,668,6680,1,NY Warehouse
+ORD0819,S282,Wilson Group,C1029,Matthew Wells,2,2025-02-14,2025-01-23,Delivered,900,1800,14,LA Warehouse
+ORD0820,S861,Young Ltd,C980,David Burke,9,2025-01-17,2025-01-10,Shipped,385,3465,148,SF Warehouse
+ORD0821,S245,"Lucas, Lucas and Johnson",C207,Mary Atkins,5,2025-01-04,2025-02-17,Pending,163,815,84,NY Warehouse
+ORD0822,S220,Martinez Inc,C172,Jordan Estrada,9,2025-01-16,2025-02-09,Pending,693,6237,147,LA Warehouse
+ORD0823,S706,Bennett-Simmons,C712,Kimberly Maxwell,3,2025-01-09,2025-01-11,Shipped,470,1410,78,SF Warehouse
+ORD0824,S640,Bowman-Woodward,C314,Wendy Johnson,5,2025-02-25,2025-02-16,Delivered,127,635,3,LA Warehouse
+ORD0825,S285,"Gutierrez, Adkins and Terrell",C926,Stacy Holmes,7,2025-01-03,2025-01-15,Shipped,678,4746,110,SF Warehouse
+ORD0826,S896,Cook-Sanders,C178,Michael Ramirez,10,2025-01-07,2025-02-26,Shipped,153,1530,103,LA Warehouse
+ORD0827,S751,Norris-Foster,C946,Ashley Davies,8,2025-02-24,2025-02-02,Delivered,879,7032,106,SF Warehouse
+ORD0828,S880,Chandler Inc,C907,Dr. Paula Velazquez,8,2025-01-22,2025-02-20,Shipped,250,2000,37,SF Warehouse
+ORD0829,S595,Harris Group,C148,Crystal Sanders,4,2025-02-15,2025-02-22,Pending,281,1124,81,NY Warehouse
+ORD0830,S499,Navarro Ltd,C929,Barbara Greene,3,2025-01-20,2025-01-06,Shipped,395,1185,50,LA Warehouse
+ORD0831,S1163,Robertson-Griffin,C116,Linda Thompson,10,2025-02-12,2025-02-20,Delivered,995,9950,94,SF Warehouse
+ORD0832,S380,Evans PLC,C018,Keith Reynolds,9,2025-01-06,2025-02-20,Pending,833,7497,188,LA Warehouse
+ORD0833,S287,Gray-Little,C963,Thomas Dougherty,1,2025-02-27,2025-01-04,Shipped,953,953,102,SF Warehouse
+ORD0834,S395,Miller-Mitchell,C509,David Price,4,2025-01-05,2025-01-08,Delivered,188,752,160,NY Warehouse
+ORD0835,S708,Bruce-Harvey,C528,Daniel Murphy,3,2025-02-17,2025-01-28,Delivered,463,1389,176,SF Warehouse
+ORD0836,S820,Fields Ltd,C743,Michael Burke,7,2025-01-20,2025-01-08,Shipped,829,5803,79,NY Warehouse
+ORD0837,S625,Duarte LLC,C1072,Lauren Bennett,7,2025-01-28,2025-02-24,Delivered,949,6643,56,SF Warehouse
+ORD0838,S974,"Grant, Cooper and Conner",C1043,Ryan Hobbs,1,2025-01-31,2025-02-05,Shipped,487,487,155,SF Warehouse
+ORD0839,S259,"Massey, Boone and Foster",C658,Noah Myers,6,2025-01-12,2025-01-26,Shipped,680,4080,105,NY Warehouse
+ORD0840,S208,Mercado Group,C977,Mr. Dan Elliott,7,2025-01-26,2025-01-08,Delivered,804,5628,85,LA Warehouse
+ORD0841,S1011,"Hill, Dunn and Tyler",C661,Brittany Stevens DDS,9,2025-02-06,2025-02-02,Delivered,164,1476,138,SF Warehouse
+ORD0842,S1115,Johnson Inc,C100,Shannon Peterson,8,2025-01-22,2025-02-20,Shipped,980,7840,106,SF Warehouse
+ORD0843,S983,Barber Ltd,C392,Leonard Adams,4,2025-01-08,2025-01-07,Pending,673,2692,177,LA Warehouse
+ORD0844,S112,"Krause, Nelson and Maddox",C1172,Michelle Frye,8,2025-03-01,2025-02-26,Pending,994,7952,71,LA Warehouse
+ORD0845,S388,Cook-Snow,C042,Angelica Hood,6,2025-01-11,2025-01-03,Delivered,349,2094,154,LA Warehouse
+ORD0846,S722,Henry-Choi,C111,Taylor Noble,2,2025-01-28,2025-02-05,Shipped,836,1672,53,LA Warehouse
+ORD0847,S776,Simmons-Velez,C225,Tyler Meyer,10,2025-02-03,2025-02-16,Shipped,922,9220,8,NY Warehouse
+ORD0848,S249,Pearson-Brown,C003,Sandra Johnson,10,2025-02-04,2025-02-09,Pending,437,4370,9,SF Warehouse
+ORD0849,S1126,Marks Group,C084,Leslie Hendrix,2,2025-03-02,2025-01-17,Shipped,342,684,106,NY Warehouse
+ORD0850,S059,Davila Inc,C660,Brian Holmes,7,2025-02-23,2025-01-08,Pending,570,3990,97,LA Warehouse
+ORD0851,S263,Williams-Neal,C255,Jacqueline Ramirez,3,2025-01-30,2025-02-24,Pending,693,2079,91,LA Warehouse
+ORD0852,S768,Harrington Group,C463,Mary Henderson,5,2025-02-27,2025-02-02,Delivered,683,3415,157,LA Warehouse
+ORD0853,S102,Raymond-Blake,C276,David Jenkins,2,2025-03-04,2025-02-23,Delivered,366,732,133,NY Warehouse
+ORD0854,S617,Peterson LLC,C062,Kelly Peterson,2,2025-01-29,2025-03-02,Delivered,198,396,77,NY Warehouse
+ORD0855,S450,Blankenship-James,C699,Samuel Johnson,2,2025-01-21,2025-01-16,Delivered,563,1126,116,LA Warehouse
+ORD0856,S1066,"Baird, Williams and Burns",C804,Paul Whitehead,2,2025-03-03,2025-01-02,Delivered,218,436,151,LA Warehouse
+ORD0857,S1192,"Thomas, Kramer and Munoz",C835,Bruce Brown,2,2025-02-24,2025-01-27,Delivered,470,940,165,LA Warehouse
+ORD0858,S247,"Swanson, Chavez and Craig",C475,Brandon Perez,5,2025-01-27,2025-02-05,Delivered,676,3380,62,SF Warehouse
+ORD0859,S293,Wright Group,C574,Jeffrey Pittman,6,2025-02-09,2025-02-09,Shipped,391,2346,117,SF Warehouse
+ORD0860,S1165,Fowler Ltd,C1000,Linda Williams,1,2025-01-12,2025-01-19,Pending,32,32,120,SF Warehouse
+ORD0861,S881,Crawford-Shields,C166,Brooke Kim,8,2025-01-10,2025-01-23,Delivered,585,4680,89,NY Warehouse
+ORD0862,S755,Henderson Inc,C524,John Brown,8,2025-02-01,2025-02-01,Delivered,139,1112,68,NY Warehouse
+ORD0863,S110,Lewis-Diaz,C783,John Spears,3,2025-02-18,2025-01-15,Shipped,675,2025,159,SF Warehouse
+ORD0864,S423,"Jenkins, Williams and Meyer",C123,Timothy Bailey,3,2025-03-03,2025-02-03,Delivered,643,1929,58,LA Warehouse
+ORD0865,S466,Kaufman Group,C1061,Dwayne Gross,7,2025-01-08,2025-02-16,Shipped,628,4396,85,SF Warehouse
+ORD0866,S165,Pratt-Cox,C061,Kimberly Byrd,1,2025-01-01,2025-02-24,Shipped,678,678,146,SF Warehouse
+ORD0867,S337,Wood LLC,C488,Sarah Contreras,9,2025-01-12,2025-01-16,Delivered,330,2970,128,NY Warehouse
+ORD0868,S654,"Ross, Heath and Gardner",C757,Tim Guzman,6,2025-02-20,2025-02-08,Pending,500,3000,119,NY Warehouse
+ORD0869,S907,Graham-Watts,C222,Melissa Glover,5,2025-01-10,2025-01-20,Pending,117,585,81,NY Warehouse
+ORD0870,S614,Matthews Inc,C031,Jim Powell,8,2025-02-01,2025-02-21,Shipped,86,688,74,NY Warehouse
+ORD0871,S1132,"Morris, Sexton and Smith",C258,Thomas Lopez,6,2025-01-12,2025-02-14,Delivered,538,3228,106,SF Warehouse
+ORD0872,S1075,Phillips-Allen,C1015,John House,3,2025-02-07,2025-01-15,Delivered,899,2697,179,LA Warehouse
+ORD0873,S374,Gates LLC,C1083,Michael Ellis,10,2025-01-08,2025-01-19,Shipped,439,4390,43,LA Warehouse
+ORD0874,S760,Rosales-Reyes,C768,Michael Woods,8,2025-02-01,2025-02-16,Delivered,928,7424,185,SF Warehouse
+ORD0875,S124,Bonilla Group,C192,Kevin Jones,8,2025-03-03,2025-03-02,Shipped,228,1824,133,LA Warehouse
+ORD0876,S419,Neal-Gonzalez,C1113,Anna Mitchell,8,2025-01-02,2025-03-04,Shipped,166,1328,41,NY Warehouse
+ORD0877,S816,Joseph and Sons,C134,Dustin Cochran,8,2025-01-26,2025-02-27,Shipped,529,4232,111,LA Warehouse
+ORD0878,S736,Roman-Olson,C1113,Anna Mitchell,5,2025-02-21,2025-03-02,Delivered,446,2230,181,NY Warehouse
+ORD0879,S133,Hamilton-Herrera,C686,Chelsey Thomas,4,2025-03-01,2025-03-04,Shipped,309,1236,178,LA Warehouse
+ORD0880,S1033,"Mccoy, Lee and Pittman",C751,Melissa Lane,7,2025-01-17,2025-02-21,Shipped,453,3171,116,LA Warehouse
+ORD0881,S250,"Bates, Ward and Mcdonald",C677,Patrick Parks,7,2025-01-18,2025-02-23,Shipped,942,6594,186,NY Warehouse
+ORD0882,S209,"Davenport, Vaughn and Hicks",C382,Brenda Welch,4,2025-01-22,2025-01-22,Delivered,213,852,93,LA Warehouse
+ORD0883,S650,West-Scott,C872,Tyler Rosales,5,2025-01-14,2025-01-11,Pending,599,2995,179,SF Warehouse
+ORD0884,S949,Simmons-Howard,C876,Jessica Andrews,8,2025-01-01,2025-01-04,Pending,331,2648,72,SF Warehouse
+ORD0885,S1046,"Little, Williams and Nguyen",C1196,Heather Lee,8,2025-01-02,2025-02-03,Delivered,434,3472,7,LA Warehouse
+ORD0886,S298,"Hoffman, Cook and White",C1121,William Forbes,4,2025-01-18,2025-01-03,Pending,300,1200,32,SF Warehouse
+ORD0887,S1107,Wilson PLC,C504,Christopher Waller,10,2025-03-05,2025-01-04,Pending,947,9470,34,NY Warehouse
+ORD0888,S484,Smith-Montgomery,C413,Shelly Rhodes,1,2025-02-11,2025-02-08,Delivered,249,249,57,LA Warehouse
+ORD0889,S424,"Jones, Strong and Gamble",C216,Jessica Dean,7,2025-02-13,2025-03-01,Shipped,75,525,1,SF Warehouse
+ORD0890,S616,Smith LLC,C229,Michael Garcia,5,2025-03-03,2025-02-27,Delivered,438,2190,122,SF Warehouse
+ORD0891,S756,Johnston and Sons,C290,William Hunt,7,2025-02-19,2025-02-02,Shipped,121,847,189,SF Warehouse
+ORD0892,S178,"Arnold, Jackson and Hawkins",C910,Andrea Willis,10,2025-01-10,2025-01-30,Pending,594,5940,172,LA Warehouse
+ORD0893,S327,"Hammond, Ward and Smith",C049,Richard Hays,3,2025-01-02,2025-02-14,Delivered,771,2313,75,SF Warehouse
+ORD0894,S187,Cook-Freeman,C1010,Elizabeth Guzman DDS,2,2025-02-02,2025-02-11,Pending,194,388,177,SF Warehouse
+ORD0895,S1126,Marks Group,C980,David Burke,4,2025-01-28,2025-02-28,Pending,70,280,73,NY Warehouse
+ORD0896,S064,Joseph-Watson,C449,John Cruz,3,2025-01-09,2025-01-06,Pending,718,2154,27,SF Warehouse
+ORD0897,S785,"Fitzgerald, Sloan and Stewart",C518,Larry Walker,7,2025-02-09,2025-01-18,Pending,299,2093,30,NY Warehouse
+ORD0898,S718,"Reynolds, Johnson and Morrow",C551,Alexis Mclaughlin,3,2025-02-19,2025-01-04,Shipped,265,795,89,LA Warehouse
+ORD0899,S1198,"Gonzalez, Scott and Collier",C232,Kevin Nunez,6,2025-01-28,2025-02-10,Pending,190,1140,134,LA Warehouse
+ORD0900,S930,Miller-Salazar,C062,Kelly Peterson,6,2025-01-07,2025-01-26,Shipped,276,1656,128,SF Warehouse
+ORD0901,S517,Levine Inc,C1011,Curtis Bryant,8,2025-01-13,2025-02-22,Shipped,94,752,101,SF Warehouse
+ORD0902,S429,"Hampton, Gonzalez and Evans",C259,Adam Huber,9,2025-02-01,2025-03-05,Shipped,255,2295,138,LA Warehouse
+ORD0903,S605,Montgomery PLC,C045,Michael Stuart,4,2025-01-30,2025-02-26,Shipped,950,3800,100,SF Warehouse
+ORD0904,S828,"Rivera, Brewer and Nunez",C194,Chloe Wilson,2,2025-02-10,2025-01-31,Pending,394,788,115,SF Warehouse
+ORD0905,S959,Foley-Rodriguez,C787,Kelly Jones,5,2025-02-03,2025-01-17,Pending,184,920,136,LA Warehouse
+ORD0906,S861,Young Ltd,C300,Sherri Warner,6,2025-02-10,2025-01-23,Shipped,857,5142,170,LA Warehouse
+ORD0907,S808,Rodgers LLC,C290,William Hunt,4,2025-01-28,2025-02-03,Pending,977,3908,173,NY Warehouse
+ORD0908,S397,Rose PLC,C1125,Katrina Shannon,5,2025-01-24,2025-01-30,Pending,260,1300,58,SF Warehouse
+ORD0909,S063,"Palmer, Simmons and Walls",C652,Dalton Maynard,9,2025-02-25,2025-01-29,Delivered,122,1098,47,NY Warehouse
+ORD0910,S804,Shaw and Sons,C487,Stacy Jones,9,2025-02-01,2025-02-05,Shipped,987,8883,110,LA Warehouse
+ORD0911,S186,Bennett PLC,C1017,Chad Reyes,9,2025-02-19,2025-02-03,Delivered,273,2457,30,LA Warehouse
+ORD0912,S1003,Ruiz-Jones,C719,Sheryl Harmon,10,2025-01-08,2025-02-19,Shipped,521,5210,8,NY Warehouse
+ORD0913,S500,Hansen-Lewis,C936,James Salinas,2,2025-02-15,2025-02-23,Pending,625,1250,74,SF Warehouse
+ORD0914,S769,Gomez LLC,C179,Daniel Wiggins,1,2025-03-03,2025-01-16,Shipped,985,985,96,LA Warehouse
+ORD0915,S810,Thompson-Campbell,C109,James Thomas,8,2025-02-04,2025-02-09,Delivered,868,6944,145,SF Warehouse
+ORD0916,S088,"Lopez, Robertson and Hall",C1137,Christopher Allen,4,2025-01-19,2025-02-21,Pending,772,3088,127,NY Warehouse
+ORD0917,S422,Park and Sons,C053,Joshua Hill,10,2025-01-22,2025-01-02,Shipped,975,9750,10,LA Warehouse
+ORD0918,S540,Reid-Johnson,C889,Tracy Boyle,2,2025-01-26,2025-01-20,Shipped,150,300,2,NY Warehouse
+ORD0919,S809,"Boyd, Walsh and Buck",C088,Paul Donovan,4,2025-02-25,2025-03-05,Delivered,489,1956,67,SF Warehouse
+ORD0920,S458,King LLC,C402,Henry White,8,2025-01-10,2025-02-06,Pending,319,2552,16,SF Warehouse
+ORD0921,S318,"Lee, Maxwell and Moore",C030,James Silva,3,2025-01-16,2025-02-16,Delivered,776,2328,141,NY Warehouse
+ORD0922,S002,Faulkner Group,C964,Todd Brown,7,2025-03-02,2025-02-06,Pending,95,665,90,SF Warehouse
+ORD0923,S1121,Soto Ltd,C374,Jessica Nelson,1,2025-02-17,2025-02-06,Pending,222,222,136,SF Warehouse
+ORD0924,S390,Craig-Mcdonald,C1094,Robert Hernandez,3,2025-01-26,2025-02-14,Pending,865,2595,122,LA Warehouse
+ORD0925,S351,"Price, Hendrix and Barton",C690,Annette Barrett,4,2025-03-05,2025-03-05,Delivered,795,3180,101,LA Warehouse
+ORD0926,S027,"Boyd, Vazquez and Mason",C237,Heather Gomez,10,2025-01-24,2025-01-14,Shipped,321,3210,21,NY Warehouse
+ORD0927,S1064,Wright Inc,C454,Jonathon Cooper,2,2025-01-21,2025-01-31,Shipped,530,1060,117,SF Warehouse
+ORD0928,S692,"Davis, Ramirez and Irwin",C690,Annette Barrett,3,2025-02-19,2025-01-24,Shipped,244,732,153,NY Warehouse
+ORD0929,S1087,Hess PLC,C112,Kathleen Johnson,9,2025-01-25,2025-02-02,Pending,143,1287,74,LA Warehouse
+ORD0930,S852,Peters Group,C735,Caitlin Reeves,3,2025-01-29,2025-02-01,Pending,516,1548,30,NY Warehouse
+ORD0931,S1122,Johnson Group,C280,Justin Wallace,7,2025-02-01,2025-01-03,Shipped,310,2170,147,SF Warehouse
+ORD0932,S670,Jones PLC,C620,Loretta Schultz,1,2025-01-26,2025-01-13,Delivered,558,558,179,NY Warehouse
+ORD0933,S861,Young Ltd,C217,Robert Russell,4,2025-02-03,2025-01-31,Shipped,726,2904,61,NY Warehouse
+ORD0934,S741,Harris-Roy,C655,Deanna Macdonald,9,2025-02-24,2025-01-23,Delivered,644,5796,92,SF Warehouse
+ORD0935,S607,"Holland, Nelson and Powell",C022,Charles Jones,1,2025-01-24,2025-02-03,Pending,661,661,101,LA Warehouse
+ORD0936,S940,Hernandez-Patel,C776,James Bates,1,2025-02-26,2025-01-06,Pending,153,153,7,SF Warehouse
+ORD0937,S1173,"Marshall, Smith and Li",C116,Linda Thompson,10,2025-03-03,2025-01-21,Pending,994,9940,36,LA Warehouse
+ORD0938,S550,Randall-Hayes,C748,Joseph Richardson,2,2025-01-28,2025-01-02,Shipped,420,840,88,SF Warehouse
+ORD0939,S689,Ramirez and Sons,C727,Mark Jenkins,10,2025-02-01,2025-01-13,Delivered,486,4860,141,NY Warehouse
+ORD0940,S365,"Carlson, Murphy and Romero",C463,Mary Henderson,7,2025-02-04,2025-03-04,Pending,133,931,63,NY Warehouse
+ORD0941,S365,"Carlson, Murphy and Romero",C671,Michael Goodwin,9,2025-02-12,2025-01-07,Pending,23,207,88,LA Warehouse
+ORD0942,S320,Smith Ltd,C258,Thomas Lopez,9,2025-02-10,2025-02-02,Pending,114,1026,104,NY Warehouse
+ORD0943,S1128,Holmes-Allison,C577,Gregory Cruz,8,2025-02-26,2025-01-10,Delivered,602,4816,34,LA Warehouse
+ORD0944,S128,Robinson-Ramirez,C884,Mason Gonzalez,8,2025-01-27,2025-01-24,Delivered,174,1392,59,LA Warehouse
+ORD0945,S144,Ward Group,C686,Chelsey Thomas,9,2025-01-06,2025-01-07,Pending,152,1368,18,NY Warehouse
+ORD0946,S802,"Robbins, Myers and Crawford",C473,Adam Graham,6,2025-02-12,2025-01-26,Pending,221,1326,70,LA Warehouse
+ORD0947,S800,Fisher PLC,C527,Daniel Frye,6,2025-02-16,2025-01-11,Shipped,108,648,62,LA Warehouse
+ORD0948,S259,"Massey, Boone and Foster",C899,Lisa Hall,7,2025-02-24,2025-02-15,Pending,722,5054,151,LA Warehouse
+ORD0949,S198,Rodriguez-Cole,C023,Cassie Turner,9,2025-02-23,2025-02-27,Shipped,649,5841,176,LA Warehouse
+ORD0950,S105,Sanchez-Rollins,C802,Melody Brown,7,2025-03-02,2025-02-26,Shipped,635,4445,198,NY Warehouse
+ORD0951,S418,Allen and Sons,C632,Andrew Johnson,1,2025-02-27,2025-02-27,Shipped,912,912,92,SF Warehouse
+ORD0952,S1094,Wiley and Sons,C485,David Foster,7,2025-01-11,2025-01-15,Pending,477,3339,51,NY Warehouse
+ORD0953,S014,"Garrison, Torres and Terry",C561,Shannon Shelton,3,2025-01-20,2025-02-06,Pending,202,606,43,LA Warehouse
+ORD0954,S795,"Phillips, Bowen and Cohen",C1162,Kathryn Olson,5,2025-01-23,2025-02-02,Delivered,696,3480,38,SF Warehouse
+ORD0955,S285,"Gutierrez, Adkins and Terrell",C1050,Steven Washington,10,2025-02-26,2025-02-18,Delivered,580,5800,172,SF Warehouse
+ORD0956,S1170,Miller-Baker,C716,Dillon Pennington,9,2025-03-05,2025-02-10,Shipped,809,7281,150,SF Warehouse
+ORD0957,S671,Williams Group,C654,Laurie Marquez,3,2025-03-03,2025-02-17,Pending,542,1626,142,LA Warehouse
+ORD0958,S511,Rodriguez PLC,C666,Aaron Dougherty,9,2025-03-04,2025-01-28,Shipped,883,7947,33,LA Warehouse
+ORD0959,S405,Mcpherson and Sons,C029,Alicia Coleman,4,2025-02-24,2025-02-22,Pending,888,3552,79,SF Warehouse
+ORD0960,S073,Lewis-Watkins,C974,Daniel Branch,7,2025-02-11,2025-02-22,Shipped,515,3605,89,SF Warehouse
+ORD0961,S1197,Campbell Inc,C066,Michael Brown,5,2025-01-13,2025-01-03,Shipped,162,810,18,NY Warehouse
+ORD0962,S832,Davis-Stokes,C600,Xavier Bailey,5,2025-01-20,2025-01-01,Delivered,785,3925,106,LA Warehouse
+ORD0963,S194,Bailey Ltd,C387,Monique Garner,1,2025-03-05,2025-03-04,Pending,812,812,165,NY Warehouse
+ORD0964,S180,Bell-White,C046,Howard Campbell,7,2025-03-05,2025-02-08,Pending,447,3129,143,LA Warehouse
+ORD0965,S097,Bradshaw-Lewis,C165,Kevin Perry,6,2025-01-19,2025-02-07,Shipped,77,462,41,LA Warehouse
+ORD0966,S143,"Mckay, Guzman and Stephens",C634,Mark Williams,2,2025-01-03,2025-02-20,Pending,296,592,166,SF Warehouse
+ORD0967,S422,Park and Sons,C205,Amy Smith,7,2025-01-18,2025-02-22,Shipped,938,6566,74,NY Warehouse
+ORD0968,S1164,Montgomery LLC,C341,Lisa Boyd,6,2025-02-23,2025-02-01,Delivered,983,5898,27,NY Warehouse
+ORD0969,S542,"Hall, Mosley and Avery",C293,Brent Smith,5,2025-01-08,2025-02-26,Shipped,22,110,13,NY Warehouse
+ORD0970,S381,"Graham, Smith and Powell",C959,Dr. Robert Cruz,8,2025-02-11,2025-02-17,Shipped,62,496,181,NY Warehouse
+ORD0971,S334,Gomez and Sons,C303,Tony Allen,4,2025-02-11,2025-03-03,Pending,22,88,89,SF Warehouse
+ORD0972,S781,Stark-Campbell,C039,Megan Martinez,1,2025-02-27,2025-02-23,Pending,961,961,64,LA Warehouse
+ORD0973,S708,Bruce-Harvey,C337,Jonathan Anderson,10,2025-01-18,2025-02-06,Pending,318,3180,51,NY Warehouse
+ORD0974,S545,"Douglas, Brown and Barnes",C245,Ryan Taylor,7,2025-02-23,2025-02-13,Pending,126,882,102,NY Warehouse
+ORD0975,S932,Herrera Inc,C653,Cheryl Eaton,6,2025-02-08,2025-01-08,Pending,467,2802,146,LA Warehouse
+ORD0976,S936,Coleman and Sons,C278,Thomas Estrada,10,2025-01-27,2025-02-10,Pending,597,5970,137,LA Warehouse
+ORD0977,S128,Robinson-Ramirez,C874,Thomas Mendoza,5,2025-01-27,2025-01-31,Pending,852,4260,146,NY Warehouse
+ORD0978,S217,Moreno-Smith,C914,Kimberly Anderson,5,2025-02-10,2025-02-07,Pending,781,3905,126,LA Warehouse
+ORD0979,S812,"Turner, Brown and Miller",C1090,Zachary Ward,3,2025-02-06,2025-02-15,Pending,545,1635,28,LA Warehouse
+ORD0980,S512,Reynolds LLC,C1070,Jessica Jones,1,2025-02-07,2025-01-05,Pending,217,217,149,NY Warehouse
+ORD0981,S547,Howard-White,C854,Joshua Hoover,8,2025-02-08,2025-01-27,Delivered,986,7888,47,LA Warehouse
+ORD0982,S821,"Smith, Robertson and Williams",C608,Shane Austin,10,2025-03-05,2025-01-19,Pending,754,7540,16,NY Warehouse
+ORD0983,S1087,Hess PLC,C547,Ralph Johnson,3,2025-01-07,2025-01-10,Pending,485,1455,121,NY Warehouse
+ORD0984,S1000,"Sanchez, Davila and Marshall",C433,Amy Taylor,7,2025-01-13,2025-01-07,Pending,863,6041,154,LA Warehouse
+ORD0985,S140,Greene LLC,C1003,Andrew Adams,2,2025-01-14,2025-02-28,Delivered,805,1610,49,SF Warehouse
+ORD0986,S153,Swanson Ltd,C909,Robert King,2,2025-01-06,2025-01-25,Shipped,916,1832,142,SF Warehouse
+ORD0987,S047,Harris PLC,C1007,Brandon Johnson,6,2025-02-04,2025-01-25,Delivered,162,972,142,LA Warehouse
+ORD0988,S1088,Moore-Santana,C1118,Larry Nelson,3,2025-02-08,2025-01-29,Shipped,482,1446,170,LA Warehouse
+ORD0989,S307,"Ryan, Martin and Sloan",C918,John Mckinney,4,2025-03-02,2025-01-28,Delivered,504,2016,39,NY Warehouse
+ORD0990,S932,Herrera Inc,C838,Nicolas Mitchell,8,2025-01-07,2025-02-27,Pending,542,4336,91,LA Warehouse
+ORD0991,S381,"Graham, Smith and Powell",C522,Adam Bates,7,2025-01-19,2025-01-28,Delivered,144,1008,82,NY Warehouse
+ORD0992,S053,Whitney PLC,C049,Richard Hays,2,2025-01-27,2025-02-11,Pending,582,1164,158,NY Warehouse
+ORD0993,S1110,"Evans, Maddox and Duffy",C814,Brian Hernandez,3,2025-01-17,2025-02-22,Shipped,568,1704,172,NY Warehouse
+ORD0994,S051,"Patel, Frazier and Miller",C335,Stephanie Lucero,1,2025-01-20,2025-01-15,Pending,930,930,82,SF Warehouse
+ORD0995,S869,Cruz-Wallace,C030,James Silva,8,2025-02-21,2025-02-15,Delivered,632,5056,31,LA Warehouse
+ORD0996,S333,"Wilson, Bailey and Vasquez",C577,Gregory Cruz,8,2025-02-13,2025-01-26,Pending,947,7576,119,NY Warehouse
+ORD0997,S156,"Moore, Johnson and Edwards",C718,Michelle Smith,2,2025-01-01,2025-01-19,Pending,245,490,129,LA Warehouse
+ORD0998,S658,Montgomery-Mendez,C369,Brian Torres,4,2025-01-22,2025-01-23,Delivered,168,672,71,SF Warehouse
+ORD0999,S1062,"Anderson, Cobb and Sanders",C451,Brandy Dudley,7,2025-01-01,2025-01-19,Pending,124,868,178,NY Warehouse
+ORD1000,S592,"Blake, Woods and Garcia",C261,Julie Mckee,1,2025-01-25,2025-01-28,Delivered,880,880,108,NY Warehouse
+ORD1001,S070,Wise Inc,C283,Richard Riddle,7,2025-02-10,2025-02-08,Delivered,680,4760,52,NY Warehouse
+ORD1002,S694,Miller and Sons,C706,Mark Price,3,2025-02-10,2025-02-27,Pending,76,228,179,NY Warehouse
+ORD1003,S1165,Fowler Ltd,C849,Patricia Hill,7,2025-02-11,2025-02-19,Shipped,134,938,171,SF Warehouse
+ORD1004,S416,Hester Inc,C1188,Tracy Brown,3,2025-01-09,2025-02-01,Pending,553,1659,121,LA Warehouse
+ORD1005,S791,Walker-Crawford,C322,Anne Richardson,3,2025-01-25,2025-01-15,Pending,398,1194,136,NY Warehouse
+ORD1006,S804,Shaw and Sons,C1039,Kathy Vasquez,2,2025-01-13,2025-01-27,Delivered,317,634,11,SF Warehouse
+ORD1007,S283,Mckinney-Anderson,C665,Tony Hawkins,8,2025-02-06,2025-02-02,Delivered,134,1072,17,LA Warehouse
+ORD1008,S447,Pham-Perez,C003,Sandra Johnson,10,2025-01-29,2025-01-10,Delivered,304,3040,53,NY Warehouse
+ORD1009,S327,"Hammond, Ward and Smith",C097,Justin Turner,10,2025-02-27,2025-01-01,Pending,790,7900,156,LA Warehouse
+ORD1010,S962,Hughes-White,C665,Tony Hawkins,5,2025-02-06,2025-03-01,Shipped,871,4355,22,NY Warehouse
+ORD1011,S600,"Myers, Washington and Smith",C310,Edgar Mcdonald,2,2025-02-21,2025-02-02,Delivered,457,914,169,LA Warehouse
+ORD1012,S217,Moreno-Smith,C969,David Dunn,10,2025-02-13,2025-02-27,Delivered,428,4280,82,LA Warehouse
+ORD1013,S500,Hansen-Lewis,C553,Jacob Ellis,5,2025-01-05,2025-01-22,Shipped,600,3000,89,SF Warehouse
+ORD1014,S978,"Reynolds, Garcia and Sampson",C1180,Paul Jones,3,2025-01-27,2025-01-02,Shipped,553,1659,172,LA Warehouse
+ORD1015,S729,Coleman Inc,C626,Austin Jennings,3,2025-02-08,2025-01-05,Delivered,221,663,134,LA Warehouse
+ORD1016,S110,Lewis-Diaz,C024,Tricia Dillon,4,2025-01-30,2025-01-18,Shipped,886,3544,88,SF Warehouse
+ORD1017,S774,Hall Ltd,C189,Jesus Gray,7,2025-01-13,2025-02-17,Delivered,978,6846,72,SF Warehouse
+ORD1018,S700,Frederick-Watson,C455,Lisa Nelson,6,2025-01-10,2025-01-05,Pending,183,1098,46,SF Warehouse
+ORD1019,S1192,"Thomas, Kramer and Munoz",C178,Michael Ramirez,7,2025-02-25,2025-02-02,Pending,123,861,100,NY Warehouse
+ORD1020,S488,"Allen, Valdez and Wilson",C647,Robert Harris,9,2025-02-24,2025-03-05,Delivered,462,4158,82,NY Warehouse
+ORD1021,S507,"Woodward, Robinson and Mathews",C947,Carrie Jones,9,2025-01-15,2025-01-23,Pending,827,7443,62,NY Warehouse
+ORD1022,S232,Powers Inc,C1047,Brian Curtis,7,2025-01-20,2025-01-21,Shipped,27,189,140,NY Warehouse
+ORD1023,S483,Webb-Lawrence,C696,Joshua Roberts,8,2025-01-26,2025-03-05,Shipped,582,4656,66,SF Warehouse
+ORD1024,S965,Nelson-Henderson,C773,Robert Morris,2,2025-02-20,2025-02-27,Shipped,706,1412,181,NY Warehouse
+ORD1025,S841,"Hawkins, Brown and Johnson",C649,Marvin Lee,8,2025-01-27,2025-02-15,Pending,622,4976,40,SF Warehouse
+ORD1026,S532,Joyce and Sons,C1087,Michelle Carter,3,2025-02-02,2025-02-25,Delivered,326,978,94,SF Warehouse
+ORD1027,S211,Stephens PLC,C361,Erin Norris,8,2025-01-26,2025-01-15,Shipped,836,6688,166,SF Warehouse
+ORD1028,S567,"Larsen, Mcdaniel and Cohen",C1181,Daniel Perry,4,2025-03-01,2025-01-09,Delivered,616,2464,20,NY Warehouse
+ORD1029,S505,Harmon Inc,C1015,John House,8,2025-02-06,2025-01-16,Pending,506,4048,108,NY Warehouse
+ORD1030,S430,"Powell, Campos and Wells",C599,Amanda Nelson,6,2025-02-26,2025-03-04,Shipped,536,3216,68,LA Warehouse
+ORD1031,S614,Matthews Inc,C464,Claudia Braun,10,2025-01-21,2025-02-04,Shipped,867,8670,170,LA Warehouse
+ORD1032,S584,"Schroeder, Bennett and Hughes",C475,Brandon Perez,7,2025-01-02,2025-01-28,Shipped,726,5082,171,SF Warehouse
+ORD1033,S1040,Lee-Delacruz,C403,Jeffrey Powell,4,2025-02-19,2025-03-04,Delivered,707,2828,60,NY Warehouse
+ORD1034,S418,Allen and Sons,C245,Ryan Taylor,9,2025-02-28,2025-01-01,Shipped,538,4842,108,SF Warehouse
+ORD1035,S838,Martin LLC,C196,Marie Christensen,3,2025-02-27,2025-01-03,Delivered,497,1491,93,NY Warehouse
+ORD1036,S792,Johnson-Green,C760,Daniel Pace,3,2025-01-14,2025-02-24,Shipped,313,939,39,NY Warehouse
+ORD1037,S160,Jacobs-Foster,C681,Kirk Smith,5,2025-03-05,2025-01-01,Pending,931,4655,66,LA Warehouse
+ORD1038,S762,"Taylor, Robertson and Salazar",C203,Diamond Manning,6,2025-01-30,2025-01-18,Delivered,31,186,17,LA Warehouse
+ORD1039,S706,Bennett-Simmons,C665,Tony Hawkins,1,2025-02-19,2025-02-19,Pending,447,447,159,LA Warehouse
+ORD1040,S577,Smith-Foster,C713,Cynthia Mack,1,2025-01-22,2025-01-16,Shipped,833,833,124,SF Warehouse
+ORD1041,S243,Harper-Mclaughlin,C807,Laura Martin,4,2025-01-13,2025-02-13,Pending,413,1652,42,LA Warehouse
+ORD1042,S493,"Ruiz, Decker and Martinez",C717,Breanna Bailey,5,2025-02-19,2025-01-27,Pending,301,1505,37,SF Warehouse
+ORD1043,S203,"Smith, Thomas and Campbell",C622,Gary Mann,1,2025-02-02,2025-01-06,Shipped,713,713,101,SF Warehouse
+ORD1044,S690,Reyes-Sharp,C1142,Darrell Juarez,6,2025-01-10,2025-01-12,Delivered,88,528,135,NY Warehouse
+ORD1045,S1068,Romero-Davis,C1133,Dalton Burke,8,2025-02-11,2025-01-21,Shipped,728,5824,111,LA Warehouse
+ORD1046,S154,"Jones, Jones and Stuart",C475,Brandon Perez,4,2025-03-01,2025-01-19,Shipped,656,2624,31,NY Warehouse
+ORD1047,S525,"Munoz, Parsons and Harper",C044,Robin Jones,7,2025-01-10,2025-01-06,Pending,552,3864,117,NY Warehouse
+ORD1048,S1047,Holmes Inc,C953,Stephen Velazquez,4,2025-01-19,2025-01-01,Delivered,956,3824,39,LA Warehouse
+ORD1049,S580,"Wells, Allen and Shaffer",C1136,Chase Deleon,8,2025-01-06,2025-01-02,Pending,40,320,109,LA Warehouse
+ORD1050,S587,"Horn, Allen and Young",C849,Patricia Hill,5,2025-02-13,2025-01-26,Shipped,585,2925,104,NY Warehouse
+ORD1051,S746,"Mcguire, Smith and Mcdaniel",C469,Michelle Gaines,8,2025-02-04,2025-03-05,Delivered,496,3968,29,NY Warehouse
+ORD1052,S372,"Klein, Sanchez and White",C317,Louis Nguyen,7,2025-01-08,2025-02-08,Delivered,540,3780,188,SF Warehouse
+ORD1053,S818,Wright PLC,C681,Kirk Smith,3,2025-01-02,2025-02-27,Shipped,267,801,71,NY Warehouse
+ORD1054,S803,Wallace PLC,C871,Lisa Bauer,1,2025-02-28,2025-02-20,Pending,47,47,29,SF Warehouse
+ORD1055,S1060,Bishop-Day,C307,Kevin White,8,2025-02-09,2025-02-01,Shipped,838,6704,136,LA Warehouse
+ORD1056,S782,Sherman Group,C189,Jesus Gray,5,2025-01-12,2025-02-27,Pending,690,3450,144,NY Warehouse
+ORD1057,S088,"Lopez, Robertson and Hall",C485,David Foster,8,2025-02-26,2025-01-27,Delivered,668,5344,17,LA Warehouse
+ORD1058,S781,Stark-Campbell,C326,Kelly Bennett,7,2025-02-07,2025-02-01,Pending,723,5061,80,LA Warehouse
+ORD1059,S440,"Kelley, Harrison and Reid",C547,Ralph Johnson,1,2025-01-28,2025-01-30,Delivered,694,694,3,NY Warehouse
+ORD1060,S909,Butler-Bell,C905,Lisa Mcknight,9,2025-03-02,2025-02-02,Pending,298,2682,72,SF Warehouse
+ORD1061,S1082,"Thomas, Cooper and Lopez",C1011,Curtis Bryant,9,2025-02-07,2025-02-22,Delivered,236,2124,76,NY Warehouse
+ORD1062,S784,Norris-Pitts,C1038,Joshua Hill MD,9,2025-03-04,2025-01-19,Shipped,497,4473,99,LA Warehouse
+ORD1063,S809,"Boyd, Walsh and Buck",C644,James Barry,1,2025-02-23,2025-03-03,Shipped,544,544,95,SF Warehouse
+ORD1064,S740,"Kelly, Meyers and Mayo",C055,Anita Morgan,2,2025-01-31,2025-01-29,Pending,56,112,124,SF Warehouse
+ORD1065,S813,"Brown, Smith and Jensen",C473,Adam Graham,6,2025-01-17,2025-02-11,Pending,93,558,124,LA Warehouse
+ORD1066,S1077,Tate PLC,C1036,Paul Elliott,6,2025-02-20,2025-02-21,Delivered,918,5508,80,SF Warehouse
+ORD1067,S027,"Boyd, Vazquez and Mason",C1046,Kayla Carter,9,2025-01-12,2025-02-16,Pending,357,3213,41,NY Warehouse
+ORD1068,S066,"Lee, Martinez and Mccoy",C104,Jill Black,7,2025-02-05,2025-03-03,Shipped,427,2989,100,SF Warehouse
+ORD1069,S794,"Sanchez, Moore and Ray",C896,Oscar Cook,2,2025-01-22,2025-01-13,Pending,861,1722,181,LA Warehouse
+ORD1070,S910,Calderon-Sanders,C1132,Anthony Horton,10,2025-01-03,2025-01-20,Pending,950,9500,19,LA Warehouse
+ORD1071,S467,"Lewis, Steele and Harris",C691,Steven Hatfield,2,2025-02-08,2025-03-03,Shipped,722,1444,19,NY Warehouse
+ORD1072,S415,Vazquez-Gonzalez,C1077,Keith Turner,6,2025-02-07,2025-01-14,Delivered,881,5286,99,LA Warehouse
+ORD1073,S451,"Warner, Collins and Johnson",C052,Paul Campbell,6,2025-01-16,2025-01-05,Delivered,291,1746,143,SF Warehouse
+ORD1074,S003,Smith PLC,C769,Willie Brown,1,2025-02-06,2025-02-01,Pending,806,806,183,LA Warehouse
+ORD1075,S158,Quinn-Brown,C777,Betty Willis,4,2025-02-07,2025-01-20,Shipped,969,3876,69,SF Warehouse
+ORD1076,S838,Martin LLC,C451,Brandy Dudley,1,2025-02-19,2025-01-09,Pending,256,256,83,NY Warehouse
+ORD1077,S372,"Klein, Sanchez and White",C896,Oscar Cook,4,2025-02-28,2025-01-13,Shipped,632,2528,135,LA Warehouse
+ORD1078,S286,"Simmons, Higgins and Pace",C172,Jordan Estrada,10,2025-01-17,2025-01-19,Pending,258,2580,137,NY Warehouse
+ORD1079,S571,Chan-Roberts,C1104,James Brown,4,2025-03-04,2025-02-22,Shipped,181,724,187,LA Warehouse
+ORD1080,S1166,"Jennings, Larson and Flynn",C580,Shawn Daugherty,4,2025-01-08,2025-01-03,Delivered,587,2348,84,LA Warehouse
+ORD1081,S731,Williams Inc,C600,Xavier Bailey,1,2025-01-16,2025-02-05,Delivered,872,872,67,SF Warehouse
+ORD1082,S467,"Lewis, Steele and Harris",C447,Mark Harrison,1,2025-01-15,2025-03-04,Pending,136,136,15,SF Warehouse
+ORD1083,S682,Gonzalez-Clayton,C512,David Lee,7,2025-02-25,2025-03-03,Shipped,314,2198,97,SF Warehouse
+ORD1084,S497,"Smith, Perez and Taylor",C834,Carla Robertson,5,2025-02-10,2025-01-11,Pending,182,910,47,LA Warehouse
+ORD1085,S255,"Paul, Anderson and Rodgers",C239,Kelly Garza,8,2025-01-14,2025-02-24,Shipped,252,2016,55,LA Warehouse
+ORD1086,S814,"Dixon, Stokes and Williams",C1061,Dwayne Gross,6,2025-02-26,2025-02-16,Pending,523,3138,37,LA Warehouse
+ORD1087,S597,"Casey, Rosario and Holmes",C679,Sandra Carter,1,2025-02-24,2025-02-17,Delivered,945,945,163,NY Warehouse
+ORD1088,S263,Williams-Neal,C405,Margaret Terry,9,2025-03-04,2025-01-06,Pending,93,837,63,LA Warehouse
+ORD1089,S365,"Carlson, Murphy and Romero",C517,Jesse Brooks,9,2025-01-22,2025-01-13,Delivered,329,2961,168,SF Warehouse
+ORD1090,S474,"Wilkerson, Reynolds and Manning",C1090,Zachary Ward,5,2025-01-25,2025-01-30,Delivered,486,2430,191,LA Warehouse
+ORD1091,S687,Carter-Smith,C497,Ronald Brown,1,2025-03-01,2025-02-17,Delivered,692,692,95,LA Warehouse
+ORD1092,S550,Randall-Hayes,C1155,Mrs. Kathleen Floyd DDS,7,2025-01-25,2025-02-27,Delivered,703,4921,122,SF Warehouse
+ORD1093,S587,"Horn, Allen and Young",C059,Robert Good,7,2025-02-05,2025-01-11,Pending,546,3822,162,NY Warehouse
+ORD1094,S056,Rosales-Ruiz,C800,Greg Logan,6,2025-01-01,2025-02-13,Delivered,183,1098,180,LA Warehouse
+ORD1095,S646,Davis-Pugh,C648,Travis Powers II,8,2025-01-23,2025-03-05,Delivered,485,3880,13,LA Warehouse
+ORD1096,S788,Ruiz Ltd,C278,Thomas Estrada,1,2025-02-21,2025-02-07,Delivered,483,483,120,LA Warehouse
+ORD1097,S114,Johnson Inc,C001,Dustin Robertson,10,2025-02-22,2025-01-02,Delivered,856,8560,188,NY Warehouse
+ORD1098,S873,Lin LLC,C256,Daniel Kennedy,9,2025-02-02,2025-01-02,Delivered,103,927,21,LA Warehouse
+ORD1099,S627,Maxwell-Carrillo,C1106,Ian Dickerson,1,2025-01-17,2025-01-13,Pending,740,740,177,SF Warehouse
+ORD1100,S671,Williams Group,C848,Cynthia Harvey,1,2025-02-04,2025-01-19,Delivered,841,841,66,LA Warehouse
+ORD1101,S390,Craig-Mcdonald,C1135,Cynthia Sanders,4,2025-02-14,2025-02-23,Pending,331,1324,54,NY Warehouse
+ORD1102,S278,Rodriguez PLC,C019,Daniel Hernandez,3,2025-02-19,2025-02-19,Shipped,534,1602,67,SF Warehouse
+ORD1103,S213,Reed-Gibbs,C669,Pamela Mason,5,2025-01-22,2025-01-09,Delivered,775,3875,52,LA Warehouse
+ORD1104,S1134,Carter-Pearson,C1121,William Forbes,8,2025-01-26,2025-02-05,Delivered,496,3968,83,LA Warehouse
+ORD1105,S758,Singh and Sons,C821,Crystal Williams,2,2025-02-18,2025-01-12,Shipped,933,1866,63,LA Warehouse
+ORD1106,S435,"Burke, Taylor and Holmes",C255,Jacqueline Ramirez,10,2025-01-29,2025-03-03,Shipped,174,1740,85,SF Warehouse
+ORD1107,S570,Brown-House,C1164,Ruben Turner,8,2025-02-08,2025-02-23,Shipped,431,3448,37,SF Warehouse
+ORD1108,S163,Myers Ltd,C810,Alex May,3,2025-01-09,2025-02-03,Delivered,750,2250,2,LA Warehouse
+ORD1109,S156,"Moore, Johnson and Edwards",C030,James Silva,9,2025-02-25,2025-01-26,Pending,112,1008,147,LA Warehouse
+ORD1110,S618,Arellano and Sons,C225,Tyler Meyer,1,2025-01-10,2025-01-26,Pending,246,246,28,LA Warehouse
+ORD1111,S075,Williams Group,C950,Christina Palmer,4,2025-02-07,2025-03-01,Delivered,222,888,125,SF Warehouse
+ORD1112,S848,Hill-Johnson,C364,Timothy Pena,4,2025-02-09,2025-02-05,Pending,234,936,17,NY Warehouse
+ORD1113,S014,"Garrison, Torres and Terry",C269,Suzanne Lindsey,2,2025-01-19,2025-02-08,Pending,73,146,197,LA Warehouse
+ORD1114,S246,"Jackson, Mejia and Chavez",C970,Donald Santos,4,2025-01-12,2025-02-07,Shipped,129,516,60,SF Warehouse
+ORD1115,S367,Thomas-Alvarez,C702,Louis Stephens,3,2025-01-16,2025-01-08,Shipped,565,1695,111,NY Warehouse
+ORD1116,S970,Carter-Rogers,C423,Melinda Olson,1,2025-01-12,2025-02-09,Pending,430,430,184,LA Warehouse
+ORD1117,S916,Leon-Richardson,C799,Bryan Schultz,6,2025-01-01,2025-02-13,Delivered,778,4668,21,NY Warehouse
+ORD1118,S099,Jimenez-Thompson,C1173,Ashley Simpson,4,2025-02-02,2025-02-01,Delivered,186,744,90,LA Warehouse
+ORD1119,S279,"Neal, Lyons and Martinez",C527,Daniel Frye,3,2025-01-09,2025-01-03,Delivered,986,2958,20,LA Warehouse
+ORD1120,S273,Sparks Inc,C949,Tony Neal,8,2025-02-04,2025-01-22,Delivered,114,912,78,LA Warehouse
+ORD1121,S1158,Sosa-Maynard,C709,Margaret Wilson,10,2025-02-23,2025-01-14,Pending,557,5570,199,LA Warehouse
+ORD1122,S622,Stein PLC,C1008,Laurie Morgan,8,2025-02-19,2025-01-31,Delivered,850,6800,121,LA Warehouse
+ORD1123,S485,"Vasquez, Parsons and Dalton",C370,Anthony Miller,10,2025-03-01,2025-02-03,Shipped,509,5090,112,NY Warehouse
+ORD1124,S1008,Jones Group,C467,Anthony Wade,6,2025-03-05,2025-02-24,Delivered,761,4566,194,SF Warehouse
+ORD1125,S495,Reed Group,C925,James Lee,4,2025-02-02,2025-02-11,Delivered,854,3416,122,LA Warehouse
+ORD1126,S910,Calderon-Sanders,C869,Stephanie Jones,4,2025-02-25,2025-01-13,Shipped,602,2408,27,LA Warehouse
+ORD1127,S069,"Gomez, Yang and Matthews",C815,Ronald Garner,5,2025-03-01,2025-01-19,Shipped,905,4525,77,SF Warehouse
+ORD1128,S527,Garcia-Hancock,C605,Jackson Stevens,3,2025-01-14,2025-01-09,Shipped,413,1239,129,NY Warehouse
+ORD1129,S600,"Myers, Washington and Smith",C1165,Sergio Morrison MD,3,2025-01-17,2025-02-11,Shipped,273,819,131,NY Warehouse
+ORD1130,S964,Blackburn-Stone,C131,Richard Howell,10,2025-01-17,2025-02-21,Pending,479,4790,116,NY Warehouse
+ORD1131,S832,Davis-Stokes,C623,Stephanie Black,8,2025-03-05,2025-01-22,Shipped,847,6776,158,LA Warehouse
+ORD1132,S1188,Mills Ltd,C991,Michael Lopez,10,2025-02-23,2025-02-18,Pending,30,300,123,SF Warehouse
+ORD1133,S869,Cruz-Wallace,C1043,Ryan Hobbs,8,2025-02-21,2025-01-02,Shipped,32,256,4,LA Warehouse
+ORD1134,S768,Harrington Group,C1046,Kayla Carter,6,2025-02-12,2025-02-04,Pending,927,5562,99,SF Warehouse
+ORD1135,S827,"Harper, Bennett and Sanford",C810,Alex May,10,2025-01-11,2025-01-04,Shipped,115,1150,166,LA Warehouse
+ORD1136,S866,"Suarez, Spencer and Morris",C782,Taylor Gallagher,3,2025-02-06,2025-02-24,Shipped,250,750,166,SF Warehouse
+ORD1137,S1142,Walters-Murphy,C1054,Latoya Collier,3,2025-01-08,2025-02-15,Shipped,378,1134,77,SF Warehouse
+ORD1138,S345,Lee-Vance,C797,James Bass,1,2025-01-24,2025-01-23,Shipped,688,688,109,LA Warehouse
+ORD1139,S1197,Campbell Inc,C1098,John Anderson,2,2025-02-01,2025-02-25,Shipped,683,1366,142,NY Warehouse
+ORD1140,S717,Moody LLC,C164,Michelle Rodriguez,1,2025-02-23,2025-02-19,Delivered,70,70,183,NY Warehouse
+ORD1141,S427,Mcdonald Group,C511,Derrick Nelson,8,2025-01-12,2025-01-08,Delivered,851,6808,74,NY Warehouse
+ORD1142,S871,Boyd-Myers,C893,Andrea Thompson,1,2025-03-01,2025-01-16,Shipped,46,46,34,LA Warehouse
+ORD1143,S573,"Collins, Little and Gardner",C544,John Patterson,10,2025-01-06,2025-01-19,Shipped,672,6720,177,LA Warehouse
+ORD1144,S456,Russell LLC,C1110,Kayla Spencer,1,2025-01-25,2025-01-10,Pending,425,425,199,LA Warehouse
+ORD1145,S045,Caldwell-Foster,C193,Debbie Conway,4,2025-01-04,2025-01-02,Delivered,534,2136,72,SF Warehouse
+ORD1146,S720,Greene-Reyes,C660,Brian Holmes,8,2025-01-25,2025-03-02,Delivered,436,3488,96,LA Warehouse
+ORD1147,S962,Hughes-White,C912,Jesse Stephens,4,2025-02-18,2025-01-02,Delivered,241,964,3,SF Warehouse
+ORD1148,S712,"Leach, Jones and Barnes",C590,Jessica Baker,1,2025-02-27,2025-02-07,Shipped,998,998,37,SF Warehouse
+ORD1149,S461,Hunt Ltd,C920,Luke Molina,2,2025-02-27,2025-01-17,Delivered,955,1910,151,LA Warehouse
+ORD1150,S766,Smith Group,C744,Richard Shah,8,2025-01-27,2025-01-28,Delivered,802,6416,9,LA Warehouse
+ORD1151,S865,Smith Group,C015,Michael Higgins,3,2025-01-30,2025-02-26,Shipped,526,1578,198,NY Warehouse
+ORD1152,S062,Garcia-Arnold,C277,Brenda Pruitt,9,2025-02-09,2025-02-16,Delivered,266,2394,13,SF Warehouse
+ORD1153,S866,"Suarez, Spencer and Morris",C1083,Michael Ellis,2,2025-01-02,2025-01-06,Delivered,212,424,6,LA Warehouse
+ORD1154,S986,Oconnell LLC,C1080,Mrs. Ashley Floyd,6,2025-01-05,2025-01-25,Shipped,79,474,177,NY Warehouse
+ORD1155,S943,Chang-Smith,C422,John Aguilar,6,2025-01-10,2025-01-20,Delivered,977,5862,106,LA Warehouse
+ORD1156,S329,Nelson PLC,C515,Christopher Martin,10,2025-01-21,2025-02-07,Delivered,221,2210,107,SF Warehouse
+ORD1157,S888,Ruiz-Carter,C037,Katrina Terry,6,2025-02-07,2025-02-27,Delivered,504,3024,41,LA Warehouse
+ORD1158,S711,Swanson Group,C998,Joanne Anderson,7,2025-01-15,2025-01-18,Pending,945,6615,123,LA Warehouse
+ORD1159,S974,"Grant, Cooper and Conner",C318,Jacob Acosta,10,2025-01-01,2025-02-13,Delivered,74,740,13,LA Warehouse
+ORD1160,S385,Hernandez-Shelton,C867,Joshua Hatfield,1,2025-01-23,2025-01-25,Shipped,47,47,15,NY Warehouse
+ORD1161,S599,Smith LLC,C154,Kendra Davis,5,2025-01-31,2025-02-13,Delivered,419,2095,20,NY Warehouse
+ORD1162,S966,"Ruiz, Blevins and Collins",C819,Kim Rivera,3,2025-02-19,2025-02-01,Pending,676,2028,50,SF Warehouse
+ORD1163,S240,"Walter, Callahan and Brown",C230,Mrs. Jessica Barker,9,2025-02-16,2025-02-01,Pending,416,3744,138,LA Warehouse
+ORD1164,S946,"Page, Moore and Sanchez",C061,Kimberly Byrd,2,2025-01-29,2025-02-01,Pending,901,1802,165,NY Warehouse
+ORD1165,S554,Romero-Reyes,C794,Tiffany Bolton,2,2025-01-28,2025-01-27,Pending,555,1110,163,SF Warehouse
+ORD1166,S700,Frederick-Watson,C811,Anthony Rodriguez,7,2025-01-24,2025-01-02,Shipped,427,2989,115,NY Warehouse
+ORD1167,S652,Strong LLC,C109,James Thomas,9,2025-01-02,2025-02-10,Shipped,49,441,82,NY Warehouse
+ORD1168,S339,Espinoza Ltd,C612,Benjamin Ayala,5,2025-01-13,2025-01-10,Shipped,578,2890,26,NY Warehouse
+ORD1169,S388,Cook-Snow,C222,Melissa Glover,1,2025-01-15,2025-02-08,Shipped,254,254,125,NY Warehouse
+ORD1170,S1136,Schmidt-Shah,C729,Stephanie Baker,9,2025-02-09,2025-02-24,Pending,347,3123,60,NY Warehouse
+ORD1171,S687,Carter-Smith,C596,Suzanne Cole,6,2025-03-04,2025-02-06,Pending,884,5304,180,LA Warehouse
+ORD1172,S1072,Ware Group,C498,Jessica Hill,8,2025-01-09,2025-02-05,Delivered,89,712,100,LA Warehouse
+ORD1173,S794,"Sanchez, Moore and Ray",C116,Linda Thompson,9,2025-01-22,2025-01-05,Delivered,551,4959,122,NY Warehouse
+ORD1174,S676,Hicks-Blair,C1160,Alexis Skinner,10,2025-02-24,2025-01-06,Delivered,37,370,91,NY Warehouse
+ORD1175,S019,Hernandez-Leonard,C1079,Margaret Paul,2,2025-02-18,2025-01-10,Pending,149,298,76,LA Warehouse
+ORD1176,S489,Russo and Sons,C960,Denise Obrien,1,2025-01-03,2025-01-12,Shipped,318,318,4,NY Warehouse
+ORD1177,S334,Gomez and Sons,C209,Michael Ewing,6,2025-01-31,2025-01-19,Delivered,351,2106,183,NY Warehouse
+ORD1178,S021,Harris-Cohen,C754,Eric Dickerson Jr.,9,2025-01-15,2025-02-19,Delivered,385,3465,87,NY Warehouse
+ORD1179,S1139,Ward Group,C421,Lori Murphy,1,2025-02-14,2025-02-14,Delivered,273,273,29,NY Warehouse
+ORD1180,S1076,"Horton, Cooper and Lopez",C474,Michelle Strong,10,2025-01-13,2025-02-19,Shipped,956,9560,111,LA Warehouse
+ORD1181,S004,Roman LLC,C219,Suzanne Zhang,10,2025-01-25,2025-02-18,Pending,162,1620,58,NY Warehouse
+ORD1182,S121,Hall-Shields,C407,Marie Kirk,3,2025-01-13,2025-01-10,Pending,837,2511,132,NY Warehouse
+ORD1183,S883,Wagner PLC,C290,William Hunt,9,2025-02-17,2025-01-04,Shipped,826,7434,35,SF Warehouse
+ORD1184,S1096,"Ray, Odom and Potts",C681,Kirk Smith,6,2025-01-13,2025-01-01,Delivered,819,4914,58,NY Warehouse
+ORD1185,S964,Blackburn-Stone,C916,Diamond Lane,1,2025-02-06,2025-01-27,Shipped,157,157,134,LA Warehouse
+ORD1186,S637,Vang-Cherry,C819,Kim Rivera,9,2025-02-14,2025-02-27,Delivered,273,2457,170,LA Warehouse
+ORD1187,S536,Bailey-Jimenez,C1177,Timothy Cervantes,6,2025-01-31,2025-02-14,Pending,80,480,109,NY Warehouse
+ORD1188,S260,Martin Inc,C399,Steven Cruz,1,2025-02-05,2025-02-14,Shipped,853,853,121,LA Warehouse
+ORD1189,S1004,Myers-Sweeney,C622,Gary Mann,6,2025-02-01,2025-01-28,Delivered,170,1020,136,SF Warehouse
+ORD1190,S387,Chen-Davis,C464,Claudia Braun,3,2025-02-02,2025-02-24,Delivered,667,2001,87,LA Warehouse
+ORD1191,S692,"Davis, Ramirez and Irwin",C502,Megan Williams,8,2025-02-26,2025-02-06,Pending,209,1672,63,SF Warehouse
+ORD1192,S347,Miller-Salazar,C338,Erin Roberts,2,2025-02-22,2025-01-30,Delivered,774,1548,91,SF Warehouse
+ORD1193,S670,Jones PLC,C122,Katelyn Knight,5,2025-01-13,2025-03-03,Shipped,912,4560,12,SF Warehouse
+ORD1194,S912,"Valenzuela, Martinez and Jackson",C1119,Christina Johns,2,2025-01-10,2025-01-30,Delivered,990,1980,18,SF Warehouse
+ORD1195,S980,Davis LLC,C359,Elizabeth Johnston,10,2025-01-11,2025-01-17,Pending,732,7320,198,NY Warehouse
+ORD1196,S442,Gonzalez Inc,C1129,Robert Mcdowell,3,2025-01-10,2025-02-18,Shipped,21,63,175,NY Warehouse
+ORD1197,S206,Rodriguez-Turner,C1053,Dana Robinson,5,2025-01-28,2025-02-19,Delivered,487,2435,12,NY Warehouse
+ORD1198,S180,Bell-White,C393,Katherine Allen,9,2025-02-06,2025-02-08,Shipped,771,6939,169,NY Warehouse
+ORD1199,S200,Robertson-White,C858,Allison Madden,3,2025-01-09,2025-02-12,Delivered,206,618,120,LA Warehouse
+ORD1200,S664,Brown Group,C077,Christina Wells,5,2025-01-19,2025-01-19,Delivered,843,4215,157,NY Warehouse

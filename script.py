@@ -30,33 +30,43 @@ def generate_cache_key():
     
     return hashlib.md5(query.encode()).hexdigest()  # Generate a hash for uniqueness
 
-pythonRepl = PythonREPL()
+replManager = {
+    "manufacturing": PythonREPL(),
+    "banking": PythonREPL(),
+    "supplyChain": PythonREPL(),
+    "telecommunications": PythonREPL()
+}
 
-string = "import pandas as pd\nimport json\n\n"
-for i in os.listdir("."):
-    if (os.path.isfile(i)) & (i.split(".")[-1].lower() == "csv"):
-      string += i.split(".")[0] + f" = pd.read_csv('{i}')\n"
-string += "metadata = json.load(open('metadata.json', 'rb'))"
-pythonRepl.run(string)
+datasetsDir = os.path.join(os.getcwd(), "datasets")
+for environment in replManager.keys():
+    string = "import pandas as pd\nimport json\n\n"
+    for table in os.listdir(os.path.join(datasetsDir, environment)):
+        if (os.path.isfile(os.path.join(datasetsDir, environment, table))) & (table.split(".")[-1].lower() == "csv"):
+            string += table.split(".")[0] + f" = pd.read_csv('{os.path.join(datasetsDir, environment, table)}')\n"
+    string += f"metadata = json.load(open('{os.path.join(datasetsDir, environment, "metadata.json")}', 'rb'))"
+    replManager[environment].run(string)
 
-with open("metadata.json", "rb") as f:
-    metadata = json.load(f)
+
 
 class State(TypedDict):
+    dataset: str
     inputQuery: str
-    metadata: str
     rephrasedQuery: str
+    metadata: str
     generatedCode: str
     codeOutput: str
     finalOutput: dict
 
 def rephraseQuery(state: State):
+    with open(f"{os.path.join(datasetsDir, state['dataset'], 'metadata.json')}", "rb") as f:
+        metadata = json.load(f)
     response = queryRephraseChain.invoke({
         "query": state["inputQuery"],
-        "metadata": state["metadata"]
+        "metadata": metadata
     })
     return {
-        "rephrasedQuery": response
+        "rephrasedQuery": response,
+        "metadata": metadata
     }
 
 def generateCode(state: State):
@@ -70,7 +80,7 @@ def generateCode(state: State):
 
 def runInPythonSandbox(state: State):
     code = "\n".join(state["generatedCode"].split("```")[-2].split("\n")[1:])
-    response = pythonRepl.run(code)
+    response = replManager[state["dataset"]].run(code)
     return {
         "codeOutput": response
     }
@@ -130,8 +140,8 @@ workflow.add_edge("formatJsonResponse", END)
 
 workflow = workflow.compile()
 
-def generate_chart_data(query: str):
-    inputData = {"metadata": metadata, "inputQuery": query}
+def generate_chart_data(query: str, dataset: str):
+    inputData = {"dataset": dataset, "inputQuery": query}
     try:
         responseJson = workflow.invoke(inputData)
         return responseJson["finalOutput"]
@@ -145,10 +155,11 @@ def generate_chart():
     try:
         data = request.get_json()
         query = data.get("query", "")
-        if not query:
-            return jsonify({"error": "Query is required"}), 400
+        dataset = data.get("dataset", "")
+        if ((not query) or (not dataset)):
+            return jsonify({"error": "Query/Dataset is required"}), 400
         
-        chart_data = generate_chart_data(query)
+        chart_data = generate_chart_data(query = query, dataset = dataset)
         return jsonify(chart_data)
     except Exception as e:
         return jsonify({"error": "An error occurred while processing the request."}), 500
