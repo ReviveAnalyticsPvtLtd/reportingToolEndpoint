@@ -164,7 +164,7 @@ def generate_chart():
         chart_data = generate_chart_data(query = query, dataset = dataset)
         return jsonify(chart_data)
     except Exception as e:
-        return jsonify({"error": "An error occurred while processing the request."}), 500
+        return jsonify({"error": f"Endpoint says: {e}"}), 500
 
 if __name__ == "__main__":
     serve(app, host="0.0.0.0", port=8080)
