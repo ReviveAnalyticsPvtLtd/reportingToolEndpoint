@@ -27,7 +27,7 @@ def generate_cache_key():
     dataset = data.get("dataset", "")
     if ((not query) or (not dataset)):
         return None
-    return hashlib.md5(query.encode()).hexdigest()
+    return hashlib.md5((query + dataset).encode()).hexdigest()
 
 replManager = {
     "manufacturing": PythonREPL(),
