@@ -46,7 +46,7 @@ for environment in replManager.keys():
     string += f"metadata = json.load(open('{os.path.join(datasetsDir, environment, "metadata.json")}', 'rb'))"
     replManager[environment].run(string)
 
-
+print("DATA LOAD SUCCESSFUL")
 
 class State(TypedDict):
     dataset: str
@@ -139,6 +139,8 @@ workflow.add_edge("failsafePythonSandbox", "formatJsonResponse")
 workflow.add_edge("formatJsonResponse", END)
 
 workflow = workflow.compile()
+
+print("GRAPH COMPILATION SUCCESSFUL")
 
 def generate_chart_data(query: str, dataset: str):
     inputData = {"dataset": dataset, "inputQuery": query}
