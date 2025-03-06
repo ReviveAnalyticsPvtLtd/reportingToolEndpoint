@@ -24,11 +24,10 @@ def generate_cache_key():
     """Generate a unique cache key based on the request body."""
     data = request.get_json()
     query = data.get("query", "")
-    
-    if not query:
-        return None  # Avoid caching if there's no query
-    
-    return hashlib.md5(query.encode()).hexdigest()  # Generate a hash for uniqueness
+    dataset = data.get("dataset", "")
+    if ((not query) or (not dataset)):
+        return None
+    return hashlib.md5(query.encode()).hexdigest()
 
 replManager = {
     "manufacturing": PythonREPL(),
