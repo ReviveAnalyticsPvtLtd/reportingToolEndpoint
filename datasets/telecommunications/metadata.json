@@ -2,7 +2,7 @@
     "dimDevice": {
        "description": "Device information and attributes, including device type, manufacturer, model, and installation details.",
        "shape": [
-          999,
+          20,
           16
        ],
        "columns": [
@@ -109,7 +109,7 @@
     "factConnectedDeviceReport": {
        "description": "Report of connected devices, including data usage, signal strength, and link status.",
        "shape": [
-          999,
+          20,
           20
        ],
        "columns": [
