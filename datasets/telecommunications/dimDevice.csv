@@ -1,21 +1,1001 @@
-﻿Device_ID,Device_Name,Device_Type,Manufacturer,Model,Firmware_Version,Connectivity_Type,Installation_Location,Latitude,Longitude,Indoor_Outdoor,Installation_Date,Last_Reboot_Timestamp,Status,Power_Source,Warranty_Expiry_Date
-D001,HD Camera,Modem,Ericsson,RT-3000,2.8.7,5G,Park Corner,-76.4407,143.0474,Indoor,03/29/2020 12:00:00 AM,01/19/2023 12:00:00 AM,Active,Solar,10/26/2026 12:00:00 AM
-D002,HD Camera,Modem,Qualcomm,CM-1000,3.6.9,5G,Park Corner,65.5682,140.7133,Outdoor,05/03/2015 12:00:00 AM,04/08/2023 12:00:00 AM,Inactive,Battery,02/11/2026 12:00:00 AM
-D003,Router Pro,Cell,Samsung Electronics,MD-2020,5.9.7,WiFi,Mall Entrance,-2.8356,-88.298,Indoor,08/16/2022 12:00:00 AM,05/02/2023 12:00:00 AM,Maintenance,Battery,02/25/2025 12:00:00 AM
-D004,HD Camera,Router,Intel,CM-1000,3.5.0,Ethernet,Park Corner,-16.7591,-34.4339,Outdoor,06/19/2019 12:00:00 AM,11/15/2023 12:00:00 AM,Inactive,Wired,04/16/2023 12:00:00 AM
-D005,5G Small Cell,Router,Juniper Networks,RT-3000,1.3.4,4G,Warehouse,-62.5745,70.3697,Indoor,03/22/2019 12:00:00 AM,02/19/2023 12:00:00 AM,Active,Solar,01/03/2026 12:00:00 AM
-D006,5G Small Cell,Sensor,ZTE Corporation,MD-2020,4.4.0,Ethernet,Warehouse,8.7195,-63.2381,Outdoor,03/13/2017 12:00:00 AM,05/10/2023 12:00:00 AM,Inactive,Battery,09/24/2025 12:00:00 AM
-D007,5G Small Cell,Modem,Dell Technologies,RT-3000,4.9.7,5G,Mall Entrance,27.0577,-12.8412,Outdoor,07/15/2019 12:00:00 AM,06/23/2023 12:00:00 AM,Maintenance,Battery,04/11/2024 12:00:00 AM
-D008,HD Camera,Modem,Nokia,RT-3000,4.1.8,Bluetooth,Park Corner,56.5743,-27.5323,Indoor,05/27/2019 12:00:00 AM,12/08/2023 12:00:00 AM,Active,Solar,01/16/2023 12:00:00 AM
-D009,5G Small Cell,Cell,Qualcomm,SC-5000,4.1.6,WiFi,Park Corner,73.4499,174.1916,Outdoor,03/07/2019 12:00:00 AM,01/21/2023 12:00:00 AM,Maintenance,Battery,03/16/2026 12:00:00 AM
-D010,Router Pro,Camera,Intel,CM-1000,5.6.8,Bluetooth,Office Roof,81.7054,1.5712,Outdoor,03/31/2018 12:00:00 AM,02/24/2023 12:00:00 AM,Active,Solar,06/22/2025 12:00:00 AM
-D011,Smart Sensor,Camera,Cisco Systems,MD-2020,4.5.5,Ethernet,Mall Entrance,-32.1764,61.3648,Indoor,05/18/2015 12:00:00 AM,04/23/2023 12:00:00 AM,Maintenance,Solar,04/09/2024 12:00:00 AM
-D012,Router Pro,Cell,Samsung Electronics,SC-5000,1.6.6,Bluetooth,Warehouse,65.0754,165.1026,Indoor,09/25/2022 12:00:00 AM,12/24/2023 12:00:00 AM,Maintenance,Solar,02/17/2024 12:00:00 AM
-D013,Smart Sensor,Camera,Qualcomm,RT-3000,2.2.3,WiFi,Office Roof,29.236,-100.949,Outdoor,12/12/2021 12:00:00 AM,11/26/2023 12:00:00 AM,Maintenance,Wired,02/25/2023 12:00:00 AM
-D014,5G Small Cell,Camera,Intel,RT-3000,3.6.0,Bluetooth,Mall Entrance,-16.5457,-54.6203,Indoor,04/03/2017 12:00:00 AM,07/05/2023 12:00:00 AM,Inactive,Battery,03/24/2024 12:00:00 AM
-D015,HD Camera,Camera,Arista Networks,SC-5000,5.5.9,Ethernet,Park Corner,87.0094,-91.6149,Indoor,11/20/2019 12:00:00 AM,06/27/2023 12:00:00 AM,Inactive,Solar,07/06/2026 12:00:00 AM
-D016,5G Small Cell,Cell,Nokia,CM-1000,3.8.5,WiFi,Mall Entrance,-4.4445,-97.4903,Indoor,09/11/2022 12:00:00 AM,11/22/2023 12:00:00 AM,Maintenance,Solar,10/29/2023 12:00:00 AM
-D017,Smart Sensor,Sensor,ZTE Corporation,MD-2020,5.7.2,4G,Mall Entrance,-49.5798,-16.3482,Indoor,03/01/2015 12:00:00 AM,05/08/2023 12:00:00 AM,Maintenance,Solar,09/04/2026 12:00:00 AM
-D018,5G Small Cell,Sensor,LG Electronics,MD-2020,5.4.4,Ethernet,Warehouse,17.2006,-11.3992,Indoor,08/12/2016 12:00:00 AM,10/14/2023 12:00:00 AM,Maintenance,Solar,06/25/2024 12:00:00 AM
-D019,Router Pro,Router,Intel,RT-3000,1.5.2,WiFi,Park Corner,63.1673,156.4352,Indoor,11/10/2022 12:00:00 AM,09/19/2023 12:00:00 AM,Active,Wired,10/08/2023 12:00:00 AM
-D020,5G Small Cell,Modem,Juniper Networks,CM-1000,2.1.6,Ethernet,Mall Entrance,-43.0449,-86.9899,Outdoor,04/24/2021 12:00:00 AM,06/04/2023 12:00:00 AM,Active,Battery,11/29/2023 12:00:00 AM
+Device_ID,Device_Name,Device_Type,Manufacturer,Model,Firmware_Version,Connectivity_Type,Installation_Location,Latitude,Longitude,Indoor_Outdoor,Installation_Date,Last_Reboot_Timestamp,Status,Power_Source,Warranty_Expiry_Date
+1001,"Farley, Rodriguez and Rhodes",Access Point,Hewlett Packard,Meraki MR42,v5.2,Cellular,Bergershire,-84.624272,-98.119582,Indoor,2020-09-07,2025-03-03,Active,AC,2024-01-20
+1002,"Green, Day and Gregory",Access Point,Hewlett Packard,Aironet 2800,v1.9,Wi-Fi,Davidfurt,-57.427436,-13.062143,Indoor,2025-01-19,2025-02-06,Inactive,Solar,2022-04-14
+1003,Brown-Neal,Router,Ubiquiti,Meraki MX,v9.9,Ethernet,West Joelland,-73.257654,140.472582,Indoor,2020-02-01,2025-01-15,Active,Solar,2023-12-24
+1004,Williams-Pace,Access Point,Hewlett Packard,Meraki MR42,v4.0,Ethernet,South Thomasstad,65.543878,-79.095587,Indoor,2021-10-07,2025-01-29,Active,Battery,2021-07-14
+1005,Martin Ltd,Access Point,Netgear,Meraki MR42,v10.9,Ethernet,West Devin,82.24799,179.477567,Outdoor,2022-07-01,2025-02-08,Inactive,Solar,2022-03-18
+1006,Hunt-Austin,Router,Cisco,Meraki MX,v5.9,Bluetooth,Scottview,59.206844,-38.254724,Outdoor,2022-12-26,2025-02-16,Inactive,AC,2022-10-20
+1007,Kennedy-Martin,Switch,Hewlett Packard,Nexus 3000,v2.0,Ethernet,North Sarafort,34.577858,134.405211,Outdoor,2024-04-13,2025-01-10,Maintenance,Solar,2021-06-20
+1008,Bolton Ltd,Router,Juniper,ASR 1000,v10.8,Wi-Fi,Lindseyfort,-60.599961,109.067327,Indoor,2021-08-26,2025-01-10,Inactive,Solar,2020-09-08
+1009,Singleton-Waller,Access Point,Ubiquiti,Aironet 2800,v8.8,Bluetooth,East Jacobborough,-2.39996,140.943826,Outdoor,2022-09-29,2025-01-16,Inactive,AC,2020-10-10
+1010,Ross Ltd,Firewall,Hewlett Packard,Palo Alto Networks PA-200,v2.1,Bluetooth,Thomaschester,-50.556708,-39.552057,Outdoor,2021-10-10,2025-01-04,Maintenance,Solar,2024-06-10
+1011,Erickson and Sons,Firewall,Juniper,FortiGate 60F,v1.2,Ethernet,Daniellechester,11.508011,18.193875,Indoor,2024-04-30,2025-01-07,Inactive,Solar,2021-09-30
+1012,Davis-Nichols,Access Point,Ubiquiti,Ubiquiti UniFi AP,v7.9,Wi-Fi,North Janetown,-46.756897,111.145336,Indoor,2022-02-19,2025-01-14,Inactive,Solar,2021-07-24
+1013,"Luna, Decker and Vang",Router,Hewlett Packard,Meraki MX,v7.2,Bluetooth,East Mark,28.945846,-30.293928,Indoor,2023-12-31,2025-03-04,Active,AC,2024-03-10
+1014,Gutierrez-Shaw,Switch,Arista,Arista 7150,v2.2,Ethernet,Kellieberg,67.909327,104.299915,Outdoor,2024-11-14,2025-01-16,Inactive,Solar,2024-04-13
+1015,"Miller, Cunningham and West",Router,Netgear,RV340,v2.0,Wi-Fi,North Andrewtown,41.360764,88.524481,Indoor,2024-07-23,2025-02-26,Maintenance,Battery,2025-01-05
+1016,"Ortega, Golden and Robinson",Access Point,Juniper,Meraki MR42,v3.1,Ethernet,West Michaelfort,-9.045206,-105.038069,Indoor,2020-09-07,2025-02-26,Maintenance,AC,2023-12-02
+1017,Cuevas and Sons,Firewall,Ubiquiti,ASA 5500,v9.7,Wi-Fi,Scottview,-18.605589,-74.970864,Outdoor,2021-11-26,2025-01-23,Inactive,AC,2024-05-09
+1018,"Wright, Tanner and Alexander",Switch,Cisco,Catalyst 9200,v3.9,Cellular,New Jennifer,9.97012,-57.527711,Indoor,2022-01-01,2025-02-09,Maintenance,AC,2024-02-05
+1019,"Fields, Hill and Taylor",Access Point,Arista,Ubiquiti UniFi AP,v5.3,Cellular,Douglasbury,43.023542,-10.036643,Indoor,2022-10-17,2025-03-06,Active,Solar,2021-07-07
+1020,Murray-Thompson,Firewall,Ubiquiti,FortiGate 60F,v1.1,Cellular,South Jeremy,79.877689,-141.403637,Outdoor,2023-04-04,2025-02-22,Active,Solar,2025-02-11
+1021,Cox LLC,Router,Hewlett Packard,Catalyst 9300,v9.7,Cellular,North Edward,73.243254,-5.349108,Outdoor,2020-02-14,2025-02-01,Active,Solar,2022-05-29
+1022,"Richardson, Garcia and Goodwin",Access Point,Netgear,Ubiquiti UniFi AP,v8.5,Wi-Fi,Port Joseview,-39.104762,-94.88572,Outdoor,2021-11-25,2025-03-04,Inactive,Solar,2021-08-10
+1023,"Thompson, Sanders and Schmitt",Router,Netgear,ISR 4000,v2.7,Ethernet,Port Erikberg,35.744743,-31.905416,Indoor,2024-11-05,2025-02-04,Maintenance,AC,2023-10-30
+1024,Rogers and Sons,Firewall,Netgear,Palo Alto Networks PA-200,v1.3,Bluetooth,South Carolineshire,-65.848211,103.343629,Indoor,2024-05-31,2025-01-23,Active,Solar,2023-01-14
+1025,"Powers, Garcia and Reed",Switch,Ubiquiti,Catalyst 9200,v10.2,Cellular,Angieland,-62.391123,-144.501706,Outdoor,2021-02-24,2025-01-04,Active,AC,2023-01-11
+1026,Roberts Inc,Firewall,Arista,ASA 5500,v9.1,Wi-Fi,Baileymouth,-47.181934,-125.390854,Outdoor,2020-05-02,2025-02-07,Active,AC,2022-05-26
+1027,"Smith, Parks and Richardson",Switch,Cisco,Catalyst 9200,v1.9,Wi-Fi,Martinezshire,-49.785838,-124.471378,Indoor,2021-01-06,2025-02-03,Inactive,Battery,2021-06-17
+1028,"Martinez, Jackson and Moran",Firewall,Juniper,Check Point 1400,v9.9,Bluetooth,Donnafurt,-53.084204,-6.279995,Outdoor,2022-10-01,2025-02-22,Maintenance,AC,2023-11-08
+1029,Benson and Sons,Access Point,Cisco,Ubiquiti UniFi AP,v10.8,Cellular,Port Robertfurt,32.15799,-71.594745,Indoor,2022-01-31,2025-01-27,Maintenance,Solar,2024-10-15
+1030,James-Nunez,Firewall,Hewlett Packard,Check Point 1400,v2.1,Cellular,Howardmouth,-15.545456,174.183761,Outdoor,2020-07-04,2025-01-19,Maintenance,Battery,2022-09-05
+1031,Jones and Sons,Firewall,Cisco,FortiGate 60F,v7.7,Cellular,Jerryfurt,86.089591,-125.70577,Indoor,2021-01-05,2025-02-03,Inactive,Battery,2021-09-12
+1032,"Walters, Phillips and Brennan",Switch,Juniper,Nexus 3000,v6.8,Ethernet,Turnerhaven,-77.572423,-72.201577,Indoor,2021-12-02,2025-02-03,Active,Solar,2020-05-23
+1033,Henson-Dixon,Access Point,Netgear,Aironet 2800,v10.5,Bluetooth,Lake Jennifer,-52.841102,38.507355,Outdoor,2021-12-30,2025-02-19,Active,Solar,2024-01-16
+1034,Mccoy-Allen,Switch,Arista,ProSafe GS,v2.0,Bluetooth,Ryanton,-0.5918,90.349623,Indoor,2022-10-13,2025-01-07,Inactive,Solar,2022-10-13
+1035,Anderson-Garner,Access Point,Cisco,Ubiquiti UniFi AP,v5.0,Bluetooth,Sanchezstad,-5.368653,170.207025,Outdoor,2024-09-08,2025-01-15,Active,AC,2023-12-01
+1036,Gillespie Ltd,Router,Hewlett Packard,ASR 1000,v3.8,Ethernet,North Loribury,53.493279,108.512293,Outdoor,2022-12-30,2025-01-20,Inactive,Solar,2023-03-08
+1037,Jones-Patel,Router,Juniper,ASR 1000,v10.5,Bluetooth,New Curtisport,-25.812201,96.919473,Outdoor,2023-12-04,2025-01-14,Inactive,Solar,2024-08-15
+1038,"Stephenson, Dyer and Wise",Firewall,Hewlett Packard,ASA 5500,v5.7,Wi-Fi,New Elizabethtown,-3.148786,129.072541,Outdoor,2022-12-15,2025-02-04,Inactive,Solar,2021-07-09
+1039,Gibson and Sons,Router,Arista,Meraki MX,v3.3,Cellular,Richardmouth,46.432864,-58.113351,Outdoor,2022-03-19,2025-02-03,Active,Battery,2020-01-27
+1040,Howard-Tucker,Router,Hewlett Packard,RV340,v1.4,Ethernet,North Maria,-65.773221,26.926329,Outdoor,2025-03-05,2025-02-18,Active,Battery,2022-01-21
+1041,Peterson-Sanchez,Access Point,Hewlett Packard,Ubiquiti UniFi AP,v2.0,Ethernet,North Joseph,34.76059,-61.108862,Outdoor,2020-09-04,2025-02-18,Inactive,Solar,2023-07-29
+1042,Casey-Cummings,Access Point,Arista,Meraki MR42,v1.6,Wi-Fi,South Robertoville,-5.975161,0.329871,Indoor,2022-04-07,2025-01-29,Maintenance,Battery,2022-02-26
+1043,Johnson LLC,Firewall,Cisco,Check Point 1400,v5.0,Cellular,South Matthewtown,10.87379,86.288747,Indoor,2020-01-20,2025-02-01,Maintenance,Battery,2020-03-26
+1044,"Wilson, Anderson and Williams",Router,Netgear,ISR 4000,v6.8,Cellular,North Kelly,29.800052,-97.92446,Outdoor,2020-07-29,2025-02-06,Active,AC,2023-01-26
+1045,Matthews Ltd,Switch,Netgear,Catalyst 9200,v9.8,Cellular,Maryfort,0.117511,126.416037,Indoor,2024-06-23,2025-02-27,Inactive,Battery,2023-03-07
+1046,"Li, Flores and Elliott",Router,Cisco,RV340,v8.7,Ethernet,West Katherine,-55.15101,29.229554,Indoor,2021-09-19,2025-02-08,Maintenance,Solar,2022-12-18
+1047,Johnson Inc,Switch,Juniper,Nexus 3000,v2.5,Bluetooth,Clairemouth,-24.473321,-152.098809,Outdoor,2022-11-22,2025-02-26,Active,Solar,2021-01-08
+1048,Blake-Harris,Switch,Cisco,ProSafe GS,v4.1,Bluetooth,Gutierrezshire,-80.412996,-96.329079,Outdoor,2022-05-24,2025-02-01,Maintenance,AC,2022-06-18
+1049,Trujillo and Sons,Switch,Arista,Arista 7150,v6.6,Cellular,West Jamesburgh,38.260236,-95.403448,Outdoor,2020-06-04,2025-02-11,Active,Battery,2024-03-14
+1050,Bailey LLC,Access Point,Juniper,Ubiquiti UniFi AP,v2.0,Cellular,South Jeffrey,-36.583617,115.766688,Outdoor,2020-05-20,2025-02-23,Maintenance,AC,2023-05-21
+1051,Nash PLC,Router,Juniper,Meraki MX,v1.7,Wi-Fi,Brownfurt,35.367745,105.790675,Indoor,2024-06-10,2025-02-27,Inactive,Battery,2023-04-18
+1052,"Jenkins, Murray and Branch",Router,Arista,ISR 4000,v5.9,Bluetooth,Lake Anthonyton,-50.882134,-49.596775,Indoor,2021-05-31,2025-02-13,Maintenance,Battery,2023-09-05
+1053,"Lynch, Robbins and Tate",Firewall,Hewlett Packard,Check Point 1400,v9.9,Ethernet,New Samantha,17.014593,-83.422272,Indoor,2023-09-30,2025-03-02,Maintenance,Battery,2022-02-11
+1054,Figueroa-Richardson,Firewall,Arista,FortiGate 60F,v5.4,Ethernet,Port Kelseymouth,-82.125479,76.216376,Indoor,2021-10-18,2025-02-24,Active,AC,2020-10-19
+1055,"Wilson, Hernandez and Garcia",Access Point,Juniper,Ubiquiti UniFi AP,v2.2,Bluetooth,East Lindahaven,4.380541,-76.621051,Outdoor,2022-03-20,2025-01-16,Inactive,Solar,2020-01-05
+1056,Stanley-Wright,Access Point,Ubiquiti,Ubiquiti UniFi AP,v4.1,Ethernet,East Linda,-61.75564,-50.524856,Outdoor,2023-11-24,2025-01-25,Inactive,Battery,2021-09-12
+1057,"Brooks, Lyons and Wood",Access Point,Arista,Ubiquiti UniFi AP,v8.6,Bluetooth,Thomasland,57.103476,-157.767669,Outdoor,2023-07-22,2025-02-06,Maintenance,AC,2022-04-25
+1058,Silva-Carter,Router,Hewlett Packard,Meraki MX,v4.5,Bluetooth,Burnsport,86.350041,159.643065,Indoor,2024-02-07,2025-02-10,Maintenance,AC,2024-08-21
+1059,Spears PLC,Access Point,Netgear,Meraki MR42,v10.1,Ethernet,Mooreburgh,-4.185498,38.808309,Outdoor,2021-12-03,2025-02-01,Active,Battery,2024-02-11
+1060,"Martinez, Jackson and Mccullough",Access Point,Juniper,Aruba 305,v10.6,Wi-Fi,North Ryan,46.619684,157.169554,Indoor,2020-06-13,2025-02-10,Maintenance,Battery,2021-06-29
+1061,"Gentry, Barrett and Horn",Access Point,Netgear,Meraki MR42,v6.0,Cellular,Nguyenmouth,30.44302,-84.821806,Indoor,2020-09-04,2025-01-24,Maintenance,Battery,2024-11-13
+1062,Knox-Duffy,Switch,Ubiquiti,ProSafe GS,v4.7,Bluetooth,Sandrastad,60.983554,-152.243984,Outdoor,2024-10-31,2025-02-28,Active,Solar,2024-09-24
+1063,Liu Group,Access Point,Cisco,Aironet 2800,v5.3,Cellular,Goodwinburgh,-80.236321,5.80192,Indoor,2023-04-14,2025-01-04,Active,Solar,2024-03-13
+1064,"Morton, Clark and Edwards",Router,Ubiquiti,ISR 4000,v5.7,Cellular,Longville,-78.478456,-47.713416,Outdoor,2023-08-05,2025-02-07,Inactive,Solar,2021-05-28
+1065,"Frank, Short and Conway",Firewall,Hewlett Packard,FortiGate 60F,v5.1,Cellular,Steventown,-49.498673,-121.004969,Indoor,2023-08-19,2025-01-01,Active,Battery,2024-09-18
+1066,Miller and Sons,Firewall,Arista,ASA 5500,v1.8,Bluetooth,Mckenzieborough,13.372902,18.730372,Outdoor,2021-09-25,2025-01-27,Inactive,Solar,2024-10-08
+1067,Hodge-Matthews,Switch,Hewlett Packard,Arista 7150,v8.1,Cellular,Lake Colleen,50.860369,-157.463947,Indoor,2024-09-02,2025-01-11,Maintenance,Battery,2020-03-05
+1068,Potter and Sons,Access Point,Netgear,Ubiquiti UniFi AP,v8.9,Cellular,Port Danielle,11.065522,-34.042931,Indoor,2024-04-02,2025-02-21,Inactive,Solar,2022-01-09
+1069,"Allen, Anderson and Franklin",Firewall,Netgear,Check Point 1400,v5.1,Ethernet,Kelleytown,-81.74159,-22.460511,Indoor,2020-03-15,2025-02-11,Active,Solar,2024-07-16
+1070,"King, Thompson and Harper",Switch,Arista,Catalyst 9200,v5.5,Bluetooth,Smithhaven,29.007454,12.40325,Indoor,2021-09-26,2025-02-23,Active,AC,2025-01-29
+1071,Mcguire-Heath,Switch,Arista,Arista 7150,v3.6,Bluetooth,Conwayland,72.341178,-164.562587,Outdoor,2025-02-06,2025-03-04,Active,Battery,2020-05-03
+1072,Brown Ltd,Router,Ubiquiti,ISR 4000,v2.4,Bluetooth,Ramosside,-51.011429,81.095523,Indoor,2021-02-25,2025-01-19,Inactive,AC,2022-09-26
+1073,"Bailey, Cortez and Martin",Router,Ubiquiti,ISR 4000,v4.3,Ethernet,Port Douglasstad,-21.251349,-18.563252,Indoor,2024-01-06,2025-01-25,Maintenance,Solar,2023-02-24
+1074,"Armstrong, Robbins and Fisher",Router,Ubiquiti,ISR 4000,v9.3,Bluetooth,Port Bryceshire,36.984142,-32.026429,Outdoor,2024-11-09,2025-02-02,Maintenance,AC,2023-03-15
+1075,Hughes-Cohen,Access Point,Cisco,Meraki MR42,v2.5,Bluetooth,Suzanneside,77.299507,79.793081,Outdoor,2024-02-29,2025-01-19,Active,AC,2023-11-30
+1076,"Wheeler, Davis and Strickland",Switch,Cisco,ProSafe GS,v10.1,Ethernet,Lake Lisafort,-5.545348,-127.351085,Indoor,2020-01-22,2025-01-01,Maintenance,Solar,2023-06-29
+1077,"Garcia, Spencer and Brown",Access Point,Juniper,Aironet 2800,v7.4,Cellular,New Brandi,69.791166,-122.788969,Outdoor,2022-02-05,2025-01-26,Inactive,Solar,2023-07-19
+1078,Adams-Knight,Router,Cisco,ISR 4000,v8.6,Bluetooth,Taraland,-1.421095,-68.048241,Indoor,2024-05-19,2025-01-12,Active,AC,2024-03-19
+1079,Wood-Crawford,Firewall,Netgear,ASA 5500,v4.5,Wi-Fi,Gonzalesmouth,46.998702,113.104795,Outdoor,2023-03-02,2025-01-24,Maintenance,AC,2020-04-24
+1080,"Blake, Johnson and Mitchell",Firewall,Ubiquiti,ASA 5500,v1.4,Ethernet,New Brian,-48.183325,-36.605113,Outdoor,2023-08-19,2025-02-02,Active,Battery,2022-12-04
+1081,Rodriguez-Smith,Router,Hewlett Packard,Meraki MX,v1.5,Wi-Fi,Guzmanland,85.381179,-58.180155,Indoor,2022-10-13,2025-01-30,Inactive,Battery,2024-05-20
+1082,"Wilson, Hobbs and Robles",Access Point,Cisco,Aruba 305,v6.4,Bluetooth,West Joyce,14.531862,-102.150793,Outdoor,2025-01-02,2025-01-17,Maintenance,Battery,2023-02-09
+1083,Pollard and Sons,Access Point,Juniper,Aruba 305,v7.8,Wi-Fi,North Tinashire,7.820696,-174.213402,Outdoor,2024-05-04,2025-02-03,Active,AC,2023-04-27
+1084,Smith PLC,Access Point,Hewlett Packard,Meraki MR42,v2.4,Wi-Fi,Hansontown,50.01408,-160.246917,Indoor,2020-06-04,2025-03-04,Active,AC,2021-10-25
+1085,Harrison Ltd,Firewall,Hewlett Packard,ASA 5500,v3.6,Ethernet,Harringtonburgh,29.860359,-93.398735,Indoor,2022-10-01,2025-02-15,Inactive,Solar,2021-08-07
+1086,Franklin Ltd,Access Point,Ubiquiti,Aironet 2800,v9.0,Bluetooth,New Joanburgh,58.90513,-95.610122,Outdoor,2020-02-07,2025-02-17,Maintenance,Battery,2024-05-20
+1087,Doyle PLC,Firewall,Arista,ASA 5500,v10.8,Wi-Fi,Smithport,13.47551,11.616353,Outdoor,2024-05-19,2025-01-10,Inactive,Battery,2024-03-25
+1088,Walsh-Lewis,Switch,Hewlett Packard,Catalyst 9200,v2.1,Cellular,North Anthony,-10.961633,-91.054435,Outdoor,2022-10-02,2025-01-17,Active,Battery,2024-10-25
+1089,"Rose, Alvarez and Wright",Access Point,Hewlett Packard,Ubiquiti UniFi AP,v4.0,Wi-Fi,Donnaton,-38.750097,-93.729647,Outdoor,2022-09-10,2025-02-22,Inactive,Battery,2025-01-16
+1090,Alvarez and Sons,Access Point,Netgear,Ubiquiti UniFi AP,v1.3,Ethernet,Josephfurt,21.428975,26.661821,Indoor,2020-10-01,2025-02-24,Maintenance,Battery,2022-09-04
+1091,"Byrd, Meza and Flores",Access Point,Netgear,Aruba 305,v2.7,Wi-Fi,Suttonville,-24.690887,113.415607,Indoor,2024-02-10,2025-01-07,Maintenance,Battery,2021-03-27
+1092,Robertson Ltd,Firewall,Juniper,ASA 5500,v4.0,Bluetooth,Murphyton,-66.795019,152.120946,Indoor,2022-02-06,2025-02-04,Active,Battery,2023-05-08
+1093,Phillips-Barker,Firewall,Ubiquiti,Check Point 1400,v9.7,Ethernet,West David,-21.586239,-146.96229,Outdoor,2020-07-22,2025-01-10,Maintenance,AC,2024-11-01
+1094,"Brandt, Harris and Hamilton",Router,Hewlett Packard,ISR 4000,v3.2,Bluetooth,Salinasland,33.982357,74.871649,Indoor,2021-08-25,2025-01-21,Maintenance,Battery,2020-09-15
+1095,Jacobs-Baker,Router,Juniper,ISR 4000,v10.1,Ethernet,Ingramberg,-87.641089,-67.205278,Indoor,2020-11-30,2025-02-21,Inactive,Solar,2021-03-28
+1096,Sanchez-Wagner,Access Point,Cisco,Ubiquiti UniFi AP,v10.4,Cellular,North Ashleyfurt,3.619461,-174.020851,Outdoor,2022-03-27,2025-01-23,Inactive,AC,2023-09-23
+1097,Mendoza-Grant,Access Point,Netgear,Aironet 2800,v1.1,Bluetooth,Port Patricia,59.853768,-55.602081,Outdoor,2023-05-15,2025-01-01,Inactive,AC,2024-01-05
+1098,Mccarthy Inc,Router,Cisco,Catalyst 9300,v2.1,Wi-Fi,Diazfurt,29.738908,-151.602724,Indoor,2022-04-02,2025-01-22,Maintenance,Battery,2024-06-03
+1099,Arias LLC,Router,Cisco,ASR 1000,v5.2,Bluetooth,West Michael,24.345745,121.63006,Indoor,2024-08-07,2025-02-23,Maintenance,Solar,2021-04-05
+1100,Arnold Group,Router,Cisco,Catalyst 9300,v8.9,Wi-Fi,Lake Ronnie,41.602175,-25.804897,Indoor,2023-07-13,2025-02-11,Inactive,Battery,2023-11-08
+1101,Spencer-Johnson,Switch,Arista,ProSafe GS,v4.8,Ethernet,Lake Jesse,71.627237,37.633363,Outdoor,2020-01-22,2025-01-14,Inactive,Battery,2024-07-04
+1102,Rogers Group,Router,Netgear,ISR 4000,v5.9,Wi-Fi,Christophershire,-57.010249,143.815975,Indoor,2020-05-12,2025-01-21,Inactive,Battery,2024-12-03
+1103,Cherry and Sons,Firewall,Netgear,Palo Alto Networks PA-200,v1.1,Ethernet,Carlsonfurt,13.563057,-122.536619,Outdoor,2025-02-22,2025-01-09,Maintenance,Solar,2025-02-05
+1104,"Gibbs, Mcconnell and Hall",Firewall,Ubiquiti,Palo Alto Networks PA-200,v6.3,Cellular,Lake Johnberg,7.379473,-93.669047,Outdoor,2021-03-14,2025-01-02,Maintenance,Solar,2022-04-23
+1105,Newton Inc,Firewall,Juniper,ASA 5500,v10.4,Bluetooth,Fischerville,-20.328667,47.694783,Outdoor,2023-01-23,2025-01-23,Maintenance,AC,2024-02-27
+1106,Edwards Group,Firewall,Hewlett Packard,Check Point 1400,v3.2,Wi-Fi,Brianhaven,88.147858,-67.015866,Indoor,2021-03-20,2025-01-31,Active,Battery,2021-07-13
+1107,"Smith, Farmer and Hall",Router,Cisco,ISR 4000,v7.6,Bluetooth,New Stevenburgh,-37.227799,128.538785,Outdoor,2021-08-19,2025-02-16,Active,AC,2023-10-03
+1108,Yates and Sons,Switch,Cisco,Catalyst 9200,v9.4,Ethernet,Parsonsberg,-9.34438,114.938356,Indoor,2024-03-12,2025-01-30,Maintenance,AC,2025-01-28
+1109,Richardson-Hebert,Switch,Cisco,Arista 7150,v2.9,Bluetooth,South Karenland,-43.954541,-2.415716,Indoor,2024-02-05,2025-03-02,Active,AC,2023-09-22
+1110,Watkins Group,Router,Arista,ASR 1000,v4.2,Ethernet,Emilystad,-55.749608,173.017953,Outdoor,2022-06-23,2025-02-06,Inactive,Battery,2023-09-05
+1111,Chang Inc,Firewall,Hewlett Packard,Check Point 1400,v3.3,Ethernet,Phillipsside,-25.075743,-86.012994,Outdoor,2020-11-04,2025-02-10,Inactive,Solar,2022-12-01
+1112,Foster PLC,Router,Hewlett Packard,ISR 4000,v1.5,Cellular,North Jasonburgh,82.309901,-76.329914,Indoor,2025-01-18,2025-01-20,Active,AC,2023-01-28
+1113,Burgess and Sons,Switch,Arista,Arista 7150,v3.4,Ethernet,Lake Lisaborough,-88.230651,-90.589127,Outdoor,2021-10-14,2025-02-17,Inactive,Battery,2021-11-15
+1114,"Harper, Brown and Henderson",Switch,Cisco,Catalyst 9200,v3.0,Cellular,East Karen,76.178629,168.915286,Outdoor,2022-02-28,2025-01-15,Inactive,Solar,2022-03-11
+1115,Smith Ltd,Access Point,Juniper,Meraki MR42,v7.5,Ethernet,Kristenchester,-48.9155,93.859283,Indoor,2025-02-28,2025-01-13,Inactive,AC,2023-07-01
+1116,Alvarado-Harris,Firewall,Arista,ASA 5500,v2.5,Bluetooth,Carterborough,85.774078,65.404264,Outdoor,2024-08-03,2025-02-04,Inactive,AC,2021-05-15
+1117,Palmer Inc,Firewall,Cisco,FortiGate 60F,v3.4,Bluetooth,New Randallbury,15.794326,-53.334368,Indoor,2020-10-30,2025-02-15,Maintenance,AC,2020-06-25
+1118,Baker-Pierce,Router,Arista,Catalyst 9300,v7.2,Cellular,East Samantha,-5.449571,-101.73914,Indoor,2021-01-16,2025-02-21,Maintenance,Solar,2022-09-12
+1119,"Wheeler, Turner and Preston",Access Point,Cisco,Ubiquiti UniFi AP,v7.0,Cellular,New Patricia,12.456219,127.280914,Indoor,2023-06-30,2025-01-04,Maintenance,Battery,2023-11-06
+1120,"Curry, Jones and Rhodes",Firewall,Cisco,Check Point 1400,v3.1,Cellular,Carloschester,82.145604,-173.976774,Outdoor,2024-11-27,2025-02-27,Inactive,Solar,2021-10-26
+1121,Herrera Inc,Firewall,Hewlett Packard,Palo Alto Networks PA-200,v2.2,Bluetooth,South Katrinaberg,88.799878,-144.782183,Indoor,2023-05-26,2025-02-14,Inactive,AC,2022-09-03
+1122,Holland-Thomas,Router,Juniper,RV340,v5.1,Ethernet,New Mariastad,12.010505,7.043099,Outdoor,2021-09-05,2025-01-20,Active,Battery,2021-09-02
+1123,Holmes-Gallegos,Access Point,Ubiquiti,Aironet 2800,v9.9,Ethernet,North Brad,58.553527,-2.886207,Indoor,2021-08-14,2025-03-04,Inactive,Battery,2020-08-03
+1124,Rodriguez-Lawrence,Switch,Cisco,Catalyst 9200,v1.8,Bluetooth,Oneillfort,-66.658413,-147.555303,Outdoor,2023-01-20,2025-02-03,Maintenance,Solar,2024-02-09
+1125,Chambers-Vargas,Switch,Netgear,ProSafe GS,v1.4,Cellular,Jeremyberg,-38.713086,-167.977219,Indoor,2020-09-21,2025-02-20,Inactive,AC,2020-07-18
+1126,"Bryant, Jordan and Weaver",Firewall,Netgear,FortiGate 60F,v5.5,Bluetooth,West Austinside,49.725845,-68.671987,Indoor,2022-07-24,2025-02-19,Active,AC,2021-01-08
+1127,Freeman LLC,Router,Hewlett Packard,ISR 4000,v5.7,Bluetooth,North Michael,72.786196,150.237456,Outdoor,2024-01-18,2025-01-21,Inactive,Solar,2021-03-04
+1128,Williams-Thompson,Router,Cisco,ASR 1000,v5.5,Wi-Fi,Leeburgh,12.352861,-46.822494,Outdoor,2022-04-08,2025-01-21,Maintenance,Battery,2024-10-22
+1129,Simon LLC,Switch,Juniper,Nexus 3000,v9.5,Cellular,Lake Deborahburgh,79.636533,-36.840532,Indoor,2022-03-03,2025-02-09,Maintenance,Solar,2021-11-08
+1130,Hancock Ltd,Router,Cisco,ISR 4000,v10.5,Bluetooth,Cohenland,4.718626,113.486731,Indoor,2023-09-18,2025-01-10,Maintenance,Solar,2021-04-10
+1131,Powell-Snyder,Firewall,Netgear,Check Point 1400,v10.0,Ethernet,West Codyview,-21.370761,-2.082888,Indoor,2024-01-12,2025-02-06,Active,Solar,2023-01-28
+1132,Warner-Craig,Firewall,Netgear,Check Point 1400,v10.1,Cellular,Savannahhaven,75.602741,137.120815,Indoor,2020-07-23,2025-01-06,Inactive,Solar,2021-04-02
+1133,"Summers, Murray and Clark",Firewall,Arista,FortiGate 60F,v4.2,Ethernet,Lake Kaitlyn,-21.36027,114.072571,Indoor,2020-10-05,2025-01-13,Inactive,Solar,2024-05-23
+1134,Clark Ltd,Access Point,Netgear,Meraki MR42,v8.8,Ethernet,Migueltown,24.455799,-107.146925,Indoor,2022-04-23,2025-02-12,Maintenance,AC,2020-12-12
+1135,"Lucas, Flores and Thompson",Firewall,Arista,ASA 5500,v9.0,Bluetooth,South Brianland,34.452775,-81.381454,Indoor,2024-02-20,2025-02-20,Inactive,Solar,2022-11-10
+1136,Allison-Glover,Access Point,Juniper,Ubiquiti UniFi AP,v1.4,Cellular,Danielview,-58.630055,-145.106392,Outdoor,2023-08-07,2025-01-14,Inactive,Battery,2025-02-08
+1137,"Lee, Watkins and Hess",Access Point,Juniper,Meraki MR42,v4.2,Ethernet,Moralesside,-9.610477,27.068363,Indoor,2025-02-02,2025-02-23,Active,Battery,2022-08-20
+1138,Johnson LLC,Firewall,Netgear,FortiGate 60F,v7.3,Ethernet,South John,-66.089135,-69.776999,Outdoor,2020-11-24,2025-01-14,Maintenance,AC,2020-01-05
+1139,Raymond Group,Router,Arista,Catalyst 9300,v5.4,Bluetooth,Joelville,12.409712,-85.533178,Indoor,2024-04-11,2025-02-16,Inactive,AC,2024-04-14
+1140,Rush Ltd,Router,Cisco,ISR 4000,v3.9,Wi-Fi,Lake Jessica,-78.584822,155.933815,Outdoor,2024-01-29,2025-01-07,Maintenance,Solar,2022-06-28
+1141,"Ferguson, Gomez and Edwards",Router,Hewlett Packard,RV340,v7.9,Wi-Fi,New Luismouth,-41.92751,-104.235643,Indoor,2024-02-14,2025-01-21,Maintenance,Solar,2024-08-03
+1142,"Riggs, Gonzalez and Patterson",Access Point,Cisco,Ubiquiti UniFi AP,v8.6,Bluetooth,New Richard,85.677061,-96.878782,Indoor,2021-11-09,2025-03-06,Maintenance,Solar,2020-11-08
+1143,Moore and Sons,Access Point,Arista,Aruba 305,v6.6,Ethernet,Jonesport,21.321414,56.146873,Indoor,2020-10-14,2025-01-10,Maintenance,Solar,2022-03-15
+1144,Lopez Ltd,Router,Juniper,ISR 4000,v6.4,Bluetooth,New Juan,55.504488,-76.07867,Indoor,2023-01-31,2025-02-02,Active,Solar,2022-01-28
+1145,Mccoy and Sons,Firewall,Netgear,FortiGate 60F,v5.5,Cellular,East Larry,22.418004,-98.720991,Indoor,2024-11-25,2025-01-31,Maintenance,AC,2020-01-26
+1146,"Allen, King and Holland",Router,Juniper,Meraki MX,v5.1,Wi-Fi,West Stephanie,-86.00694,-141.566727,Indoor,2022-08-14,2025-02-24,Active,AC,2020-03-11
+1147,"Garcia, Mata and Dickerson",Switch,Cisco,Nexus 3000,v6.9,Bluetooth,Peterfurt,32.508087,-133.404193,Outdoor,2021-04-01,2025-02-28,Active,AC,2020-09-20
+1148,"Johnson, Powell and Perez",Switch,Hewlett Packard,Nexus 3000,v3.0,Cellular,Lake Anna,21.441352,-42.919908,Outdoor,2021-06-08,2025-01-14,Active,Solar,2024-09-25
+1149,Ortiz PLC,Access Point,Hewlett Packard,Aironet 2800,v1.5,Cellular,Bryanside,47.363236,116.62219,Outdoor,2022-09-25,2025-01-19,Inactive,Solar,2022-05-25
+1150,"Lopez, Martinez and Carrillo",Switch,Cisco,Catalyst 9200,v4.1,Wi-Fi,Lake Christophermouth,-0.153143,104.104755,Indoor,2024-01-23,2025-02-18,Inactive,Solar,2024-11-18
+1151,Lopez Ltd,Firewall,Arista,FortiGate 60F,v9.7,Ethernet,East Lynnhaven,-42.981885,95.362016,Indoor,2021-07-10,2025-01-29,Maintenance,AC,2022-02-27
+1152,Moore-Fisher,Router,Hewlett Packard,ASR 1000,v2.4,Wi-Fi,Charleston,52.718483,-43.747013,Outdoor,2021-03-02,2025-02-04,Active,AC,2021-11-14
+1153,Riley-Hernandez,Switch,Juniper,Catalyst 9200,v2.5,Wi-Fi,South Jose,-38.288366,-32.580048,Indoor,2022-11-07,2025-01-23,Inactive,Battery,2021-04-07
+1154,Moore-Mata,Switch,Cisco,Nexus 3000,v6.5,Ethernet,Gregoryport,-31.180895,-56.415981,Outdoor,2024-11-15,2025-02-01,Inactive,Battery,2020-04-10
+1155,"Smith, Williams and Hartman",Switch,Arista,Nexus 3000,v7.7,Bluetooth,Ericberg,34.32834,131.801764,Indoor,2021-06-14,2025-01-15,Inactive,Battery,2020-07-08
+1156,Smith Inc,Switch,Netgear,Arista 7150,v1.6,Wi-Fi,Lake Jessicahaven,18.94447,-146.860431,Outdoor,2023-10-23,2025-01-06,Maintenance,Solar,2022-01-09
+1157,Flores-Deleon,Firewall,Cisco,Palo Alto Networks PA-200,v3.2,Ethernet,Lake Hannah,18.067703,138.3088,Outdoor,2024-04-17,2025-02-12,Maintenance,AC,2020-05-02
+1158,Scott Inc,Router,Hewlett Packard,ISR 4000,v1.0,Bluetooth,Johnsonstad,9.525891,63.048899,Indoor,2022-10-31,2025-01-05,Maintenance,Battery,2024-01-21
+1159,Crawford-Palmer,Access Point,Juniper,Ubiquiti UniFi AP,v4.9,Ethernet,Smithbury,-69.206954,-113.283945,Indoor,2024-05-30,2025-01-29,Maintenance,Solar,2020-09-24
+1160,"Smith, Cunningham and Barry",Router,Netgear,ISR 4000,v3.1,Wi-Fi,Gloriaview,70.590276,74.145417,Indoor,2022-03-08,2025-02-02,Inactive,AC,2021-10-30
+1161,Ritter PLC,Access Point,Arista,Ubiquiti UniFi AP,v1.6,Wi-Fi,Newmanville,-20.750265,52.532897,Indoor,2022-08-24,2025-02-05,Inactive,Battery,2024-05-20
+1162,Brown and Sons,Access Point,Cisco,Aironet 2800,v4.3,Wi-Fi,Lake Christopher,-0.045608,86.662032,Outdoor,2023-04-18,2025-01-13,Active,AC,2022-09-10
+1163,Newman-Owens,Firewall,Ubiquiti,Check Point 1400,v8.6,Bluetooth,Omarville,71.825327,26.542811,Outdoor,2022-11-05,2025-02-16,Active,AC,2020-09-20
+1164,Harper-Brown,Firewall,Ubiquiti,ASA 5500,v6.9,Wi-Fi,Valenzuelaside,-18.499615,51.766415,Outdoor,2024-03-04,2025-02-27,Maintenance,Solar,2022-10-25
+1165,"Peterson, Bush and Miller",Switch,Arista,Catalyst 9200,v9.9,Cellular,Laurafort,0.065234,-162.44105,Outdoor,2023-02-08,2025-02-10,Maintenance,Solar,2021-09-12
+1166,Hickman-Townsend,Switch,Cisco,ProSafe GS,v2.2,Ethernet,Adammouth,58.384238,107.407884,Outdoor,2022-08-13,2025-02-19,Inactive,Solar,2024-03-11
+1167,Franklin PLC,Switch,Ubiquiti,Catalyst 9200,v8.9,Ethernet,Reedport,-65.39937,-98.851931,Outdoor,2022-06-14,2025-02-17,Maintenance,AC,2024-11-05
+1168,Cruz-Montes,Access Point,Ubiquiti,Ubiquiti UniFi AP,v4.5,Cellular,Brandistad,81.153037,165.864322,Indoor,2024-07-01,2025-03-03,Active,AC,2024-02-29
+1169,Turner Inc,Firewall,Hewlett Packard,Palo Alto Networks PA-200,v8.0,Ethernet,Lake Brittney,-71.489287,172.611253,Indoor,2020-02-29,2025-01-30,Inactive,Solar,2020-07-19
+1170,Peters-Bowen,Switch,Netgear,ProSafe GS,v5.0,Bluetooth,Hoffmanborough,-29.118917,140.281586,Indoor,2020-09-21,2025-01-24,Active,Battery,2024-11-22
+1171,Allen-Hernandez,Switch,Cisco,Catalyst 9200,v7.2,Ethernet,Fordburgh,31.729591,-127.063355,Indoor,2021-07-30,2025-02-26,Active,Solar,2022-06-11
+1172,"Pena, Simmons and Burton",Firewall,Juniper,Palo Alto Networks PA-200,v5.2,Ethernet,Port Samanthaland,-59.151921,116.982589,Outdoor,2020-03-28,2025-02-27,Maintenance,Solar,2024-08-19
+1173,"Richardson, Warren and Oliver",Switch,Arista,Nexus 3000,v5.4,Bluetooth,Simmonstown,14.609633,104.236027,Outdoor,2020-05-09,2025-01-17,Maintenance,AC,2020-05-17
+1174,"Griffin, Finley and Martin",Switch,Arista,Nexus 3000,v2.2,Cellular,Port Cesarhaven,-30.663616,108.14173,Outdoor,2020-08-08,2025-01-08,Inactive,Battery,2020-03-27
+1175,"Walters, Williams and Carter",Access Point,Netgear,Ubiquiti UniFi AP,v5.9,Cellular,South Shane,55.688739,-21.673048,Outdoor,2021-03-29,2025-02-25,Active,AC,2021-12-18
+1176,"Diaz, Thompson and Williams",Firewall,Netgear,Palo Alto Networks PA-200,v2.6,Cellular,Jessicamouth,89.975387,75.147455,Indoor,2023-06-11,2025-02-03,Maintenance,AC,2023-05-11
+1177,Kelley-Mills,Firewall,Hewlett Packard,Palo Alto Networks PA-200,v4.3,Bluetooth,Port Branditon,54.373423,-175.86859,Outdoor,2021-04-05,2025-01-31,Inactive,Battery,2021-05-27
+1178,Cole-Williams,Access Point,Arista,Aironet 2800,v7.2,Bluetooth,Bankstown,-25.661251,75.292994,Outdoor,2024-09-06,2025-02-24,Active,Solar,2023-11-20
+1179,"Richardson, Adams and Powell",Switch,Arista,ProSafe GS,v4.7,Cellular,Johnhaven,-41.832172,157.474458,Outdoor,2022-10-01,2025-01-29,Maintenance,Battery,2021-11-08
+1180,"Sanchez, Davis and Thomas",Router,Ubiquiti,ISR 4000,v4.5,Cellular,Jonesmouth,-32.972876,107.507771,Outdoor,2023-11-05,2025-01-23,Active,Battery,2024-11-03
+1181,Vazquez Ltd,Router,Arista,Meraki MX,v8.5,Bluetooth,Priceshire,60.064781,-90.679246,Outdoor,2020-06-09,2025-02-03,Active,Battery,2022-11-29
+1182,Warner-Winters,Access Point,Arista,Aironet 2800,v1.2,Bluetooth,New Jermaine,-10.83443,76.087091,Outdoor,2021-11-20,2025-01-23,Maintenance,Battery,2024-05-22
+1183,Murray-Ball,Firewall,Juniper,FortiGate 60F,v7.4,Ethernet,Lake Sara,-3.223082,-167.674272,Outdoor,2020-02-17,2025-02-02,Inactive,Solar,2021-10-11
+1184,"Davis, Johnson and Williams",Access Point,Cisco,Aironet 2800,v3.2,Bluetooth,East Peterport,71.366052,13.355029,Outdoor,2024-09-01,2025-01-26,Active,Battery,2024-09-14
+1185,Wilkinson-Martinez,Firewall,Juniper,Palo Alto Networks PA-200,v7.5,Bluetooth,West Donald,-31.637071,22.711642,Indoor,2021-05-23,2025-02-08,Inactive,Solar,2021-12-31
+1186,Patterson and Sons,Router,Cisco,ISR 4000,v4.9,Wi-Fi,Underwoodmouth,87.118199,-172.699733,Outdoor,2020-01-13,2025-01-17,Inactive,AC,2023-09-01
+1187,Orr PLC,Switch,Arista,Arista 7150,v6.1,Bluetooth,Port Steven,66.918549,13.432732,Indoor,2023-06-12,2025-01-11,Maintenance,AC,2021-08-19
+1188,Yang LLC,Access Point,Netgear,Ubiquiti UniFi AP,v6.5,Ethernet,Allenchester,-38.193142,-53.568598,Indoor,2022-05-28,2025-02-01,Maintenance,Battery,2022-02-03
+1189,Romero Inc,Router,Netgear,Meraki MX,v1.3,Wi-Fi,Lake Marcusport,-17.873261,57.445701,Outdoor,2020-12-07,2025-02-25,Inactive,AC,2021-06-11
+1190,"Castillo, Phillips and Greene",Router,Juniper,ASR 1000,v2.0,Cellular,Lake Seanfort,-40.884479,37.200003,Indoor,2021-11-29,2025-02-10,Maintenance,Solar,2022-08-31
+1191,Robinson-West,Switch,Arista,Nexus 3000,v4.0,Wi-Fi,Port Nicholas,-42.180937,-119.168854,Indoor,2024-01-14,2025-02-14,Inactive,Solar,2024-10-20
+1192,Hawkins-Mays,Switch,Hewlett Packard,ProSafe GS,v1.4,Wi-Fi,Anthonyview,-13.938783,173.385481,Outdoor,2020-01-29,2025-01-08,Active,Battery,2024-04-17
+1193,Jackson Ltd,Access Point,Netgear,Aironet 2800,v6.0,Cellular,New Jennifer,71.22541,-51.956003,Outdoor,2020-10-25,2025-02-28,Maintenance,Solar,2021-09-24
+1194,"Santiago, Carroll and Anderson",Router,Juniper,RV340,v5.3,Cellular,West Christopherside,-81.368602,63.894538,Indoor,2024-08-30,2025-01-12,Active,Solar,2022-12-24
+1195,Bolton-Smith,Firewall,Netgear,Check Point 1400,v9.6,Ethernet,New Bobbyport,78.207532,-45.533049,Outdoor,2021-11-24,2025-02-18,Maintenance,Solar,2022-06-22
+1196,Davidson-Walker,Access Point,Netgear,Meraki MR42,v10.8,Ethernet,Gomezfurt,20.960163,146.87963,Outdoor,2020-07-25,2025-02-18,Active,Solar,2022-11-19
+1197,Peterson Inc,Access Point,Ubiquiti,Meraki MR42,v4.6,Ethernet,Coleland,23.117274,-96.667522,Indoor,2020-07-22,2025-02-09,Maintenance,Solar,2021-06-15
+1198,Henry Group,Firewall,Netgear,ASA 5500,v2.8,Ethernet,Waltersstad,-61.60815,160.760206,Outdoor,2024-06-17,2025-02-14,Active,Battery,2020-08-08
+1199,Powers Group,Switch,Juniper,Arista 7150,v2.9,Ethernet,Alexanderchester,54.191086,-38.889932,Indoor,2021-03-23,2025-02-09,Active,AC,2021-08-22
+1200,"Norman, Ellis and Wilcox",Firewall,Netgear,FortiGate 60F,v1.5,Cellular,Emmachester,9.18842,4.770444,Indoor,2023-01-25,2025-02-22,Active,Solar,2023-04-01
+1201,"Hines, Odom and Herrera",Access Point,Ubiquiti,Aironet 2800,v4.2,Ethernet,Nataliebury,-45.128558,67.575589,Outdoor,2022-06-24,2025-01-22,Inactive,Battery,2023-09-27
+1202,"Price, Thomas and Jennings",Router,Juniper,ASR 1000,v6.9,Ethernet,East Connie,85.246904,140.434134,Indoor,2020-03-22,2025-01-13,Maintenance,Battery,2022-06-24
+1203,Moss-Hammond,Switch,Hewlett Packard,ProSafe GS,v10.2,Bluetooth,Jeremyborough,-11.470021,-148.490547,Indoor,2020-09-05,2025-01-10,Active,Solar,2020-01-27
+1204,"Smith, Bell and Harrington",Access Point,Netgear,Meraki MR42,v7.1,Wi-Fi,Port Sandra,20.070769,123.838372,Outdoor,2024-03-12,2025-02-07,Inactive,Battery,2020-01-14
+1205,Moreno-Duran,Firewall,Hewlett Packard,FortiGate 60F,v8.8,Bluetooth,Ryanbury,60.969313,154.797282,Indoor,2025-01-22,2025-03-01,Maintenance,Battery,2024-02-02
+1206,Simmons-Hopkins,Firewall,Hewlett Packard,ASA 5500,v10.6,Bluetooth,Coopermouth,-86.958882,33.668427,Outdoor,2025-02-16,2025-02-24,Active,Battery,2023-03-16
+1207,Russell and Sons,Access Point,Juniper,Aironet 2800,v4.9,Cellular,Lewisville,57.328209,-106.474586,Indoor,2021-07-15,2025-02-27,Inactive,AC,2022-01-29
+1208,Sanchez-Mitchell,Router,Hewlett Packard,ISR 4000,v9.4,Bluetooth,Dianatown,-79.498688,90.515224,Outdoor,2021-07-04,2025-02-03,Maintenance,Battery,2023-05-18
+1209,"Crawford, Miller and Rodriguez",Access Point,Hewlett Packard,Aironet 2800,v4.3,Bluetooth,Port Sarah,-60.080458,-17.460886,Indoor,2023-04-10,2025-02-08,Inactive,Battery,2021-01-14
+1210,"Chase, Johnson and Garcia",Access Point,Cisco,Meraki MR42,v9.3,Bluetooth,West Cindyton,55.158093,-73.498145,Outdoor,2020-09-25,2025-02-15,Inactive,Solar,2024-05-03
+1211,"Baker, Arroyo and Robinson",Router,Ubiquiti,ASR 1000,v7.2,Cellular,Margaretmouth,-16.069168,-49.693415,Indoor,2021-09-24,2025-01-12,Maintenance,AC,2021-08-27
+1212,Williams-Lane,Firewall,Cisco,FortiGate 60F,v2.5,Bluetooth,New Pattychester,32.047021,24.361182,Indoor,2025-01-30,2025-02-26,Inactive,Solar,2024-09-20
+1213,"Holmes, Jefferson and Graham",Firewall,Hewlett Packard,Palo Alto Networks PA-200,v9.9,Ethernet,Morganberg,61.299434,-119.4685,Indoor,2022-05-28,2025-01-11,Inactive,Battery,2024-02-19
+1214,"Vargas, Young and Willis",Firewall,Ubiquiti,FortiGate 60F,v8.2,Wi-Fi,Lake Reginamouth,2.490784,-64.114952,Outdoor,2021-07-03,2025-01-21,Active,Battery,2022-07-17
+1215,Blackburn Inc,Switch,Arista,Arista 7150,v1.3,Ethernet,West Laurashire,-1.647322,-73.28574,Outdoor,2022-04-03,2025-02-26,Maintenance,AC,2022-04-02
+1216,Sanchez LLC,Access Point,Cisco,Ubiquiti UniFi AP,v7.6,Cellular,Moorefort,-82.521341,55.479321,Indoor,2022-02-23,2025-01-24,Maintenance,Solar,2021-06-26
+1217,Ellison Inc,Router,Arista,ISR 4000,v4.6,Ethernet,North Tomview,29.407062,131.377252,Outdoor,2022-05-16,2025-02-19,Inactive,AC,2020-11-20
+1218,Harris Inc,Access Point,Juniper,Aruba 305,v2.3,Wi-Fi,Garciafort,-79.374304,137.606336,Outdoor,2020-08-28,2025-02-02,Active,Battery,2024-08-07
+1219,Long-Harvey,Access Point,Juniper,Aruba 305,v2.1,Bluetooth,Campbellmouth,-28.504981,-146.236304,Indoor,2024-12-04,2025-01-16,Maintenance,AC,2023-04-04
+1220,Harper-Grant,Access Point,Netgear,Meraki MR42,v8.4,Cellular,North Jamesshire,33.053287,81.180104,Outdoor,2021-03-21,2025-01-26,Maintenance,AC,2023-09-29
+1221,Park-Williams,Access Point,Cisco,Meraki MR42,v6.0,Ethernet,Liview,57.578673,-42.389149,Outdoor,2024-07-07,2025-01-03,Active,Solar,2023-03-11
+1222,"Frazier, Rodriguez and Ochoa",Router,Cisco,RV340,v6.9,Wi-Fi,Kelseyview,28.898439,96.267999,Indoor,2023-09-06,2025-03-01,Maintenance,Solar,2020-01-02
+1223,"Silva, James and Baker",Firewall,Hewlett Packard,Check Point 1400,v6.9,Cellular,Port Johnshire,-7.804351,128.28365,Indoor,2023-12-25,2025-02-26,Active,Battery,2023-06-16
+1224,Thomas Inc,Firewall,Netgear,Check Point 1400,v7.6,Wi-Fi,North Caroltown,39.171993,-13.72227,Outdoor,2020-10-30,2025-03-06,Active,Solar,2024-10-22
+1225,Young-Reyes,Firewall,Arista,FortiGate 60F,v3.6,Wi-Fi,West Tonyport,63.491306,35.712429,Outdoor,2021-04-30,2025-02-18,Inactive,Battery,2022-05-11
+1226,"Flynn, Robinson and Terry",Access Point,Cisco,Meraki MR42,v1.6,Wi-Fi,New Christopher,-62.742373,143.749052,Outdoor,2024-09-23,2025-02-27,Inactive,Battery,2021-02-24
+1227,"Glenn, Hansen and Watson",Router,Ubiquiti,ASR 1000,v6.7,Bluetooth,Ronaldfurt,64.301196,73.411818,Indoor,2022-10-24,2025-01-18,Inactive,AC,2024-05-11
+1228,Faulkner-Mahoney,Firewall,Arista,ASA 5500,v6.1,Bluetooth,North Robert,-56.24835,-176.562282,Outdoor,2020-06-20,2025-02-03,Active,Battery,2023-03-10
+1229,Brown-Lee,Switch,Netgear,ProSafe GS,v5.8,Bluetooth,North Raymond,68.231187,71.417051,Outdoor,2024-02-19,2025-02-21,Active,AC,2020-01-04
+1230,"Roach, Kirby and Gray",Access Point,Ubiquiti,Ubiquiti UniFi AP,v4.5,Wi-Fi,Campbellstad,85.748244,58.014192,Outdoor,2024-10-19,2025-01-01,Maintenance,Battery,2023-09-22
+1231,Reynolds-Harris,Router,Arista,Catalyst 9300,v8.8,Ethernet,Josephside,37.084185,117.242709,Outdoor,2020-06-09,2025-02-08,Inactive,AC,2024-06-09
+1232,"Bradley, Patel and Thomas",Firewall,Cisco,FortiGate 60F,v8.7,Ethernet,West Marybury,59.689188,-60.52606,Indoor,2024-04-18,2025-01-14,Inactive,AC,2022-03-21
+1233,Adams-Woods,Router,Cisco,Catalyst 9300,v7.4,Wi-Fi,Rileychester,-21.870202,117.894792,Indoor,2025-01-08,2025-02-25,Active,Solar,2020-06-03
+1234,Robinson PLC,Access Point,Arista,Aruba 305,v1.3,Cellular,Sarahfurt,-37.122027,85.979311,Indoor,2022-08-15,2025-02-08,Active,AC,2022-09-05
+1235,"Webster, Bell and Orr",Access Point,Netgear,Ubiquiti UniFi AP,v8.1,Bluetooth,Jenningston,69.550421,-2.511923,Indoor,2020-04-13,2025-02-25,Inactive,Battery,2024-07-25
+1236,Thomas-Burke,Firewall,Cisco,Check Point 1400,v4.3,Ethernet,New Donna,-44.171733,-10.969264,Outdoor,2020-11-29,2025-02-09,Inactive,AC,2021-09-26
+1237,Smith-Hansen,Access Point,Ubiquiti,Meraki MR42,v2.7,Cellular,Alexburgh,-70.989313,24.877867,Indoor,2023-07-30,2025-02-22,Inactive,Solar,2020-07-10
+1238,Weber-Garcia,Router,Ubiquiti,RV340,v6.2,Wi-Fi,South Jessica,-38.596624,106.427474,Outdoor,2021-10-22,2025-02-09,Active,Battery,2021-05-20
+1239,"Nguyen, Shea and Small",Router,Arista,Meraki MX,v9.3,Wi-Fi,East Teresaport,6.879464,-22.316442,Indoor,2022-10-03,2025-01-21,Active,Solar,2020-10-31
+1240,Thomas Ltd,Switch,Ubiquiti,Catalyst 9200,v6.0,Bluetooth,New Frankfurt,5.869613,-38.358533,Outdoor,2024-02-28,2025-02-01,Maintenance,Solar,2020-09-22
+1241,"Mcdonald, Morris and Soto",Router,Arista,Meraki MX,v8.4,Bluetooth,North Traciview,-72.096975,-89.312467,Outdoor,2022-02-11,2025-01-03,Maintenance,AC,2024-01-05
+1242,Bishop-Elliott,Router,Ubiquiti,RV340,v6.8,Bluetooth,New Waltermouth,63.990758,-2.585707,Outdoor,2023-11-13,2025-03-01,Inactive,Battery,2024-12-28
+1243,Bennett-Willis,Firewall,Ubiquiti,ASA 5500,v9.0,Bluetooth,Annville,-27.274212,-146.392068,Outdoor,2022-12-26,2025-01-02,Maintenance,AC,2020-07-14
+1244,Smith-Lopez,Switch,Ubiquiti,Catalyst 9200,v6.6,Cellular,North Georgehaven,-39.697979,-99.483982,Outdoor,2024-01-12,2025-02-11,Maintenance,Battery,2024-03-22
+1245,Miller LLC,Firewall,Netgear,FortiGate 60F,v4.9,Cellular,Cervantesborough,1.682144,14.6819,Outdoor,2020-06-03,2025-02-03,Maintenance,Battery,2023-10-15
+1246,Brown LLC,Access Point,Netgear,Meraki MR42,v7.5,Cellular,South Alexis,20.031029,-39.651755,Indoor,2022-05-01,2025-02-01,Maintenance,Solar,2022-10-04
+1247,"Ross, Calderon and Johnson",Router,Hewlett Packard,ISR 4000,v3.3,Ethernet,Brandonbury,-49.315436,156.28545,Outdoor,2024-04-07,2025-01-23,Active,AC,2022-12-26
+1248,Steele PLC,Firewall,Cisco,FortiGate 60F,v7.5,Cellular,West Nichole,69.752322,-130.907441,Outdoor,2020-12-24,2025-01-03,Inactive,Battery,2023-03-17
+1249,Hawkins-Martin,Router,Netgear,ISR 4000,v7.4,Wi-Fi,Duffytown,57.637045,138.119893,Outdoor,2023-12-06,2025-01-30,Active,AC,2024-03-18
+1250,"Taylor, Snyder and Rodriguez",Router,Hewlett Packard,Catalyst 9300,v4.8,Cellular,Jessicatown,0.351239,-132.158641,Indoor,2021-04-05,2025-02-19,Maintenance,Battery,2021-10-31
+1251,"Holden, Smith and Clark",Switch,Juniper,Catalyst 9200,v4.5,Cellular,Andersonville,-84.352392,38.826776,Indoor,2021-05-07,2025-02-24,Maintenance,Battery,2021-07-22
+1252,Simpson Ltd,Access Point,Arista,Meraki MR42,v2.4,Wi-Fi,West Bryanton,13.420477,97.158781,Indoor,2024-11-04,2025-02-07,Inactive,Solar,2023-09-21
+1253,"Smith, Zavala and Hamilton",Router,Hewlett Packard,RV340,v2.9,Cellular,Parkland,69.365114,-151.49756,Indoor,2023-08-06,2025-02-23,Active,Solar,2024-09-14
+1254,Gray-Johnson,Firewall,Netgear,FortiGate 60F,v9.8,Bluetooth,Eduardoshire,14.677418,4.665006,Outdoor,2021-01-25,2025-01-02,Maintenance,AC,2021-01-31
+1255,Li-Pitts,Switch,Juniper,ProSafe GS,v5.3,Ethernet,East Timothy,83.733842,178.197563,Outdoor,2023-10-25,2025-01-13,Maintenance,AC,2022-06-28
+1256,Brown and Sons,Router,Arista,Meraki MX,v6.5,Wi-Fi,New Michaelburgh,-64.792096,-51.904741,Outdoor,2020-09-27,2025-01-18,Active,AC,2021-03-24
+1257,Lyons PLC,Switch,Arista,Arista 7150,v5.7,Cellular,New Kim,-80.101189,77.729355,Outdoor,2024-03-10,2025-01-14,Active,Battery,2023-02-15
+1258,"Reid, Butler and Tucker",Router,Cisco,RV340,v5.1,Cellular,West Tarafurt,89.525882,-86.470147,Outdoor,2022-12-04,2025-01-08,Maintenance,Battery,2024-10-28
+1259,"West, Hahn and Thompson",Router,Juniper,Catalyst 9300,v10.0,Ethernet,Patriciaburgh,33.356733,-47.419554,Indoor,2024-08-15,2025-02-01,Maintenance,AC,2023-07-19
+1260,"Stark, Diaz and Horn",Router,Netgear,ISR 4000,v6.6,Ethernet,Nealhaven,-18.449693,25.505854,Indoor,2021-06-13,2025-01-09,Maintenance,AC,2022-04-30
+1261,Sanford-Smith,Firewall,Cisco,Palo Alto Networks PA-200,v10.0,Cellular,Christopherfurt,-85.559705,142.60124,Indoor,2023-01-01,2025-01-01,Inactive,Battery,2022-08-25
+1262,Smith-Allen,Router,Ubiquiti,RV340,v9.1,Bluetooth,Tiffanyside,-52.281166,-168.61581,Outdoor,2020-07-21,2025-02-11,Inactive,Solar,2023-02-19
+1263,"Rodriguez, Carson and Fisher",Router,Hewlett Packard,ISR 4000,v1.1,Bluetooth,Port Chelsey,17.272111,15.636284,Outdoor,2024-05-21,2025-02-01,Active,AC,2022-02-05
+1264,Garrett and Sons,Router,Juniper,Catalyst 9300,v1.0,Cellular,Port Phillip,65.473235,171.152831,Outdoor,2023-04-03,2025-02-01,Inactive,Solar,2021-04-03
+1265,"Ramirez, Farrell and Jones",Access Point,Hewlett Packard,Aruba 305,v10.2,Cellular,New Chloe,48.085862,106.721807,Outdoor,2022-05-27,2025-02-20,Active,Solar,2024-09-12
+1266,Morgan PLC,Access Point,Ubiquiti,Aironet 2800,v10.9,Ethernet,Brendanfurt,63.058543,132.350793,Outdoor,2020-04-01,2025-02-08,Active,Battery,2025-02-02
+1267,Pacheco Ltd,Access Point,Juniper,Aironet 2800,v3.8,Bluetooth,Port Gregory,49.449077,21.105623,Outdoor,2024-06-01,2025-02-06,Active,Battery,2020-06-30
+1268,Reid and Sons,Switch,Cisco,Arista 7150,v8.6,Wi-Fi,South Thomaschester,-27.339262,127.493709,Outdoor,2021-09-26,2025-01-24,Maintenance,Battery,2024-06-27
+1269,Stewart Group,Access Point,Arista,Aironet 2800,v9.7,Cellular,Port Spencer,32.346068,156.964845,Indoor,2024-12-18,2025-02-02,Inactive,Solar,2025-01-12
+1270,Cervantes Group,Router,Netgear,RV340,v7.7,Ethernet,Karenbury,-14.531417,80.81692,Outdoor,2021-08-31,2025-01-31,Inactive,AC,2021-12-14
+1271,"Smith, Welch and Mayo",Access Point,Hewlett Packard,Meraki MR42,v4.5,Cellular,Lake Samuel,11.196414,145.359339,Indoor,2020-03-26,2025-02-06,Inactive,AC,2023-08-07
+1272,Lowe-Mayer,Firewall,Ubiquiti,FortiGate 60F,v3.6,Wi-Fi,Larryville,82.626632,117.620833,Indoor,2023-03-05,2025-01-22,Active,Battery,2024-10-30
+1273,Schwartz LLC,Router,Cisco,RV340,v7.1,Bluetooth,Port Donaldfort,-20.177383,143.86286,Outdoor,2024-07-25,2025-01-22,Inactive,Battery,2024-10-17
+1274,Gordon Group,Switch,Cisco,Catalyst 9200,v2.0,Bluetooth,Johnsonmouth,-39.992341,-92.026522,Outdoor,2024-12-13,2025-01-11,Maintenance,AC,2021-06-16
+1275,"Brown, Roberts and Peterson",Firewall,Hewlett Packard,FortiGate 60F,v3.6,Wi-Fi,Lisashire,-88.440302,-170.364925,Outdoor,2024-10-24,2025-01-16,Active,AC,2024-11-20
+1276,Haynes LLC,Switch,Juniper,Arista 7150,v9.7,Wi-Fi,Bryanfurt,34.415217,128.891808,Indoor,2023-08-24,2025-01-10,Maintenance,Solar,2022-10-25
+1277,Salas PLC,Access Point,Netgear,Meraki MR42,v6.7,Cellular,North Cynthiafurt,9.660874,-67.069954,Indoor,2020-02-01,2025-02-28,Inactive,Solar,2024-03-31
+1278,"James, Carey and Harris",Firewall,Ubiquiti,FortiGate 60F,v4.8,Wi-Fi,South Richardville,-44.340374,124.283074,Outdoor,2021-07-01,2025-01-25,Active,AC,2024-11-04
+1279,Fisher Ltd,Router,Juniper,RV340,v2.8,Wi-Fi,Lake Deanna,-23.14164,-165.815325,Outdoor,2024-03-20,2025-01-07,Inactive,Battery,2024-06-29
+1280,Mann-Huffman,Firewall,Netgear,Palo Alto Networks PA-200,v4.2,Wi-Fi,Bethanyville,47.63046,155.618084,Indoor,2021-01-25,2025-01-12,Inactive,Battery,2020-10-24
+1281,"Munoz, Taylor and Copeland",Switch,Ubiquiti,Catalyst 9200,v3.3,Cellular,Andreahaven,-45.427876,174.600282,Outdoor,2024-02-27,2025-02-07,Active,Battery,2021-07-09
+1282,Carroll Ltd,Router,Juniper,RV340,v6.1,Ethernet,West Nicole,-84.233971,-27.326346,Indoor,2022-04-03,2025-02-01,Active,Solar,2024-12-29
+1283,"Collins, Garrett and Mason",Firewall,Arista,Palo Alto Networks PA-200,v5.3,Ethernet,Sheltonberg,-14.038426,-135.687007,Outdoor,2023-03-24,2025-01-14,Inactive,Solar,2022-08-25
+1284,"Sanders, Bennett and Duke",Switch,Juniper,ProSafe GS,v7.4,Cellular,Nelsonland,-10.066193,82.031127,Indoor,2022-05-16,2025-01-16,Active,Battery,2022-09-09
+1285,Cross-Yu,Switch,Arista,Nexus 3000,v5.9,Cellular,New Tina,-62.221302,-102.725879,Indoor,2020-09-24,2025-03-02,Active,Battery,2023-12-07
+1286,"Williams, Brown and Romero",Router,Ubiquiti,Meraki MX,v9.8,Cellular,New Jonathanton,21.838654,-2.227292,Indoor,2021-12-02,2025-02-12,Inactive,AC,2024-05-30
+1287,George-Myers,Access Point,Ubiquiti,Aruba 305,v9.6,Bluetooth,New Norman,30.428047,163.73387,Outdoor,2024-11-12,2025-02-12,Active,Solar,2020-03-06
+1288,Bishop-Cooley,Access Point,Netgear,Ubiquiti UniFi AP,v7.4,Wi-Fi,East John,72.94055,108.951735,Outdoor,2021-02-21,2025-01-12,Maintenance,AC,2020-06-13
+1289,"Li, Smith and Smith",Access Point,Hewlett Packard,Aironet 2800,v5.4,Ethernet,Jamesburgh,-27.081633,147.617469,Outdoor,2021-05-02,2025-01-11,Active,AC,2022-06-29
+1290,"Bishop, Perez and Aguilar",Firewall,Hewlett Packard,Check Point 1400,v3.0,Ethernet,New Douglas,66.716874,-166.792303,Outdoor,2023-02-27,2025-02-18,Active,Solar,2021-09-17
+1291,Hansen-Miranda,Router,Arista,ASR 1000,v2.2,Bluetooth,East Danafort,60.881915,38.57702,Indoor,2021-07-29,2025-01-04,Inactive,Solar,2024-11-15
+1292,"Bailey, Bennett and Hernandez",Access Point,Hewlett Packard,Aironet 2800,v5.2,Ethernet,South Johntown,-15.895707,-62.503974,Indoor,2023-03-15,2025-01-18,Maintenance,AC,2023-03-03
+1293,Arnold-Rubio,Router,Hewlett Packard,ISR 4000,v5.8,Wi-Fi,Kingville,-3.992132,77.258979,Outdoor,2025-01-02,2025-01-28,Active,Battery,2022-04-24
+1294,"Myers, Green and Thompson",Access Point,Ubiquiti,Aironet 2800,v10.9,Wi-Fi,Donnaberg,-17.946475,30.043514,Outdoor,2020-04-23,2025-02-28,Maintenance,AC,2020-11-28
+1295,Mcpherson-Johnson,Firewall,Juniper,ASA 5500,v7.3,Wi-Fi,Miguelside,86.811517,168.563787,Outdoor,2021-12-08,2025-02-20,Active,Battery,2022-01-22
+1296,"Guerra, Black and Thompson",Firewall,Juniper,ASA 5500,v2.4,Ethernet,Gomezton,50.461332,16.178734,Outdoor,2024-04-11,2025-02-10,Maintenance,Battery,2022-07-19
+1297,"Marsh, Hayes and Krause",Router,Arista,ISR 4000,v7.4,Bluetooth,East Joseph,-29.249649,34.356996,Indoor,2022-01-11,2025-01-26,Maintenance,Solar,2023-06-24
+1298,Mason-Reyes,Router,Netgear,Meraki MX,v5.8,Cellular,West Beth,-82.796359,-118.776137,Indoor,2023-05-01,2025-01-08,Maintenance,Battery,2024-05-31
+1299,"Gregory, Davis and Smith",Router,Cisco,Catalyst 9300,v4.7,Bluetooth,Collinshaven,37.229063,6.444524,Outdoor,2022-02-17,2025-02-13,Active,AC,2024-02-19
+1300,Monroe Group,Switch,Ubiquiti,Nexus 3000,v8.5,Cellular,Jefffort,78.330292,28.284853,Outdoor,2024-07-25,2025-01-16,Inactive,AC,2020-08-29
+1301,"Bartlett, Villarreal and Brown",Firewall,Ubiquiti,ASA 5500,v4.2,Bluetooth,Youngshire,-0.782755,-86.509096,Indoor,2021-09-28,2025-01-23,Maintenance,AC,2023-05-18
+1302,Sanchez Group,Access Point,Netgear,Ubiquiti UniFi AP,v4.9,Bluetooth,Snowborough,-16.467638,143.174548,Outdoor,2021-08-30,2025-02-02,Inactive,Solar,2024-07-30
+1303,"Castro, Kelley and Hunt",Router,Netgear,Meraki MX,v3.8,Bluetooth,Daniellemouth,61.033536,168.246154,Outdoor,2022-12-23,2025-01-30,Inactive,Battery,2021-07-05
+1304,French-Phillips,Switch,Juniper,Nexus 3000,v6.0,Bluetooth,Christinetown,86.162815,-25.955843,Outdoor,2020-09-12,2025-01-09,Active,Solar,2024-09-01
+1305,Spencer Ltd,Router,Juniper,RV340,v7.0,Cellular,Port Jamesville,-42.708174,-6.563544,Indoor,2021-08-02,2025-02-02,Inactive,Battery,2024-10-26
+1306,"Simmons, Johnson and Poole",Access Point,Hewlett Packard,Aruba 305,v3.2,Wi-Fi,Port Richard,50.313714,102.53169,Outdoor,2020-01-12,2025-02-28,Inactive,AC,2022-12-06
+1307,Haley PLC,Switch,Hewlett Packard,Catalyst 9200,v7.8,Ethernet,North Christianborough,47.119121,-135.325598,Outdoor,2024-08-15,2025-01-15,Maintenance,Solar,2022-12-06
+1308,"Jackson, Fields and Mccall",Firewall,Juniper,FortiGate 60F,v9.4,Wi-Fi,East Joshua,-45.15795,47.063258,Indoor,2022-08-02,2025-02-22,Inactive,Battery,2020-05-15
+1309,Hayes-Green,Firewall,Netgear,Check Point 1400,v10.4,Ethernet,Anthonymouth,-74.854681,92.646245,Indoor,2025-02-08,2025-01-26,Inactive,Battery,2025-01-18
+1310,Mann-Carter,Router,Juniper,RV340,v1.3,Wi-Fi,East Rachelborough,77.056865,-116.185162,Indoor,2021-03-04,2025-01-21,Maintenance,Solar,2022-01-19
+1311,"Smith, Mcguire and Jacobs",Switch,Arista,Catalyst 9200,v9.3,Bluetooth,Port Latoya,29.924212,38.158801,Outdoor,2022-12-20,2025-01-10,Inactive,Battery,2024-03-02
+1312,Jackson-Adams,Switch,Juniper,ProSafe GS,v1.6,Ethernet,Lorettatown,7.720569,80.731338,Outdoor,2021-11-19,2025-02-21,Active,Battery,2023-05-27
+1313,Bowers-Hughes,Router,Hewlett Packard,ISR 4000,v5.6,Bluetooth,Andradetown,65.916211,64.515725,Indoor,2021-05-25,2025-02-20,Active,AC,2021-08-30
+1314,Macias-Mcdonald,Switch,Arista,ProSafe GS,v2.0,Wi-Fi,South Peter,76.475433,-58.363002,Outdoor,2020-05-05,2025-02-15,Maintenance,Battery,2021-08-05
+1315,Erickson-Cook,Router,Arista,ISR 4000,v2.5,Bluetooth,South Daniel,-62.541326,104.779654,Indoor,2020-04-15,2025-02-02,Inactive,AC,2020-02-11
+1316,Summers Ltd,Access Point,Hewlett Packard,Aironet 2800,v7.1,Cellular,Emilyport,34.7843,127.768299,Indoor,2024-01-17,2025-02-23,Maintenance,Solar,2020-12-06
+1317,Deleon LLC,Access Point,Netgear,Aruba 305,v7.3,Bluetooth,West Kathryn,47.328085,-37.530983,Indoor,2020-09-03,2025-01-01,Inactive,Solar,2022-03-08
+1318,"Mccoy, Lambert and Roberts",Access Point,Juniper,Meraki MR42,v1.7,Bluetooth,Wumouth,0.566411,73.511605,Indoor,2024-06-23,2025-01-11,Active,Battery,2023-04-04
+1319,Johnson Group,Access Point,Hewlett Packard,Aironet 2800,v7.0,Bluetooth,Lake Linda,64.130582,-37.453055,Outdoor,2025-01-16,2025-02-08,Maintenance,AC,2023-06-08
+1320,"Kerr, Conway and Castro",Access Point,Arista,Aironet 2800,v10.4,Ethernet,Kristyshire,-85.432346,-82.466666,Outdoor,2020-03-15,2025-01-07,Maintenance,AC,2024-11-13
+1321,"Sanchez, Wood and Scott",Router,Juniper,Meraki MX,v1.4,Bluetooth,Simpsonton,26.205003,46.906522,Indoor,2022-01-09,2025-02-02,Inactive,AC,2024-09-12
+1322,"Contreras, Stephens and Hanson",Firewall,Hewlett Packard,FortiGate 60F,v10.4,Bluetooth,Lake Robertoshire,25.044374,-163.181447,Outdoor,2021-07-25,2025-01-29,Maintenance,Solar,2022-07-04
+1323,"Patton, Gilbert and Robinson",Access Point,Cisco,Aruba 305,v10.2,Bluetooth,Rickburgh,52.738641,5.260113,Outdoor,2022-03-29,2025-02-09,Inactive,Solar,2020-11-01
+1324,Mcclure Group,Switch,Juniper,Nexus 3000,v8.9,Wi-Fi,Keithmouth,-62.396553,158.690578,Outdoor,2023-02-12,2025-02-05,Maintenance,AC,2020-03-18
+1325,Baker-Davis,Router,Cisco,Catalyst 9300,v2.1,Cellular,Lake Amanda,73.213964,149.519443,Indoor,2020-11-09,2025-01-03,Active,Solar,2021-06-04
+1326,Obrien LLC,Switch,Hewlett Packard,ProSafe GS,v6.3,Wi-Fi,Aguirreville,15.040191,110.307854,Outdoor,2024-06-07,2025-02-10,Inactive,Battery,2024-06-02
+1327,Rubio-Carpenter,Router,Netgear,Meraki MX,v8.0,Wi-Fi,Fitzpatrickville,-72.559945,-85.132105,Outdoor,2020-07-03,2025-01-24,Active,Battery,2024-07-25
+1328,Barrera Inc,Router,Arista,Catalyst 9300,v10.7,Wi-Fi,Stewartview,-11.397957,72.797714,Outdoor,2021-10-08,2025-01-23,Active,AC,2020-05-29
+1329,Smith-Richardson,Firewall,Juniper,FortiGate 60F,v3.6,Bluetooth,Davidport,-12.496608,36.633274,Indoor,2023-06-29,2025-02-02,Maintenance,Solar,2022-01-26
+1330,Johnson-Gonzalez,Access Point,Arista,Ubiquiti UniFi AP,v8.7,Wi-Fi,South Lisa,-80.272361,-127.576387,Outdoor,2020-03-24,2025-02-10,Maintenance,Solar,2023-04-14
+1331,Brown-Ferrell,Router,Arista,ISR 4000,v10.3,Wi-Fi,Kristenville,-29.796496,40.058001,Outdoor,2024-10-05,2025-02-11,Active,Solar,2022-08-08
+1332,Smith-Jarvis,Router,Ubiquiti,Meraki MX,v6.5,Cellular,Davidberg,-47.936877,7.914319,Indoor,2023-05-18,2025-02-12,Maintenance,AC,2021-04-01
+1333,Oliver-Bailey,Switch,Arista,Nexus 3000,v2.7,Ethernet,West Michele,89.782626,-175.504228,Indoor,2020-01-30,2025-01-25,Maintenance,Battery,2020-01-07
+1334,Garcia-Ellis,Access Point,Cisco,Aruba 305,v1.6,Cellular,Sandraburgh,47.526432,-96.997829,Indoor,2020-02-11,2025-02-13,Active,AC,2022-04-25
+1335,Gates-Jackson,Firewall,Hewlett Packard,FortiGate 60F,v8.4,Wi-Fi,East Benjamin,-50.027373,-16.360871,Outdoor,2025-02-12,2025-02-14,Inactive,AC,2020-09-12
+1336,Maldonado and Sons,Switch,Ubiquiti,ProSafe GS,v3.9,Wi-Fi,East Kristen,-70.871318,-55.198942,Indoor,2020-08-28,2025-02-05,Active,AC,2023-03-27
+1337,Williams-Potter,Access Point,Arista,Ubiquiti UniFi AP,v5.6,Ethernet,Mahoneyside,83.09748,-152.185568,Outdoor,2022-05-06,2025-01-30,Inactive,Solar,2021-09-17
+1338,Horne-Salas,Router,Hewlett Packard,ISR 4000,v6.4,Wi-Fi,South Michael,49.629761,87.371446,Outdoor,2024-02-02,2025-01-06,Active,Solar,2021-10-04
+1339,Moore-Brown,Firewall,Netgear,Check Point 1400,v9.0,Bluetooth,New Robert,-78.045473,84.05772,Indoor,2021-12-22,2025-02-27,Active,Solar,2022-01-30
+1340,Peterson-Schroeder,Firewall,Arista,ASA 5500,v6.3,Bluetooth,Kingmouth,67.966064,-17.799746,Outdoor,2021-03-19,2025-01-23,Maintenance,Battery,2021-08-12
+1341,Stevens Group,Access Point,Cisco,Ubiquiti UniFi AP,v7.9,Wi-Fi,East Patricia,16.295359,114.880238,Indoor,2020-08-01,2025-02-04,Maintenance,Battery,2022-03-03
+1342,"Prince, Rodriguez and Hayes",Firewall,Juniper,Palo Alto Networks PA-200,v7.6,Wi-Fi,Zunigabury,24.026973,-82.725045,Indoor,2023-01-27,2025-01-04,Inactive,Solar,2020-05-27
+1343,"Marshall, Anderson and Patel",Switch,Hewlett Packard,Arista 7150,v3.7,Bluetooth,Lowerychester,21.289929,104.682823,Outdoor,2020-09-02,2025-01-18,Active,Solar,2020-04-30
+1344,Roth-Cooper,Router,Hewlett Packard,ISR 4000,v7.1,Ethernet,Hendersonland,-8.091141,156.467351,Indoor,2021-12-01,2025-02-17,Active,Battery,2020-04-08
+1345,Scott PLC,Switch,Netgear,Nexus 3000,v4.8,Cellular,North Jocelynburgh,-64.507717,-43.054429,Outdoor,2023-12-04,2025-02-07,Active,Battery,2021-04-25
+1346,"Lewis, Tran and Johnson",Router,Ubiquiti,ASR 1000,v8.8,Cellular,Singhville,-55.892246,106.221606,Outdoor,2023-11-07,2025-01-08,Active,AC,2022-11-29
+1347,Carter-Gonzalez,Router,Juniper,ISR 4000,v1.7,Ethernet,Bakerburgh,-54.346528,10.322879,Outdoor,2023-05-22,2025-03-03,Maintenance,Solar,2024-02-04
+1348,"Smith, Thornton and Dennis",Access Point,Hewlett Packard,Aironet 2800,v6.0,Wi-Fi,Jimenezstad,-89.286239,-135.446498,Indoor,2024-03-29,2025-02-24,Inactive,Battery,2023-05-29
+1349,Harrison and Sons,Router,Juniper,ASR 1000,v2.3,Ethernet,South Andrew,45.734607,-138.050954,Outdoor,2021-10-11,2025-01-21,Active,Battery,2022-11-24
+1350,Thomas-Armstrong,Switch,Netgear,Nexus 3000,v6.0,Wi-Fi,Jimenezberg,64.145219,12.992781,Outdoor,2023-09-28,2025-02-14,Active,Solar,2025-01-07
+1351,Perez-Lin,Switch,Arista,Catalyst 9200,v6.1,Cellular,Tammychester,-11.403336,-146.336215,Indoor,2020-09-14,2025-01-05,Active,Solar,2020-12-22
+1352,"Leach, Reid and Diaz",Switch,Cisco,ProSafe GS,v10.2,Wi-Fi,Barbaraview,-51.58438,61.728708,Indoor,2024-06-22,2025-01-29,Active,Solar,2021-09-01
+1353,Gonzalez and Sons,Firewall,Cisco,Palo Alto Networks PA-200,v8.8,Wi-Fi,Grayberg,47.33256,45.357468,Outdoor,2024-06-07,2025-02-12,Inactive,Battery,2021-07-05
+1354,"Harris, Castro and James",Access Point,Hewlett Packard,Aironet 2800,v3.8,Wi-Fi,Lake Sean,-5.933037,-44.724058,Outdoor,2020-03-22,2025-03-01,Maintenance,Solar,2025-01-21
+1355,English-Franklin,Router,Ubiquiti,ASR 1000,v10.4,Cellular,South Alicia,-7.786214,-8.298861,Outdoor,2021-07-12,2025-02-18,Active,Solar,2025-02-01
+1356,Case PLC,Router,Juniper,RV340,v6.1,Ethernet,Jeromestad,-5.373313,127.82849,Indoor,2020-04-29,2025-02-22,Active,AC,2020-07-22
+1357,Mendoza Group,Router,Ubiquiti,RV340,v4.4,Ethernet,North Elaine,9.113628,90.867292,Outdoor,2024-10-02,2025-01-15,Inactive,Battery,2020-02-18
+1358,Mcguire-Jones,Router,Netgear,ASR 1000,v5.8,Cellular,Lake Brandon,-57.997416,80.18079,Indoor,2023-06-21,2025-01-20,Inactive,Solar,2022-03-30
+1359,"Meadows, Becker and Hawkins",Firewall,Juniper,FortiGate 60F,v3.5,Cellular,Teresaburgh,22.790031,-37.221416,Indoor,2024-06-10,2025-01-14,Maintenance,Solar,2022-03-23
+1360,"Riddle, Zimmerman and Gillespie",Router,Juniper,ISR 4000,v2.1,Wi-Fi,Lake Davidberg,-29.435065,-155.367838,Indoor,2022-09-23,2025-02-26,Inactive,Battery,2024-11-23
+1361,Phillips Group,Switch,Juniper,ProSafe GS,v2.9,Wi-Fi,East Ryan,14.767274,-85.680334,Outdoor,2024-10-07,2025-02-01,Inactive,Battery,2022-01-11
+1362,Roach-Mcgee,Router,Ubiquiti,ISR 4000,v1.9,Wi-Fi,South Jessicashire,-2.932349,109.154088,Indoor,2021-03-30,2025-03-05,Active,Solar,2022-08-07
+1363,Simmons Group,Firewall,Hewlett Packard,Palo Alto Networks PA-200,v9.0,Wi-Fi,Port Zacharyfort,46.164173,-121.079072,Outdoor,2021-04-15,2025-02-20,Maintenance,AC,2021-11-10
+1364,Carson-Green,Access Point,Cisco,Meraki MR42,v9.4,Ethernet,South Sean,47.605764,-28.782444,Indoor,2022-02-01,2025-02-22,Inactive,AC,2022-07-30
+1365,Arias LLC,Router,Arista,Catalyst 9300,v1.7,Ethernet,Port Martinville,-77.485394,-109.964324,Indoor,2020-05-23,2025-01-27,Active,Solar,2022-07-13
+1366,Adams-Franco,Access Point,Juniper,Aironet 2800,v10.3,Ethernet,Stephenston,-79.419204,73.397551,Outdoor,2020-06-18,2025-01-20,Maintenance,Battery,2022-10-28
+1367,Cook-Shaffer,Switch,Arista,ProSafe GS,v9.3,Bluetooth,Port Jamesside,4.031251,19.735518,Outdoor,2022-07-17,2025-02-01,Maintenance,Solar,2024-07-16
+1368,"Daniels, Buchanan and Thomas",Router,Netgear,Meraki MX,v9.4,Wi-Fi,South Emmaport,50.803408,-53.569589,Indoor,2021-02-11,2025-01-21,Active,Solar,2024-04-27
+1369,Garcia and Sons,Firewall,Arista,ASA 5500,v8.1,Bluetooth,Lake Samuel,-23.34724,-84.362836,Indoor,2022-11-01,2025-01-01,Active,Battery,2022-07-18
+1370,"Fowler, Edwards and Mason",Router,Ubiquiti,Meraki MX,v5.9,Ethernet,Higginschester,80.457016,-148.702058,Outdoor,2023-07-11,2025-01-06,Inactive,AC,2024-11-12
+1371,"Scott, Henson and Harris",Firewall,Ubiquiti,ASA 5500,v4.8,Bluetooth,East Diana,59.27113,-137.267918,Outdoor,2021-10-08,2025-03-01,Maintenance,AC,2022-04-04
+1372,Bradley PLC,Switch,Netgear,ProSafe GS,v10.7,Cellular,Lake Audrey,88.159532,11.148616,Indoor,2024-07-03,2025-01-09,Inactive,Battery,2021-08-05
+1373,Weaver Inc,Router,Hewlett Packard,ISR 4000,v8.1,Wi-Fi,Aaronville,12.427129,-78.223408,Indoor,2020-07-15,2025-03-03,Maintenance,Battery,2023-08-09
+1374,Parrish-Brandt,Access Point,Netgear,Ubiquiti UniFi AP,v9.5,Ethernet,Port Danielleport,-2.575257,-119.067157,Indoor,2022-07-28,2025-01-01,Active,AC,2024-11-21
+1375,Nguyen Group,Access Point,Juniper,Aironet 2800,v9.1,Ethernet,West Cynthia,47.476013,101.112319,Outdoor,2023-11-18,2025-02-08,Active,AC,2024-12-02
+1376,Sanchez-Coffey,Firewall,Juniper,Palo Alto Networks PA-200,v1.3,Cellular,Stephenfurt,73.140258,117.850174,Indoor,2021-02-17,2025-01-17,Inactive,Solar,2021-02-15
+1377,Stevens-Atkinson,Access Point,Netgear,Aironet 2800,v5.1,Ethernet,Buchananstad,36.698229,-128.668335,Indoor,2020-04-27,2025-01-13,Active,AC,2024-02-25
+1378,Wells-Olson,Access Point,Netgear,Aruba 305,v3.7,Wi-Fi,Port Thomas,50.248641,71.429474,Outdoor,2024-01-21,2025-03-04,Inactive,AC,2024-02-12
+1379,Baxter and Sons,Firewall,Hewlett Packard,FortiGate 60F,v10.7,Ethernet,Leonardtown,-38.805153,96.222865,Outdoor,2023-09-28,2025-01-18,Inactive,Solar,2020-07-21
+1380,"Gutierrez, Estes and Smith",Firewall,Juniper,Check Point 1400,v8.6,Ethernet,Davidton,-71.971968,92.538742,Indoor,2022-02-03,2025-02-15,Active,AC,2020-12-01
+1381,Branch-Miller,Firewall,Ubiquiti,Palo Alto Networks PA-200,v3.0,Ethernet,Mooreton,-37.28871,91.963198,Indoor,2020-05-29,2025-01-20,Active,Battery,2020-01-06
+1382,"Ellison, White and Alexander",Switch,Arista,Nexus 3000,v10.8,Bluetooth,East Davidstad,-67.995531,-25.953504,Outdoor,2022-03-21,2025-01-09,Maintenance,AC,2022-09-06
+1383,Solis PLC,Access Point,Cisco,Aironet 2800,v2.7,Wi-Fi,Aprilview,51.500744,56.211668,Outdoor,2020-12-11,2025-01-30,Maintenance,Battery,2024-10-31
+1384,French Ltd,Access Point,Ubiquiti,Ubiquiti UniFi AP,v2.8,Ethernet,Churchtown,46.650038,-140.152884,Indoor,2020-08-29,2025-01-10,Active,AC,2022-02-01
+1385,Martinez Group,Access Point,Cisco,Ubiquiti UniFi AP,v10.2,Cellular,West Richardton,-46.367114,111.703913,Indoor,2022-10-03,2025-02-20,Active,Battery,2020-07-14
+1386,"Freeman, Woods and Hughes",Access Point,Juniper,Ubiquiti UniFi AP,v9.7,Wi-Fi,Stewartton,10.910481,21.000583,Indoor,2023-08-08,2025-01-23,Maintenance,Battery,2024-04-01
+1387,"Brooks, Martinez and Jefferson",Firewall,Hewlett Packard,Palo Alto Networks PA-200,v2.1,Bluetooth,Longborough,24.794568,-156.891101,Outdoor,2020-10-26,2025-02-19,Maintenance,Solar,2023-07-15
+1388,"Hanson, Brooks and Castillo",Access Point,Juniper,Ubiquiti UniFi AP,v5.7,Cellular,West Harold,-82.539872,-18.724303,Outdoor,2024-10-06,2025-02-05,Inactive,Battery,2021-04-29
+1389,Jones-Adams,Firewall,Hewlett Packard,FortiGate 60F,v6.5,Bluetooth,Triciafurt,64.986915,37.455946,Indoor,2024-09-30,2025-02-07,Active,AC,2020-01-13
+1390,Taylor-Reeves,Router,Ubiquiti,ISR 4000,v3.8,Wi-Fi,Kristyview,-56.423435,76.025992,Indoor,2024-09-12,2025-01-30,Active,Battery,2020-04-28
+1391,"Miles, Price and Torres",Access Point,Arista,Aironet 2800,v5.2,Cellular,North Annaton,64.597937,140.596274,Outdoor,2023-09-23,2025-02-10,Active,Solar,2024-11-24
+1392,"Wells, Cook and Davies",Access Point,Juniper,Ubiquiti UniFi AP,v2.4,Bluetooth,South Laurieborough,-9.040839,-1.449613,Indoor,2021-04-06,2025-01-07,Inactive,Battery,2024-08-27
+1393,"Flores, Sanford and Daniel",Access Point,Hewlett Packard,Ubiquiti UniFi AP,v9.2,Ethernet,South Emily,6.150073,-86.644982,Outdoor,2020-06-28,2025-01-24,Maintenance,AC,2021-09-10
+1394,Wilkinson-Khan,Switch,Cisco,Arista 7150,v9.7,Wi-Fi,Petersonmouth,27.327797,1.756391,Indoor,2022-10-10,2025-01-22,Maintenance,Solar,2020-10-08
+1395,Williams-Blackburn,Router,Netgear,Meraki MX,v10.2,Cellular,North Cassandra,-75.485817,-56.515757,Indoor,2020-06-21,2025-02-24,Active,Solar,2021-06-26
+1396,"Rogers, Young and Andrews",Access Point,Arista,Ubiquiti UniFi AP,v5.5,Wi-Fi,Calhounshire,-22.058527,-86.781384,Outdoor,2020-04-01,2025-01-18,Active,Solar,2020-04-13
+1397,Hopkins-Tran,Access Point,Netgear,Ubiquiti UniFi AP,v5.7,Wi-Fi,New Calebchester,-75.258458,121.394283,Outdoor,2025-02-26,2025-02-27,Active,AC,2024-05-27
+1398,Gomez and Sons,Firewall,Netgear,FortiGate 60F,v2.6,Ethernet,Perezhaven,-2.86998,-20.384325,Indoor,2023-07-15,2025-03-02,Active,AC,2021-01-31
+1399,Francis-Davis,Access Point,Ubiquiti,Ubiquiti UniFi AP,v4.4,Ethernet,North Michael,66.282195,172.091636,Indoor,2020-05-14,2025-01-25,Maintenance,AC,2022-04-26
+1400,Diaz-Blackwell,Switch,Cisco,Arista 7150,v7.1,Cellular,Jonathanchester,-56.539152,53.962089,Indoor,2020-07-31,2025-02-04,Inactive,Battery,2021-03-13
+1401,Phelps-Marsh,Switch,Cisco,Arista 7150,v1.4,Cellular,South Hannah,-12.363703,-146.958587,Indoor,2021-04-01,2025-02-22,Active,Solar,2020-08-29
+1402,"Strickland, Norris and Lindsey",Switch,Juniper,ProSafe GS,v6.9,Ethernet,Lake Michelle,-32.17983,-80.98621,Outdoor,2024-06-17,2025-01-19,Inactive,AC,2023-11-11
+1403,"Garcia, Sandoval and Molina",Firewall,Hewlett Packard,Check Point 1400,v2.2,Cellular,Jeffreybury,-21.895987,-90.785244,Outdoor,2020-05-11,2025-02-25,Inactive,AC,2020-08-11
+1404,Anderson and Sons,Firewall,Ubiquiti,ASA 5500,v1.6,Ethernet,Cynthiaside,-71.856864,-115.676357,Indoor,2023-01-16,2025-01-07,Active,Solar,2021-08-12
+1405,"Petersen, Richards and Henderson",Router,Ubiquiti,Catalyst 9300,v6.6,Bluetooth,Monicastad,-39.05134,135.186835,Indoor,2020-07-22,2025-02-13,Active,Battery,2022-10-09
+1406,Soto-Ramos,Switch,Ubiquiti,ProSafe GS,v5.3,Wi-Fi,Rodriguezview,-67.720784,168.94004,Indoor,2022-09-10,2025-02-11,Active,Battery,2024-03-29
+1407,"Dixon, Richmond and Hicks",Firewall,Arista,ASA 5500,v6.8,Cellular,East Erinside,-86.009758,96.114253,Outdoor,2020-10-19,2025-02-02,Maintenance,AC,2022-06-12
+1408,Chaney-Miller,Access Point,Cisco,Aironet 2800,v7.4,Ethernet,Fisherfurt,-42.008177,-178.997891,Indoor,2020-12-03,2025-03-04,Maintenance,Solar,2024-07-15
+1409,"Bennett, Johnson and Le",Firewall,Juniper,ASA 5500,v1.9,Cellular,Wuport,-69.712912,49.977132,Indoor,2023-11-01,2025-03-03,Active,Battery,2023-01-05
+1410,"Vega, Mitchell and Wright",Firewall,Ubiquiti,ASA 5500,v2.5,Wi-Fi,Nicolefurt,55.777589,89.429728,Outdoor,2024-08-03,2025-01-20,Active,Battery,2020-02-08
+1411,"Mitchell, Frazier and Ibarra",Switch,Hewlett Packard,Nexus 3000,v1.6,Cellular,South Samuelmouth,12.481894,115.246089,Indoor,2020-02-15,2025-01-16,Inactive,Solar,2021-04-26
+1412,Hughes and Sons,Switch,Juniper,Nexus 3000,v4.6,Cellular,Port Brian,-83.637109,-83.837022,Indoor,2024-01-14,2025-02-07,Inactive,Battery,2021-04-22
+1413,Burton-Stanton,Router,Ubiquiti,Meraki MX,v8.1,Ethernet,Jonathanburgh,-9.845547,82.77952,Outdoor,2021-10-31,2025-02-28,Active,Solar,2020-09-13
+1414,"Harris, Chandler and Jackson",Firewall,Juniper,FortiGate 60F,v7.2,Cellular,Barkerberg,-46.626733,-105.090872,Outdoor,2023-11-28,2025-02-23,Active,AC,2024-10-04
+1415,Hayes LLC,Switch,Ubiquiti,Nexus 3000,v3.9,Cellular,East Robertton,-25.706624,-52.647427,Indoor,2022-01-16,2025-01-11,Maintenance,Solar,2020-04-14
+1416,Hernandez-Edwards,Router,Cisco,Meraki MX,v5.1,Bluetooth,Osbornetown,-25.050725,26.034044,Indoor,2024-04-11,2025-01-04,Active,Solar,2025-01-03
+1417,Shah Ltd,Access Point,Netgear,Aruba 305,v4.8,Wi-Fi,East Francesberg,74.909582,13.173385,Indoor,2024-06-24,2025-01-03,Maintenance,Solar,2022-10-13
+1418,"Davis, Lloyd and Blanchard",Access Point,Hewlett Packard,Ubiquiti UniFi AP,v5.9,Ethernet,South Paula,68.905339,177.271524,Outdoor,2022-10-23,2025-01-04,Maintenance,Solar,2024-05-29
+1419,Gutierrez-Phillips,Switch,Netgear,ProSafe GS,v1.6,Cellular,Sandrachester,-88.196489,174.490535,Outdoor,2020-04-22,2025-02-07,Inactive,AC,2023-01-29
+1420,Ortega-Vaughn,Switch,Ubiquiti,Arista 7150,v6.6,Cellular,South Randyhaven,-39.766605,144.403072,Outdoor,2024-08-04,2025-01-09,Maintenance,AC,2020-02-08
+1421,Marshall-Morales,Access Point,Juniper,Aruba 305,v9.1,Bluetooth,New Lynn,44.316973,-126.26482,Outdoor,2020-11-19,2025-01-27,Inactive,Battery,2021-01-27
+1422,Baker-Marsh,Router,Hewlett Packard,RV340,v6.8,Ethernet,North Danielbury,47.645855,81.704806,Indoor,2020-08-08,2025-01-07,Active,Battery,2022-08-26
+1423,Cook-Alvarado,Switch,Juniper,ProSafe GS,v4.3,Cellular,Lake Brittanyton,-59.244915,-34.296745,Outdoor,2024-02-06,2025-01-20,Maintenance,AC,2024-03-24
+1424,Spencer-Moore,Firewall,Hewlett Packard,FortiGate 60F,v6.0,Cellular,Jessicaton,-24.48743,-176.98445,Indoor,2021-01-03,2025-02-15,Inactive,AC,2021-03-08
+1425,"Chapman, Schmitt and Li",Firewall,Netgear,Palo Alto Networks PA-200,v5.9,Cellular,West Anthonyhaven,7.768282,46.842478,Indoor,2024-08-16,2025-01-10,Maintenance,AC,2023-06-26
+1426,"Brown, Stokes and Johnson",Router,Ubiquiti,RV340,v4.1,Bluetooth,Schultzport,71.405998,-153.575207,Indoor,2022-06-01,2025-02-09,Inactive,AC,2025-01-07
+1427,"Myers, James and Todd",Access Point,Cisco,Meraki MR42,v9.6,Wi-Fi,Richardmouth,70.777392,20.325486,Indoor,2022-09-13,2025-01-30,Active,AC,2022-08-28
+1428,Newton-Jones,Firewall,Juniper,Palo Alto Networks PA-200,v4.8,Wi-Fi,Aaronberg,-53.631208,50.343361,Outdoor,2020-02-26,2025-01-04,Active,AC,2022-02-03
+1429,Mcbride-Adkins,Switch,Juniper,ProSafe GS,v4.6,Wi-Fi,Brianhaven,40.681888,-159.591822,Outdoor,2025-01-31,2025-01-24,Inactive,Solar,2020-11-17
+1430,"Johnson, Vazquez and Johnson",Access Point,Cisco,Meraki MR42,v9.3,Ethernet,Port Darlene,-61.935042,9.68672,Outdoor,2022-07-31,2025-01-23,Inactive,Solar,2021-12-10
+1431,Bradley Ltd,Switch,Hewlett Packard,Nexus 3000,v8.1,Wi-Fi,Littleborough,53.88209,131.701565,Indoor,2024-01-28,2025-01-08,Inactive,AC,2021-11-19
+1432,"Harrell, Turner and Johnson",Access Point,Juniper,Meraki MR42,v2.4,Ethernet,Port Kimberlychester,20.484345,16.194697,Indoor,2024-01-25,2025-02-08,Maintenance,Battery,2022-11-13
+1433,"Wallace, Nichols and Payne",Router,Ubiquiti,ASR 1000,v3.8,Wi-Fi,Port Dianaport,16.259379,46.352488,Outdoor,2020-12-17,2025-02-19,Maintenance,Solar,2024-11-22
+1434,Wilson-Watson,Router,Juniper,ISR 4000,v7.0,Bluetooth,Calebchester,-5.705357,93.80423,Indoor,2024-07-24,2025-02-05,Active,Solar,2022-12-20
+1435,Smith-Cook,Firewall,Cisco,ASA 5500,v7.8,Bluetooth,Port Madelineland,-17.59037,34.464931,Outdoor,2021-12-03,2025-02-13,Active,Solar,2020-03-27
+1436,Thomas Inc,Firewall,Arista,Check Point 1400,v8.6,Cellular,Larsonbury,27.672838,-169.649559,Indoor,2021-10-25,2025-01-17,Active,AC,2021-11-20
+1437,Rios-Acosta,Firewall,Ubiquiti,Check Point 1400,v9.5,Wi-Fi,Blevinsfurt,-36.24461,156.542813,Indoor,2020-01-19,2025-02-25,Maintenance,Solar,2024-03-01
+1438,"Zuniga, Parker and Garcia",Firewall,Netgear,ASA 5500,v9.6,Ethernet,Floresport,18.245906,-36.41984,Indoor,2025-02-24,2025-01-01,Active,Battery,2024-06-24
+1439,Harris LLC,Firewall,Juniper,FortiGate 60F,v1.7,Wi-Fi,Susanfort,11.872579,-126.288727,Indoor,2024-01-03,2025-01-24,Maintenance,Solar,2023-09-09
+1440,Berry Group,Firewall,Netgear,FortiGate 60F,v4.5,Ethernet,Lake Morgan,-71.437085,-104.959176,Outdoor,2024-12-05,2025-01-22,Maintenance,Solar,2024-08-22
+1441,"Richard, Petersen and Martin",Router,Cisco,Meraki MX,v8.7,Cellular,Jeffreychester,43.10473,70.855111,Indoor,2021-04-10,2025-02-17,Active,Solar,2024-12-17
+1442,Watson-Lopez,Access Point,Hewlett Packard,Ubiquiti UniFi AP,v1.6,Ethernet,Matthewview,-7.392885,61.472262,Indoor,2022-07-26,2025-01-12,Inactive,Battery,2023-11-04
+1443,Mcknight Inc,Firewall,Netgear,ASA 5500,v5.8,Bluetooth,Port Michael,41.577322,-5.193856,Indoor,2022-05-26,2025-02-07,Inactive,Battery,2021-08-26
+1444,Steele-Banks,Router,Hewlett Packard,ASR 1000,v6.3,Bluetooth,Gregorystad,72.607947,-153.9692,Outdoor,2021-10-06,2025-01-12,Active,Battery,2020-12-06
+1445,Pena-Harris,Access Point,Netgear,Meraki MR42,v6.7,Bluetooth,Mccormickport,51.113401,15.925696,Outdoor,2024-01-20,2025-02-10,Active,Battery,2022-06-24
+1446,White Group,Access Point,Arista,Aruba 305,v4.1,Ethernet,Allenfurt,83.0294,-61.877749,Indoor,2022-10-18,2025-02-01,Inactive,Solar,2023-09-28
+1447,Schultz-Johnson,Switch,Arista,Arista 7150,v1.9,Ethernet,Port Brandonborough,45.037993,148.283519,Indoor,2020-04-18,2025-01-27,Maintenance,Solar,2022-04-08
+1448,Carter LLC,Firewall,Arista,Check Point 1400,v10.4,Cellular,Melissatown,-32.034832,11.615012,Indoor,2020-05-13,2025-02-09,Inactive,AC,2022-03-05
+1449,Morales-Cortez,Access Point,Hewlett Packard,Meraki MR42,v1.9,Ethernet,Jerryshire,-63.691621,16.694438,Outdoor,2020-12-23,2025-01-05,Inactive,Battery,2023-01-25
+1450,"Frank, Graves and Oconnell",Firewall,Cisco,ASA 5500,v6.9,Ethernet,Port Johnborough,-33.63742,-172.91026,Outdoor,2023-08-01,2025-01-25,Maintenance,AC,2023-02-18
+1451,"Gibson, Schultz and Steele",Firewall,Arista,Palo Alto Networks PA-200,v9.0,Bluetooth,East Jamesborough,34.80487,54.876912,Indoor,2023-07-09,2025-02-23,Inactive,Battery,2025-01-13
+1452,"Thomas, Hernandez and Kelly",Switch,Ubiquiti,Catalyst 9200,v8.5,Wi-Fi,Jackshire,-25.179352,-8.027193,Indoor,2023-08-13,2025-01-07,Inactive,Solar,2023-03-26
+1453,Sanchez-Vega,Router,Ubiquiti,ASR 1000,v5.3,Cellular,Lake Josephhaven,80.650437,3.358826,Indoor,2024-07-07,2025-02-11,Maintenance,AC,2021-05-23
+1454,Hurley-Reed,Router,Cisco,ISR 4000,v1.7,Bluetooth,Freemanburgh,-28.97866,54.863515,Indoor,2023-10-06,2025-01-10,Active,Solar,2023-05-23
+1455,"Ford, Mccarthy and Franklin",Switch,Arista,Nexus 3000,v7.2,Cellular,Melissahaven,59.643706,-129.983342,Outdoor,2022-08-06,2025-01-08,Inactive,Battery,2025-03-06
+1456,"Jimenez, Ford and Mcclure",Router,Arista,ASR 1000,v2.7,Ethernet,Brownville,-16.186051,-100.446876,Outdoor,2021-02-04,2025-03-02,Active,AC,2020-03-23
+1457,Wright Inc,Firewall,Ubiquiti,ASA 5500,v9.2,Wi-Fi,Lake Wendy,-31.709254,-2.572515,Outdoor,2025-01-10,2025-02-20,Active,Battery,2023-06-11
+1458,Walker-Daugherty,Access Point,Juniper,Meraki MR42,v4.2,Cellular,Lake Thomas,4.629141,-176.70345,Outdoor,2023-11-17,2025-01-13,Maintenance,Battery,2022-09-16
+1459,Boyd-Mack,Switch,Arista,Nexus 3000,v5.7,Wi-Fi,South Shawnfurt,-53.59641,-171.29893,Outdoor,2024-11-26,2025-02-01,Active,Battery,2024-06-17
+1460,Garcia-Holland,Firewall,Juniper,Check Point 1400,v10.5,Bluetooth,Pollardview,85.490374,64.712223,Indoor,2020-09-15,2025-02-21,Active,Solar,2020-06-11
+1461,"Lewis, Carter and Peters",Switch,Hewlett Packard,ProSafe GS,v6.1,Bluetooth,East Thomas,-22.377627,110.349397,Indoor,2020-09-04,2025-02-23,Maintenance,AC,2023-01-27
+1462,Bailey-Ellis,Firewall,Juniper,ASA 5500,v9.1,Wi-Fi,Carolineside,14.499195,38.753171,Outdoor,2023-10-18,2025-02-21,Active,AC,2021-11-30
+1463,Smith Inc,Firewall,Hewlett Packard,ASA 5500,v1.2,Cellular,Shawnborough,-7.809727,-70.853532,Outdoor,2020-08-20,2025-02-28,Inactive,Solar,2021-03-26
+1464,Gardner PLC,Router,Cisco,ISR 4000,v8.5,Wi-Fi,Cordovaburgh,76.377349,-149.08373,Outdoor,2022-04-29,2025-03-01,Active,AC,2023-06-30
+1465,Sims LLC,Access Point,Arista,Meraki MR42,v8.4,Ethernet,Paulmouth,74.023958,143.931172,Indoor,2025-02-05,2025-01-10,Inactive,AC,2023-11-13
+1466,Dean-Walker,Switch,Netgear,Catalyst 9200,v10.5,Wi-Fi,West Patricia,2.66276,-5.194895,Indoor,2020-06-01,2025-02-17,Active,Battery,2021-05-24
+1467,"Torres, Garcia and Burch",Switch,Juniper,ProSafe GS,v1.5,Bluetooth,Esteschester,27.233529,-31.831976,Outdoor,2022-01-11,2025-02-06,Inactive,Battery,2020-07-08
+1468,Hernandez-Chavez,Switch,Ubiquiti,Nexus 3000,v9.1,Cellular,Port Kelly,-17.818303,20.950738,Outdoor,2021-04-06,2025-01-02,Active,AC,2023-05-04
+1469,Morris Group,Switch,Ubiquiti,ProSafe GS,v3.9,Wi-Fi,Port David,-11.365554,166.984636,Outdoor,2024-09-14,2025-01-04,Inactive,AC,2024-06-02
+1470,Miller-Gray,Switch,Netgear,Arista 7150,v4.1,Bluetooth,North Amandaport,58.236063,-126.925916,Outdoor,2023-07-19,2025-02-02,Inactive,Solar,2024-08-11
+1471,Price-Solis,Router,Juniper,ASR 1000,v1.2,Bluetooth,Weaverbury,-80.508474,29.562186,Indoor,2021-12-11,2025-01-03,Inactive,Battery,2020-02-07
+1472,Jones Inc,Firewall,Juniper,Check Point 1400,v5.6,Wi-Fi,Shannonmouth,-81.213352,-166.674007,Indoor,2021-10-03,2025-01-20,Active,Solar,2022-08-02
+1473,Hays-Hernandez,Router,Hewlett Packard,ISR 4000,v7.3,Ethernet,South Courtney,-28.920384,98.704993,Indoor,2020-01-21,2025-03-04,Maintenance,AC,2024-12-22
+1474,"Gray, Mason and Berger",Router,Hewlett Packard,Catalyst 9300,v4.5,Cellular,Fosterberg,4.438947,17.579203,Outdoor,2021-07-23,2025-02-02,Active,Solar,2023-11-21
+1475,Carrillo PLC,Access Point,Hewlett Packard,Aironet 2800,v5.4,Wi-Fi,East Faith,-41.738308,145.00894,Indoor,2021-07-01,2025-01-30,Maintenance,AC,2024-06-21
+1476,Parsons Inc,Access Point,Arista,Meraki MR42,v8.5,Bluetooth,East Laura,-32.471618,9.899279,Outdoor,2023-08-09,2025-01-16,Maintenance,Battery,2023-08-13
+1477,Brown-Williams,Router,Juniper,Meraki MX,v1.3,Bluetooth,Port Steven,-68.04086,-138.673794,Outdoor,2023-11-23,2025-01-15,Maintenance,Solar,2023-06-27
+1478,Reyes-Soto,Router,Arista,Meraki MX,v10.0,Cellular,Cherylburgh,-2.102656,148.691884,Outdoor,2021-11-18,2025-02-21,Inactive,AC,2021-03-26
+1479,"Gonzalez, Lopez and Walton",Router,Ubiquiti,ASR 1000,v9.2,Bluetooth,New Chrisborough,71.89347,25.954235,Indoor,2022-03-02,2025-01-16,Active,AC,2022-09-11
+1480,Nash-Lopez,Switch,Netgear,Nexus 3000,v7.1,Ethernet,Lake Justinview,-87.539097,-65.050687,Indoor,2020-11-07,2025-01-14,Inactive,Solar,2021-01-04
+1481,"Chandler, Parks and Johnston",Switch,Ubiquiti,Arista 7150,v9.4,Ethernet,Laurieburgh,-45.369569,-48.950085,Outdoor,2022-02-05,2025-02-27,Maintenance,Solar,2020-12-06
+1482,"Dickerson, Johnston and Scott",Firewall,Cisco,Palo Alto Networks PA-200,v9.3,Bluetooth,Lawrencetown,-7.790301,134.983972,Indoor,2023-02-08,2025-02-28,Active,AC,2024-03-15
+1483,"Walker, Barton and Vincent",Access Point,Ubiquiti,Meraki MR42,v1.6,Cellular,Alexandramouth,-60.102253,-17.173662,Indoor,2021-01-04,2025-02-18,Active,Battery,2020-12-11
+1484,"Mcintyre, Gentry and Martinez",Access Point,Cisco,Aruba 305,v10.8,Wi-Fi,Ambershire,-52.165233,-163.588244,Indoor,2022-11-24,2025-02-03,Active,Battery,2022-04-30
+1485,"Edwards, Sanchez and Gordon",Firewall,Cisco,FortiGate 60F,v6.9,Wi-Fi,Wrightchester,-69.008198,-49.122779,Outdoor,2022-03-07,2025-01-12,Maintenance,Solar,2020-07-09
+1486,"Ortiz, Hill and Blackburn",Firewall,Cisco,FortiGate 60F,v10.3,Bluetooth,New Jennifer,12.458553,-96.921622,Indoor,2022-09-27,2025-02-02,Inactive,Solar,2021-06-23
+1487,Mendoza-Wells,Switch,Arista,Nexus 3000,v8.0,Wi-Fi,Briannaview,-11.825368,92.254979,Outdoor,2023-10-23,2025-01-06,Active,Solar,2024-06-29
+1488,Turner LLC,Router,Arista,ASR 1000,v6.8,Wi-Fi,New Becky,-84.15712,0.608849,Indoor,2021-09-03,2025-01-01,Maintenance,Battery,2024-04-19
+1489,"Taylor, Parks and Mosley",Router,Arista,RV340,v2.7,Bluetooth,East Ryanland,85.878265,81.524746,Indoor,2020-02-10,2025-02-18,Active,AC,2023-03-17
+1490,"Taylor, Schneider and Lynch",Access Point,Cisco,Ubiquiti UniFi AP,v8.8,Ethernet,East Alexanderberg,-82.182721,80.314854,Outdoor,2021-01-19,2025-01-09,Active,AC,2021-01-02
+1491,"Edwards, Murillo and Duncan",Firewall,Cisco,ASA 5500,v5.9,Cellular,Craigville,-71.58226,-105.717807,Indoor,2025-02-27,2025-01-26,Inactive,Battery,2024-09-13
+1492,"Molina, Mendoza and Reyes",Switch,Ubiquiti,Catalyst 9200,v6.2,Wi-Fi,Reynoldsborough,55.913112,99.351535,Outdoor,2020-11-20,2025-03-02,Active,Solar,2021-08-12
+1493,"Lee, King and Raymond",Router,Ubiquiti,Catalyst 9300,v6.1,Cellular,New Erika,-41.41987,-74.023875,Outdoor,2025-02-14,2025-01-21,Inactive,Solar,2022-12-22
+1494,Vazquez-Cruz,Switch,Hewlett Packard,Nexus 3000,v5.7,Ethernet,Thompsonside,-57.343774,19.248563,Outdoor,2023-04-21,2025-01-30,Maintenance,Battery,2024-11-11
+1495,Mendoza-Vargas,Switch,Cisco,Nexus 3000,v5.0,Bluetooth,New Jaytown,-20.64135,28.77284,Indoor,2023-05-28,2025-01-09,Inactive,AC,2022-09-18
+1496,"Wade, Romero and Dickerson",Access Point,Juniper,Aironet 2800,v9.1,Wi-Fi,West Christopher,86.485467,-46.567251,Indoor,2023-04-10,2025-01-22,Inactive,Battery,2020-06-28
+1497,"Brown, Carter and Cantrell",Access Point,Ubiquiti,Ubiquiti UniFi AP,v4.7,Cellular,West Robertchester,-53.262877,-53.149554,Outdoor,2023-12-14,2025-01-16,Maintenance,AC,2024-02-13
+1498,"Cox, Wilson and Green",Router,Cisco,RV340,v1.9,Wi-Fi,Lindabury,73.078647,30.521528,Outdoor,2023-11-10,2025-01-08,Maintenance,Solar,2023-08-13
+1499,Lee-Norton,Access Point,Cisco,Ubiquiti UniFi AP,v3.2,Ethernet,South Shawn,84.896003,79.34806,Indoor,2024-08-08,2025-02-22,Inactive,AC,2020-08-29
+1500,Faulkner LLC,Switch,Ubiquiti,Arista 7150,v1.2,Ethernet,Cheyennemouth,27.169555,91.094055,Outdoor,2024-02-21,2025-01-12,Inactive,AC,2021-06-15
+1501,Black-Beck,Router,Hewlett Packard,ISR 4000,v10.6,Ethernet,Michelleville,-77.132696,123.362491,Indoor,2024-05-11,2025-02-24,Maintenance,AC,2021-07-13
+1502,Wilson Ltd,Router,Netgear,RV340,v9.4,Cellular,Port Stephaniefort,-11.919872,-67.874089,Outdoor,2023-12-08,2025-01-21,Active,AC,2025-01-07
+1503,"Arroyo, Huff and Francis",Router,Ubiquiti,Meraki MX,v1.7,Ethernet,West Jeremybury,61.213438,-83.24197,Indoor,2023-04-28,2025-01-24,Inactive,AC,2020-10-03
+1504,"Campbell, Johnson and Johnson",Router,Cisco,ISR 4000,v2.9,Cellular,Aliciatown,-67.687911,35.581404,Indoor,2021-10-21,2025-01-28,Inactive,AC,2021-03-30
+1505,Higgins and Sons,Router,Cisco,RV340,v1.7,Ethernet,Paulaville,-27.264873,-49.537277,Outdoor,2022-11-24,2025-01-01,Inactive,Battery,2021-10-14
+1506,"Esparza, Taylor and Saunders",Firewall,Arista,FortiGate 60F,v9.9,Wi-Fi,Brownhaven,-82.677542,-23.599799,Indoor,2024-09-01,2025-01-23,Inactive,AC,2025-02-12
+1507,"White, Escobar and Smith",Switch,Arista,Catalyst 9200,v8.1,Bluetooth,Yvettemouth,-83.698103,157.750023,Indoor,2020-01-28,2025-01-13,Inactive,AC,2021-09-18
+1508,Patton-Adams,Firewall,Arista,ASA 5500,v8.5,Ethernet,North James,68.055505,16.971966,Outdoor,2022-05-03,2025-01-08,Inactive,Solar,2022-05-10
+1509,"Tucker, Gross and Flores",Switch,Ubiquiti,ProSafe GS,v5.6,Wi-Fi,West Cody,-25.158307,104.766365,Outdoor,2023-12-24,2025-02-19,Maintenance,AC,2021-10-16
+1510,Fowler-Wilkinson,Switch,Cisco,ProSafe GS,v8.9,Ethernet,West Nicoleborough,-63.74599,50.840257,Outdoor,2022-11-15,2025-01-06,Inactive,Solar,2022-06-13
+1511,Jackson-Campbell,Access Point,Netgear,Ubiquiti UniFi AP,v9.2,Bluetooth,Barberstad,-63.392463,133.897714,Indoor,2023-05-05,2025-02-19,Active,Solar,2024-01-03
+1512,Weaver and Sons,Access Point,Cisco,Aironet 2800,v9.4,Cellular,Hudsonchester,56.615381,141.787677,Indoor,2022-10-08,2025-02-25,Active,AC,2022-06-14
+1513,Rhodes-Wilson,Router,Hewlett Packard,Meraki MX,v3.7,Ethernet,Frazierstad,-5.130816,53.556608,Indoor,2023-12-15,2025-02-02,Maintenance,Battery,2024-11-15
+1514,Lewis-Sharp,Firewall,Ubiquiti,FortiGate 60F,v2.3,Wi-Fi,Saundersburgh,-14.408814,-149.675488,Indoor,2024-03-23,2025-01-13,Active,Solar,2022-02-08
+1515,Payne-Norman,Switch,Ubiquiti,Arista 7150,v3.5,Bluetooth,North Colinburgh,-29.941013,111.271371,Outdoor,2024-02-05,2025-01-31,Inactive,AC,2022-11-26
+1516,Hawkins LLC,Switch,Cisco,Catalyst 9200,v3.0,Cellular,Grahamview,49.712522,72.050834,Indoor,2020-10-01,2025-01-06,Inactive,Solar,2021-12-19
+1517,Meyers LLC,Switch,Cisco,Catalyst 9200,v6.5,Ethernet,Reynoldsport,55.922808,-161.837318,Indoor,2022-05-09,2025-01-06,Inactive,Battery,2020-12-17
+1518,Schultz-Neal,Router,Juniper,Meraki MX,v5.1,Bluetooth,South Stephanie,-2.6277,179.983329,Indoor,2021-05-16,2025-01-31,Maintenance,Battery,2023-07-11
+1519,"Moran, Leonard and Wagner",Access Point,Ubiquiti,Ubiquiti UniFi AP,v8.1,Bluetooth,North Diana,-59.125794,-42.635313,Indoor,2020-03-25,2025-02-08,Active,Battery,2022-11-07
+1520,Greene LLC,Firewall,Netgear,ASA 5500,v3.7,Wi-Fi,Michaelside,-75.317981,153.141959,Outdoor,2022-08-22,2025-01-12,Inactive,Battery,2022-08-03
+1521,Mendoza Inc,Router,Cisco,Meraki MX,v9.5,Ethernet,Juliamouth,-19.389904,63.256671,Indoor,2021-06-02,2025-02-09,Active,AC,2024-01-29
+1522,White PLC,Router,Hewlett Packard,Catalyst 9300,v1.3,Wi-Fi,Campbellport,3.795428,92.428785,Indoor,2020-09-14,2025-02-27,Maintenance,Battery,2021-12-02
+1523,Montgomery PLC,Switch,Hewlett Packard,ProSafe GS,v5.6,Bluetooth,Whiteburgh,-18.800489,-13.622566,Outdoor,2022-06-15,2025-01-18,Maintenance,Battery,2024-10-13
+1524,Wright LLC,Switch,Arista,Arista 7150,v6.0,Cellular,Port Jonathan,-17.345161,26.907429,Outdoor,2020-12-23,2025-01-28,Inactive,Solar,2020-06-01
+1525,"Wallace, Faulkner and Skinner",Firewall,Juniper,FortiGate 60F,v2.2,Bluetooth,Lake Jasmine,-53.198841,161.37898,Outdoor,2021-01-04,2025-02-28,Maintenance,Solar,2023-11-07
+1526,Williams and Sons,Access Point,Hewlett Packard,Ubiquiti UniFi AP,v10.8,Cellular,North Michael,-14.39333,-70.810521,Indoor,2022-05-23,2025-02-19,Maintenance,Solar,2022-12-07
+1527,Gallagher and Sons,Switch,Ubiquiti,Catalyst 9200,v2.5,Ethernet,North Johnport,47.546467,-41.142016,Indoor,2022-04-30,2025-01-22,Maintenance,Solar,2022-04-24
+1528,Gardner Ltd,Router,Juniper,RV340,v4.7,Cellular,New Jessica,-53.861842,159.582229,Outdoor,2023-05-24,2025-02-21,Active,Solar,2024-05-04
+1529,Bautista-Sweeney,Access Point,Hewlett Packard,Ubiquiti UniFi AP,v4.7,Wi-Fi,East Shaneside,50.967867,96.742685,Outdoor,2021-07-19,2025-02-22,Maintenance,Battery,2023-05-24
+1530,Hall-Humphrey,Access Point,Juniper,Meraki MR42,v8.3,Bluetooth,Phillipsport,-13.103576,146.611206,Outdoor,2020-11-27,2025-02-26,Inactive,Battery,2022-07-01
+1531,Valenzuela Ltd,Firewall,Arista,FortiGate 60F,v10.6,Bluetooth,Monicaborough,-48.954833,38.372095,Outdoor,2021-09-03,2025-01-28,Inactive,Solar,2021-04-03
+1532,Henry and Sons,Firewall,Juniper,Palo Alto Networks PA-200,v4.4,Ethernet,Kelseyville,-60.781307,-67.562966,Outdoor,2022-07-16,2025-03-01,Active,Battery,2024-12-11
+1533,Johnson LLC,Switch,Ubiquiti,Catalyst 9200,v3.6,Wi-Fi,Lake Melissa,64.810564,-126.440325,Indoor,2024-06-26,2025-02-01,Maintenance,AC,2022-07-28
+1534,Morris Inc,Router,Netgear,ASR 1000,v7.0,Wi-Fi,North Williambury,-84.317994,4.943076,Indoor,2022-01-19,2025-01-08,Maintenance,Battery,2024-07-31
+1535,"Burnett, Bauer and Johns",Firewall,Ubiquiti,Check Point 1400,v2.5,Wi-Fi,Lake Jennifer,-12.263384,43.726722,Indoor,2022-04-23,2025-01-16,Active,AC,2020-03-14
+1536,Sanchez Group,Access Point,Ubiquiti,Aironet 2800,v10.2,Cellular,Aaronview,-58.365874,-102.279692,Outdoor,2022-04-20,2025-02-12,Active,AC,2024-11-17
+1537,"Miller, Day and Gibson",Access Point,Arista,Meraki MR42,v5.1,Wi-Fi,Davidville,1.55757,-100.15278,Outdoor,2024-03-13,2025-01-18,Inactive,Solar,2021-01-17
+1538,"Perry, Gordon and Brown",Access Point,Cisco,Meraki MR42,v2.1,Wi-Fi,Lake Brittanybury,-40.608706,-35.658523,Outdoor,2024-04-29,2025-01-23,Inactive,Battery,2022-03-05
+1539,Guzman-Joseph,Access Point,Netgear,Aruba 305,v10.1,Wi-Fi,Reedchester,-48.153691,19.770622,Indoor,2024-09-05,2025-03-01,Inactive,Battery,2024-06-29
+1540,Phillips Group,Access Point,Ubiquiti,Aironet 2800,v1.7,Ethernet,Paulhaven,36.212996,51.316969,Outdoor,2025-02-02,2025-02-09,Maintenance,Battery,2021-04-10
+1541,Nelson-Parker,Firewall,Hewlett Packard,FortiGate 60F,v1.7,Ethernet,Gomezbury,45.639048,-111.707203,Indoor,2021-02-02,2025-01-26,Inactive,Solar,2024-01-05
+1542,"Smith, Wheeler and White",Firewall,Cisco,ASA 5500,v4.8,Wi-Fi,South Vanessa,-28.454327,-166.630824,Outdoor,2025-01-17,2025-03-02,Inactive,Solar,2024-02-11
+1543,Newton-Pearson,Router,Arista,ISR 4000,v1.5,Ethernet,Nicholsmouth,55.059511,-22.527945,Outdoor,2025-02-06,2025-03-02,Inactive,Solar,2023-06-21
+1544,"Li, Moses and Gentry",Firewall,Netgear,Check Point 1400,v2.7,Cellular,Joneshaven,33.308307,104.421549,Outdoor,2020-12-14,2025-01-09,Active,AC,2021-02-21
+1545,"Bush, Moss and Lawrence",Access Point,Hewlett Packard,Meraki MR42,v5.6,Cellular,Matthewfort,29.89177,18.691789,Indoor,2024-08-19,2025-02-07,Active,Battery,2024-02-02
+1546,"Gonzalez, Pacheco and Chambers",Router,Juniper,ISR 4000,v4.1,Cellular,South Kelly,-56.309976,-44.907622,Indoor,2023-09-04,2025-02-22,Active,Solar,2024-03-14
+1547,"Shannon, Robinson and Nelson",Access Point,Cisco,Meraki MR42,v3.3,Ethernet,North Aaron,34.993577,4.405698,Outdoor,2024-10-24,2025-02-11,Maintenance,Battery,2021-02-06
+1548,"Jones, Pitts and Williams",Router,Juniper,Meraki MX,v6.8,Wi-Fi,North Rhondaland,-29.485199,-76.851971,Indoor,2024-10-08,2025-02-02,Inactive,AC,2023-07-13
+1549,Hartman Group,Access Point,Ubiquiti,Meraki MR42,v7.3,Cellular,Rhodesside,71.843239,147.128321,Outdoor,2023-04-23,2025-02-22,Active,Solar,2021-03-05
+1550,Lee PLC,Firewall,Cisco,Palo Alto Networks PA-200,v5.2,Cellular,Clarkland,-31.738893,166.680002,Indoor,2022-03-20,2025-01-15,Inactive,Battery,2021-02-20
+1551,Nelson-Murphy,Firewall,Ubiquiti,ASA 5500,v3.6,Cellular,West Christinaside,14.402826,16.558971,Indoor,2023-09-07,2025-01-08,Inactive,Solar,2020-05-23
+1552,"Underwood, Ray and Harris",Switch,Arista,ProSafe GS,v9.1,Ethernet,Michaelfurt,82.00857,-145.761139,Outdoor,2021-04-06,2025-01-12,Active,Battery,2020-01-12
+1553,Weeks PLC,Switch,Ubiquiti,Nexus 3000,v1.4,Wi-Fi,South Hannah,34.178325,-47.859112,Outdoor,2022-01-05,2025-02-22,Inactive,Solar,2020-11-19
+1554,Long-Mueller,Router,Arista,RV340,v9.2,Bluetooth,West Amyland,-29.353647,-178.49019,Outdoor,2021-01-09,2025-01-17,Inactive,Solar,2023-08-31
+1555,Keller Ltd,Router,Cisco,ASR 1000,v4.1,Ethernet,West Brandy,-72.709553,-148.996162,Outdoor,2022-03-17,2025-02-15,Maintenance,Battery,2025-01-18
+1556,"Reeves, Chapman and Mitchell",Access Point,Juniper,Aironet 2800,v5.3,Cellular,Williamville,-21.405552,-139.250473,Indoor,2024-02-18,2025-01-02,Maintenance,Solar,2020-02-12
+1557,Gonzalez PLC,Switch,Cisco,ProSafe GS,v10.6,Wi-Fi,Parkerport,-21.909126,-19.413385,Outdoor,2024-08-02,2025-01-20,Inactive,Battery,2025-01-14
+1558,Barnes PLC,Access Point,Juniper,Aironet 2800,v8.5,Bluetooth,Longmouth,-10.327201,-129.39286,Indoor,2021-07-18,2025-02-18,Inactive,AC,2024-11-24
+1559,"Pacheco, Rogers and Young",Access Point,Juniper,Aironet 2800,v10.2,Bluetooth,Mclaughlinborough,-75.095242,97.396371,Indoor,2022-03-24,2025-01-14,Inactive,Battery,2022-03-04
+1560,"Garcia, Torres and Stout",Firewall,Hewlett Packard,ASA 5500,v5.3,Ethernet,New Brentfurt,-78.120147,-173.502327,Indoor,2023-05-15,2025-01-14,Inactive,AC,2022-04-25
+1561,Smith-Baird,Switch,Netgear,ProSafe GS,v9.3,Bluetooth,East Bobbybury,-54.913808,-133.483497,Indoor,2020-06-29,2025-01-26,Active,Battery,2022-09-17
+1562,"Williams, Hughes and Bullock",Access Point,Arista,Aruba 305,v8.8,Wi-Fi,Lake Jonathan,10.837938,57.501223,Outdoor,2021-09-06,2025-01-13,Active,Battery,2021-01-08
+1563,Spencer-Wright,Access Point,Juniper,Ubiquiti UniFi AP,v1.5,Cellular,Lisamouth,41.494622,116.27481,Outdoor,2024-05-15,2025-02-08,Inactive,Solar,2021-07-02
+1564,Nelson-Rowland,Switch,Ubiquiti,ProSafe GS,v9.3,Wi-Fi,East Carolfurt,77.880189,-56.458224,Outdoor,2025-02-19,2025-03-06,Active,Solar,2022-05-21
+1565,"Richards, Blake and Blankenship",Firewall,Arista,ASA 5500,v8.8,Wi-Fi,Zacharyville,61.250734,-108.989743,Outdoor,2020-03-20,2025-01-29,Maintenance,Solar,2020-01-18
+1566,"Sanchez, Patrick and Edwards",Switch,Ubiquiti,Arista 7150,v6.7,Cellular,East Tracytown,-55.934273,64.565498,Indoor,2020-01-22,2025-01-27,Maintenance,Solar,2022-08-10
+1567,"Smith, Ford and Jones",Access Point,Cisco,Meraki MR42,v1.6,Ethernet,East Staceyburgh,-22.944147,70.131811,Indoor,2021-11-04,2025-02-05,Active,Battery,2021-10-21
+1568,Mack-Hunt,Access Point,Netgear,Ubiquiti UniFi AP,v7.7,Ethernet,South Jerry,-68.525102,-123.212768,Indoor,2020-01-17,2025-02-16,Inactive,Solar,2024-05-01
+1569,Rodriguez Group,Router,Cisco,ISR 4000,v2.6,Cellular,Williamsmouth,-75.485489,63.168336,Indoor,2022-11-02,2025-02-22,Inactive,AC,2022-12-15
+1570,"Edwards, Mora and Foster",Switch,Cisco,Nexus 3000,v4.9,Wi-Fi,East Catherine,50.403906,102.579989,Outdoor,2022-12-09,2025-01-16,Active,AC,2020-04-23
+1571,"Williams, Wright and Davila",Switch,Cisco,Arista 7150,v8.6,Cellular,East Alexandramouth,-29.346317,-104.418162,Outdoor,2024-03-05,2025-01-24,Maintenance,Battery,2024-04-21
+1572,"Smith, Zamora and Myers",Access Point,Hewlett Packard,Aruba 305,v4.9,Bluetooth,Port Joseph,-42.76064,61.565888,Indoor,2021-05-23,2025-01-22,Active,AC,2020-02-09
+1573,"Velez, Barnes and Parks",Router,Hewlett Packard,Catalyst 9300,v3.6,Bluetooth,South Danielside,28.594941,-67.021714,Outdoor,2020-12-17,2025-01-27,Active,Solar,2022-02-24
+1574,Rivers Inc,Access Point,Arista,Meraki MR42,v5.0,Cellular,Schmittland,-50.76973,143.762728,Outdoor,2020-01-24,2025-01-18,Maintenance,Battery,2021-07-28
+1575,Jacobs-Moran,Access Point,Arista,Aironet 2800,v10.0,Bluetooth,New Elizabeth,50.001348,84.360177,Indoor,2020-08-27,2025-01-18,Active,AC,2020-03-01
+1576,"Dyer, Young and Johnson",Switch,Juniper,Nexus 3000,v5.4,Ethernet,New Rebecca,-52.696448,132.042896,Outdoor,2020-06-07,2025-01-16,Inactive,Solar,2022-05-23
+1577,"Gutierrez, Gonzalez and Clark",Router,Ubiquiti,ASR 1000,v6.4,Ethernet,South Tyler,-61.959451,-90.325235,Indoor,2023-11-12,2025-01-20,Maintenance,Battery,2021-11-26
+1578,Barrett LLC,Switch,Hewlett Packard,ProSafe GS,v9.6,Wi-Fi,Hannahchester,-19.913363,62.659638,Outdoor,2021-06-07,2025-02-15,Active,Solar,2023-01-21
+1579,Shah-Warner,Firewall,Juniper,ASA 5500,v1.1,Ethernet,Juanfort,63.360975,-176.656309,Outdoor,2020-03-01,2025-01-22,Active,Battery,2024-07-05
+1580,"Hamilton, Taylor and Perry",Access Point,Arista,Meraki MR42,v8.8,Wi-Fi,Lake Keith,-38.273531,-13.102552,Outdoor,2023-06-07,2025-02-27,Maintenance,Battery,2023-07-21
+1581,Vargas LLC,Router,Cisco,Meraki MX,v10.6,Bluetooth,Brownshire,-59.107905,-96.378624,Outdoor,2020-02-23,2025-01-08,Maintenance,Solar,2024-11-26
+1582,Watkins and Sons,Switch,Juniper,Catalyst 9200,v3.5,Cellular,Johnland,61.719884,69.378661,Indoor,2020-09-10,2025-02-02,Inactive,Battery,2024-02-22
+1583,Malone LLC,Firewall,Juniper,FortiGate 60F,v8.0,Wi-Fi,Port Sara,80.905957,-2.767785,Outdoor,2020-03-24,2025-02-10,Active,AC,2020-07-31
+1584,Juarez-Silva,Access Point,Cisco,Meraki MR42,v7.0,Bluetooth,New Kevinhaven,-73.349626,-95.509988,Outdoor,2021-12-28,2025-02-13,Active,Solar,2024-06-09
+1585,Robertson-Cortez,Router,Cisco,ASR 1000,v4.5,Ethernet,East Edward,52.277981,-179.914814,Indoor,2022-06-19,2025-02-24,Inactive,AC,2023-05-17
+1586,"King, Bender and Walker",Switch,Ubiquiti,Catalyst 9200,v10.2,Cellular,Perezland,-53.498269,107.191978,Indoor,2022-10-19,2025-01-17,Maintenance,Battery,2022-07-28
+1587,"Camacho, Patterson and Cowan",Firewall,Arista,Check Point 1400,v7.6,Wi-Fi,Port Cheyenne,63.439798,96.288036,Outdoor,2023-06-20,2025-01-12,Inactive,Battery,2024-04-08
+1588,Odom and Sons,Access Point,Ubiquiti,Meraki MR42,v5.9,Cellular,Lake Danielfurt,35.082432,-113.210512,Outdoor,2020-12-14,2025-01-30,Maintenance,AC,2024-04-04
+1589,Smith PLC,Access Point,Netgear,Ubiquiti UniFi AP,v2.6,Wi-Fi,Anthonyhaven,89.508734,112.151147,Outdoor,2023-07-09,2025-01-12,Inactive,Solar,2022-05-18
+1590,"Carter, Campbell and Bailey",Switch,Cisco,ProSafe GS,v9.6,Bluetooth,Deniseland,-69.213985,126.561935,Indoor,2024-09-20,2025-01-22,Inactive,Solar,2025-01-15
+1591,"Johnson, Robinson and Figueroa",Firewall,Ubiquiti,ASA 5500,v2.2,Ethernet,Sullivanburgh,9.665395,14.745305,Indoor,2023-01-27,2025-02-24,Active,Solar,2021-07-06
+1592,"Walker, Matthews and Martin",Switch,Juniper,Nexus 3000,v5.7,Ethernet,South Christinaside,59.978549,-165.054492,Outdoor,2020-04-12,2025-02-26,Inactive,Battery,2023-07-22
+1593,Parker PLC,Firewall,Cisco,Palo Alto Networks PA-200,v9.2,Wi-Fi,Jennifermouth,45.007622,-75.851846,Indoor,2021-08-19,2025-01-14,Active,AC,2021-03-07
+1594,"Henderson, Guzman and Nunez",Access Point,Netgear,Aironet 2800,v9.3,Cellular,Port Toddville,77.531771,-27.849829,Outdoor,2022-08-19,2025-01-17,Inactive,AC,2021-07-25
+1595,Rush PLC,Router,Netgear,Catalyst 9300,v10.9,Bluetooth,Christopherland,-68.726917,46.478204,Outdoor,2020-04-12,2025-03-06,Inactive,Battery,2022-03-08
+1596,Jackson-Anderson,Switch,Cisco,Arista 7150,v3.6,Wi-Fi,Kristenberg,25.219115,48.162893,Outdoor,2020-11-25,2025-02-25,Active,AC,2021-02-24
+1597,Clark-Diaz,Router,Juniper,Catalyst 9300,v7.2,Bluetooth,East Suzanne,51.342048,174.240562,Outdoor,2020-12-17,2025-01-30,Inactive,Battery,2024-11-03
+1598,Lopez LLC,Router,Ubiquiti,ISR 4000,v7.4,Wi-Fi,Jacksonland,-12.981578,166.273472,Outdoor,2021-12-06,2025-01-30,Maintenance,Solar,2024-01-11
+1599,Miller Inc,Access Point,Juniper,Ubiquiti UniFi AP,v3.8,Wi-Fi,Carneytown,47.385167,0.606179,Outdoor,2022-05-23,2025-01-25,Maintenance,Battery,2024-05-18
+1600,Ho-Mcbride,Access Point,Hewlett Packard,Meraki MR42,v4.8,Cellular,Kathrynstad,48.691717,1.527046,Outdoor,2023-09-14,2025-02-04,Maintenance,Solar,2024-07-11
+1601,Cox Inc,Switch,Ubiquiti,Nexus 3000,v4.8,Bluetooth,Jeffreyfurt,4.728167,171.099725,Outdoor,2023-04-28,2025-02-07,Inactive,AC,2022-07-05
+1602,Lamb LLC,Access Point,Netgear,Meraki MR42,v4.8,Wi-Fi,Nathanshire,5.930272,34.079726,Outdoor,2023-06-13,2025-01-20,Maintenance,AC,2020-09-03
+1603,Lewis-Weaver,Firewall,Ubiquiti,Check Point 1400,v3.2,Bluetooth,Bestton,59.332826,-39.25586,Indoor,2021-08-01,2025-02-12,Maintenance,Solar,2022-10-13
+1604,Patterson Inc,Router,Hewlett Packard,RV340,v3.5,Cellular,Cooperside,60.28068,-95.086008,Outdoor,2023-10-15,2025-01-10,Maintenance,AC,2022-03-25
+1605,Williams Ltd,Firewall,Juniper,ASA 5500,v2.7,Cellular,Denisemouth,-72.550095,-79.328314,Outdoor,2021-12-29,2025-01-29,Active,Battery,2023-07-22
+1606,Wu-Dunn,Firewall,Arista,FortiGate 60F,v2.8,Wi-Fi,Jamesberg,-6.983165,6.542096,Indoor,2023-11-23,2025-03-03,Active,AC,2024-08-25
+1607,Flores-Robinson,Switch,Cisco,Nexus 3000,v4.0,Cellular,Port Garyton,-23.076416,-47.732393,Indoor,2022-04-01,2025-02-11,Inactive,Solar,2022-04-07
+1608,Reynolds LLC,Router,Arista,ASR 1000,v8.5,Wi-Fi,West Katherine,-6.148889,164.681898,Outdoor,2024-01-07,2025-01-11,Inactive,Battery,2023-12-03
+1609,Wilson Ltd,Access Point,Hewlett Packard,Ubiquiti UniFi AP,v9.0,Bluetooth,Port Stephaniemouth,45.431565,-104.20142,Indoor,2022-03-10,2025-01-28,Active,Battery,2020-06-13
+1610,Stewart Ltd,Firewall,Ubiquiti,Check Point 1400,v2.8,Bluetooth,Robertsonberg,53.588396,5.496302,Outdoor,2020-10-27,2025-02-08,Maintenance,Battery,2024-06-05
+1611,Smith LLC,Access Point,Netgear,Aironet 2800,v5.6,Wi-Fi,Port Brittanyborough,40.969109,-44.124445,Outdoor,2021-07-22,2025-01-17,Active,Battery,2022-07-11
+1612,"Parrish, Frederick and Sellers",Switch,Arista,Arista 7150,v5.1,Ethernet,Cynthiashire,-71.065175,-136.572084,Indoor,2023-05-13,2025-01-07,Maintenance,Battery,2024-04-19
+1613,Bender Group,Access Point,Cisco,Ubiquiti UniFi AP,v8.3,Cellular,South Debra,39.594827,-143.933747,Indoor,2020-08-24,2025-02-12,Inactive,Solar,2024-04-27
+1614,Griffin Ltd,Access Point,Cisco,Ubiquiti UniFi AP,v4.2,Cellular,New Christybury,41.263395,-140.413464,Outdoor,2021-02-02,2025-02-19,Inactive,AC,2022-08-29
+1615,"Robinson, Martinez and Anderson",Firewall,Arista,Palo Alto Networks PA-200,v6.7,Wi-Fi,New Paul,81.74475,94.118084,Outdoor,2020-09-21,2025-03-02,Active,Battery,2024-09-11
+1616,Johnson-Williams,Switch,Ubiquiti,Catalyst 9200,v8.1,Ethernet,Lake Pamela,-35.099625,142.53188,Outdoor,2024-11-19,2025-01-08,Active,Battery,2020-05-27
+1617,"Hill, Parker and Anderson",Switch,Ubiquiti,Arista 7150,v7.9,Wi-Fi,Francishaven,81.421668,-91.513532,Indoor,2020-01-05,2025-01-05,Maintenance,Battery,2023-04-29
+1618,Black-Baker,Switch,Ubiquiti,Arista 7150,v1.6,Wi-Fi,Port Kevin,-71.127915,-52.829947,Outdoor,2020-01-03,2025-02-20,Maintenance,Solar,2022-04-25
+1619,Hernandez and Sons,Access Point,Ubiquiti,Aironet 2800,v10.2,Wi-Fi,Port Garyhaven,-45.564246,59.445464,Outdoor,2024-03-31,2025-02-11,Inactive,Solar,2022-06-11
+1620,Gray-Oconnor,Switch,Cisco,Arista 7150,v7.5,Cellular,Henryside,-28.657313,64.863254,Indoor,2021-01-28,2025-02-08,Active,AC,2021-01-17
+1621,Davidson Group,Switch,Arista,Nexus 3000,v2.8,Wi-Fi,Fuentesmouth,-4.159718,-134.043551,Indoor,2022-06-17,2025-02-13,Maintenance,Battery,2022-03-06
+1622,Golden-Estes,Firewall,Juniper,Palo Alto Networks PA-200,v2.0,Cellular,Hollystad,-82.173359,-87.300284,Indoor,2022-05-23,2025-01-22,Inactive,Solar,2020-01-30
+1623,Burgess-Owens,Access Point,Hewlett Packard,Aironet 2800,v3.5,Wi-Fi,Edwardview,13.724178,91.676606,Outdoor,2020-01-14,2025-02-09,Inactive,Solar,2021-03-14
+1624,Liu Inc,Access Point,Ubiquiti,Aironet 2800,v7.0,Wi-Fi,North Jasonborough,-30.657467,-61.31783,Outdoor,2020-01-16,2025-02-13,Inactive,AC,2020-09-12
+1625,"Brooks, Williams and Erickson",Access Point,Cisco,Aruba 305,v9.4,Bluetooth,New Davidport,52.247951,-167.014358,Indoor,2021-02-21,2025-02-18,Inactive,Solar,2022-04-08
+1626,Bates and Sons,Firewall,Cisco,Check Point 1400,v5.6,Ethernet,North Billburgh,-70.735838,-169.708532,Outdoor,2022-01-21,2025-01-09,Active,Solar,2023-07-20
+1627,Williams LLC,Access Point,Ubiquiti,Aironet 2800,v1.2,Cellular,Kaiserburgh,39.659104,-128.082075,Indoor,2020-07-04,2025-01-02,Inactive,AC,2020-06-23
+1628,Gutierrez-Whitney,Access Point,Cisco,Meraki MR42,v1.6,Ethernet,Lake Justinton,-81.492178,115.333668,Outdoor,2023-07-10,2025-01-30,Inactive,AC,2021-12-02
+1629,"Snyder, Rhodes and Chapman",Firewall,Arista,Check Point 1400,v9.4,Cellular,East Anthony,-80.801839,116.539235,Outdoor,2025-03-04,2025-02-28,Maintenance,AC,2020-07-25
+1630,Lopez and Sons,Router,Ubiquiti,ISR 4000,v9.6,Wi-Fi,Annahaven,-24.308534,149.423382,Indoor,2024-03-05,2025-01-06,Active,AC,2022-10-18
+1631,Reyes LLC,Router,Arista,Meraki MX,v5.6,Bluetooth,New Ashleystad,-73.690555,1.512736,Outdoor,2024-05-04,2025-01-26,Inactive,AC,2023-10-20
+1632,"Evans, Green and Miller",Switch,Cisco,ProSafe GS,v5.3,Cellular,Sarahton,89.95893,17.059055,Outdoor,2021-06-05,2025-02-04,Active,AC,2021-12-29
+1633,"Jensen, Hanson and Butler",Router,Cisco,Catalyst 9300,v4.3,Ethernet,Jacksonville,55.95399,-44.984336,Indoor,2024-07-21,2025-03-03,Active,Solar,2024-02-24
+1634,Riddle-Brown,Firewall,Juniper,ASA 5500,v10.9,Bluetooth,Lake Teresa,56.668347,156.202534,Indoor,2024-02-29,2025-01-25,Maintenance,Battery,2022-12-30
+1635,Smith and Sons,Firewall,Juniper,Check Point 1400,v8.6,Cellular,West Lisaside,-78.411228,103.690259,Outdoor,2024-12-04,2025-01-23,Active,Battery,2024-11-07
+1636,Collins PLC,Router,Juniper,RV340,v9.6,Bluetooth,Port Patrickland,73.156207,61.885556,Indoor,2021-05-06,2025-02-18,Active,Battery,2020-03-06
+1637,Miller LLC,Switch,Arista,Catalyst 9200,v6.4,Ethernet,South Christinemouth,-30.422759,127.788482,Outdoor,2023-10-24,2025-02-27,Inactive,Solar,2024-01-25
+1638,Robinson-Johnson,Router,Hewlett Packard,ASR 1000,v3.7,Cellular,Heatherbury,-8.864838,77.991692,Outdoor,2022-10-19,2025-01-11,Inactive,AC,2021-03-26
+1639,"Thompson, Wong and Wagner",Access Point,Netgear,Aironet 2800,v2.8,Cellular,Stevenchester,-46.693186,-125.659576,Indoor,2021-11-17,2025-02-19,Active,Battery,2022-12-10
+1640,"Thompson, Marsh and Rowe",Router,Hewlett Packard,Catalyst 9300,v9.1,Wi-Fi,North Donna,29.987676,68.132812,Indoor,2020-06-27,2025-01-18,Active,Solar,2021-01-27
+1641,Holt and Sons,Access Point,Netgear,Ubiquiti UniFi AP,v6.5,Cellular,Port Noahton,80.351286,173.570023,Outdoor,2023-05-17,2025-01-19,Maintenance,Battery,2025-02-09
+1642,Collins-Smith,Access Point,Ubiquiti,Aironet 2800,v7.3,Cellular,Port Elizabeth,72.9499,-156.353981,Outdoor,2020-10-07,2025-03-02,Active,Battery,2024-07-29
+1643,Silva-Brooks,Firewall,Juniper,FortiGate 60F,v10.6,Cellular,Debraberg,-80.622799,10.152894,Outdoor,2021-06-21,2025-01-28,Inactive,Solar,2024-08-09
+1644,Morton Group,Switch,Juniper,Arista 7150,v1.9,Wi-Fi,West Jamesfurt,86.751221,-117.614256,Indoor,2024-03-07,2025-01-12,Maintenance,Battery,2023-11-30
+1645,"Wagner, Scott and Powers",Access Point,Arista,Aruba 305,v5.5,Cellular,South Josephfort,13.140053,-64.082008,Outdoor,2021-08-26,2025-01-28,Active,AC,2023-06-26
+1646,"Ingram, Brock and Campbell",Router,Juniper,ASR 1000,v2.8,Ethernet,South Josephfort,26.236051,17.255056,Indoor,2023-04-22,2025-01-31,Active,Solar,2024-07-20
+1647,Alexander LLC,Router,Cisco,ISR 4000,v9.4,Bluetooth,West Cassandra,55.126126,-26.974518,Indoor,2024-05-03,2025-02-03,Inactive,Solar,2021-05-31
+1648,King-Crane,Firewall,Hewlett Packard,Palo Alto Networks PA-200,v6.1,Ethernet,Leviborough,8.67912,69.068772,Outdoor,2022-05-17,2025-01-09,Active,AC,2020-07-27
+1649,"Williams, Ward and Ingram",Switch,Cisco,ProSafe GS,v8.2,Wi-Fi,Matthewmouth,89.089199,-93.651121,Indoor,2020-08-29,2025-03-05,Inactive,AC,2021-05-05
+1650,"Strong, Schroeder and Lloyd",Access Point,Cisco,Aruba 305,v10.6,Ethernet,North Melanietown,87.306596,-37.538204,Indoor,2021-06-16,2025-02-20,Inactive,Solar,2024-02-15
+1651,Lee-Pena,Firewall,Juniper,ASA 5500,v3.8,Ethernet,West Latasha,-3.045933,-99.174765,Outdoor,2021-06-25,2025-02-27,Inactive,Battery,2023-10-29
+1652,Neal PLC,Switch,Juniper,ProSafe GS,v1.1,Bluetooth,Port Manuelburgh,74.678064,91.71018,Indoor,2023-04-13,2025-01-28,Maintenance,Solar,2022-02-28
+1653,Bradshaw-Bauer,Firewall,Hewlett Packard,ASA 5500,v8.7,Wi-Fi,Rosston,65.54278,12.636048,Outdoor,2022-12-04,2025-03-01,Maintenance,Solar,2023-10-01
+1654,Howard-Lee,Router,Arista,Catalyst 9300,v2.7,Cellular,Kanehaven,3.989277,-40.828213,Outdoor,2021-12-09,2025-03-04,Active,Battery,2020-12-31
+1655,Simpson Ltd,Firewall,Ubiquiti,Palo Alto Networks PA-200,v4.8,Ethernet,East Rebeccamouth,4.308073,-8.449963,Indoor,2024-11-29,2025-01-02,Active,AC,2024-02-10
+1656,Myers-Aguilar,Router,Arista,Meraki MX,v9.8,Bluetooth,Lake Sarahville,20.714951,70.498497,Outdoor,2020-03-18,2025-03-03,Maintenance,AC,2024-06-08
+1657,"Sims, Combs and Reyes",Firewall,Ubiquiti,ASA 5500,v7.7,Wi-Fi,Richardborough,77.984284,39.899669,Outdoor,2021-05-05,2025-01-25,Inactive,Solar,2022-08-17
+1658,Meadows LLC,Router,Ubiquiti,RV340,v1.5,Cellular,South Vincent,87.901691,80.403912,Indoor,2022-04-28,2025-02-28,Inactive,Solar,2021-01-27
+1659,Price-Castro,Switch,Cisco,ProSafe GS,v8.9,Ethernet,South Angela,-60.821852,-66.639554,Indoor,2024-08-14,2025-01-30,Active,Solar,2022-10-27
+1660,Gamble Ltd,Firewall,Cisco,ASA 5500,v8.7,Bluetooth,Stephaniechester,33.93029,-124.843508,Indoor,2023-08-22,2025-01-16,Inactive,AC,2020-03-08
+1661,Brown-Lewis,Firewall,Ubiquiti,Palo Alto Networks PA-200,v3.6,Wi-Fi,Lisamouth,12.090553,161.987329,Indoor,2022-10-07,2025-03-03,Maintenance,Solar,2022-10-03
+1662,Collins-Mccall,Access Point,Arista,Ubiquiti UniFi AP,v6.0,Wi-Fi,Lake Alfred,-51.595403,-20.101409,Outdoor,2023-09-03,2025-01-16,Active,AC,2021-09-22
+1663,"Herman, Stewart and Joseph",Access Point,Arista,Aruba 305,v1.7,Bluetooth,Kennedyland,38.14147,126.749159,Indoor,2022-04-12,2025-01-13,Active,Battery,2024-12-23
+1664,"Cruz, Gentry and Morgan",Firewall,Hewlett Packard,Check Point 1400,v5.0,Cellular,West Rachel,-33.379892,119.508487,Outdoor,2021-07-26,2025-01-04,Inactive,AC,2025-02-13
+1665,Garrett-Obrien,Firewall,Arista,Check Point 1400,v10.2,Ethernet,New Sarahview,13.388139,74.575274,Outdoor,2020-05-15,2025-01-01,Inactive,AC,2020-12-20
+1666,Rivera-Lynch,Router,Ubiquiti,Meraki MX,v6.8,Wi-Fi,Josephchester,-84.317554,89.623434,Indoor,2020-11-17,2025-01-31,Inactive,AC,2020-04-13
+1667,"Hendricks, Potter and Johnston",Switch,Netgear,Nexus 3000,v2.2,Cellular,West Donald,-11.89307,-165.935826,Outdoor,2022-11-15,2025-01-03,Maintenance,Battery,2024-11-08
+1668,Bartlett LLC,Firewall,Cisco,Palo Alto Networks PA-200,v4.1,Ethernet,Robertfort,-28.240422,78.94069,Indoor,2021-06-19,2025-01-25,Maintenance,AC,2024-11-15
+1669,Ford LLC,Access Point,Netgear,Meraki MR42,v9.3,Cellular,New Nathanielberg,-78.604579,-146.60543,Outdoor,2022-12-07,2025-02-07,Maintenance,Solar,2022-10-28
+1670,"Garcia, Porter and Garcia",Switch,Juniper,ProSafe GS,v6.0,Ethernet,Arianachester,17.602826,159.389491,Outdoor,2024-11-12,2025-02-10,Active,Solar,2024-05-18
+1671,Brown-Martinez,Switch,Hewlett Packard,Catalyst 9200,v3.0,Bluetooth,North Gwendolyn,12.460997,83.153967,Outdoor,2022-07-04,2025-02-04,Active,Solar,2022-02-05
+1672,Butler-Black,Access Point,Arista,Ubiquiti UniFi AP,v8.8,Ethernet,South Garrett,-74.870103,-125.822795,Indoor,2022-11-18,2025-03-03,Inactive,Solar,2023-07-10
+1673,Whitney-Hunter,Router,Juniper,ASR 1000,v8.3,Cellular,Lefort,-17.776544,-110.489102,Outdoor,2022-09-01,2025-01-13,Inactive,AC,2024-04-23
+1674,"Smith, Gonzalez and Mclean",Firewall,Arista,ASA 5500,v9.7,Cellular,Erikaside,-22.872514,110.251796,Indoor,2020-03-11,2025-02-20,Inactive,Battery,2024-05-12
+1675,"Gonzales, Mcdonald and Hahn",Access Point,Netgear,Ubiquiti UniFi AP,v5.7,Bluetooth,Hodgeschester,-66.629664,36.479345,Indoor,2022-12-07,2025-02-01,Inactive,AC,2022-07-10
+1676,Hall LLC,Router,Juniper,Catalyst 9300,v9.4,Bluetooth,South Annport,-0.66105,-114.361684,Indoor,2021-09-22,2025-01-15,Inactive,AC,2021-12-30
+1677,Reynolds Inc,Switch,Arista,Nexus 3000,v6.6,Cellular,Russellville,68.182784,162.183361,Indoor,2021-08-13,2025-02-08,Maintenance,Solar,2020-01-06
+1678,Hartman and Sons,Access Point,Netgear,Meraki MR42,v8.3,Cellular,Adamsburgh,71.346986,125.312235,Indoor,2024-11-25,2025-01-09,Maintenance,Battery,2021-07-10
+1679,Leblanc Group,Switch,Hewlett Packard,Arista 7150,v7.7,Ethernet,New Haley,-8.627367,-173.826907,Indoor,2020-05-31,2025-01-27,Maintenance,Solar,2020-04-29
+1680,"Smith, Ward and Vargas",Access Point,Hewlett Packard,Aruba 305,v4.2,Ethernet,Johnview,-80.864596,-163.596194,Outdoor,2024-04-11,2025-02-04,Active,Solar,2023-12-27
+1681,"Chung, Bartlett and Savage",Switch,Ubiquiti,ProSafe GS,v1.6,Wi-Fi,South Jennifer,-3.25174,101.977229,Outdoor,2022-10-03,2025-02-19,Active,AC,2020-11-15
+1682,Moyer-Oconnor,Access Point,Juniper,Meraki MR42,v6.9,Cellular,Warrenhaven,71.080851,75.867741,Outdoor,2023-03-26,2025-02-20,Maintenance,Battery,2020-10-09
+1683,Stephens PLC,Firewall,Ubiquiti,Check Point 1400,v2.0,Ethernet,Christinaburgh,83.687538,-89.192423,Indoor,2023-03-12,2025-01-17,Inactive,Battery,2020-08-20
+1684,"Fleming, Clark and Martin",Access Point,Hewlett Packard,Aruba 305,v5.9,Wi-Fi,Huntermouth,-7.819354,23.22181,Indoor,2020-06-11,2025-01-05,Active,AC,2021-11-17
+1685,Edwards-Parker,Router,Netgear,Catalyst 9300,v5.9,Bluetooth,East Joshuatown,-65.611162,-33.671755,Indoor,2022-04-19,2025-03-04,Maintenance,Battery,2023-11-17
+1686,Pierce-Brown,Switch,Hewlett Packard,ProSafe GS,v7.1,Bluetooth,West Brandon,-39.966034,-60.889604,Outdoor,2022-01-09,2025-01-27,Inactive,Solar,2022-05-22
+1687,Davis-Kennedy,Access Point,Cisco,Aironet 2800,v4.5,Ethernet,New John,-25.276764,-13.318017,Outdoor,2023-09-16,2025-02-22,Inactive,Solar,2021-11-22
+1688,"Wang, Mcintosh and Watkins",Router,Cisco,Meraki MX,v1.9,Bluetooth,Michaelhaven,-25.204523,-69.512029,Indoor,2023-02-05,2025-02-21,Active,Solar,2020-12-26
+1689,"Contreras, Little and Bennett",Access Point,Netgear,Ubiquiti UniFi AP,v8.5,Cellular,Joshualand,-37.56533,-143.885232,Outdoor,2023-12-14,2025-01-16,Active,Solar,2022-01-15
+1690,Graves-Miller,Switch,Arista,Arista 7150,v7.2,Cellular,Mcguireshire,-84.248005,-142.804214,Indoor,2021-04-17,2025-02-02,Maintenance,Solar,2021-11-07
+1691,King-Mcdonald,Access Point,Hewlett Packard,Aironet 2800,v5.9,Bluetooth,Jamesmouth,-82.719442,53.563338,Indoor,2020-02-03,2025-02-02,Inactive,AC,2022-08-02
+1692,Lawrence Ltd,Access Point,Netgear,Meraki MR42,v1.8,Bluetooth,Bartonbury,51.531444,144.517536,Indoor,2024-02-26,2025-01-11,Maintenance,AC,2022-09-14
+1693,Phillips Inc,Switch,Juniper,Nexus 3000,v3.4,Wi-Fi,East Mark,-25.488027,104.711489,Indoor,2024-01-12,2025-02-05,Inactive,Battery,2021-10-05
+1694,"Smith, Montes and Fitzpatrick",Firewall,Juniper,Palo Alto Networks PA-200,v7.1,Cellular,New Christopher,31.226198,-127.035288,Indoor,2024-12-05,2025-01-05,Inactive,AC,2021-12-18
+1695,"Phillips, Jimenez and Murphy",Router,Arista,ASR 1000,v4.6,Wi-Fi,East Tamaraburgh,-36.97211,73.401628,Outdoor,2024-09-26,2025-02-28,Inactive,AC,2020-12-26
+1696,"Braun, Acosta and Wise",Switch,Cisco,Nexus 3000,v7.1,Ethernet,Jamesfort,55.996744,-83.114678,Outdoor,2020-12-13,2025-02-24,Maintenance,Battery,2022-01-13
+1697,Moore-Benjamin,Router,Juniper,ISR 4000,v10.5,Ethernet,South Monica,-36.207877,12.717132,Outdoor,2020-02-06,2025-01-05,Maintenance,Battery,2021-05-27
+1698,Gray Inc,Switch,Hewlett Packard,ProSafe GS,v9.7,Cellular,West Jeffrey,89.999073,141.539864,Indoor,2023-09-05,2025-01-21,Inactive,AC,2021-06-16
+1699,"Stevens, Wyatt and Banks",Firewall,Juniper,ASA 5500,v10.9,Cellular,Whiteborough,30.636173,73.497383,Indoor,2022-02-13,2025-02-16,Inactive,AC,2020-03-17
+1700,Matthews Group,Firewall,Juniper,Check Point 1400,v2.7,Wi-Fi,South Nicholas,55.57827,38.79984,Indoor,2020-08-21,2025-02-09,Maintenance,Solar,2020-03-16
+1701,Suarez-Bruce,Router,Arista,RV340,v1.9,Cellular,Rayport,70.409769,-42.507255,Indoor,2021-08-04,2025-03-04,Inactive,Battery,2021-11-08
+1702,Davis-Juarez,Access Point,Hewlett Packard,Aruba 305,v4.1,Bluetooth,Lindaberg,69.709916,-101.285452,Outdoor,2025-01-07,2025-01-28,Active,Battery,2022-07-16
+1703,Nunez Ltd,Firewall,Cisco,FortiGate 60F,v6.3,Wi-Fi,North Emily,-5.710138,-142.104426,Indoor,2023-09-13,2025-01-16,Maintenance,Battery,2023-08-17
+1704,Kennedy-Potter,Router,Netgear,ISR 4000,v10.2,Cellular,Danastad,-33.215293,58.746972,Indoor,2022-04-12,2025-01-15,Inactive,Battery,2022-04-10
+1705,Jimenez-Daniel,Switch,Arista,Catalyst 9200,v8.5,Ethernet,West Williamland,-49.35822,65.80825,Indoor,2021-07-11,2025-01-18,Active,Battery,2024-08-07
+1706,Ho-Moreno,Firewall,Netgear,ASA 5500,v9.7,Cellular,Kevinton,-8.06902,-72.566766,Outdoor,2024-03-15,2025-01-14,Maintenance,Solar,2022-10-18
+1707,Patrick-Green,Access Point,Netgear,Meraki MR42,v6.3,Cellular,Jessicamouth,-47.738429,-15.813198,Outdoor,2024-06-15,2025-01-09,Inactive,AC,2021-08-08
+1708,"Brooks, Howard and Lopez",Access Point,Cisco,Meraki MR42,v8.1,Bluetooth,Nunezmouth,56.067724,-60.273114,Indoor,2021-10-29,2025-02-17,Active,Battery,2021-01-23
+1709,Delacruz-Wilson,Access Point,Hewlett Packard,Aruba 305,v5.8,Cellular,Lake Davidmouth,-10.195108,102.693725,Outdoor,2022-01-23,2025-02-16,Active,Solar,2022-11-02
+1710,Flores Group,Switch,Ubiquiti,Catalyst 9200,v2.9,Wi-Fi,South Angela,-58.528325,-58.733643,Outdoor,2023-05-14,2025-02-28,Inactive,Solar,2023-12-27
+1711,Martinez Inc,Firewall,Arista,Palo Alto Networks PA-200,v2.5,Ethernet,East Ashleyside,-31.025245,-59.392328,Outdoor,2022-04-28,2025-02-18,Inactive,Solar,2021-01-28
+1712,Rodgers and Sons,Switch,Ubiquiti,Arista 7150,v5.6,Ethernet,East Charlesport,-56.244437,143.01937,Outdoor,2021-12-10,2025-02-21,Active,Solar,2023-12-17
+1713,"Nelson, Morrow and Mcdaniel",Switch,Cisco,Catalyst 9200,v6.7,Bluetooth,North Douglasshire,37.493625,94.940234,Outdoor,2021-04-08,2025-02-26,Inactive,Battery,2025-01-23
+1714,"Cooley, Ward and Matthews",Router,Netgear,ISR 4000,v4.0,Cellular,Port Nicholasstad,52.173856,-139.875939,Outdoor,2022-09-23,2025-01-23,Active,Battery,2020-08-03
+1715,"Peters, King and Hernandez",Firewall,Ubiquiti,ASA 5500,v10.9,Ethernet,Joshuaville,85.852805,169.431281,Outdoor,2022-09-02,2025-01-14,Active,Battery,2021-02-04
+1716,Carroll LLC,Switch,Arista,Nexus 3000,v1.1,Ethernet,New Daniel,84.673696,82.47172,Outdoor,2021-09-21,2025-02-27,Maintenance,AC,2020-01-14
+1717,Fisher Ltd,Router,Juniper,Meraki MX,v6.7,Wi-Fi,Michaelhaven,38.235442,-54.398162,Outdoor,2024-12-27,2025-02-25,Inactive,Battery,2020-07-19
+1718,Williams and Sons,Switch,Netgear,ProSafe GS,v3.2,Cellular,New Melindaton,-82.690501,-172.0237,Outdoor,2025-01-28,2025-01-29,Inactive,Battery,2022-01-19
+1719,Sweeney-Peters,Router,Netgear,RV340,v6.7,Wi-Fi,New Normaland,32.175886,-63.125407,Outdoor,2020-11-04,2025-02-02,Active,Solar,2020-03-23
+1720,Morrow Ltd,Switch,Ubiquiti,Catalyst 9200,v1.5,Cellular,Lake Shelby,66.222914,63.153791,Indoor,2021-10-01,2025-02-04,Inactive,Battery,2021-10-09
+1721,Sullivan-Myers,Firewall,Juniper,ASA 5500,v1.2,Ethernet,North Amy,-18.536522,110.097833,Outdoor,2020-03-14,2025-02-14,Inactive,Solar,2024-12-23
+1722,Castillo-Glenn,Switch,Netgear,ProSafe GS,v5.2,Wi-Fi,Kellyside,-25.39307,145.881767,Indoor,2024-06-24,2025-01-30,Active,Solar,2021-01-04
+1723,"Johnson, Figueroa and Stewart",Firewall,Hewlett Packard,FortiGate 60F,v9.7,Ethernet,North Kimberlymouth,74.796059,100.310618,Outdoor,2024-01-14,2025-02-05,Inactive,Solar,2020-10-22
+1724,Johnson LLC,Switch,Hewlett Packard,ProSafe GS,v2.5,Wi-Fi,Taylorhaven,-10.223729,162.51342,Outdoor,2024-09-08,2025-01-23,Inactive,Battery,2023-07-31
+1725,"Conway, Jenkins and Simmons",Firewall,Juniper,FortiGate 60F,v10.5,Cellular,Davisshire,-52.454329,39.123207,Indoor,2024-08-23,2025-01-08,Inactive,AC,2023-01-15
+1726,"Gibson, Walker and West",Switch,Arista,Catalyst 9200,v8.3,Cellular,North Emily,-16.74739,146.544667,Outdoor,2024-04-23,2025-02-22,Inactive,Solar,2021-11-26
+1727,Woodward-Lopez,Switch,Hewlett Packard,Catalyst 9200,v2.5,Ethernet,Lake Sheilaberg,-46.736029,42.365347,Outdoor,2020-03-01,2025-02-22,Inactive,Solar,2020-08-11
+1728,Sullivan Group,Router,Ubiquiti,Catalyst 9300,v3.7,Ethernet,Port Carmentown,25.36082,-16.613879,Indoor,2022-04-16,2025-02-09,Active,AC,2021-06-26
+1729,"Thomas, Pollard and Hill",Firewall,Hewlett Packard,ASA 5500,v1.4,Bluetooth,Tonymouth,73.083987,114.863403,Outdoor,2021-06-27,2025-01-03,Active,Solar,2020-06-21
+1730,Fox-Bailey,Router,Hewlett Packard,ISR 4000,v2.5,Bluetooth,North Sarah,-23.848629,169.676317,Indoor,2021-08-01,2025-02-08,Inactive,AC,2020-11-25
+1731,Hernandez-Hernandez,Access Point,Hewlett Packard,Ubiquiti UniFi AP,v4.0,Cellular,Port Zacharyberg,46.722538,-0.204257,Outdoor,2023-04-03,2025-02-20,Active,AC,2023-11-26
+1732,"Mays, Burns and Whitney",Access Point,Ubiquiti,Ubiquiti UniFi AP,v10.5,Wi-Fi,Terrichester,-67.641844,179.96634,Outdoor,2023-11-08,2025-02-25,Active,Battery,2021-11-28
+1733,Rose-Anderson,Access Point,Hewlett Packard,Aironet 2800,v4.6,Wi-Fi,Garciaport,-85.345291,144.195857,Outdoor,2023-03-17,2025-01-15,Active,AC,2020-03-20
+1734,"Moss, Rose and Perez",Router,Arista,Meraki MX,v1.5,Bluetooth,Milesshire,-2.07527,123.974406,Indoor,2020-03-10,2025-02-05,Maintenance,Solar,2021-01-12
+1735,"Jenkins, English and Newman",Router,Juniper,Meraki MX,v4.0,Ethernet,Ryanmouth,-38.157636,148.951184,Outdoor,2024-04-10,2025-02-13,Inactive,Battery,2023-12-31
+1736,"Hawkins, Robinson and Rodriguez",Firewall,Arista,Palo Alto Networks PA-200,v3.3,Ethernet,Judyport,-16.660759,-136.953988,Indoor,2025-01-16,2025-01-11,Active,AC,2022-07-01
+1737,Padilla Group,Firewall,Arista,Palo Alto Networks PA-200,v1.8,Bluetooth,Jacksonchester,17.489877,37.326239,Outdoor,2020-03-22,2025-01-24,Inactive,AC,2021-04-30
+1738,"Booker, Howard and Stark",Firewall,Arista,Check Point 1400,v5.4,Ethernet,Carpenterside,15.168495,161.940726,Outdoor,2024-01-27,2025-02-14,Inactive,AC,2020-12-12
+1739,Jordan-Lewis,Access Point,Ubiquiti,Meraki MR42,v9.3,Cellular,Port Suzanne,-0.473382,152.142715,Indoor,2022-12-19,2025-01-08,Active,Battery,2023-06-12
+1740,Smith-Hill,Router,Arista,ASR 1000,v1.8,Cellular,Port Stevenview,3.691233,105.277506,Outdoor,2021-08-20,2025-02-24,Maintenance,Battery,2020-09-25
+1741,"Schultz, Lynch and Lopez",Firewall,Hewlett Packard,Check Point 1400,v1.0,Cellular,South Dustinfort,-41.127323,12.217334,Indoor,2025-02-15,2025-02-27,Active,AC,2022-04-24
+1742,Thomas LLC,Switch,Arista,Catalyst 9200,v4.9,Cellular,Sandraborough,11.28793,127.932824,Indoor,2022-08-09,2025-03-01,Inactive,Solar,2024-07-27
+1743,Lynch LLC,Router,Netgear,Catalyst 9300,v6.5,Cellular,South Isabella,9.025966,-108.272202,Outdoor,2021-08-12,2025-02-15,Maintenance,Battery,2020-02-12
+1744,Schwartz PLC,Access Point,Hewlett Packard,Meraki MR42,v4.1,Ethernet,East Erik,-78.231838,151.841031,Outdoor,2021-05-23,2025-01-19,Inactive,AC,2020-08-11
+1745,White-Turner,Switch,Cisco,ProSafe GS,v6.7,Wi-Fi,East Thomas,85.729456,-179.687737,Outdoor,2020-04-24,2025-02-07,Active,Battery,2021-06-11
+1746,"Padilla, Soto and Stephens",Firewall,Juniper,FortiGate 60F,v8.3,Wi-Fi,New Jessicaland,77.33048,-30.619876,Indoor,2024-09-09,2025-02-07,Active,Solar,2022-10-11
+1747,"Cox, Carey and Peck",Router,Cisco,RV340,v2.4,Wi-Fi,West Ambermouth,-64.303489,-3.967171,Indoor,2020-08-19,2025-01-21,Inactive,AC,2021-07-29
+1748,Kelly Group,Router,Cisco,RV340,v4.4,Ethernet,West Jamesberg,-61.04706,-102.411301,Indoor,2022-11-26,2025-02-14,Inactive,Solar,2023-05-14
+1749,Houston PLC,Router,Arista,ASR 1000,v3.6,Ethernet,Terrymouth,-51.246528,-95.700913,Outdoor,2023-12-08,2025-02-17,Inactive,Solar,2020-12-11
+1750,Powell Group,Access Point,Netgear,Meraki MR42,v10.3,Wi-Fi,South Jaime,-34.232822,140.97956,Outdoor,2020-12-06,2025-02-09,Maintenance,Solar,2021-08-13
+1751,Chen and Sons,Access Point,Ubiquiti,Aironet 2800,v8.8,Bluetooth,New Connor,86.233874,-177.279844,Outdoor,2022-04-20,2025-01-01,Active,Solar,2022-05-28
+1752,Trujillo Ltd,Router,Juniper,ASR 1000,v7.3,Wi-Fi,Lyonsstad,-85.770741,89.982282,Outdoor,2020-10-10,2025-01-14,Maintenance,Solar,2021-11-22
+1753,Jones-Lucas,Access Point,Juniper,Ubiquiti UniFi AP,v6.1,Ethernet,Melissastad,66.336527,93.429577,Indoor,2021-07-14,2025-01-31,Inactive,Battery,2021-11-29
+1754,Johnson-Hicks,Router,Cisco,ASR 1000,v4.9,Ethernet,Jameshaven,87.543036,-80.548536,Indoor,2020-09-02,2025-02-10,Inactive,Solar,2022-12-31
+1755,Keller-Carlson,Firewall,Netgear,Check Point 1400,v7.5,Ethernet,West Richardview,43.009237,124.015097,Indoor,2025-01-11,2025-02-04,Inactive,AC,2021-12-26
+1756,Ryan and Sons,Firewall,Cisco,Palo Alto Networks PA-200,v10.6,Wi-Fi,South John,4.136471,-138.339373,Outdoor,2020-11-21,2025-02-11,Active,Solar,2020-04-01
+1757,Cohen Group,Router,Arista,RV340,v1.8,Wi-Fi,Marthaville,12.418899,4.160073,Outdoor,2024-04-25,2025-01-16,Maintenance,Solar,2023-11-14
+1758,Cohen LLC,Access Point,Hewlett Packard,Meraki MR42,v5.4,Wi-Fi,Barbarahaven,-28.356421,33.101023,Indoor,2021-07-23,2025-01-16,Active,Solar,2022-08-10
+1759,Martinez-Smith,Router,Arista,ISR 4000,v3.4,Wi-Fi,Tylerview,-77.215653,-13.683503,Indoor,2020-07-22,2025-02-05,Active,Battery,2022-09-04
+1760,Johnson Group,Switch,Arista,ProSafe GS,v4.4,Wi-Fi,Lake Heather,-2.463934,-126.677477,Indoor,2024-06-02,2025-02-15,Maintenance,AC,2021-06-06
+1761,Wade Inc,Access Point,Arista,Meraki MR42,v5.4,Cellular,West Rickey,52.302659,121.521011,Indoor,2020-10-20,2025-01-10,Maintenance,Solar,2022-08-06
+1762,Scott-Bishop,Switch,Netgear,ProSafe GS,v2.4,Wi-Fi,Sarahtown,-64.659935,84.803662,Indoor,2022-09-12,2025-02-26,Active,Battery,2023-05-14
+1763,"Rasmussen, Carr and Jordan",Firewall,Arista,Check Point 1400,v2.4,Bluetooth,Brendanport,85.248568,-71.123077,Indoor,2024-02-13,2025-02-16,Active,Battery,2024-11-29
+1764,Hall-Dunn,Firewall,Arista,ASA 5500,v8.2,Cellular,West Toddport,-63.669312,-114.634597,Indoor,2021-06-02,2025-01-08,Active,Solar,2022-04-11
+1765,"Robinson, Palmer and Robbins",Switch,Netgear,Nexus 3000,v2.2,Ethernet,North Pamelaborough,-31.4746,111.298603,Outdoor,2022-03-15,2025-01-22,Maintenance,AC,2022-09-18
+1766,"Myers, Medina and Wilson",Router,Netgear,Meraki MX,v1.8,Wi-Fi,Higginsberg,28.689827,27.871139,Outdoor,2021-06-20,2025-01-26,Active,Solar,2020-11-06
+1767,Gardner PLC,Switch,Cisco,Nexus 3000,v4.0,Cellular,Hawkinsbury,55.902223,-174.524607,Indoor,2021-07-24,2025-03-05,Inactive,Solar,2024-06-16
+1768,Savage and Sons,Access Point,Hewlett Packard,Aironet 2800,v9.6,Bluetooth,North Melanie,16.689283,-31.441772,Outdoor,2024-11-10,2025-02-25,Active,Solar,2024-12-01
+1769,"Blackburn, Houston and Taylor",Switch,Arista,ProSafe GS,v6.3,Ethernet,North Melissaville,82.450299,113.021068,Outdoor,2022-02-03,2025-01-11,Active,Battery,2022-02-05
+1770,"Rodriguez, Walls and Morgan",Router,Juniper,ISR 4000,v4.6,Cellular,Bryanview,-82.20734,99.247222,Outdoor,2023-12-15,2025-02-17,Maintenance,Battery,2022-06-27
+1771,Navarro and Sons,Firewall,Ubiquiti,Palo Alto Networks PA-200,v3.4,Cellular,South Jamesville,13.765682,-52.688408,Indoor,2020-09-09,2025-02-28,Inactive,AC,2023-12-25
+1772,"Gross, Cross and Lee",Access Point,Arista,Aironet 2800,v2.2,Wi-Fi,West Kathleen,18.793153,47.216987,Outdoor,2021-08-18,2025-03-03,Inactive,Solar,2022-11-22
+1773,Campbell-Williams,Firewall,Cisco,ASA 5500,v9.0,Cellular,Gailshire,-4.37884,62.23779,Outdoor,2020-08-01,2025-02-18,Active,Solar,2021-07-28
+1774,Riggs LLC,Switch,Juniper,Nexus 3000,v10.5,Cellular,Walkerton,-56.576514,-93.185239,Indoor,2020-08-30,2025-01-15,Active,AC,2022-01-19
+1775,Smith-Walters,Switch,Arista,Arista 7150,v5.6,Bluetooth,Mendozaburgh,-72.971182,-123.713774,Indoor,2023-07-23,2025-01-24,Inactive,Solar,2020-08-05
+1776,"Cain, Baker and Schwartz",Firewall,Arista,Palo Alto Networks PA-200,v1.9,Wi-Fi,East Nicole,-8.288079,-19.733754,Outdoor,2024-01-27,2025-02-08,Active,Battery,2023-02-15
+1777,"Morse, Palmer and Cervantes",Router,Ubiquiti,ISR 4000,v7.0,Bluetooth,Danielborough,-63.835468,171.638677,Indoor,2022-03-15,2025-02-09,Maintenance,Battery,2021-12-14
+1778,"Avila, Mason and Gomez",Router,Ubiquiti,Meraki MX,v3.9,Cellular,New Monicaborough,41.833451,-132.671036,Indoor,2023-12-06,2025-02-17,Maintenance,Solar,2020-05-23
+1779,Morgan-Jones,Switch,Hewlett Packard,Catalyst 9200,v1.5,Wi-Fi,Adamfort,-22.405011,-128.222671,Indoor,2020-12-05,2025-02-05,Maintenance,Battery,2022-09-15
+1780,"Wright, Mason and Miller",Access Point,Juniper,Meraki MR42,v5.1,Cellular,East Todd,63.559334,154.645695,Outdoor,2023-10-07,2025-03-01,Active,Battery,2020-12-13
+1781,Schultz Group,Switch,Arista,ProSafe GS,v6.0,Bluetooth,Mercerland,1.752186,104.68712,Indoor,2021-02-04,2025-01-07,Inactive,AC,2024-04-23
+1782,"Nguyen, Allen and Brown",Switch,Hewlett Packard,ProSafe GS,v8.1,Wi-Fi,Pamelabury,-63.326425,-11.76975,Outdoor,2021-05-13,2025-01-23,Inactive,AC,2022-12-16
+1783,Cruz Group,Switch,Netgear,Nexus 3000,v3.1,Bluetooth,Leachberg,65.512743,-43.751755,Outdoor,2022-04-01,2025-01-28,Inactive,Solar,2021-08-25
+1784,Bond Ltd,Access Point,Cisco,Aruba 305,v2.9,Cellular,Huntershire,39.220352,-113.594997,Indoor,2020-06-29,2025-02-23,Active,Solar,2024-11-08
+1785,Hines Inc,Switch,Ubiquiti,Nexus 3000,v4.9,Ethernet,East Taylorburgh,-35.338612,64.640425,Indoor,2020-01-21,2025-01-19,Maintenance,Battery,2024-08-13
+1786,"Williams, Webb and Evans",Access Point,Netgear,Aruba 305,v5.3,Ethernet,New Gary,28.336902,-121.253367,Indoor,2022-12-03,2025-01-10,Inactive,Battery,2025-01-17
+1787,Mcdaniel PLC,Access Point,Ubiquiti,Ubiquiti UniFi AP,v7.3,Ethernet,West Chelsey,63.349656,19.847025,Outdoor,2024-08-09,2025-01-05,Inactive,Solar,2021-11-28
+1788,Davis-Sandoval,Switch,Cisco,Nexus 3000,v8.5,Cellular,North Thomasfort,-32.825138,-75.820913,Indoor,2021-09-14,2025-02-06,Maintenance,Battery,2024-07-30
+1789,Andersen-Smith,Access Point,Cisco,Ubiquiti UniFi AP,v2.9,Wi-Fi,North Andreafurt,33.673022,-44.2996,Outdoor,2024-05-20,2025-01-06,Active,Battery,2021-11-11
+1790,"Thompson, Nelson and Clark",Access Point,Juniper,Ubiquiti UniFi AP,v7.5,Ethernet,South Michael,82.511694,-29.248216,Indoor,2023-10-09,2025-03-02,Inactive,Solar,2021-06-16
+1791,Pena-Griffith,Access Point,Netgear,Ubiquiti UniFi AP,v7.4,Ethernet,Dillonfort,-26.230129,90.186021,Outdoor,2023-09-08,2025-02-03,Maintenance,Solar,2020-07-20
+1792,Ramirez-Wright,Switch,Arista,Nexus 3000,v5.0,Wi-Fi,Lake Katelynmouth,-5.440978,-54.709256,Indoor,2023-06-05,2025-02-16,Inactive,AC,2025-01-17
+1793,"Barnes, Johnson and Jordan",Router,Arista,Catalyst 9300,v9.7,Cellular,West Christine,42.755912,136.775296,Indoor,2022-07-13,2025-01-19,Maintenance,Battery,2023-05-29
+1794,"Davis, Harper and Dixon",Access Point,Netgear,Aironet 2800,v1.6,Cellular,East Amandatown,36.212529,97.073159,Indoor,2022-02-01,2025-02-13,Active,AC,2022-07-12
+1795,"Stone, Lewis and Pruitt",Access Point,Ubiquiti,Aruba 305,v5.8,Bluetooth,Patriciaside,77.380807,88.574801,Indoor,2023-11-07,2025-02-14,Active,Solar,2023-10-15
+1796,Becker and Sons,Router,Netgear,Meraki MX,v1.8,Wi-Fi,North Rebecca,-37.430883,-105.167017,Outdoor,2023-07-29,2025-03-02,Active,Battery,2024-11-09
+1797,Gonzalez-Turner,Access Point,Juniper,Ubiquiti UniFi AP,v7.1,Bluetooth,Acostastad,44.343984,-69.819476,Indoor,2024-09-30,2025-01-12,Active,AC,2021-09-10
+1798,"Mcdaniel, Hurst and Hall",Switch,Juniper,Catalyst 9200,v4.0,Cellular,Larryshire,24.815676,113.997036,Indoor,2021-08-31,2025-02-27,Maintenance,AC,2021-01-15
+1799,"Rodgers, Cardenas and Palmer",Access Point,Juniper,Aruba 305,v5.5,Cellular,New Jeremy,12.299566,95.681349,Outdoor,2024-02-07,2025-01-23,Inactive,Solar,2024-02-08
+1800,Martinez and Sons,Firewall,Arista,Check Point 1400,v10.1,Ethernet,Thompsonberg,46.453364,81.559869,Outdoor,2023-06-03,2025-03-02,Maintenance,Solar,2020-01-18
+1801,"Craig, Callahan and Molina",Firewall,Netgear,Check Point 1400,v2.6,Cellular,Port Mark,-18.375468,-166.346175,Indoor,2021-06-11,2025-01-09,Active,Battery,2022-08-11
+1802,Brooks Inc,Switch,Hewlett Packard,Nexus 3000,v2.8,Bluetooth,Kimberlyfurt,5.57313,-131.698525,Indoor,2022-10-17,2025-02-03,Maintenance,Solar,2021-10-04
+1803,"Torres, Rocha and Ward",Firewall,Cisco,Check Point 1400,v8.5,Wi-Fi,South Julie,-53.739919,-68.805007,Indoor,2023-01-12,2025-02-26,Inactive,AC,2020-09-22
+1804,Miller LLC,Switch,Juniper,ProSafe GS,v1.8,Ethernet,Daleside,-41.768092,-52.964196,Outdoor,2024-04-25,2025-01-26,Active,Battery,2024-06-21
+1805,Olson Group,Router,Hewlett Packard,ASR 1000,v4.3,Ethernet,South Spencerside,61.659249,45.241159,Indoor,2020-11-20,2025-02-01,Inactive,Battery,2024-10-27
+1806,Woodward and Sons,Access Point,Cisco,Ubiquiti UniFi AP,v6.7,Cellular,Ashleyside,35.349708,-84.086019,Outdoor,2024-04-29,2025-02-08,Inactive,Battery,2024-10-11
+1807,"Smith, Blair and Huff",Switch,Hewlett Packard,ProSafe GS,v8.7,Ethernet,West Davidfort,-25.875436,-41.577449,Outdoor,2022-03-28,2025-02-04,Maintenance,Battery,2023-06-16
+1808,Diaz-Diaz,Switch,Ubiquiti,Arista 7150,v5.1,Bluetooth,South Robert,8.536771,4.736204,Outdoor,2023-04-04,2025-02-15,Inactive,Solar,2023-04-28
+1809,"Carter, Lopez and Scott",Switch,Juniper,Nexus 3000,v7.9,Ethernet,Jeffreytown,50.097246,116.335689,Indoor,2025-01-05,2025-01-16,Maintenance,Solar,2024-05-25
+1810,"Jackson, Carlson and Campbell",Firewall,Juniper,Check Point 1400,v1.0,Cellular,East Catherine,-68.998172,-6.334425,Outdoor,2022-02-17,2025-02-23,Maintenance,AC,2023-05-26
+1811,Young-Smith,Switch,Juniper,ProSafe GS,v9.4,Cellular,Heatherborough,2.748969,54.415767,Indoor,2022-09-14,2025-01-01,Inactive,Battery,2022-01-22
+1812,"Mayo, Carpenter and Edwards",Router,Hewlett Packard,RV340,v4.7,Wi-Fi,New Juanville,-21.642107,-169.67697,Outdoor,2024-04-16,2025-01-08,Maintenance,AC,2020-03-22
+1813,Green PLC,Access Point,Arista,Aruba 305,v1.6,Wi-Fi,Barbaramouth,24.74881,36.539029,Indoor,2024-05-21,2025-02-19,Active,Solar,2024-01-31
+1814,"Carr, Garcia and Huerta",Switch,Juniper,Arista 7150,v2.1,Cellular,Jeremyville,-45.09183,-30.596562,Outdoor,2024-05-28,2025-02-01,Active,AC,2022-05-23
+1815,"Acevedo, Long and Gordon",Firewall,Arista,ASA 5500,v9.5,Ethernet,West Paul,47.847173,142.993849,Indoor,2023-04-01,2025-01-30,Inactive,Battery,2023-11-02
+1816,Quinn-Allen,Firewall,Juniper,Check Point 1400,v4.8,Wi-Fi,Port Daniel,-22.281964,130.515477,Indoor,2022-11-30,2025-02-07,Maintenance,AC,2023-09-20
+1817,Cain Ltd,Firewall,Cisco,Check Point 1400,v10.5,Ethernet,South David,89.388471,79.926179,Indoor,2022-03-20,2025-01-06,Inactive,AC,2022-04-02
+1818,"Liu, Johnson and Watson",Access Point,Cisco,Aironet 2800,v9.5,Bluetooth,Tonyburgh,14.845908,71.071841,Outdoor,2023-06-29,2025-01-25,Active,Battery,2022-07-04
+1819,Hart Ltd,Switch,Arista,Nexus 3000,v8.3,Wi-Fi,North Emily,42.044228,-82.312749,Outdoor,2020-09-30,2025-01-02,Maintenance,Solar,2023-11-08
+1820,"Williams, Martinez and Owens",Firewall,Hewlett Packard,Palo Alto Networks PA-200,v2.5,Bluetooth,Kaylaburgh,5.908753,-153.539199,Indoor,2020-04-22,2025-01-12,Inactive,Battery,2022-12-28
+1821,Fisher-Woodard,Switch,Netgear,Catalyst 9200,v9.7,Ethernet,Lake Cynthiaview,28.124779,-82.475627,Outdoor,2024-08-26,2025-01-07,Inactive,Solar,2021-04-20
+1822,Ashley-Harvey,Firewall,Netgear,Palo Alto Networks PA-200,v6.6,Cellular,East Annachester,35.548984,3.943374,Indoor,2024-08-29,2025-01-26,Maintenance,AC,2020-04-15
+1823,"Rogers, Petersen and Pollard",Access Point,Arista,Aironet 2800,v9.5,Wi-Fi,Simsshire,-33.175862,63.447193,Indoor,2024-12-08,2025-02-25,Active,Solar,2025-02-21
+1824,Dickson-Robinson,Router,Arista,ASR 1000,v8.4,Wi-Fi,West Sean,-68.47103,-46.324941,Outdoor,2023-11-20,2025-02-23,Inactive,Solar,2021-03-25
+1825,"Kidd, Miller and Luna",Router,Hewlett Packard,ASR 1000,v5.9,Ethernet,North Justinside,-60.449248,131.082735,Outdoor,2021-11-24,2025-01-11,Inactive,Solar,2023-03-22
+1826,"Roberson, Cruz and Curtis",Switch,Hewlett Packard,ProSafe GS,v10.6,Wi-Fi,New Georgestad,-6.136804,-78.595521,Outdoor,2021-06-13,2025-01-12,Active,AC,2022-08-28
+1827,"Shaw, Barrett and Thompson",Firewall,Hewlett Packard,ASA 5500,v6.1,Cellular,Hillland,-38.881178,-163.821712,Outdoor,2022-08-26,2025-01-11,Inactive,Solar,2020-10-19
+1828,"Obrien, Bullock and Roberts",Firewall,Netgear,Palo Alto Networks PA-200,v4.1,Wi-Fi,Clementston,22.304669,16.138112,Outdoor,2023-03-28,2025-01-04,Maintenance,Solar,2022-11-16
+1829,Kim Ltd,Firewall,Ubiquiti,FortiGate 60F,v5.9,Bluetooth,North Kevintown,-5.779439,-48.238185,Indoor,2020-01-01,2025-01-28,Inactive,Solar,2023-11-23
+1830,Curry-Mendoza,Firewall,Arista,ASA 5500,v8.3,Wi-Fi,Lake Mitchellborough,-21.639129,119.183012,Outdoor,2022-09-05,2025-01-19,Active,AC,2022-02-10
+1831,"Castro, Wallace and Villegas",Switch,Hewlett Packard,ProSafe GS,v3.6,Wi-Fi,Lake Travishaven,20.705219,32.304153,Indoor,2021-10-12,2025-01-02,Active,AC,2022-04-16
+1832,Lindsey PLC,Access Point,Hewlett Packard,Aironet 2800,v2.3,Wi-Fi,Lake Patrick,48.963842,-29.142359,Outdoor,2023-08-26,2025-02-28,Maintenance,Battery,2022-02-25
+1833,"Carson, Stanton and Campbell",Switch,Cisco,Arista 7150,v4.3,Ethernet,North Theresa,63.766678,-163.506546,Indoor,2020-07-20,2025-03-02,Active,AC,2024-01-27
+1834,Lang PLC,Switch,Arista,ProSafe GS,v2.5,Cellular,Santosmouth,-26.579087,-62.842977,Outdoor,2022-04-13,2025-02-28,Inactive,AC,2024-01-23
+1835,"Murphy, Perry and Smith",Firewall,Ubiquiti,Check Point 1400,v2.4,Wi-Fi,East Amandaberg,-50.826278,-49.459138,Outdoor,2022-09-13,2025-01-14,Maintenance,Solar,2023-04-09
+1836,Silva-Hatfield,Access Point,Hewlett Packard,Ubiquiti UniFi AP,v4.5,Cellular,North Angelaburgh,-21.90528,-108.16625,Outdoor,2024-03-01,2025-02-02,Active,AC,2024-04-18
+1837,Kelly Group,Access Point,Hewlett Packard,Meraki MR42,v6.5,Wi-Fi,East Javierland,-64.842084,-133.268836,Outdoor,2022-01-10,2025-01-25,Maintenance,Solar,2022-11-01
+1838,"Potter, Burke and Garcia",Access Point,Hewlett Packard,Meraki MR42,v7.4,Bluetooth,North Tami,-83.057951,-168.711158,Outdoor,2022-07-25,2025-02-21,Maintenance,Battery,2022-12-25
+1839,Young-Johnson,Router,Netgear,ISR 4000,v2.9,Bluetooth,Shepherdside,-6.347484,76.02388,Indoor,2020-07-10,2025-01-06,Maintenance,Solar,2024-11-18
+1840,Brock-Guerra,Switch,Juniper,Arista 7150,v4.9,Bluetooth,Lake Diana,-84.515843,-56.913381,Outdoor,2023-05-23,2025-02-08,Inactive,Battery,2022-08-11
+1841,Adams-Miller,Firewall,Ubiquiti,Check Point 1400,v1.9,Cellular,Port Chloe,-59.350179,30.975073,Indoor,2024-06-05,2025-02-05,Inactive,Battery,2024-06-04
+1842,Moore-Garcia,Router,Hewlett Packard,Meraki MX,v2.1,Cellular,Lewisshire,-40.108539,154.300626,Indoor,2020-09-22,2025-01-01,Inactive,Solar,2021-11-09
+1843,Novak LLC,Firewall,Juniper,FortiGate 60F,v9.0,Cellular,Powersmouth,-12.499397,-151.392472,Indoor,2022-05-20,2025-02-18,Maintenance,Battery,2023-04-19
+1844,"Sandoval, Robinson and Carr",Firewall,Netgear,ASA 5500,v1.7,Ethernet,West Stanley,58.626883,51.144387,Indoor,2024-06-13,2025-01-07,Active,Solar,2023-04-22
+1845,Sanders-Jones,Switch,Hewlett Packard,ProSafe GS,v3.3,Ethernet,South Monique,-6.054382,-102.123857,Indoor,2022-07-16,2025-01-22,Inactive,Solar,2020-01-15
+1846,Bradley Ltd,Router,Cisco,ISR 4000,v6.5,Wi-Fi,West Cherylside,-85.491081,-57.587214,Outdoor,2023-09-16,2025-01-08,Active,AC,2022-03-19
+1847,Mitchell-Barnes,Router,Netgear,RV340,v6.1,Cellular,Port Matthew,20.279505,-75.792119,Outdoor,2024-12-27,2025-01-17,Active,Solar,2021-03-16
+1848,Meyer PLC,Router,Ubiquiti,ASR 1000,v2.6,Wi-Fi,Lake Michaelshire,-47.405241,-94.100304,Indoor,2023-04-07,2025-01-23,Maintenance,Solar,2023-05-31
+1849,Wilson LLC,Firewall,Hewlett Packard,ASA 5500,v10.9,Ethernet,East Lorishire,-23.28503,132.10514,Indoor,2024-07-01,2025-01-01,Inactive,AC,2020-09-30
+1850,Perez-Becker,Router,Cisco,RV340,v4.7,Wi-Fi,East Brandon,-4.525214,-12.153435,Indoor,2024-09-03,2025-01-13,Inactive,Solar,2023-08-12
+1851,Woodward Inc,Firewall,Juniper,Check Point 1400,v1.8,Wi-Fi,Lake Jenniferfurt,-50.164447,-46.160225,Indoor,2020-08-09,2025-02-10,Maintenance,Solar,2020-11-21
+1852,Mcdonald Inc,Firewall,Netgear,ASA 5500,v5.7,Ethernet,East Alanview,59.589759,111.730937,Outdoor,2024-05-26,2025-02-06,Active,Solar,2022-02-24
+1853,Patel LLC,Access Point,Cisco,Ubiquiti UniFi AP,v9.9,Cellular,North Brenda,43.294672,39.146556,Indoor,2023-05-29,2025-02-14,Active,AC,2020-12-06
+1854,"Howard, Hall and Gomez",Switch,Juniper,Catalyst 9200,v1.5,Bluetooth,Mooreport,-3.084406,-170.173167,Outdoor,2023-06-19,2025-01-24,Maintenance,Solar,2022-08-08
+1855,Landry-Clark,Access Point,Ubiquiti,Meraki MR42,v1.2,Ethernet,East Markstad,51.87973,44.811671,Indoor,2024-01-23,2025-01-25,Inactive,Battery,2023-10-19
+1856,Shelton-Duarte,Switch,Ubiquiti,Catalyst 9200,v2.7,Ethernet,Warrenland,-18.327332,32.167345,Outdoor,2021-02-28,2025-02-13,Inactive,Solar,2025-01-18
+1857,"White, Rodriguez and Gilbert",Access Point,Arista,Aruba 305,v4.2,Wi-Fi,Tiffanymouth,-37.944337,160.734284,Outdoor,2021-05-15,2025-02-23,Active,AC,2020-11-16
+1858,Hahn-Carey,Router,Netgear,Catalyst 9300,v3.2,Ethernet,South Adrienneville,9.828965,82.275791,Outdoor,2025-01-16,2025-01-25,Maintenance,Solar,2024-07-01
+1859,"Wade, Oneill and Hart",Switch,Ubiquiti,ProSafe GS,v9.7,Bluetooth,West Lisaside,-60.17714,-66.224456,Indoor,2022-02-09,2025-01-16,Active,Battery,2023-07-22
+1860,Cortez Ltd,Switch,Arista,Arista 7150,v2.8,Bluetooth,South Randyburgh,-83.549725,61.467119,Indoor,2022-04-28,2025-02-03,Inactive,AC,2020-01-11
+1861,Tyler-Blevins,Router,Arista,RV340,v5.3,Ethernet,Spencerport,-82.753693,-170.871436,Outdoor,2023-03-11,2025-03-04,Inactive,Solar,2023-02-01
+1862,Freeman-Brooks,Switch,Juniper,Nexus 3000,v8.6,Wi-Fi,West James,49.807555,125.277047,Outdoor,2020-05-28,2025-01-05,Active,Battery,2025-02-03
+1863,Shaw-Curtis,Access Point,Arista,Meraki MR42,v3.1,Cellular,North Sherryfurt,-38.307626,6.175727,Indoor,2022-05-31,2025-01-08,Maintenance,Battery,2020-10-01
+1864,"Avery, Johnson and Goodwin",Switch,Hewlett Packard,ProSafe GS,v9.6,Cellular,Campbellburgh,-38.722901,-153.299991,Indoor,2022-06-13,2025-02-13,Maintenance,AC,2021-08-12
+1865,"Salazar, Johnson and Miller",Access Point,Hewlett Packard,Ubiquiti UniFi AP,v3.8,Bluetooth,Port Aprilhaven,36.834343,134.32657,Indoor,2023-08-03,2025-01-25,Maintenance,Battery,2022-06-06
+1866,"Cannon, Booker and Perry",Access Point,Cisco,Ubiquiti UniFi AP,v4.6,Cellular,New Andreamouth,66.245892,162.535797,Outdoor,2021-09-19,2025-02-05,Active,Solar,2024-01-21
+1867,"Miller, Todd and Daniel",Firewall,Hewlett Packard,Check Point 1400,v6.8,Ethernet,Floresview,13.870941,-87.976115,Outdoor,2023-12-29,2025-01-22,Inactive,Battery,2022-12-25
+1868,Allen Group,Firewall,Ubiquiti,FortiGate 60F,v5.9,Wi-Fi,Cooperside,64.360511,41.277881,Outdoor,2020-04-26,2025-01-23,Inactive,Solar,2021-07-02
+1869,Beck-Carrillo,Switch,Juniper,Arista 7150,v3.6,Wi-Fi,East Tammy,-7.778729,127.789348,Indoor,2020-02-17,2025-01-10,Active,Solar,2021-08-14
+1870,Jackson Inc,Access Point,Juniper,Meraki MR42,v5.7,Bluetooth,Jessicaville,79.210901,13.805362,Outdoor,2020-08-18,2025-03-01,Inactive,Battery,2022-06-26
+1871,Lopez and Sons,Access Point,Cisco,Aruba 305,v2.4,Wi-Fi,Deniseton,67.769861,110.870499,Indoor,2023-05-12,2025-01-23,Inactive,Solar,2022-10-06
+1872,Fischer-Schroeder,Firewall,Ubiquiti,ASA 5500,v9.4,Bluetooth,Jonesstad,16.833171,-84.550938,Indoor,2020-11-22,2025-01-18,Active,Battery,2023-02-20
+1873,"White, Weaver and Gilmore",Switch,Ubiquiti,ProSafe GS,v3.5,Ethernet,Port Nicholashaven,-65.949076,178.23536,Indoor,2023-07-19,2025-02-23,Active,Battery,2022-12-18
+1874,Benitez-Williams,Switch,Juniper,Catalyst 9200,v8.1,Bluetooth,North Vickiemouth,22.005965,68.482307,Indoor,2024-02-08,2025-02-15,Active,AC,2023-03-16
+1875,"Phillips, Porter and Brown",Switch,Ubiquiti,Catalyst 9200,v1.4,Wi-Fi,Curtisville,51.749642,69.846642,Indoor,2022-10-24,2025-01-26,Active,Solar,2021-09-24
+1876,Gross-Johnson,Access Point,Juniper,Ubiquiti UniFi AP,v5.4,Bluetooth,Wilkinsbury,27.480926,-173.041144,Outdoor,2022-11-25,2025-02-04,Active,AC,2025-02-07
+1877,Walker-Allen,Firewall,Juniper,Palo Alto Networks PA-200,v7.2,Ethernet,Taylorfurt,27.14683,148.261743,Outdoor,2021-01-22,2025-01-07,Maintenance,Solar,2021-08-04
+1878,Gonzalez-Robinson,Firewall,Hewlett Packard,FortiGate 60F,v1.4,Ethernet,South Luis,-37.371999,103.474143,Outdoor,2025-01-22,2025-02-22,Active,AC,2023-09-23
+1879,"Ryan, Brooks and Scott",Router,Netgear,RV340,v7.3,Cellular,Carlbury,-54.110451,131.865531,Indoor,2023-12-08,2025-03-01,Inactive,Solar,2021-05-09
+1880,"Holmes, Smith and Jones",Switch,Juniper,Arista 7150,v10.5,Bluetooth,New Kyle,22.196185,-120.827085,Indoor,2023-07-04,2025-01-21,Maintenance,Solar,2020-09-10
+1881,Coleman PLC,Access Point,Arista,Aironet 2800,v10.1,Ethernet,North Angela,-30.243348,36.874816,Outdoor,2021-11-30,2025-01-03,Inactive,Battery,2025-02-02
+1882,Taylor-Ray,Firewall,Juniper,Check Point 1400,v4.4,Wi-Fi,New Kenneth,-45.400233,88.386544,Indoor,2023-11-30,2025-01-19,Maintenance,Battery,2024-05-28
+1883,"Wood, Rich and Gilbert",Firewall,Arista,ASA 5500,v4.9,Ethernet,Jasonshire,24.028002,48.163318,Indoor,2024-08-02,2025-02-06,Maintenance,AC,2020-05-04
+1884,"Nicholson, Gibson and Haynes",Access Point,Netgear,Meraki MR42,v4.1,Bluetooth,Jessicachester,53.897299,-149.032405,Indoor,2023-07-20,2025-02-07,Active,Solar,2024-05-27
+1885,Knight Inc,Firewall,Netgear,Palo Alto Networks PA-200,v7.1,Wi-Fi,East Thomas,-21.648092,80.64269,Indoor,2024-05-11,2025-01-03,Maintenance,AC,2020-02-16
+1886,Berg-Wise,Firewall,Juniper,ASA 5500,v9.3,Ethernet,Lake Gordonville,32.175666,-118.196218,Outdoor,2022-09-15,2025-02-21,Inactive,Solar,2022-08-06
+1887,Turner LLC,Switch,Juniper,Nexus 3000,v9.4,Cellular,Crossbury,16.212567,173.707689,Outdoor,2020-01-05,2025-02-16,Inactive,Solar,2025-03-06
+1888,Rubio LLC,Switch,Netgear,ProSafe GS,v4.0,Wi-Fi,Schmidttown,-32.506384,-160.594651,Outdoor,2020-10-24,2025-02-20,Active,AC,2023-05-06
+1889,"Henderson, Shannon and Carr",Access Point,Juniper,Ubiquiti UniFi AP,v10.0,Wi-Fi,Katiebury,73.113777,138.079132,Outdoor,2024-07-19,2025-01-20,Maintenance,Solar,2024-07-09
+1890,Pittman-Little,Access Point,Ubiquiti,Ubiquiti UniFi AP,v9.5,Wi-Fi,Lake Nicholas,-46.73732,55.723253,Outdoor,2020-02-21,2025-01-15,Maintenance,AC,2024-04-17
+1891,"Hill, Boyer and Strong",Firewall,Hewlett Packard,FortiGate 60F,v1.2,Bluetooth,Pottstown,81.082461,-74.08949,Outdoor,2023-12-28,2025-02-07,Inactive,Solar,2021-04-18
+1892,"Hodge, Alvarado and Clark",Access Point,Ubiquiti,Meraki MR42,v7.1,Cellular,Port Mark,75.873086,171.521313,Indoor,2020-05-26,2025-02-10,Inactive,Solar,2020-03-23
+1893,"Sherman, Smith and Anderson",Firewall,Cisco,Check Point 1400,v3.4,Bluetooth,New Brookebury,73.570034,34.752104,Indoor,2024-06-25,2025-01-05,Active,Solar,2021-11-26
+1894,Pacheco-Walker,Access Point,Netgear,Aruba 305,v4.3,Bluetooth,South Lorettaland,47.133028,-113.777212,Outdoor,2024-08-15,2025-03-01,Active,AC,2025-02-07
+1895,Hinton-Walker,Router,Hewlett Packard,ASR 1000,v1.1,Ethernet,Rogersberg,3.512006,-6.539816,Outdoor,2020-12-30,2025-02-14,Maintenance,Battery,2023-10-31
+1896,Davis-Greene,Router,Arista,RV340,v3.7,Cellular,Martinburgh,41.796756,114.632198,Indoor,2020-04-08,2025-01-06,Maintenance,AC,2020-12-31
+1897,"Davenport, Whitaker and Myers",Router,Cisco,Catalyst 9300,v7.4,Wi-Fi,North Stephanie,-50.684501,88.875162,Indoor,2020-06-11,2025-01-31,Maintenance,AC,2023-10-17
+1898,"Jones, Lester and Rivera",Switch,Netgear,ProSafe GS,v4.2,Bluetooth,South Brendanport,-18.030639,-21.802764,Outdoor,2024-12-25,2025-01-26,Inactive,AC,2025-01-09
+1899,Lee Group,Switch,Netgear,Nexus 3000,v6.2,Wi-Fi,New Trevorchester,-74.184554,18.477182,Indoor,2022-08-09,2025-01-10,Inactive,Battery,2021-09-19
+1900,"Velasquez, Brown and Hernandez",Router,Cisco,ISR 4000,v10.7,Bluetooth,Lake Erin,55.999955,128.048995,Outdoor,2021-02-11,2025-02-27,Maintenance,AC,2023-01-15
+1901,Herman-Gordon,Router,Ubiquiti,ISR 4000,v1.9,Cellular,Lake Benjamin,51.74611,114.244009,Indoor,2021-07-23,2025-02-25,Inactive,Battery,2024-01-11
+1902,Knight-Morgan,Access Point,Arista,Meraki MR42,v4.6,Cellular,Burgessside,65.72209,-85.735788,Outdoor,2022-01-01,2025-02-13,Inactive,Solar,2021-09-10
+1903,"Mason, Orozco and Wallace",Router,Ubiquiti,RV340,v10.7,Cellular,East Darrellburgh,-15.063656,-171.025926,Outdoor,2025-01-31,2025-01-07,Active,Solar,2021-07-30
+1904,Cobb-Meadows,Switch,Arista,ProSafe GS,v7.2,Wi-Fi,South Juanview,-45.999791,174.601173,Outdoor,2021-03-11,2025-02-08,Maintenance,Solar,2020-01-23
+1905,"Lamb, Mason and Mcdaniel",Firewall,Cisco,FortiGate 60F,v9.3,Ethernet,North Tracybury,82.60518,80.485983,Outdoor,2023-10-30,2025-01-07,Active,Solar,2021-06-29
+1906,"Martin, Ball and Singh",Router,Ubiquiti,RV340,v7.7,Wi-Fi,Port Johnchester,-26.77681,-126.799977,Outdoor,2020-11-01,2025-01-03,Inactive,Battery,2022-06-23
+1907,"Martinez, Ruiz and Morgan",Access Point,Ubiquiti,Ubiquiti UniFi AP,v6.9,Wi-Fi,West Anna,36.046285,-38.514949,Indoor,2022-06-28,2025-01-19,Inactive,Battery,2021-06-26
+1908,Walsh LLC,Firewall,Ubiquiti,Palo Alto Networks PA-200,v5.9,Bluetooth,Port Karentown,65.856288,170.29943,Outdoor,2021-03-26,2025-02-23,Inactive,AC,2022-08-05
+1909,Tapia-Aguilar,Switch,Juniper,ProSafe GS,v10.0,Cellular,Lake Ashleytown,-80.579193,2.740161,Indoor,2021-04-13,2025-01-26,Inactive,Solar,2023-08-16
+1910,Hall-Cruz,Firewall,Ubiquiti,Palo Alto Networks PA-200,v9.6,Bluetooth,South Joanville,-72.969183,-139.368113,Indoor,2020-12-18,2025-01-16,Maintenance,AC,2020-10-24
+1911,"Martinez, West and Trujillo",Switch,Cisco,Arista 7150,v7.8,Bluetooth,West Heidi,-43.077026,-173.923771,Outdoor,2022-10-17,2025-02-11,Inactive,Battery,2020-06-20
+1912,Johnson-Wong,Access Point,Cisco,Aruba 305,v7.9,Bluetooth,Wayneville,-1.346317,150.54093,Outdoor,2024-10-07,2025-01-16,Inactive,Battery,2022-05-19
+1913,Sosa Group,Router,Arista,ASR 1000,v5.8,Bluetooth,Guerrashire,-36.050823,-121.12766,Indoor,2024-02-24,2025-01-11,Maintenance,Solar,2020-01-07
+1914,Moore-Fields,Switch,Ubiquiti,Nexus 3000,v7.6,Wi-Fi,West Daniel,-13.433237,89.557531,Indoor,2021-12-11,2025-01-14,Inactive,Solar,2020-04-05
+1915,Navarro-Garrison,Router,Hewlett Packard,ASR 1000,v8.2,Ethernet,North Melissa,50.907098,-93.04282,Outdoor,2024-07-26,2025-02-05,Maintenance,Battery,2024-07-20
+1916,Hart-Mclaughlin,Firewall,Arista,Check Point 1400,v2.2,Wi-Fi,Espinozaport,-62.054564,72.112231,Indoor,2024-12-11,2025-01-06,Inactive,Battery,2024-06-19
+1917,"Watkins, Hogan and Ryan",Access Point,Cisco,Ubiquiti UniFi AP,v2.8,Ethernet,Lopezberg,-57.255018,-93.413925,Indoor,2024-07-20,2025-02-03,Maintenance,Solar,2024-02-14
+1918,Robinson-Cummings,Router,Arista,ISR 4000,v1.7,Ethernet,Fisherside,15.439656,-95.486179,Outdoor,2022-07-29,2025-02-15,Active,Solar,2022-03-23
+1919,Lee-Lee,Switch,Cisco,Arista 7150,v2.9,Bluetooth,Lake Jamesland,61.766238,-28.162345,Indoor,2024-07-30,2025-02-11,Inactive,AC,2020-12-03
+1920,"Duncan, Jones and Wright",Router,Arista,Catalyst 9300,v5.8,Ethernet,Watsonland,-15.719326,-76.301478,Outdoor,2023-05-01,2025-01-28,Maintenance,Battery,2023-11-21
+1921,Ross-Buckley,Switch,Ubiquiti,Arista 7150,v3.0,Wi-Fi,Gillespieborough,3.311683,38.36338,Outdoor,2024-11-19,2025-01-12,Inactive,Battery,2020-04-29
+1922,Salinas-Simon,Access Point,Arista,Aironet 2800,v6.0,Wi-Fi,Webbborough,-25.088315,-165.868063,Indoor,2020-02-07,2025-02-18,Maintenance,Battery,2021-07-18
+1923,Vazquez-Gonzales,Access Point,Netgear,Ubiquiti UniFi AP,v1.0,Cellular,Elizabethtown,33.041169,-127.338491,Indoor,2022-02-14,2025-02-16,Inactive,Solar,2020-04-19
+1924,Figueroa-Smith,Access Point,Netgear,Meraki MR42,v7.1,Cellular,New Scottside,81.667498,58.108087,Indoor,2023-02-21,2025-01-01,Maintenance,Solar,2021-01-02
+1925,"Moore, Gaines and Hardy",Router,Arista,Catalyst 9300,v9.0,Ethernet,New Jennifer,66.861482,-10.356889,Indoor,2024-12-13,2025-01-12,Maintenance,Battery,2023-01-18
+1926,"Morgan, Fowler and Garcia",Switch,Juniper,Catalyst 9200,v9.3,Bluetooth,Christinehaven,59.050491,-137.339084,Indoor,2024-01-04,2025-02-20,Maintenance,Solar,2020-09-22
+1927,Craig and Sons,Firewall,Netgear,Check Point 1400,v1.1,Wi-Fi,Lake Tamarafort,-9.639622,165.013368,Indoor,2020-09-09,2025-01-19,Inactive,Battery,2022-04-17
+1928,"Bartlett, Ortega and Aguilar",Access Point,Arista,Aruba 305,v8.8,Bluetooth,New Leahberg,19.247378,46.317695,Indoor,2021-09-17,2025-02-01,Maintenance,Solar,2022-06-21
+1929,Larson-Reyes,Firewall,Juniper,Check Point 1400,v6.6,Ethernet,Catherinemouth,-16.312455,-55.123816,Indoor,2025-01-01,2025-02-08,Maintenance,AC,2023-07-26
+1930,Ruiz Ltd,Router,Cisco,Catalyst 9300,v7.3,Ethernet,Tylerland,58.250394,-72.674372,Outdoor,2023-12-13,2025-02-28,Inactive,Solar,2020-08-15
+1931,Pitts-Romero,Firewall,Netgear,ASA 5500,v7.0,Wi-Fi,Ochoahaven,34.492493,-157.693754,Outdoor,2025-01-11,2025-02-16,Active,AC,2022-09-19
+1932,Garrett and Sons,Firewall,Ubiquiti,Palo Alto Networks PA-200,v9.3,Bluetooth,Markside,-10.043348,-172.137328,Outdoor,2021-09-06,2025-01-31,Inactive,Battery,2022-03-19
+1933,White-West,Router,Arista,ISR 4000,v7.7,Cellular,South Jennifer,-38.76408,32.751699,Outdoor,2022-06-08,2025-02-15,Maintenance,AC,2022-09-09
+1934,Martinez-Fritz,Firewall,Netgear,Palo Alto Networks PA-200,v7.2,Cellular,South Heather,71.395759,168.059368,Outdoor,2023-03-09,2025-01-20,Maintenance,Solar,2022-04-07
+1935,Campbell-Wright,Router,Ubiquiti,ISR 4000,v8.5,Bluetooth,West Amy,88.346626,-131.944061,Outdoor,2021-03-03,2025-02-25,Active,AC,2023-11-08
+1936,Lam-Fisher,Router,Ubiquiti,ASR 1000,v7.0,Cellular,New Luisville,-10.20386,-104.853282,Outdoor,2024-09-18,2025-02-18,Active,Battery,2022-09-29
+1937,"Duncan, Fowler and Galvan",Firewall,Arista,Palo Alto Networks PA-200,v5.1,Ethernet,Sabrinamouth,-49.102827,-2.987213,Indoor,2021-12-05,2025-03-02,Maintenance,Solar,2024-07-06
+1938,Wood Inc,Access Point,Cisco,Aironet 2800,v9.2,Ethernet,Lake Deborah,-83.388395,-152.834772,Outdoor,2021-02-13,2025-03-05,Inactive,Solar,2024-12-18
+1939,Flores-Taylor,Access Point,Ubiquiti,Meraki MR42,v9.4,Wi-Fi,North Christopherfort,76.190725,-124.077953,Indoor,2023-09-08,2025-01-23,Active,AC,2022-07-27
+1940,"Bailey, Bridges and Mcdaniel",Switch,Hewlett Packard,Nexus 3000,v6.4,Bluetooth,West Christopherstad,28.297539,-125.006717,Indoor,2022-03-09,2025-03-03,Inactive,Solar,2022-04-18
+1941,Collins-Mcdonald,Switch,Ubiquiti,Arista 7150,v5.0,Ethernet,Sloanton,16.66839,-34.050979,Indoor,2023-10-04,2025-02-28,Inactive,AC,2022-09-11
+1942,Brooks-Obrien,Firewall,Juniper,Check Point 1400,v10.5,Cellular,New Teresa,28.876938,100.379916,Outdoor,2021-08-18,2025-02-14,Inactive,AC,2024-05-03
+1943,"Jones, Guerrero and Young",Access Point,Netgear,Ubiquiti UniFi AP,v3.3,Ethernet,East Oscar,80.347379,-11.55057,Outdoor,2021-06-05,2025-01-03,Active,AC,2021-01-03
+1944,Bryan-Grant,Switch,Netgear,Arista 7150,v10.8,Bluetooth,New Katherinefurt,50.591209,102.600313,Outdoor,2021-12-16,2025-03-04,Active,Solar,2025-01-22
+1945,Gilbert and Sons,Firewall,Ubiquiti,ASA 5500,v6.9,Cellular,New William,-73.067761,21.113883,Indoor,2021-07-15,2025-02-24,Maintenance,Solar,2021-08-25
+1946,Smith PLC,Access Point,Netgear,Aruba 305,v7.6,Cellular,Lake Tonyview,73.149998,-100.156126,Outdoor,2022-05-13,2025-01-06,Maintenance,Solar,2020-02-21
+1947,Hernandez Group,Router,Netgear,Meraki MX,v5.8,Wi-Fi,Ericchester,56.179535,-11.738239,Indoor,2021-06-10,2025-01-15,Maintenance,Battery,2023-03-08
+1948,"Fischer, Gonzales and Farmer",Switch,Arista,Arista 7150,v3.7,Ethernet,North Markland,-8.293207,64.416477,Outdoor,2024-01-30,2025-01-17,Maintenance,Battery,2024-10-24
+1949,James Group,Firewall,Hewlett Packard,ASA 5500,v1.4,Wi-Fi,Mauriceland,-0.463094,44.061726,Outdoor,2022-08-14,2025-01-31,Maintenance,Battery,2022-04-22
+1950,Ross-Lambert,Firewall,Juniper,Palo Alto Networks PA-200,v10.6,Bluetooth,West Tim,-53.477515,-37.713933,Indoor,2022-08-30,2025-02-25,Inactive,Solar,2024-05-05
+1951,Santos and Sons,Switch,Netgear,Nexus 3000,v3.6,Ethernet,Rushmouth,-78.605942,-121.333569,Indoor,2024-10-23,2025-01-29,Active,Solar,2020-02-26
+1952,West and Sons,Switch,Ubiquiti,ProSafe GS,v9.4,Ethernet,Lynnberg,9.169023,-20.737656,Outdoor,2021-05-30,2025-02-04,Maintenance,Solar,2021-12-10
+1953,Hooper-Gardner,Access Point,Hewlett Packard,Ubiquiti UniFi AP,v6.5,Cellular,East Elizabeth,60.612284,-122.67206,Outdoor,2020-08-07,2025-03-05,Inactive,AC,2023-01-12
+1954,White-Marsh,Router,Netgear,ISR 4000,v8.2,Cellular,Lake Sean,-28.169367,-115.150918,Indoor,2020-09-23,2025-02-08,Maintenance,Battery,2021-04-05
+1955,Schmitt PLC,Firewall,Arista,FortiGate 60F,v2.3,Wi-Fi,Rayview,-33.204856,57.034544,Outdoor,2021-11-05,2025-01-01,Inactive,AC,2020-01-03
+1956,Kaiser-Johnson,Router,Ubiquiti,ISR 4000,v10.2,Ethernet,New Loribury,-33.704134,153.390883,Indoor,2023-06-04,2025-01-14,Active,Battery,2024-01-28
+1957,Martin and Sons,Switch,Cisco,ProSafe GS,v10.9,Ethernet,West Tyler,-18.015983,37.894669,Outdoor,2021-08-28,2025-03-01,Active,Solar,2024-05-17
+1958,Burns Group,Switch,Cisco,Arista 7150,v8.7,Ethernet,Martinstad,-29.080527,-21.714334,Indoor,2022-07-11,2025-02-22,Inactive,Battery,2020-03-04
+1959,"Kelly, Rojas and Cooper",Firewall,Arista,FortiGate 60F,v3.2,Bluetooth,Tinabury,-85.023009,-26.172637,Indoor,2025-01-18,2025-02-09,Maintenance,Battery,2024-03-25
+1960,Moody Inc,Switch,Netgear,Catalyst 9200,v9.5,Ethernet,Port Jared,63.348115,148.063053,Indoor,2024-07-07,2025-01-03,Active,Battery,2020-08-05
+1961,"Townsend, Downs and Morales",Firewall,Juniper,ASA 5500,v4.7,Bluetooth,Lauratown,-23.369511,-146.499789,Outdoor,2020-06-23,2025-01-20,Inactive,Solar,2024-05-25
+1962,"Griffin, Scott and Stevens",Firewall,Netgear,ASA 5500,v4.0,Cellular,East Stephanie,78.55362,-32.466408,Outdoor,2023-08-30,2025-02-04,Active,AC,2022-06-17
+1963,Lee and Sons,Firewall,Arista,Palo Alto Networks PA-200,v6.8,Cellular,East Jared,88.120524,-87.119572,Indoor,2020-05-22,2025-02-25,Inactive,AC,2021-06-29
+1964,"Mcbride, Sawyer and Harris",Firewall,Cisco,ASA 5500,v4.9,Cellular,Port Meghanborough,-18.236817,-48.389242,Indoor,2024-04-11,2025-02-11,Inactive,Solar,2022-06-01
+1965,Nichols-Gilbert,Router,Hewlett Packard,ISR 4000,v3.9,Ethernet,Medinaborough,84.342241,132.398121,Indoor,2025-01-01,2025-02-08,Active,AC,2024-09-01
+1966,Stafford PLC,Switch,Arista,Nexus 3000,v5.6,Cellular,Josechester,-15.598809,84.540656,Outdoor,2021-02-12,2025-01-20,Active,AC,2024-08-27
+1967,Mcmillan-Perkins,Router,Cisco,ISR 4000,v9.5,Cellular,New Bryantown,11.770292,49.780458,Outdoor,2021-02-03,2025-02-10,Maintenance,Solar,2025-01-08
+1968,Washington Inc,Switch,Cisco,Catalyst 9200,v8.6,Bluetooth,Christopherfort,-38.323447,-152.843081,Outdoor,2022-01-10,2025-02-18,Active,Solar,2023-07-12
+1969,Ray LLC,Firewall,Juniper,Palo Alto Networks PA-200,v6.2,Bluetooth,West Debrastad,40.383642,62.325557,Indoor,2020-05-29,2025-01-25,Active,Battery,2022-05-07
+1970,"Daniel, Aguirre and Stevens",Access Point,Cisco,Meraki MR42,v9.5,Bluetooth,New Alyssa,-49.703266,61.792327,Indoor,2022-07-25,2025-02-14,Maintenance,AC,2023-06-01
+1971,Stephens-Evans,Firewall,Ubiquiti,Check Point 1400,v5.7,Ethernet,Port Sharonville,-31.006139,178.659173,Outdoor,2022-02-08,2025-02-14,Active,Solar,2024-05-09
+1972,"Townsend, Jacobs and Hamilton",Router,Arista,RV340,v6.6,Ethernet,Carriemouth,-84.517867,-99.957233,Indoor,2020-08-02,2025-01-20,Inactive,AC,2022-01-12
+1973,Johns-Spence,Router,Netgear,ASR 1000,v4.7,Wi-Fi,Martinport,50.756163,137.558458,Outdoor,2022-03-02,2025-02-07,Active,Battery,2020-03-20
+1974,Marshall-Miller,Access Point,Netgear,Meraki MR42,v1.4,Bluetooth,Danielport,10.366704,-172.523803,Indoor,2020-05-10,2025-01-29,Active,Solar,2024-04-06
+1975,"Morris, Nguyen and Gutierrez",Firewall,Hewlett Packard,FortiGate 60F,v1.1,Ethernet,South Michael,-6.706188,89.822255,Indoor,2022-12-15,2025-01-19,Active,Solar,2020-01-28
+1976,Leonard-Sharp,Router,Hewlett Packard,ASR 1000,v3.6,Ethernet,Lake Jeffrey,-18.763997,-173.557812,Outdoor,2023-11-18,2025-01-06,Inactive,Solar,2020-11-09
+1977,"Scott, Bauer and Steele",Router,Netgear,Catalyst 9300,v7.4,Bluetooth,New Amyshire,54.338468,145.022353,Outdoor,2022-08-08,2025-01-09,Active,AC,2023-12-20
+1978,"Decker, Patterson and Ford",Router,Ubiquiti,Meraki MX,v1.5,Bluetooth,Travisside,48.989296,133.31264,Outdoor,2022-01-06,2025-03-06,Active,Solar,2021-09-26
+1979,Jenkins Ltd,Switch,Hewlett Packard,ProSafe GS,v3.6,Cellular,Myershaven,-4.236885,-112.390004,Indoor,2022-02-20,2025-02-03,Active,Battery,2023-06-23
+1980,"Gonzales, Salazar and Torres",Switch,Ubiquiti,Arista 7150,v9.7,Wi-Fi,West Ernest,-46.778376,-22.545155,Indoor,2020-02-16,2025-01-03,Active,Solar,2020-08-22
+1981,Riley and Sons,Router,Hewlett Packard,ASR 1000,v5.7,Bluetooth,Lake Shannonland,24.544159,88.905411,Indoor,2023-08-01,2025-03-02,Active,AC,2022-01-16
+1982,"Navarro, Clark and Brown",Router,Arista,Meraki MX,v7.7,Bluetooth,Rebeccaside,-8.820388,-36.007659,Outdoor,2022-02-02,2025-01-29,Maintenance,Solar,2020-05-29
+1983,"Yang, Reed and Alvarez",Router,Hewlett Packard,ASR 1000,v7.2,Cellular,Morrisbury,88.7192,171.421137,Indoor,2021-01-27,2025-02-16,Inactive,AC,2023-12-27
+1984,Davis-Howard,Firewall,Netgear,Palo Alto Networks PA-200,v9.5,Ethernet,Jamesshire,9.413639,42.453364,Outdoor,2020-12-16,2025-01-06,Active,Solar,2024-02-10
+1985,Miller-Ferguson,Router,Cisco,Meraki MX,v9.6,Wi-Fi,Timothyfurt,21.777589,-83.634852,Outdoor,2020-12-01,2025-01-19,Active,Solar,2023-06-26
+1986,Valencia-Morgan,Access Point,Juniper,Ubiquiti UniFi AP,v4.7,Wi-Fi,Powellstad,-48.228175,-153.530773,Indoor,2024-09-13,2025-02-15,Inactive,Battery,2020-08-13
+1987,"Gonzalez, Middleton and King",Switch,Hewlett Packard,Arista 7150,v1.9,Bluetooth,Youngfurt,-29.232386,-167.430858,Indoor,2023-01-12,2025-02-15,Active,Battery,2022-03-18
+1988,Mills-Richards,Switch,Juniper,ProSafe GS,v4.9,Wi-Fi,South Elizabethton,-81.900489,-4.87756,Indoor,2022-07-29,2025-01-31,Inactive,AC,2020-09-18
+1989,Dalton-Baker,Switch,Ubiquiti,Catalyst 9200,v1.8,Cellular,New Suzanne,69.389905,5.956648,Outdoor,2021-02-16,2025-02-19,Maintenance,Solar,2021-01-16
+1990,"Ramirez, Eaton and Fowler",Router,Hewlett Packard,RV340,v4.0,Wi-Fi,East Ashley,-25.425084,-48.464173,Outdoor,2023-03-24,2025-02-27,Maintenance,Battery,2021-02-07
+1991,Higgins PLC,Access Point,Cisco,Ubiquiti UniFi AP,v9.8,Ethernet,West Charlesfurt,46.010767,68.581727,Outdoor,2020-12-07,2025-01-04,Maintenance,AC,2020-06-14
+1992,"Perkins, Perry and Jackson",Firewall,Arista,ASA 5500,v2.5,Cellular,Knightbury,45.375153,41.461275,Outdoor,2020-03-11,2025-01-05,Active,Solar,2024-03-17
+1993,Nguyen-Pope,Router,Juniper,ISR 4000,v2.2,Bluetooth,Lake Jessicatown,14.331316,179.673313,Outdoor,2020-06-04,2025-02-16,Active,AC,2023-01-16
+1994,"Rodgers, Owens and Anderson",Access Point,Hewlett Packard,Ubiquiti UniFi AP,v10.7,Cellular,Jonview,3.883425,-7.781736,Indoor,2024-03-23,2025-02-26,Inactive,Solar,2024-04-24
+1995,Norton-Long,Access Point,Juniper,Meraki MR42,v3.9,Cellular,North Nicole,-39.675559,-146.703977,Indoor,2020-07-29,2025-03-03,Maintenance,Battery,2024-06-01
+1996,"Smith, Rivera and Schneider",Access Point,Hewlett Packard,Ubiquiti UniFi AP,v10.2,Wi-Fi,Charlesmouth,65.282526,-83.253965,Indoor,2020-11-19,2025-02-18,Inactive,Solar,2022-08-08
+1997,"Phillips, White and Cardenas",Switch,Arista,ProSafe GS,v7.0,Cellular,West Stephen,32.475269,8.898122,Outdoor,2025-02-02,2025-01-12,Active,Battery,2021-03-06
+1998,West Inc,Firewall,Ubiquiti,Palo Alto Networks PA-200,v5.6,Ethernet,Richardsbury,-81.614972,165.589397,Outdoor,2022-08-08,2025-03-06,Maintenance,Solar,2023-06-21
+1999,Cox-Smith,Firewall,Juniper,ASA 5500,v3.0,Wi-Fi,Toddfort,57.36614,-111.20388,Indoor,2023-06-18,2025-02-12,Inactive,AC,2024-09-24
+2000,"Montoya, Foster and Ramos",Firewall,Hewlett Packard,Check Point 1400,v9.2,Bluetooth,Walkerberg,-78.264697,168.170888,Indoor,2024-12-08,2025-02-21,Inactive,Battery,2023-10-13
