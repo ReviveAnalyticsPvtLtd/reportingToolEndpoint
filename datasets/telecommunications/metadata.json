@@ -1,240 +1,240 @@
 {
-    "dimDevice": {
-       "description": "Device information and attributes, including device type, manufacturer, model, and installation details.",
-       "shape": [
-          1000,
-          16
-       ],
-       "columns": [
-          {
-             "name": "Device_ID",
-             "type": "object",
-             "description": "Unique identifier for the device"
-          },
-          {
-             "name": "Device_Name",
-             "type": "object",
-             "description": "Name of the device"
-          },
-          {
-             "name": "Device_Type",
-             "type": "object",
-             "description": "Type of the device (e.g., modem, router, camera)"
-          },
-          {
-             "name": "Manufacturer",
-             "type": "object",
-             "description": "Manufacturer of the device"
-          },
-          {
-             "name": "Model",
-             "type": "object",
-             "description": "Model number of the device"
-          },
-          {
-             "name": "Firmware_Version",
-             "type": "object",
-             "description": "Current firmware version of the device"
-          },
-          {
-             "name": "Connectivity_Type",
-             "type": "object",
-             "description": "Type of connectivity the device uses (e.g., 5G, Wi-Fi, Ethernet)"
-          },
-          {
-             "name": "Installation_Location",
-             "type": "object",
-             "description": "Physical location where the device is installed"
-          },
-          {
-             "name": "Latitude",
-             "type": "float64",
-             "description": "Latitude coordinate of the device's installation location"
-          },
-          {
-             "name": "Longitude",
-             "type": "float64",
-             "description": "Longitude coordinate of the device's installation location"
-          },
-          {
-             "name": "Indoor_Outdoor",
-             "type": "object",
-             "description": "Whether the device is installed indoors or outdoors"
-          },
-          {
-             "name": "Installation_Date",
-             "type": "object",
-             "description": "Date the device was installed"
-          },
-          {
-             "name": "Last_Reboot_Timestamp",
-             "type": "object",
-             "description": "Timestamp of the device's last reboot"
-          },
-          {
-             "name": "Status",
-             "type": "object",
-             "description": "Current status of the device (e.g., active, inactive, maintenance)"
-          },
-          {
-             "name": "Power_Source",
-             "type": "object",
-             "description": "Source of power for the device (e.g., solar, electrical)"
-          },
-          {
-             "name": "Warranty_Expiry_Date",
-             "type": "object",
-             "description": "Date the device's warranty expires"
-          }
-       ],
-       "sample_row": {
-          "Device_ID": "D001",
-          "Device_Name": "HD Camera",
-          "Device_Type": "Modem",
-          "Manufacturer": "Ericsson",
-          "Model": "RT-3000",
-          "Firmware_Version": "2.8.7",
-          "Connectivity_Type": "5G",
-          "Installation_Location": "Park Corner",
-          "Latitude": -76.4407,
-          "Longitude": 143.0474,
-          "Indoor_Outdoor": "Indoor",
-          "Installation_Date": "03/29/2020 12:00:00 AM",
-          "Last_Reboot_Timestamp": "01/19/2023 12:00:00 AM",
-          "Status": "Active",
-          "Power_Source": "Solar",
-          "Warranty_Expiry_Date": "10/26/2026 12:00:00 AM"
-       }
-    },
-    "factConnectedDeviceReport": {
-       "description": "Report of connected devices, including data usage, signal strength, and link status.",
-       "shape": [
-          1000,
-          20
-       ],
-       "columns": [
-          {
-             "name": "Report_ID",
-             "type": "object",
-             "description": "Unique identifier for the report"
-          },
-          {
-             "name": "Device_ID",
-             "type": "object",
-             "description": "Unique identifier for the device"
-          },
-          {
-             "name": "Timestamp",
-             "type": "object",
-             "description": "Timestamp of the report"
-          },
-          {
-             "name": "DL_Data_MB",
-             "type": "float64",
-             "description": "Downlink data usage in megabytes"
-          },
-          {
-             "name": "UL_Data_MB",
-             "type": "float64",
-             "description": "Uplink data usage in megabytes"
-          },
-          {
-             "name": "Signal_Strength_dBm",
-             "type": "float64",
-             "description": "Signal strength in decibels per milliwatt"
-          },
-          {
-             "name": "Min_Signal_Strength_dBm",
-             "type": "float64",
-             "description": "Minimum signal strength in decibels per milliwatt"
-          },
-          {
-             "name": "Max_Signal_Strength_dBm",
-             "type": "float64",
-             "description": "Maximum signal strength in decibels per milliwatt"
-          },
-          {
-             "name": "Avg_Signal_Strength_dBm",
-             "type": "float64",
-             "description": "Average signal strength in decibels per milliwatt"
-          },
-          {
-             "name": "Link_Status",
-             "type": "object",
-             "description": "Status of the link (e.g., connected, disconnected)"
-          },
-          {
-             "name": "Avg_Latency_ms",
-             "type": "float64",
-             "description": "Average latency in milliseconds"
-          },
-          {
-             "name": "Jitter_ms",
-             "type": "float64",
-             "description": "Jitter in milliseconds"
-          },
-          {
-             "name": "Events_Triggered",
-             "type": "float64",
-             "description": "Number of events triggered"
-          },
-          {
-             "name": "Errors_Logged",
-             "type": "float64",
-             "description": "Number of errors logged"
-          },
-          {
-             "name": "Min_DL_Data_Rate_mbps",
-             "type": "float64",
-             "description": "Minimum downlink data rate in megabits per second"
-          },
-          {
-             "name": "Max_DL_Data_Rate_mbps",
-             "type": "float64",
-             "description": "Maximum downlink data rate in megabits per second"
-          },
-          {
-             "name": "Avg_DL_Data_Rate_mbps",
-             "type": "float64",
-             "description": "Average downlink data rate in megabits per second"
-          },
-          {
-             "name": "Min_UL_Data_Rate_mbps",
-             "type": "float64",
-             "description": "Minimum uplink data rate in megabits per second"
-          },
-          {
-             "name": "Max_UL_Data_Rate_mbps",
-             "type": "float64",
-             "description": "Maximum uplink data rate in megabits per second"
-          },
-          {
-             "name": "Avg_UL_Data_Rate_mbps",
-             "type": "float64",
-             "description": "Average uplink data rate in megabits per second"
-          }
-       ],
-       "sample_row": {
-          "Report_ID": "R00001",
-          "Device_ID": "D004",
-          "Timestamp": "02/14/2024 12:00:00 AM",
-          "DL_Data_MB": 1638.0,
-          "UL_Data_MB": 186.0,
-          "Signal_Strength_dBm": -81.0,
-          "Min_Signal_Strength_dBm": -82.0,
-          "Max_Signal_Strength_dBm": -46.0,
-          "Avg_Signal_Strength_dBm": -71.683443,
-          "Link_Status": "Disconnected",
-          "Avg_Latency_ms": 48.153027,
-          "Jitter_ms": 16.195989,
-          "Events_Triggered": 5.0,
-          "Errors_Logged": 0.0,
-          "Min_DL_Data_Rate_mbps": 21.0,
-          "Max_DL_Data_Rate_mbps": 140.0,
-          "Avg_DL_Data_Rate_mbps": 177.33082,
-          "Min_UL_Data_Rate_mbps": 42.0,
-          "Max_UL_Data_Rate_mbps": 132.0,
-          "Avg_UL_Data_Rate_mbps": 42.045559
-       }
-    }
- }
+   "dimDevice": {
+      "description": "Device Information",
+      "shape": [
+         1000,
+         16
+      ],
+      "columns": [
+         {
+            "name": "Device_ID",
+            "type": "int32",
+            "description": "Unique identifier for the device"
+         },
+         {
+            "name": "Device_Name",
+            "type": "object",
+            "description": "Name of the device"
+         },
+         {
+            "name": "Device_Type",
+            "type": "object",
+            "description": "Type of the device"
+         },
+         {
+            "name": "Manufacturer",
+            "type": "object",
+            "description": "Manufacturer of the device"
+         },
+         {
+            "name": "Model",
+            "type": "object",
+            "description": "Model of the device"
+         },
+         {
+            "name": "Firmware_Version",
+            "type": "object",
+            "description": "Version of the firmware"
+         },
+         {
+            "name": "Connectivity_Type",
+            "type": "object",
+            "description": "Type of connectivity"
+         },
+         {
+            "name": "Installation_Location",
+            "type": "object",
+            "description": "Location where the device is installed"
+         },
+         {
+            "name": "Latitude",
+            "type": "float64",
+            "description": "Latitude of the installation location"
+         },
+         {
+            "name": "Longitude",
+            "type": "float64",
+            "description": "Longitude of the installation location"
+         },
+         {
+            "name": "Indoor_Outdoor",
+            "type": "object",
+            "description": "Whether the device is installed indoor or outdoor"
+         },
+         {
+            "name": "Installation_Date",
+            "type": "datetime64[s]",
+            "description": "Date of installation"
+         },
+         {
+            "name": "Last_Reboot_Timestamp",
+            "type": "datetime64[s]",
+            "description": "Timestamp of the last reboot"
+         },
+         {
+            "name": "Status",
+            "type": "object",
+            "description": "Current status of the device"
+         },
+         {
+            "name": "Power_Source",
+            "type": "object",
+            "description": "Power source of the device"
+         },
+         {
+            "name": "Warranty_Expiry_Date",
+            "type": "datetime64[s]",
+            "description": "Date when the warranty expires"
+         }
+      ],
+      "sample_row": {
+         "Device_ID": 1001,
+         "Device_Name": "Farley, Rodriguez and Rhodes",
+         "Device_Type": "Access Point",
+         "Manufacturer": "Hewlett Packard",
+         "Model": "Meraki MR42",
+         "Firmware_Version": "v5.2",
+         "Connectivity_Type": "Cellular",
+         "Installation_Location": "Bergershire",
+         "Latitude": -84.624272,
+         "Longitude": -98.119582,
+         "Indoor_Outdoor": "Indoor",
+         "Installation_Date": "2020-09-07",
+         "Last_Reboot_Timestamp": "2025-03-03",
+         "Status": "Active",
+         "Power_Source": "AC",
+         "Warranty_Expiry_Date": "2024-01-20"
+      }
+   },
+   "factConnectedDeviceReport": {
+      "description": "Connected Device Report",
+      "shape": [
+         1000,
+         20
+      ],
+      "columns": [
+         {
+            "name": "Report_ID",
+            "type": "int32",
+            "description": "Unique identifier for the report"
+         },
+         {
+            "name": "Device_ID",
+            "type": "int32",
+            "description": "Device ID associated with the report"
+         },
+         {
+            "name": "Timestamp",
+            "type": "datetime64[s]",
+            "description": "Timestamp of the report"
+         },
+         {
+            "name": "DL_Data_MB",
+            "type": "float64",
+            "description": "Download data in megabytes"
+         },
+         {
+            "name": "UL_Data_MB",
+            "type": "float64",
+            "description": "Upload data in megabytes"
+         },
+         {
+            "name": "Signal_Strength_dBm",
+            "type": "int32",
+            "description": "Signal strength in decibels"
+         },
+         {
+            "name": "Min_Signal_Strength_dBm",
+            "type": "int32",
+            "description": "Minimum signal strength in decibels"
+         },
+         {
+            "name": "Max_Signal_Strength_dBm",
+            "type": "int32",
+            "description": "Maximum signal strength in decibels"
+         },
+         {
+            "name": "Avg_Signal_Strength_dBm",
+            "type": "int32",
+            "description": "Average signal strength in decibels"
+         },
+         {
+            "name": "Link_Status",
+            "type": "object",
+            "description": "Status of the link"
+         },
+         {
+            "name": "Avg_Latency_ms",
+            "type": "float64",
+            "description": "Average latency in milliseconds"
+         },
+         {
+            "name": "Jitter_ms",
+            "type": "float64",
+            "description": "Jitter in milliseconds"
+         },
+         {
+            "name": "Events_Triggered",
+            "type": "int32",
+            "description": "Number of events triggered"
+         },
+         {
+            "name": "Errors_Logged",
+            "type": "int32",
+            "description": "Number of errors logged"
+         },
+         {
+            "name": "Min_DL_Data_Rate_mbps",
+            "type": "float64",
+            "description": "Minimum download data rate in megabits per second"
+         },
+         {
+            "name": "Max_DL_Data_Rate_mbps",
+            "type": "float64",
+            "description": "Maximum download data rate in megabits per second"
+         },
+         {
+            "name": "Avg_DL_Data_Rate_mbps",
+            "type": "float64",
+            "description": "Average download data rate in megabits per second"
+         },
+         {
+            "name": "Min_UL_Data_Rate_mbps",
+            "type": "float64",
+            "description": "Minimum upload data rate in megabits per second"
+         },
+         {
+            "name": "Max_UL_Data_Rate_mbps",
+            "type": "float64",
+            "description": "Maximum upload data rate in megabits per second"
+         },
+         {
+            "name": "Avg_UL_Data_Rate_mbps",
+            "type": "float64",
+            "description": "Average upload data rate in megabits per second"
+         }
+      ],
+      "sample_row": {
+         "Report_ID": 2426,
+         "Device_ID": 8094,
+         "Timestamp": "2025-01-27",
+         "DL_Data_MB": 3119.535997,
+         "UL_Data_MB": 422.758335,
+         "Signal_Strength_dBm": -92,
+         "Min_Signal_Strength_dBm": -94,
+         "Max_Signal_Strength_dBm": -27,
+         "Avg_Signal_Strength_dBm": -73,
+         "Link_Status": "Down",
+         "Avg_Latency_ms": 95.602195,
+         "Jitter_ms": 1.013782,
+         "Events_Triggered": 1,
+         "Errors_Logged": 3,
+         "Min_DL_Data_Rate_mbps": 5.491909,
+         "Max_DL_Data_Rate_mbps": 69.722952,
+         "Avg_DL_Data_Rate_mbps": 8.415068,
+         "Min_UL_Data_Rate_mbps": 1.374007,
+         "Max_UL_Data_Rate_mbps": 39.75937,
+         "Avg_UL_Data_Rate_mbps": 9.661031
+      }
+   }
+}

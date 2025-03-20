@@ -1,308 +1,308 @@
 {
-    "accounts": {
-       "description": "The accounts dataframe contains information about each account held by customers, including account id, customer id, account type, balance, opening date, overdraft limit, status, and branch id.",
-       "shape": [
-          1000,
-          8
-       ],
-       "columns": [
-          {
-             "name": "AccountID",
-             "type": "object",
-             "description": "Unique identifier for each account"
-          },
-          {
-             "name": "CustomerID",
-             "type": "object",
-             "description": "Unique identifier for the customer who owns the account"
-          },
-          {
-             "name": "AccountType",
-             "type": "object",
-             "description": "Type of account (e.g., checking, savings, etc.)"
-          },
-          {
-             "name": "Balance",
-             "type": "float64",
-             "description": "Current balance of the account"
-          },
-          {
-             "name": "OpeningDate",
-             "type": "datetime64[s]",
-             "description": "Date the account was opened"
-          },
-          {
-             "name": "OverdraftLimit",
-             "type": "float64",
-             "description": "Maximum amount the account can be overdrawn"
-          },
-          {
-             "name": "Status",
-             "type": "object",
-             "description": "Current status of the account (e.g., active, inactive, etc.)"
-          },
-          {
-             "name": "BranchID",
-             "type": "object",
-             "description": "Unique identifier for the branch where the account is held"
-          }
-       ],
-       "sample_row": {
-          "AccountID": "ACC000001",
-          "CustomerID": "CUST000150",
-          "AccountType": "Checking",
-          "Balance": 4582.87,
-          "OpeningDate": "2020-11-13",
-          "OverdraftLimit": 836.58,
-          "Status": "Inactive",
-          "BranchID": "BRN000228"
-       }
-    },
-    "branches": {
-       "description": "The branches dataframe contains information about each branch, including branch id, branch name, branch code, branch address, and branch phone number.",
-       "shape": [
-          1000,
-          5
-       ],
-       "columns": [
-          {
-             "name": "BranchID",
-             "type": "object",
-             "description": "Unique identifier for each branch"
-          },
-          {
-             "name": "BranchName",
-             "type": "object",
-             "description": "Name of the branch"
-          },
-          {
-             "name": "BranchCode",
-             "type": "object",
-             "description": "Code for the branch"
-          },
-          {
-             "name": "BranchAddress",
-             "type": "object",
-             "description": "Address of the branch"
-          },
-          {
-             "name": "BranchPhoneNumber",
-             "type": "object",
-             "description": "Phone number of the branch"
-          }
-       ],
-       "sample_row": {
-          "BranchID": "BRN000001",
-          "BranchName": "Davis, Robles and Moore",
-          "BranchCode": "fV605",
-          "BranchAddress": "298 Moore Valleys Patriciaberg, NV 93113",
-          "BranchPhoneNumber": "001-439-404-7675x36595"
-       }
-    },
-    "customer_transactions": {
-       "description": "The customer transactions dataframe contains information about each transaction made by customers, including transaction id, customer name, account id, transaction date and time, transaction amount, transaction type, and description.",
-       "shape": [
-          1078,
-          7
-       ],
-       "columns": [
-          {
-             "name": "TransactionID",
-             "type": "object",
-             "description": "Unique identifier for each transaction"
-          },
-          {
-             "name": "Customer_Name",
-             "type": "object",
-             "description": "Name of the customer who made the transaction"
-          },
-          {
-             "name": "AccountID",
-             "type": "object",
-             "description": "Unique identifier for the account associated with the transaction"
-          },
-          {
-             "name": "TransactionDate_Time",
-             "type": "object",
-             "description": "Date and time of the transaction"
-          },
-          {
-             "name": "TransactionAmount",
-             "type": "int32",
-             "description": "Amount of the transaction"
-          },
-          {
-             "name": "TransactionType",
-             "type": "object",
-             "description": "Type of transaction (e.g., deposit, withdrawal, etc.)"
-          },
-          {
-             "name": "Description",
-             "type": "object",
-             "description": "Description of the transaction"
-          }
-       ],
-       "sample_row": {
-          "TransactionID": "TXN000001",
-          "Customer_Name": "Andrew Williams",
-          "AccountID": "ACC000010",
-          "TransactionDate_Time": "2025-01-02-10:44:20:953",
-          "TransactionAmount": 50,
-          "TransactionType": "Deposit",
-          "Description": "Cash Deposit"
-       }
-    },
-    "customers": {
-       "description": "The customers dataframe contains information about each customer, including customer id, first name, last name, date of birth, phone number, email id, address, national id, and credit score.",
-       "shape": [
-          1000,
-          9
-       ],
-       "columns": [
-          {
-             "name": "CustomerID",
-             "type": "object",
-             "description": "Unique identifier for each customer"
-          },
-          {
-             "name": "FirstName",
-             "type": "object",
-             "description": "First name of the customer"
-          },
-          {
-             "name": "LastName",
-             "type": "object",
-             "description": "Last name of the customer"
-          },
-          {
-             "name": "DateOfBirth",
-             "type": "datetime64[s]",
-             "description": "Date of birth of the customer"
-          },
-          {
-             "name": "PhoneNumber",
-             "type": "object",
-             "description": "Phone number of the customer"
-          },
-          {
-             "name": "EmailID",
-             "type": "object",
-             "description": "Email id of the customer"
-          },
-          {
-             "name": "Address",
-             "type": "object",
-             "description": "Address of the customer"
-          },
-          {
-             "name": "NationalID",
-             "type": "object",
-             "description": "National id of the customer"
-          },
-          {
-             "name": "CreditScore",
-             "type": "int32",
-             "description": "Credit score of the customer"
-          }
-       ],
-       "sample_row": {
-          "CustomerID": "CUST000001",
-          "FirstName": "Monica",
-          "LastName": "Soto",
-          "DateOfBirth": "1980-09-15",
-          "PhoneNumber": "+1-440-699-5202x333",
-          "EmailID": "cwarren@example.org",
-          "Address": "Unit 1377 Box 9392 DPO AE 75934",
-          "NationalID": "325-66-5097",
-          "CreditScore": 844
-       }
-    },
-    "loans": {
-       "description": "The loans dataframe contains information about each loan, including loan id, customer id, loan amount, loan type, interest rate, loan start date, and loan end date.",
-       "shape": [
-          1000,
-          7
-       ],
-       "columns": [
-          {
-             "name": "LoanID",
-             "type": "object",
-             "description": "Unique identifier for each loan"
-          },
-          {
-             "name": "CustomerID",
-             "type": "object",
-             "description": "Unique identifier for the customer who took the loan"
-          },
-          {
-             "name": "LoanAmount",
-             "type": "float64",
-             "description": "Amount of the loan"
-          },
-          {
-             "name": "LoanType",
-             "type": "object",
-             "description": "Type of loan (e.g., car loan, home loan, etc.)"
-          },
-          {
-             "name": "InterestRate",
-             "type": "float64",
-             "description": "Interest rate of the loan"
-          },
-          {
-             "name": "LoanStartDate",
-             "type": "datetime64[s]",
-             "description": "Start date of the loan"
-          },
-          {
-             "name": "LoanEndDate",
-             "type": "datetime64[s]",
-             "description": "End date of the loan"
-          }
-       ],
-       "sample_row": {
-          "LoanID": "LN000001",
-          "CustomerID": "CUST000675",
-          "LoanAmount": 12202.81,
-          "LoanType": "Car",
-          "InterestRate": 9.51,
-          "LoanStartDate": "2022-01-26",
-          "LoanEndDate": "2032-05-15"
-       }
-    },
-    "nominees": {
-       "description": "The nominees dataframe contains information about each nominee, including nominee id, account id, nominee name, and nominee relation.",
-       "shape": [
-          1000,
-          4
-       ],
-       "columns": [
-          {
-             "name": "NomineeID",
-             "type": "object",
-             "description": "Unique identifier for each nominee"
-          },
-          {
-             "name": "AccountID",
-             "type": "object",
-             "description": "Unique identifier for the account associated with the nominee"
-          },
-          {
-             "name": "NomineeName",
-             "type": "object",
-             "description": "Name of the nominee"
-          },
-          {
-             "name": "NomineeRelation",
-             "type": "object",
-             "description": "Relation of the nominee to the account holder"
-          }
-       ],
-       "sample_row": {
-          "NomineeID": "NOM000001",
-          "AccountID": "ACC000702",
-          "NomineeName": "David Smith",
-          "NomineeRelation": "Child"
-       }
-    }
- }
+   "accounts": {
+      "description": "Contains information about various bank accounts, including their IDs, customer IDs, types, balances, opening dates, overdraft limits, statuses, and branch IDs.",
+      "shape": [
+         1000,
+         8
+      ],
+      "columns": [
+         {
+            "name": "AccountID",
+            "type": "object",
+            "description": "Unique identifier for each account"
+         },
+         {
+            "name": "CustomerID",
+            "type": "object",
+            "description": "Unique identifier for the customer who owns the account"
+         },
+         {
+            "name": "AccountType",
+            "type": "object",
+            "description": "Type of the account (e.g., Checking, Savings, etc.)"
+         },
+         {
+            "name": "Balance",
+            "type": "float64",
+            "description": "Current balance in the account"
+         },
+         {
+            "name": "OpeningDate",
+            "type": "datetime64[s]",
+            "description": "Date when the account was opened"
+         },
+         {
+            "name": "OverdraftLimit",
+            "type": "float64",
+            "description": "Maximum amount that can be overdrawn from the account"
+         },
+         {
+            "name": "Status",
+            "type": "object",
+            "description": "Current status of the account (e.g., Active, Inactive, etc.)"
+         },
+         {
+            "name": "BranchID",
+            "type": "object",
+            "description": "Unique identifier for the branch where the account is held"
+         }
+      ],
+      "sample_row": {
+         "AccountID": "ACC000001",
+         "CustomerID": "CUST000150",
+         "AccountType": "Checking",
+         "Balance": 4582.87,
+         "OpeningDate": "2020-11-13",
+         "OverdraftLimit": 836.58,
+         "Status": "Inactive",
+         "BranchID": "BRN000228"
+      }
+   },
+   "branches": {
+      "description": "Contains information about various bank branches, including their IDs, names, codes, addresses, and phone numbers.",
+      "shape": [
+         1000,
+         5
+      ],
+      "columns": [
+         {
+            "name": "BranchID",
+            "type": "object",
+            "description": "Unique identifier for each branch"
+         },
+         {
+            "name": "BranchName",
+            "type": "object",
+            "description": "Name of the branch"
+         },
+         {
+            "name": "BranchCode",
+            "type": "object",
+            "description": "Code assigned to the branch"
+         },
+         {
+            "name": "BranchAddress",
+            "type": "object",
+            "description": "Physical address of the branch"
+         },
+         {
+            "name": "BranchPhoneNumber",
+            "type": "object",
+            "description": "Phone number of the branch"
+         }
+      ],
+      "sample_row": {
+         "BranchID": "BRN000001",
+         "BranchName": "Davis, Robles and Moore",
+         "BranchCode": "fV605",
+         "BranchAddress": "298 Moore Valleys Patriciaberg, NV 93113",
+         "BranchPhoneNumber": "001-439-404-7675x36595"
+      }
+   },
+   "customer_transactions": {
+      "description": "Contains information about various transactions performed by customers, including transaction IDs, customer names, account IDs, dates, amounts, types, and descriptions.",
+      "shape": [
+         1078,
+         7
+      ],
+      "columns": [
+         {
+            "name": "TransactionID",
+            "type": "object",
+            "description": "Unique identifier for each transaction"
+         },
+         {
+            "name": "Customer_Name",
+            "type": "object",
+            "description": "Name of the customer who performed the transaction"
+         },
+         {
+            "name": "AccountID",
+            "type": "object",
+            "description": "Unique identifier for the account involved in the transaction"
+         },
+         {
+            "name": "TransactionDate_Time",
+            "type": "object",
+            "description": "Date and time of the transaction"
+         },
+         {
+            "name": "TransactionAmount",
+            "type": "int32",
+            "description": "Amount of the transaction"
+         },
+         {
+            "name": "TransactionType",
+            "type": "object",
+            "description": "Type of the transaction (e.g., Deposit, Withdrawal, etc.)"
+         },
+         {
+            "name": "Description",
+            "type": "object",
+            "description": "Description of the transaction"
+         }
+      ],
+      "sample_row": {
+         "TransactionID": "TXN000001",
+         "Customer_Name": "Andrew Williams",
+         "AccountID": "ACC000010",
+         "TransactionDate_Time": "2025-01-02-10:44:20:953",
+         "TransactionAmount": 50,
+         "TransactionType": "Deposit",
+         "Description": "Cash Deposit"
+      }
+   },
+   "customers": {
+      "description": "Contains information about various bank customers, including their IDs, first names, last names, dates of birth, phone numbers, email IDs, addresses, national IDs, and credit scores.",
+      "shape": [
+         1000,
+         9
+      ],
+      "columns": [
+         {
+            "name": "CustomerID",
+            "type": "object",
+            "description": "Unique identifier for each customer"
+         },
+         {
+            "name": "FirstName",
+            "type": "object",
+            "description": "First name of the customer"
+         },
+         {
+            "name": "LastName",
+            "type": "object",
+            "description": "Last name of the customer"
+         },
+         {
+            "name": "DateOfBirth",
+            "type": "datetime64[s]",
+            "description": "Date of birth of the customer"
+         },
+         {
+            "name": "PhoneNumber",
+            "type": "object",
+            "description": "Phone number of the customer"
+         },
+         {
+            "name": "EmailID",
+            "type": "object",
+            "description": "Email ID of the customer"
+         },
+         {
+            "name": "Address",
+            "type": "object",
+            "description": "Physical address of the customer"
+         },
+         {
+            "name": "NationalID",
+            "type": "object",
+            "description": "National ID of the customer"
+         },
+         {
+            "name": "CreditScore",
+            "type": "int32",
+            "description": "Credit score of the customer"
+         }
+      ],
+      "sample_row": {
+         "CustomerID": "CUST000001",
+         "FirstName": "Monica",
+         "LastName": "Soto",
+         "DateOfBirth": "1980-09-15",
+         "PhoneNumber": "+1-440-699-5202x333",
+         "EmailID": "cwarren@example.org",
+         "Address": "Unit 1377 Box 9392 DPO AE 75934",
+         "NationalID": "325-66-5097",
+         "CreditScore": 844
+      }
+   },
+   "loans": {
+      "description": "Contains information about various loans, including loan IDs, customer IDs, amounts, types, interest rates, start dates, and end dates.",
+      "shape": [
+         1000,
+         7
+      ],
+      "columns": [
+         {
+            "name": "LoanID",
+            "type": "object",
+            "description": "Unique identifier for each loan"
+         },
+         {
+            "name": "CustomerID",
+            "type": "object",
+            "description": "Unique identifier for the customer who took the loan"
+         },
+         {
+            "name": "LoanAmount",
+            "type": "float64",
+            "description": "Amount of the loan"
+         },
+         {
+            "name": "LoanType",
+            "type": "object",
+            "description": "Type of the loan (e.g., Car, Home, etc.)"
+         },
+         {
+            "name": "InterestRate",
+            "type": "float64",
+            "description": "Interest rate of the loan"
+         },
+         {
+            "name": "LoanStartDate",
+            "type": "datetime64[s]",
+            "description": "Start date of the loan"
+         },
+         {
+            "name": "LoanEndDate",
+            "type": "datetime64[s]",
+            "description": "End date of the loan"
+         }
+      ],
+      "sample_row": {
+         "LoanID": "LN000001",
+         "CustomerID": "CUST000675",
+         "LoanAmount": 12202.81,
+         "LoanType": "Car",
+         "InterestRate": 9.51,
+         "LoanStartDate": "2022-01-26",
+         "LoanEndDate": "2032-05-15"
+      }
+   },
+   "nominees": {
+      "description": "Contains information about nominees associated with various accounts, including nominee IDs, account IDs, nominee names, and nominee relations.",
+      "shape": [
+         1000,
+         4
+      ],
+      "columns": [
+         {
+            "name": "NomineeID",
+            "type": "object",
+            "description": "Unique identifier for each nominee"
+         },
+         {
+            "name": "AccountID",
+            "type": "object",
+            "description": "Unique identifier for the account associated with the nominee"
+         },
+         {
+            "name": "NomineeName",
+            "type": "object",
+            "description": "Name of the nominee"
+         },
+         {
+            "name": "NomineeRelation",
+            "type": "object",
+            "description": "Relation of the nominee to the account holder"
+         }
+      ],
+      "sample_row": {
+         "NomineeID": "NOM000001",
+         "AccountID": "ACC000702",
+         "NomineeName": "David Smith",
+         "NomineeRelation": "Child"
+      }
+   }
+}

@@ -1,137 +1,137 @@
 {
-    "orders": {
-       "description": "A dataset of orders including their status, cost, and supplier information.",
-       "shape": [
-          1200,
-          13
-       ],
-       "columns": [
-          {
-             "name": "OrderID",
-             "type": "object",
-             "description": "Unique identifier for the order"
-          },
-          {
-             "name": "SupplierID",
-             "type": "object",
-             "description": "Unique identifier for the supplier"
-          },
-          {
-             "name": "SupplierName",
-             "type": "object",
-             "description": "Name of the supplier"
-          },
-          {
-             "name": "CustomerID",
-             "type": "object",
-             "description": "Unique identifier for the customer"
-          },
-          {
-             "name": "CustomerName",
-             "type": "object",
-             "description": "Name of the customer"
-          },
-          {
-             "name": "QuantityOrdered",
-             "type": "int32",
-             "description": "Number of items ordered"
-          },
-          {
-             "name": "OrderDate",
-             "type": "datetime64[s]",
-             "description": "Date the order was placed"
-          },
-          {
-             "name": "ShipDate",
-             "type": "datetime64[s]",
-             "description": "Date the order was shipped"
-          },
-          {
-             "name": "OrderStatus",
-             "type": "object",
-             "description": "Current status of the order"
-          },
-          {
-             "name": "UnitPrice",
-             "type": "int32",
-             "description": "Price per unit of the item ordered"
-          },
-          {
-             "name": "TotalCost",
-             "type": "int32",
-             "description": "Total cost of the order"
-          },
-          {
-             "name": "InventoryLevel",
-             "type": "int32",
-             "description": "Current level of inventory"
-          },
-          {
-             "name": "WarehouseLocation",
-             "type": "object",
-             "description": "Location of the warehouse"
-          }
-       ],
-       "sample_row": {
-          "OrderID": "ORD0001",
-          "SupplierID": "S399",
-          "SupplierName": "Alexander, Chandler and Cole",
-          "CustomerID": "C844",
-          "CustomerName": "John Martin",
-          "QuantityOrdered": 7,
-          "OrderDate": "2025-01-01",
-          "ShipDate": "2025-02-18",
-          "OrderStatus": "Pending",
-          "UnitPrice": 395,
-          "TotalCost": 2765,
-          "InventoryLevel": 194,
-          "WarehouseLocation": "LA Warehouse"
-       }
-    },
-    "Suppliers": {
-       "description": "A dataset of suppliers and their unique identifiers.",
-       "shape": [
-          1200,
-          2
-       ],
-       "columns": [
-          {
-             "name": "SupplierID",
-             "type": "object",
-             "description": "Unique identifier for the supplier"
-          },
-          {
-             "name": "SupplierName",
-             "type": "object",
-             "description": "Name of the supplier"
-          }
-       ],
-       "sample_row": {
-          "SupplierID": "S001",
-          "SupplierName": "Herrera, Potter and Elliott"
-       }
-    },
-    "Customers": {
-       "description": "A dataset of customers and their unique identifiers.",
-       "shape": [
-          1200,
-          2
-       ],
-       "columns": [
-          {
-             "name": "CustomerID",
-             "type": "object",
-             "description": "Unique identifier for the customer"
-          },
-          {
-             "name": "CustomerName",
-             "type": "object",
-             "description": "Name of the customer"
-          }
-       ],
-       "sample_row": {
-          "CustomerID": "C001",
-          "CustomerName": "Dustin Robertson"
-       }
-    }
- }
+   "Customers": {
+      "description": "A dataframe containing customer information.",
+      "shape": [
+         1200,
+         2
+      ],
+      "columns": [
+         {
+            "name": "CustomerID",
+            "type": "object",
+            "description": "Unique identifier for each customer."
+         },
+         {
+            "name": "CustomerName",
+            "type": "object",
+            "description": "Name of the customer."
+         }
+      ],
+      "sample_row": {
+         "CustomerID": "C001",
+         "CustomerName": "Dustin Robertson"
+      }
+   },
+   "orders": {
+      "description": "A dataframe containing order information.",
+      "shape": [
+         1200,
+         13
+      ],
+      "columns": [
+         {
+            "name": "OrderID",
+            "type": "object",
+            "description": "Unique identifier for each order."
+         },
+         {
+            "name": "SupplierID",
+            "type": "object",
+            "description": "Unique identifier for the supplier of the order."
+         },
+         {
+            "name": "SupplierName",
+            "type": "object",
+            "description": "Name of the supplier of the order."
+         },
+         {
+            "name": "CustomerID",
+            "type": "object",
+            "description": "Unique identifier for the customer who made the order."
+         },
+         {
+            "name": "CustomerName",
+            "type": "object",
+            "description": "Name of the customer who made the order."
+         },
+         {
+            "name": "QuantityOrdered",
+            "type": "int32",
+            "description": "Quantity of the product ordered."
+         },
+         {
+            "name": "OrderDate",
+            "type": "datetime64[s]",
+            "description": "Date the order was made."
+         },
+         {
+            "name": "ShipDate",
+            "type": "datetime64[s]",
+            "description": "Date the order was shipped."
+         },
+         {
+            "name": "OrderStatus",
+            "type": "object",
+            "description": "Status of the order."
+         },
+         {
+            "name": "UnitPrice",
+            "type": "int32",
+            "description": "Price per unit of the product ordered."
+         },
+         {
+            "name": "TotalCost",
+            "type": "int32",
+            "description": "Total cost of the order."
+         },
+         {
+            "name": "InventoryLevel",
+            "type": "int32",
+            "description": "Current inventory level of the product."
+         },
+         {
+            "name": "WarehouseLocation",
+            "type": "object",
+            "description": "Location of the warehouse where the product is stored."
+         }
+      ],
+      "sample_row": {
+         "OrderID": "ORD0001",
+         "SupplierID": "S399",
+         "SupplierName": "Alexander, Chandler and Cole",
+         "CustomerID": "C844",
+         "CustomerName": "John Martin",
+         "QuantityOrdered": 7,
+         "OrderDate": "2025-01-01",
+         "ShipDate": "2025-02-18",
+         "OrderStatus": "Pending",
+         "UnitPrice": 395,
+         "TotalCost": 2765,
+         "InventoryLevel": 194,
+         "WarehouseLocation": "LA Warehouse"
+      }
+   },
+   "Suppliers": {
+      "description": "A dataframe containing supplier information.",
+      "shape": [
+         1200,
+         2
+      ],
+      "columns": [
+         {
+            "name": "SupplierID",
+            "type": "object",
+            "description": "Unique identifier for each supplier."
+         },
+         {
+            "name": "SupplierName",
+            "type": "object",
+            "description": "Name of the supplier."
+         }
+      ],
+      "sample_row": {
+         "SupplierID": "S001",
+         "SupplierName": "Herrera, Potter and Elliott"
+      }
+   }
+}

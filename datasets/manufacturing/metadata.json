@@ -1,6 +1,53 @@
 {
+   "components_data": {
+      "description": "This dataframe contains information about various components, including their IDs, names, suppliers, unit costs, stock levels, and reorder levels.",
+      "shape": [
+         300,
+         6
+      ],
+      "columns": [
+         {
+            "name": "ComponentID",
+            "type": "object",
+            "description": "Unique identifier for each component"
+         },
+         {
+            "name": "ComponentName",
+            "type": "object",
+            "description": "Name of the component"
+         },
+         {
+            "name": "SupplierID",
+            "type": "object",
+            "description": "ID of the supplier for the component"
+         },
+         {
+            "name": "UnitCost",
+            "type": "float64",
+            "description": "Cost of the component per unit"
+         },
+         {
+            "name": "StockLevel",
+            "type": "int32",
+            "description": "Current stock level of the component"
+         },
+         {
+            "name": "ReorderLevel",
+            "type": "int32",
+            "description": "Level at which the component should be reordered"
+         }
+      ],
+      "sample_row": {
+         "ComponentID": "COMP0001",
+         "ComponentName": "Component 1",
+         "SupplierID": "SUP0074",
+         "UnitCost": 80.55,
+         "StockLevel": 933,
+         "ReorderLevel": 172
+      }
+   },
    "customers_data": {
-      "description": "Customer information dataset",
+      "description": "This dataframe contains information about customers, including their IDs, names, contacts, addresses, phone numbers, and email addresses.",
       "shape": [
          500,
          6
@@ -9,7 +56,7 @@
          {
             "name": "CustomerID",
             "type": "object",
-            "description": "Unique identifier for the customer"
+            "description": "Unique identifier for each customer"
          },
          {
             "name": "CustomerName",
@@ -24,7 +71,7 @@
          {
             "name": "Address",
             "type": "object",
-            "description": "Physical address of the customer"
+            "description": "Address of the customer"
          },
          {
             "name": "Phone",
@@ -46,8 +93,61 @@
          "Email": "customer1@example.com"
       }
    },
+   "products_data": {
+      "description": "This dataframe contains information about products, including their IDs, names, categories, unit prices, unit costs, reorder levels, and safety stock levels.",
+      "shape": [
+         1000,
+         7
+      ],
+      "columns": [
+         {
+            "name": "ProductID",
+            "type": "object",
+            "description": "Unique identifier for each product"
+         },
+         {
+            "name": "ProductName",
+            "type": "object",
+            "description": "Name of the product"
+         },
+         {
+            "name": "Category",
+            "type": "object",
+            "description": "Category of the product"
+         },
+         {
+            "name": "UnitPrice",
+            "type": "float64",
+            "description": "Selling price of the product per unit"
+         },
+         {
+            "name": "UnitCost",
+            "type": "float64",
+            "description": "Cost of the product per unit"
+         },
+         {
+            "name": "ReorderLevel",
+            "type": "int32",
+            "description": "Level at which the product should be reordered"
+         },
+         {
+            "name": "SafetyStockLevel",
+            "type": "int32",
+            "description": "Minimum stock level to ensure product availability"
+         }
+      ],
+      "sample_row": {
+         "ProductID": "P0001",
+         "ProductName": "Product 1",
+         "Category": "Electronics",
+         "UnitPrice": 567.58,
+         "UnitCost": 308.07,
+         "ReorderLevel": 189,
+         "SafetyStockLevel": 142
+      }
+   },
    "sales_orders_data": {
-      "description": "Sales orders dataset",
+      "description": "This dataframe contains information about sales orders, including their IDs, customer IDs, product IDs, order dates, quantities, shipment dates, and order statuses.",
       "shape": [
          5000,
          7
@@ -56,37 +156,37 @@
          {
             "name": "SalesOrderID",
             "type": "object",
-            "description": "Unique identifier for the sales order"
+            "description": "Unique identifier for each sales order"
          },
          {
             "name": "CustomerID",
             "type": "object",
-            "description": "Customer ID associated with the sales order"
+            "description": "ID of the customer who made the order"
          },
          {
             "name": "ProductID",
             "type": "object",
-            "description": "Product ID associated with the sales order"
+            "description": "ID of the product ordered"
          },
          {
             "name": "OrderDate",
             "type": "datetime64[ns]",
-            "description": "Date the sales order was placed"
+            "description": "Date and time the order was made"
          },
          {
             "name": "Quantity",
             "type": "int32",
-            "description": "Quantity of the product ordered"
+            "description": "Number of units of the product ordered"
          },
          {
             "name": "ShipmentDate",
             "type": "datetime64[ns]",
-            "description": "Date the sales order was shipped"
+            "description": "Date and time the order was shipped"
          },
          {
             "name": "OrderStatus",
             "type": "object",
-            "description": "Status of the sales order"
+            "description": "Current status of the order"
          }
       ],
       "sample_row": {
@@ -99,55 +199,8 @@
          "OrderStatus": "In Process"
       }
    },
-   "components_data": {
-      "description": "Components dataset",
-      "shape": [
-         300,
-         6
-      ],
-      "columns": [
-         {
-            "name": "ComponentID",
-            "type": "object",
-            "description": "Unique identifier for the component"
-         },
-         {
-            "name": "ComponentName",
-            "type": "object",
-            "description": "Name of the component"
-         },
-         {
-            "name": "SupplierID",
-            "type": "object",
-            "description": "Supplier ID associated with the component"
-         },
-         {
-            "name": "UnitCost",
-            "type": "float64",
-            "description": "Cost of the component per unit"
-         },
-         {
-            "name": "StockLevel",
-            "type": "int32",
-            "description": "Current stock level of the component"
-         },
-         {
-            "name": "ReorderLevel",
-            "type": "int32",
-            "description": "Reorder level for the component"
-         }
-      ],
-      "sample_row": {
-         "ComponentID": "COMP0001",
-         "ComponentName": "Component 1",
-         "SupplierID": "SUP0074",
-         "UnitCost": 80.55,
-         "StockLevel": 933,
-         "ReorderLevel": 172
-      }
-   },
    "suppliers_data": {
-      "description": "Suppliers dataset",
+      "description": "This dataframe contains information about suppliers, including their IDs, names, contacts, addresses, phone numbers, and email addresses.",
       "shape": [
          200,
          6
@@ -156,7 +209,7 @@
          {
             "name": "SupplierID",
             "type": "object",
-            "description": "Unique identifier for the supplier"
+            "description": "Unique identifier for each supplier"
          },
          {
             "name": "SupplierName",
@@ -171,7 +224,7 @@
          {
             "name": "Address",
             "type": "object",
-            "description": "Physical address of the supplier"
+            "description": "Address of the supplier"
          },
          {
             "name": "Phone",
@@ -191,59 +244,6 @@
          "Address": "635 Industrial Rd, City",
          "Phone": "+1-211-3580",
          "Email": "supplier1@example.com"
-      }
-   },
-   "products_data": {
-      "description": "Products dataset",
-      "shape": [
-         1000,
-         7
-      ],
-      "columns": [
-         {
-            "name": "ProductID",
-            "type": "object",
-            "description": "Unique identifier for the product"
-         },
-         {
-            "name": "ProductName",
-            "type": "object",
-            "description": "Name of the product"
-         },
-         {
-            "name": "Category",
-            "type": "object",
-            "description": "Category of the product"
-         },
-         {
-            "name": "UnitPrice",
-            "type": "float64",
-            "description": "Price of the product per unit"
-         },
-         {
-            "name": "UnitCost",
-            "type": "float64",
-            "description": "Cost of the product per unit"
-         },
-         {
-            "name": "ReorderLevel",
-            "type": "int32",
-            "description": "Reorder level for the product"
-         },
-         {
-            "name": "SafetyStockLevel",
-            "type": "int32",
-            "description": "Safety stock level for the product"
-         }
-      ],
-      "sample_row": {
-         "ProductID": "P0001",
-         "ProductName": "Product 1",
-         "Category": "Electronics",
-         "UnitPrice": 567.58,
-         "UnitCost": 308.07,
-         "ReorderLevel": 189,
-         "SafetyStockLevel": 142
       }
    }
 }
