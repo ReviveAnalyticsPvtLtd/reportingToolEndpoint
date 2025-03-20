@@ -3,6 +3,7 @@ langchain
 langchain-groq 
 langchain-community 
 langchain-core 
+langchain-cerebras
 langchain-experimental
 langgraph
 flask

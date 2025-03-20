@@ -1,5 +1,5 @@
 import yaml
-from langchain_groq import ChatGroq
+from langchain_cerebras import ChatCerebras
 from pydantic import Field, BaseModel
 from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import PromptTemplate
@@ -25,8 +25,8 @@ queryRephrasePrompt = PromptTemplate(
     partial_variables = {"format_instructions": queryRephraseParser.get_format_instructions()}
 )
 
-queryRephraseModel = ChatGroq(
-    model = "qwen-2.5-32b",
+queryRephraseModel = ChatCerebras(
+    model = "llama-3.3-70b",
     temperature = 1,
     max_tokens = 512
 )
